@@ -41,11 +41,29 @@ Claude skills are structured instructions and configurations that guide Claude t
 
 Start here for official tools and documentation from Anthropic.
 
+- [anthropics/claude-code](https://github.com/anthropics/claude-code) ![Stars](https://img.shields.io/github/stars/anthropics/claude-code?style=flat-square)
+  - Official Claude Code agentic coding tool
+  - Lives in your terminal and understands your codebase
+  - AI-powered development assistant
+  - Built by Anthropic
+
 - [anthropics/skills](https://github.com/anthropics/skills) ![Stars](https://img.shields.io/github/stars/anthropics/skills?style=flat-square)
   - Official repository for Claude Agent Skills
   - Includes document processing (docx, pdf, pptx, xlsx)
   - Art and design capabilities
   - MCP (Model Context Protocol) builder
+
+- [anthropics/claude-code-action](https://github.com/anthropics/claude-code-action) ![Stars](https://img.shields.io/github/stars/anthropics/claude-code-action?style=flat-square)
+  - GitHub Action for Claude Code integration
+  - Automated code review and analysis
+  - CI/CD pipeline integration
+  - Official Anthropic GitHub Actions support
+
+- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) ![Stars](https://img.shields.io/github/stars/anthropics/claude-plugins-official?style=flat-square)
+  - Official Anthropic-managed plugin directory
+  - Curated collection of high-quality Claude Code plugins
+  - Verified and maintained by Anthropic
+  - Includes internal and external plugins
 
 ---
 
@@ -187,11 +205,6 @@ Professional-grade security skills for vulnerability detection, code auditing, a
 
 ### Security Analysis
 
-- [BehiSecc/vibesec](https://github.com/BehiSecc/vibesec) ![Stars](https://img.shields.io/github/stars/BehiSecc/vibesec?style=flat-square)
-  - Prevents IDOR, XSS, SQL injection, SSRF
-  - Weak authentication detection
-  - Bug hunter's perspective on security
-
 - [wrsmith108/varlock-claude-skill](https://github.com/wrsmith108/varlock-claude-skill) ![Stars](https://img.shields.io/github/stars/wrsmith108/varlock-claude-skill?style=flat-square)
   - Secure environment variable management
   - Ensures secrets never appear in sessions, terminals, logs, or git
@@ -220,6 +233,26 @@ Skills for marketing professionals, content creators, and growth teams.
   - Transform codebases into interactive HTML courses
   - Beautiful, educational content generation
   - Perfect for developer education and onboarding
+
+---
+
+## Domain-Specific Skills
+
+Specialized skills for specific industries and use cases.
+
+- [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) ![Stars](https://img.shields.io/github/stars/Donchitos/Claude-Code-Game-Studios?style=flat-square)
+  - Turn Claude Code into a full game development studio
+  - 48 AI agents and 37 workflow skills
+  - Complete coordination system mirroring real studio hierarchy
+  - Engine specialists, designers, and production agents
+  - Perfect for game development projects
+
+- [pedrohcgs/claude-code-my-workflow](https://github.com/pedrohcgs/claude-code-my-workflow) ![Stars](https://img.shields.io/github/stars/pedrohcgs/claude-code-my-workflow?style=flat-square)
+  - Ready-to-fork template for academic research
+  - LaTeX/Beamer + R workflow optimization
+  - Multi-agent review and adversarial QA
+  - Quality gates and replication protocols
+  - Extracted from production PhD course
 
 ---
 
@@ -252,6 +285,13 @@ Utilities and tools to enhance your Claude workflow.
   - OpenClaw alternative for multiple AI coding assistants
   - Supports Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code
   - Web UI for easy access
+
+- [siteboon/claudecodeui](https://github.com/siteboon/claudecodeui) ![Stars](https://img.shields.io/github/stars/siteboon/claudecodeui?style=flat-square)
+  - Desktop and mobile UI for Claude Code, Cursor CLI, Codex
+  - Manage sessions and projects remotely
+  - Responsive design works on desktop, tablet, and mobile
+  - Built-in chat, shell terminal, file explorer, and git integration
+  - Plugin system for custom extensions
 
 ### Agent Harnesses & Meta-Tools
 
@@ -298,6 +338,13 @@ Utilities and tools to enhance your Claude workflow.
   - Access free models through standardized API interface
   - Built with Go for performance
 
+- [1rgs/claude-code-proxy](https://github.com/1rgs/claude-code-proxy) ![Stars](https://img.shields.io/github/stars/1rgs/claude-code-proxy?style=flat-square)
+  - Run Claude Code on OpenAI and Gemini models
+  - Anthropic API proxy for multiple model providers
+  - Powered by LiteLLM for model routing
+  - Transparent proxy with custom model mapping
+  - Use any Anthropic client with alternative models
+
 ### CLI Configuration Tools
 
 - [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) ![Stars](https://img.shields.io/github/stars/davila7/claude-code-templates?style=flat-square)
@@ -305,6 +352,22 @@ Utilities and tools to enhance your Claude workflow.
   - Template management system
   - Configuration automation
   - Python-based for easy customization
+
+- [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) ![Stars](https://img.shields.io/github/stars/musistudio/claude-code-router?style=flat-square)
+  - Use Claude Code as foundation for coding infrastructure
+  - Route requests to different models based on needs
+  - Multi-provider support (OpenRouter, DeepSeek, Ollama, Gemini)
+  - Dynamic model switching with /model command
+  - GitHub Actions integration
+
+### Autonomous Development
+
+- [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) ![Stars](https://img.shields.io/github/stars/frankbria/ralph-claude-code?style=flat-square)
+  - Autonomous AI development loop with intelligent exit detection
+  - Continuous development cycles until project completion
+  - Built-in safeguards to prevent infinite loops
+  - Rate limiting and circuit breaker protection
+  - Global command available in any directory
 
 ### Monitoring & Observability
 
@@ -362,6 +425,41 @@ Resources for mastering Claude skills and understanding best practices.
   - "Bash is all you need" philosophy
   - Build a Claude-like agent harness from scratch
   - 12 progressive learning sessions
+
+- [Piebald-AI/claude-code-system-prompts](https://github.com/Piebald-AI/claude-code-system-prompts) ![Stars](https://img.shields.io/github/stars/Piebald-AI/claude-code-system-prompts?style=flat-square)
+  - Complete collection of Claude Code's system prompts
+  - 18 builtin tool descriptions and sub-agent prompts
+  - Updated within minutes of each Claude Code release
+  - Includes changelog across 136+ versions
+  - Essential for understanding Claude Code internals
+
+- [diet103/claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase) ![Stars](https://img.shields.io/github/stars/diet103/claude-code-infrastructure-showcase?style=flat-square)
+  - Production-tested infrastructure patterns
+  - Auto-activating skills via hooks
+  - Modular skill pattern with 500-line rule
+  - Specialized agents for complex tasks
+  - 6 months of iteration, 15-30 min to integrate
+
+- [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips) ![Stars](https://img.shields.io/github/stars/ykdojo/claude-code-tips?style=flat-square)
+  - 45 tips from basics to advanced techniques
+  - Custom status line script and system prompt optimization
+  - Voice input, container workflows, multi-model orchestration
+  - Includes dx plugin for enhanced developer experience
+  - Practical strategies for daily Claude Code usage
+
+- [ChrisWiles/claude-code-showcase](https://github.com/ChrisWiles/claude-code-showcase) ![Stars](https://img.shields.io/github/stars/ChrisWiles/claude-code-showcase?style=flat-square)
+  - Comprehensive project configuration example
+  - Hooks, skills, agents, and commands setup
+  - GitHub Actions workflows for automation
+  - Best practices and anti-patterns guide
+  - Complete directory structure reference
+
+- [OneRedOak/claude-code-workflows](https://github.com/OneRedOak/claude-code-workflows) ![Stars](https://img.shields.io/github/stars/OneRedOak/claude-code-workflows?style=flat-square)
+  - Production workflows from AI-native startup
+  - Code review, security review, and design review workflows
+  - Battle-tested configurations since Claude Code launch
+  - Video tutorials and demos available
+  - Real-world applied learnings
 
 ### Curated Lists
 
