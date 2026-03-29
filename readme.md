@@ -19,8 +19,10 @@ This list focuses on verified, actively maintained projects that provide real va
 - [Multi-Agent Systems](#multi-agent-systems)
 - [Security & Compliance](#security--compliance)
 - [Marketing & Content](#marketing--content)
+- [Domain-Specific Skills](#domain-specific-skills)
 - [Productivity Tools](#productivity-tools)
 - [Learning & Documentation](#learning--documentation)
+- [Skill Development](#skill-development)
 
 ---
 
@@ -71,6 +73,13 @@ Start here for official tools and documentation from Anthropic.
   - Context-aware security analysis for pull requests
   - Deep semantic security analysis using Claude
   - Official Anthropic security tooling
+
+- [anthropics/claude-code-base-action](https://github.com/anthropics/claude-code-base-action) ![Stars](https://img.shields.io/github/stars/anthropics/claude-code-base-action?style=flat-square)
+  - Base GitHub Action for custom Claude Code workflows
+  - Build any custom workflow on top of Claude Code
+  - Settings and MCP configuration support
+  - Cloud provider integration (AWS Bedrock, GCP Vertex AI)
+  - Official foundation for Claude Code automation
 
 ---
 
@@ -486,6 +495,13 @@ Resources for mastering Claude skills and understanding best practices.
   - Hooks system, security, and troubleshooting
   - Tips, tricks, and best practices
 
+- [Cranot/claude-code-guide](https://github.com/Cranot/claude-code-guide) ![Stars](https://img.shields.io/github/stars/Cranot/claude-code-guide?style=flat-square)
+  - Complete CLI guide auto-updated every 2 days
+  - Official docs, releases, and changelog integration
+  - Skills, hooks, MCP, sub-agents, and plugins
+  - Tool synergies and workflow examples
+  - Optimized for both humans and AI agents
+
 - [rosmur/claudecode-best-practices](https://github.com/rosmur/claudecode-best-practices) ![Stars](https://img.shields.io/github/stars/rosmur/claudecode-best-practices?style=flat-square)
   - Evidence-based practices with 58 citations
   - Hooks, skills, and automation scripts
@@ -537,23 +553,6 @@ Resources for mastering Claude skills and understanding best practices.
   - Sub-agents, meta-agents, and team-based validation
   - Flow control, error codes, and security implementations
   - Custom status lines and output styles
-
-### Curated Lists
-
-- [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) ![Stars](https://img.shields.io/github/stars/hesreallyhim/awesome-claude-code?style=flat-square)
-  - Gold-standard curated list
-  - Skills, hooks, slash-commands
-  - Agent orchestrators and plugins
-
-- [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) ![Stars](https://img.shields.io/github/stars/travisvn/awesome-claude-skills?style=flat-square)
-  - Excellent FAQ and getting-started section
-  - Tools for customizing AI workflows
-  - Community-driven resources
-
-- [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) ![Stars](https://img.shields.io/github/stars/ComposioHQ/awesome-claude-skills?style=flat-square)
-  - Well-organized by category
-  - Clear descriptions for each skill
-  - Regular updates and maintenance
 
 ---
 
