@@ -65,6 +65,13 @@ Start here for official tools and documentation from Anthropic.
   - Verified and maintained by Anthropic
   - Includes internal and external plugins
 
+- [anthropics/claude-code-security-review](https://github.com/anthropics/claude-code-security-review) ![Stars](https://img.shields.io/github/stars/anthropics/claude-code-security-review?style=flat-square)
+  - AI-powered security review GitHub Action
+  - Analyze code changes for security vulnerabilities
+  - Context-aware security analysis for pull requests
+  - Deep semantic security analysis using Claude
+  - Official Anthropic security tooling
+
 ---
 
 ## Comprehensive Skill Collections
@@ -104,6 +111,13 @@ These repositories offer extensive collections of skills across multiple domains
   - 1,326+ installable agentic skills
   - CLI installer for easy setup
   - Bundled workflows for common tasks
+
+- [SuperClaude-Org/SuperClaude_Framework](https://github.com/SuperClaude-Org/SuperClaude_Framework) ![Stars](https://img.shields.io/github/stars/SuperClaude-Org/SuperClaude_Framework?style=flat-square)
+  - Configuration framework for structured development
+  - 30 slash commands covering complete development lifecycle
+  - Cognitive personas and behavioral modes
+  - Deep research capabilities with autonomous web research
+  - MCP server integration and workflow automation
 
 ---
 
@@ -196,6 +210,20 @@ Orchestrate multiple Claude agents to work together on complex tasks.
   - Self-learning capabilities
   - RAG (Retrieval-Augmented Generation) integration
   - Hive mind topology for distributed intelligence
+
+- [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) ![Stars](https://img.shields.io/github/stars/Yeachan-Heo/oh-my-claudecode?style=flat-square)
+  - Teams-first multi-agent orchestration
+  - Zero configuration with intelligent defaults
+  - Natural language interface, no commands to memorize
+  - Automatic parallelization and cost optimization
+  - Real-time HUD statusline for visibility
+
+- [bfly123/claude_code_bridge](https://github.com/bfly123/claude_code_bridge) ![Stars](https://img.shields.io/github/stars/bfly123/claude_code_bridge?style=flat-square)
+  - Real-time multi-AI collaboration bridge
+  - Claude, Codex, Gemini collaboration with persistent context
+  - Split-pane terminal with WYSIWYG interface
+  - Minimal token overhead and async messaging
+  - Every interaction visible and controllable
 
 ---
 
@@ -316,6 +344,13 @@ Utilities and tools to enhance your Claude workflow.
   - SQLite and ChromaDB for embeddings storage
   - Seamless integration with future Claude sessions
 
+- [zilliztech/claude-context](https://github.com/zilliztech/claude-context) ![Stars](https://img.shields.io/github/stars/zilliztech/claude-context?style=flat-square)
+  - Make entire codebase the context for Claude Code
+  - Semantic code search MCP plugin
+  - Vector database for efficient codebase storage
+  - Cost-effective for large codebases
+  - No multi-round discovery needed
+
 ### MCP Servers & Integrations
 
 - [oraios/serena](https://github.com/oraios/serena) ![Stars](https://img.shields.io/github/stars/oraios/serena?style=flat-square)
@@ -376,6 +411,27 @@ Utilities and tools to enhance your Claude workflow.
   - Hook event tracking with SQLite dashboard
   - Visual tool event indicators
 
+- [Maciek-roboblog/Claude-Code-Usage-Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor) ![Stars](https://img.shields.io/github/stars/Maciek-roboblog/Claude-Code-Usage-Monitor?style=flat-square)
+  - Real-time terminal monitoring for token usage
+  - Machine learning-based predictions and analytics
+  - Burn rate tracking and cost analysis
+  - Rich UI with intelligent session limit warnings
+  - Track consumption across different Claude plans
+
+- [steipete/CodexBar](https://github.com/steipete/CodexBar) ![Stars](https://img.shields.io/github/stars/steipete/CodexBar?style=flat-square)
+  - macOS menu bar app for usage stats
+  - Track Codex, Claude, Cursor, Gemini, and more
+  - Session and weekly limits visibility
+  - Reset timer for each provider
+  - Minimal UI with dynamic bar icons
+
+- [Yuyz0112/claude-code-reverse](https://github.com/Yuyz0112/claude-code-reverse) ![Stars](https://img.shields.io/github/stars/Yuyz0112/claude-code-reverse?style=flat-square)
+  - Visualize Claude Code's LLM interactions
+  - Runtime behavior and API data analysis
+  - Interactive log visualization tool
+  - Understand core agent workflow and architecture
+  - Context compaction and task/sub-agent analysis
+
 ### Configuration & Templates
 
 - [abhishekray07/claude-md-templates](https://github.com/abhishekray07/claude-md-templates) ![Stars](https://img.shields.io/github/stars/abhishekray07/claude-md-templates?style=flat-square)
@@ -415,6 +471,13 @@ Resources for mastering Claude skills and understanding best practices.
   - Beginner to power user progression
   - 225 templates and 41 diagrams
   - 271 quiz questions for learning validation
+
+- [zebbern/claude-code-guide](https://github.com/zebbern/claude-code-guide) ![Stars](https://img.shields.io/github/stars/zebbern/claude-code-guide?style=flat-square)
+  - Complete guide from beginner to power user
+  - Setup, commands, workflows, agents, and skills
+  - Comprehensive MCP integration documentation
+  - Hooks system, security, and troubleshooting
+  - Tips, tricks, and best practices
 
 - [rosmur/claudecode-best-practices](https://github.com/rosmur/claudecode-best-practices) ![Stars](https://img.shields.io/github/stars/rosmur/claudecode-best-practices?style=flat-square)
   - Evidence-based practices with 58 citations
@@ -460,6 +523,13 @@ Resources for mastering Claude skills and understanding best practices.
   - Battle-tested configurations since Claude Code launch
   - Video tutorials and demos available
   - Real-world applied learnings
+
+- [disler/claude-code-hooks-mastery](https://github.com/disler/claude-code-hooks-mastery) ![Stars](https://img.shields.io/github/stars/disler/claude-code-hooks-mastery?style=flat-square)
+  - Master Claude Code hooks for deterministic control
+  - Complete hook lifecycle and payload documentation
+  - Sub-agents, meta-agents, and team-based validation
+  - Flow control, error codes, and security implementations
+  - Custom status lines and output styles
 
 ### Curated Lists
 
