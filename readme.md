@@ -153,6 +153,13 @@ Skills focused on software development, code quality, and engineering workflows.
   - Research-first development approach
   - Memory management and security patterns
 
+- [SawyerHood/dev-browser](https://github.com/SawyerHood/dev-browser) ![Stars](https://img.shields.io/github/stars/SawyerHood/dev-browser?style=flat-square)
+  - Give Claude agents web browser capabilities
+  - Headless browser automation with Playwright
+  - Sandboxed QuickJS WASM environment
+  - CLI tool with full LLM usage guide
+  - Works with Claude Code, Amp, and Codex
+
 ### Specialized Agents
 
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) ![Stars](https://img.shields.io/github/stars/VoltAgent/awesome-claude-code-subagents?style=flat-square)
@@ -177,6 +184,13 @@ Skills focused on software development, code quality, and engineering workflows.
   - Professional UI/UX design skill
   - Modern design patterns and accessibility
   - Component library integration
+
+- [conorluddy/ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill) ![Stars](https://img.shields.io/github/stars/conorluddy/ios-simulator-skill?style=flat-square)
+  - iOS Simulator automation for Claude Code
+  - 21 production scripts for building and testing
+  - Semantic navigation using accessibility APIs
+  - 96% token reduction vs raw tools
+  - CI/CD ready with JSON output
 
 ---
 
@@ -380,6 +394,13 @@ Utilities and tools to enhance your Claude workflow.
   - Automatic session persistence per project
   - Proactive notifications from webhooks and CI/CD
   - Built-in authentication and audit logging
+
+- [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) ![Stars](https://img.shields.io/github/stars/wonderwhy-er/DesktopCommanderMCP?style=flat-square)
+  - MCP server for terminal control and file system management
+  - Execute commands, search files, and diff-based editing
+  - Native Excel, PDF, and DOCX support
+  - Interactive process control and session management
+  - Docker isolation for sandboxing
 
 ### API & Integration Tools
 
