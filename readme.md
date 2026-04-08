@@ -274,6 +274,12 @@ Professional-grade security skills for vulnerability detection, code auditing, a
 
 Skills for marketing professionals, content creators, and growth teams.
 
+- [cognyai/claude-code-marketing-skills](https://github.com/cognyai/claude-code-marketing-skills) ![Stars](https://img.shields.io/github/stars/cognyai/claude-code-marketing-skills?style=flat-square)
+  - 5 free marketing skills, no account required
+  - SEO Audit, Landing Page Review, Competitor Analysis
+  - Ad Copy Writer and Lead Qualification
+  - Works with Claude Code, Cursor, and Windsurf
+
 - [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) ![Stars](https://img.shields.io/github/stars/coreyhaines31/marketingskills?style=flat-square)
   - 23 professional marketing skills
   - CRO (Conversion Rate Optimization)
