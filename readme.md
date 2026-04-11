@@ -286,6 +286,11 @@ Skills for marketing professionals, content creators, and growth teams.
   - Copywriting and SEO strategies
   - Paid advertising and growth tactics
 
+- [nowork-studio/toprank](https://github.com/nowork-studio/toprank) ![Stars](https://img.shields.io/github/stars/nowork-studio/toprank?style=flat-square)
+  - Open-source Claude Code plugin for SEO, SEM, and Google Ads
+  - Connects Search Console and Google Ads for actionable audits
+  - Includes SEO analysis, content writing, and CMS setup skills
+
 - [zarazhangrui/codebase-to-course](https://github.com/zarazhangrui/codebase-to-course) ![Stars](https://img.shields.io/github/stars/zarazhangrui/codebase-to-course?style=flat-square)
   - Transform codebases into interactive HTML courses
   - Beautiful, educational content generation
