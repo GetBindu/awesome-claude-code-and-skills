@@ -309,6 +309,13 @@ Specialized skills for specific industries and use cases.
   - Engine specialists, designers, and production agents
   - Perfect for game development projects
 
+- [fruitwyatt/puzzlegenio-claude-skill](https://github.com/fruitwyatt/puzzlegenio-claude-skill) ![Stars](https://img.shields.io/github/stars/fruitwyatt/puzzlegenio-claude-skill?style=flat-square)
+  - Generate free printable puzzles (crossword, word search, sudoku, jigsaw, bingo, nonogram)
+  - Deep links with URL parameters for pre-filled puzzle settings
+  - 8 languages with native word generation
+  - AI-powered clue and word list generation
+  - Perfect for teachers, event planners, and makers
+
 - [pedrohcgs/claude-code-my-workflow](https://github.com/pedrohcgs/claude-code-my-workflow) ![Stars](https://img.shields.io/github/stars/pedrohcgs/claude-code-my-workflow?style=flat-square)
   - Ready-to-fork template for academic research
   - LaTeX/Beamer + R workflow optimization
