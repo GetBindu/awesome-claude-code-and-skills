@@ -501,6 +501,13 @@ Utilities and tools to enhance your Claude workflow.
 
 ### Cost Optimization
 
+- [garvitsurana/burnd](https://github.com/garvitsurana/burnd) ![Stars](https://img.shields.io/github/stars/garvitsurana/burnd?style=flat-square)
+  - Local-first CLI that reads `.claude/projects/*.jsonl` session files
+  - Finds cost leaks: retry storms, tool overuse, repeated reads, long bash output
+  - Flags tired-coding hours and project-cost outliers
+  - Runs entirely offline, no data leaves your machine
+  - Free core + optional Pro detectors (`npx getburnd`)
+
 - [Sagargupta16/claude-cost-optimizer](https://github.com/Sagargupta16/claude-cost-optimizer) ![Stars](https://img.shields.io/github/stars/Sagargupta16/claude-cost-optimizer?style=flat-square)
   - Save 30-60% on Claude API costs
   - 6 guides and 15 optimization strategies
