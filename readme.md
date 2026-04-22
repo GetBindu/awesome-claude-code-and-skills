@@ -323,6 +323,13 @@ Specialized skills for specific industries and use cases.
   - Quality gates and replication protocols
   - Extracted from production PhD course
 
+- [takechanman1228/claude-ecom](https://github.com/takechanman1228/claude-ecom) ![Stars](https://img.shields.io/github/stars/takechanman1228/claude-ecom?style=flat-square)
+  - Ecommerce business review skill for D2C stores
+  - Multi-horizon KPI decomposition across 30d/90d/365d
+  - ~30 automated health checks across revenue, customer, and product
+  - RFM cohorts and prioritized action plan with impact estimates
+  - Hybrid Python-backend + Claude-LLM architecture for deterministic KPIs
+
 ---
 
 ## Productivity Tools
