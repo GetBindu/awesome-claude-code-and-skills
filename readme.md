@@ -160,6 +160,13 @@ Skills focused on software development, code quality, and engineering workflows.
   - CLI tool with full LLM usage guide
   - Works with Claude Code, Amp, and Codex
 
+- [arun-mosai/claude-code-slice-skills](https://github.com/arun-mosai/claude-code-slice-skills) ![Stars](https://img.shields.io/github/stars/arun-mosai/claude-code-slice-skills?style=flat-square)
+  - Three composable skills (`/slice`, `/slice-resume`, `/slice-build`) for vertical-slice feature development
+  - Turns a one-line feature idea into 11 validated design docs (persona, journey, UI, API, data, security, observability, AI, seed, tests, index)
+  - Then implements the slice as migrations, handlers, UI, events, and tests
+  - 12 validator sub-agents enforce specificity; atomic cycle commit; project-stage-calibrated ceremony
+  - Stack-neutral structure with TypeScript/Postgres/Zod/React defaults and a porting guide for Django/Rails/Go/Next.js
+
 ### Specialized Agents
 
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) ![Stars](https://img.shields.io/github/stars/VoltAgent/awesome-claude-code-subagents?style=flat-square)
