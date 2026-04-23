@@ -1,0 +1,27 @@
+services:
+  documentation_generator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: documentation_generator
+    ports:
+      - "3773:3773"
+    environment:
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+      
+
+    env_file:
+      - .env
+    volumes:
+      - ./documentation_generator:/app/documentation_generator
+      - ./agent_config.json:/app/agent_config.json
+    restart: unless-stopped
+    networks:
+      - documentation_generator-network
+    
+
+networks:
+  documentation_generator-network:
+    driver: bridge
+
+

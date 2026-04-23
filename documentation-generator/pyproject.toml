@@ -1,0 +1,124 @@
+[project]
+name = "documentation-generator"
+version = "0.0.1"
+description = "The README Generator Agent is an intelligent automation tool that creates comprehensive, professional README files for open source projects. This agent leverages the power of AI to analyze GitHub repositories and generate well-structured documentation automatically."
+authors = [{ name = "Vishaal_LS", email = "vishaallsv@gmail.com" }]
+readme = "README.md"
+keywords = ['python']
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "bindu==2025.49.3",
+    "agno>=2.2.0",
+    "fastmcp>=2.11.0",
+    
+    "requests>=2.31.0",
+    "python-dotenv>=1.0.0",
+    "PyGithub>=2.4.0",
+    "pyperclip>=1.8.0",
+    "rich>=13.0.0",
+    "openai>=2.11.0",
+    "sqlalchemy>=2.0.45",
+    "mem0ai>=1.0.1",
+    "ddgs>=9.9.3",
+]
+classifiers = [
+    "Intended Audience :: Developers",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+Homepage = "https://lsvishaal.github.io/documentation-generator/"
+Repository = "https://github.com/lsvishaal/documentation-generator"
+Documentation = "https://lsvishaal.github.io/documentation-generator/"
+
+[dependency-groups]
+dev = [
+    "pytest>=7.2.0",
+    "pytest-asyncio>=0.23.0",
+    "pre-commit>=2.20.0",
+    "tox-uv>=1.11.3",
+    "ty>=0.0.1a16",
+    "pytest-cov>=4.0.0",
+    "ruff>=0.11.5",
+    "mkdocs>=1.4.2",
+    "mkdocs-material>=8.5.10",
+    "mkdocstrings[python]>=0.26.1",
+    "types-requests>=2.31.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["documentation_generator"]
+
+[tool.ty.environment]
+python = "./.venv"
+python-version = "3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 120
+fix = true
+
+[tool.ruff.lint]
+select = [
+    # flake8-2020
+    "YTT",
+    # flake8-bandit
+    "S",
+    # flake8-bugbear
+    "B",
+    # flake8-builtins
+    "A",
+    # flake8-comprehensions
+    "C4",
+    # flake8-debugger
+    "T10",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+    # mccabe
+    "C90",
+    # pycodestyle
+    "E", "W",
+    # pyflakes
+    "F",
+    # pygrep-hooks
+    "PGH",
+    # pyupgrade
+    "UP",
+    # ruff
+    "RUF",
+    # tryceratops
+    "TRY",
+]
+ignore = [
+    # LineTooLong
+    "E501",
+    # DoNotAssignLambda
+    "E731",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S101"]
+
+[tool.ruff.format]
+preview = true
+
+[tool.coverage.report]
+skip_empty = true
+
+[tool.coverage.run]
+branch = true
+source = ["documentation_generator"]

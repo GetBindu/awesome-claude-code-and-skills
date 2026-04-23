@@ -1,0 +1,52 @@
+site_name: web-extraction-agent
+repo_url: https://github.com/lsvishaal/web-extraction-agent
+site_url: https://lsvishaal.github.io/web-extraction-agent
+site_description: agent that transforms unstructured web content into organized, structured data by combining Firecrawl’s web scraping with Pydantic’s structured output validation
+site_author: Vishaal_LS
+edit_uri: edit/main/docs/
+repo_name: lsvishaal/web-extraction-agent
+copyright: Maintained by <a href="https://lsvishaal.com">lsvishaal</a>.
+
+nav:
+  - Home: index.md
+  - Modules: modules.md
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: ["src/web_extraction_agent"]
+theme:
+  name: material
+  feature:
+    tabs: true
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/lsvishaal/web-extraction-agent
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/web-extraction-agent
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true

@@ -1,0 +1,41 @@
+{
+    "author": "vishaallsv@gmail.com",
+    "name": "youtube-agent",
+    "description": "an AI agent that analyzes YouTube videos and creates structured summaries with accurate timestamps. This agent extracts key insights from video content, making it easy to navigate educational videos, tutorials, and presentations without watching them in full.",
+    "version": "1.0.0",
+    "recreate_keys": false,
+    
+    "skills": [],
+    
+    "capabilities": {
+    },
+    
+
+    "agent_trust": "low",
+    "debug_mode": true,
+    "debug_level": 2,
+    
+    "deployment": {
+        "url": "http://0.0.0.0:3773",
+        "expose": true,
+        "protocol_version": "1.0.0",
+        "proxy_urls": ["0.0.0.0"],
+        "cors_origins": ["*"]
+    },
+    "storage": {
+      "type": "memory"
+    },
+    "scheduler": {
+      "type": "memory"
+    },
+
+    
+    "num_history_sessions": 5,
+    "environment_variables": [
+      {
+        "key": "OPENAI_API_KEY",
+        "description": "OpenAI API key for GPT-4o model",
+        "required": true
+      }
+    ]
+  }

@@ -1,0 +1,28 @@
+services:
+  competitor_analysis_agent:
+    build:
+      context: .
+      dockerfile: Dockerfile.agent
+    container_name: competitor_analysis_agent
+    ports:
+      - "3773:3773"
+    environment:
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+      - MEM0_API_KEY=${MEM0_API_KEY}
+      - FIRECRAWL_API_KEY=${FIRECRAWL_API_KEY}
+      
+
+    env_file:
+      - .env
+    volumes:
+      - ./competitor_analysis_agent:/app/competitor_analysis_agent
+    restart: unless-stopped
+    networks:
+      - competitor_analysis_agent-network
+    
+
+networks:
+  competitor_analysis_agent-network:
+    driver: bridge
+
+

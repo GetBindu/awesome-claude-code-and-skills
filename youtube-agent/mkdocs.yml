@@ -1,0 +1,52 @@
+site_name: youtube-agent
+repo_url: https://github.com/lsvishaal/youtube-agent
+site_url: https://lsvishaal.github.io/youtube-agent
+site_description: an AI agent that analyzes YouTube videos and creates structured summaries with accurate timestamps. This agent extracts key insights from video content, making it easy to navigate educational videos, tutorials, and presentations without watching them in full.
+site_author: Vishaal_LS
+edit_uri: edit/main/docs/
+repo_name: lsvishaal/youtube-agent
+copyright: Maintained by <a href="https://lsvishaal.com">lsvishaal</a>.
+
+nav:
+  - Home: index.md
+  - Modules: modules.md
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: ["src/youtube_agent"]
+theme:
+  name: material
+  feature:
+    tabs: true
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/lsvishaal/youtube-agent
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/youtube-agent
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true

@@ -1,0 +1,65 @@
+{
+    "author": "vishaallsv@gmail.com",
+    "name": "web-extraction-agent",
+    "description": "agent that transforms unstructured web content into organized, structured data by combining Firecrawl’s web scraping with Pydantic’s structured output validation",
+    "version": "1.0.0",
+    "recreate_keys": false,
+    
+    "skills": [],
+    
+    "capabilities": {
+    },
+    
+
+    "agent_trust": "low",
+    "debug_mode": true,
+    "debug_level": 2,
+    
+    "deployment": {
+        "url": "http://0.0.0.0:3773",
+        "expose": true,
+        "protocol_version": "1.0.0",
+        "proxy_urls": ["0.0.0.0"],
+        "cors_origins": ["*"]
+    },
+    "storage": {
+      "type": "memory"
+    },
+    "scheduler": {
+      "type": "memory"
+    },
+
+    
+    "oltp_endpoint": [
+      
+      "http://phoenix:6006/v1/traces"
+      
+    ],
+    "oltp_service_name": "web_extraction_agent",
+    "oltp_verbose_logging": true,
+    "oltp_service_version": "1.0.0",
+    "oltp_deployment_environment": "production",
+    "oltp_batch_max_queue_size": 2048,
+    "oltp_batch_schedule_delay_millis": 5000,
+    "oltp_batch_max_export_batch_size": 512,
+    "oltp_batch_export_timeout_millis": 30000,
+    "llm_observability": {
+      "enabled": true,
+      "provider": "phoenix",
+      "endpoint": "http://phoenix:6006"
+    },
+    
+    "num_history_sessions": 5,
+    "environment_variables": [
+      {
+        "key": "OPENROUTER_API_KEY",
+        "description": "OpenRouter API key for LLM calls",
+        "required": true
+      },
+      {
+        "key": "MEM0_API_KEY",
+        "description": "Mem0 API key for memory operations",
+        "required": true
+      }
+    ]
+  }

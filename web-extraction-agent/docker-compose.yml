@@ -1,0 +1,48 @@
+services:
+  web_extraction_agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: web_extraction_agent
+    ports:
+      - "3773:3773"
+    environment:
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+      - OTEL_EXPORTER_OTLP_ENDPOINT=http://phoenix:4317
+      
+
+    env_file:
+      - .env
+    volumes:
+      - ./web_extraction_agent:/app/web_extraction_agent
+      - ./agent_config.json:/app/agent_config.json
+    restart: unless-stopped
+    networks:
+      - web_extraction_agent-network
+    depends_on:
+      - phoenix
+      
+
+  phoenix:
+    image: arizephoenix/phoenix:latest
+    container_name: web_extraction_agent-phoenix
+    ports:
+      - "6006:6006"  # Phoenix UI and OTLP HTTP collector
+      - "4319:4317"  # OTLP gRPC collector
+    environment:
+      - PHOENIX_WORKING_DIR=/mnt/data
+    volumes:
+      - phoenix_data:/mnt/data
+    networks:
+      - web_extraction_agent-network
+    restart: unless-stopped
+
+networks:
+  web_extraction_agent-network:
+    driver: bridge
+
+volumes:
+  phoenix_data:
+    driver: local
+
+
