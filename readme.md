@@ -167,6 +167,13 @@ Skills focused on software development, code quality, and engineering workflows.
   - 12 validator sub-agents enforce specificity; atomic cycle commit; project-stage-calibrated ceremony
   - Stack-neutral structure with TypeScript/Postgres/Zod/React defaults and a porting guide for Django/Rails/Go/Next.js
 
+- [voidborne-d/sober-coding](https://github.com/voidborne-d/sober-coding) ![Stars](https://img.shields.io/github/stars/voidborne-d/sober-coding?style=flat-square)
+  - Post-generation quality analyzer for AI-written code — 27 rules across 7 dimensions (dead code, duplication, architecture, error handling, dependencies, security, testing)
+  - Targets AI-native smells that ESLint/SonarQube miss: over-generation leftovers, structural clones, empty except blocks, god files, unused deps
+  - `sober scan .` prints a 0–100 sobriety score with severity-bucketed findings; `sober fix <rule-id>` returns actionable fix instructions per rule
+  - Language-agnostic and zero-config; CI mode returns non-zero on threshold breaches
+  - Ships Claude Code slash commands so reviews run as a /command inside the editor
+
 ### Specialized Agents
 
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) ![Stars](https://img.shields.io/github/stars/VoltAgent/awesome-claude-code-subagents?style=flat-square)
