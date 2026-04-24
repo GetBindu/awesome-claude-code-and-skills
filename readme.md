@@ -501,6 +501,13 @@ Utilities and tools to enhance your Claude workflow.
   - Understand core agent workflow and architecture
   - Context compaction and task/sub-agent analysis
 
+- [jakemarsh/ccthread](https://github.com/jakemarsh/ccthread) ![Stars](https://img.shields.io/github/stars/jakemarsh/ccthread?style=flat-square)
+  - Read, search, and have Claude summarize your Claude Code conversation logs from the CLI
+  - Reads session `.jsonl` files from `~/.claude/projects/` and renders clean markdown
+  - Cross-project keyword search with `find` and `search` commands
+  - `current` keyword resolves the session you're in right now (`--before-last-compact` supported)
+  - Ships as both a Claude Code plugin and a standalone binary
+
 ### Configuration & Templates
 
 - [abhishekray07/claude-md-templates](https://github.com/abhishekray07/claude-md-templates) ![Stars](https://img.shields.io/github/stars/abhishekray07/claude-md-templates?style=flat-square)
