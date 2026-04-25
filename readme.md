@@ -383,6 +383,11 @@ Utilities and tools to enhance your Claude workflow.
   - Built-in chat, shell terminal, file explorer, and git integration
   - Plugin system for custom extensions
 
+- [jazzyalex/agent-sessions](https://github.com/jazzyalex/agent-sessions) ![Stars](https://img.shields.io/github/stars/jazzyalex/agent-sessions?style=flat-square)
+  - Native macOS app for searching, browsing, and resuming Claude Code sessions alongside Codex, Gemini CLI, OpenCode, and other agents
+  - Agent Cockpit provides live iTerm2 orchestration and monitoring for active local agent sessions
+  - Local-first transcript indexing with no telemetry
+
 ### Agent Harnesses & Meta-Tools
 
 - [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) ![Stars](https://img.shields.io/github/stars/code-yeongyu/oh-my-openagent?style=flat-square)
