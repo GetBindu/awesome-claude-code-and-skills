@@ -344,6 +344,13 @@ Specialized skills for specific industries and use cases.
   - RFM cohorts and prioritized action plan with impact estimates
   - Hybrid Python-backend + Claude-LLM architecture for deterministic KPIs
 
+- [voidborne-d/humanize-chinese](https://github.com/voidborne-d/humanize-chinese) ![Stars](https://img.shields.io/github/stars/voidborne-d/humanize-chinese?style=flat-square)
+  - Detector + rewriter for Chinese AI-generated text — pure Python, zero dependencies
+  - 0–100 statistical scorer across 11 weighted dimensions (discourse density, parallel structure, four-character cliché, hedging, etc.) plus sentence-level breakdown
+  - 7 style transforms (casual / zhihu / xiaohongshu / wechat / academic / literary / weibo) with genre-aware auto-routing for long-form text
+  - Targeted optimizations for Chinese academic platforms (CNKI / VIP / Wanfang / 朱雀) with hedging injection and four-char cluster smoothing
+  - Ships as a Claude Code skill plus standalone CLI; offline-first, no API keys
+
 ---
 
 ## Productivity Tools
