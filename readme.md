@@ -446,6 +446,13 @@ Utilities and tools to enhance your Claude workflow.
   - Interactive process control and session management
   - Docker isolation for sandboxing
 
+- [kubestellar/console](https://github.com/kubestellar/console) ![Stars](https://img.shields.io/github/stars/kubestellar/console?style=flat-square)
+  - MCP server (`kc-agent`) bridging AI assistants to multi-cluster Kubernetes
+  - Manage workloads, pods, namespaces, and RBAC across clusters via natural language
+  - Built-in AI-powered dashboard with 250+ CNCF project integrations
+  - Works with Claude Code, Claude Desktop, and any MCP-compatible client
+  - Live demo: https://console.kubestellar.io
+
 ### API & Integration Tools
 
 - [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) ![Stars](https://img.shields.io/github/stars/router-for-me/CLIProxyAPI?style=flat-square)
