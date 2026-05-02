@@ -533,6 +533,13 @@ Utilities and tools to enhance your Claude workflow.
   - Reset timer for each provider
   - Minimal UI with dynamic bar icons
 
+- [luoyuctl/agenttrace](https://github.com/luoyuctl/agenttrace) ![Stars](https://img.shields.io/github/stars/luoyuctl/agenttrace?style=flat-square)
+  - Local-first TUI observability for AI coding agent sessions
+  - Supports Claude Code, Codex CLI, Gemini CLI, Aider, Cursor exports, Hermes, OpenCode, Kimi, and Copilot-style logs
+  - Tracks cost, tokens, tool failures, latency, anomalies, health, diffs, and CI gates
+  - Exports JSON, Markdown, and self-contained HTML reports
+  - Ships as a single Go binary with Homebrew and one-line installer support
+
 - [Yuyz0112/claude-code-reverse](https://github.com/Yuyz0112/claude-code-reverse) ![Stars](https://img.shields.io/github/stars/Yuyz0112/claude-code-reverse?style=flat-square)
   - Visualize Claude Code's LLM interactions
   - Runtime behavior and API data analysis
