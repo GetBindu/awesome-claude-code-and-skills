@@ -305,6 +305,12 @@ Skills for marketing professionals, content creators, and growth teams.
   - Connects Search Console and Google Ads for actionable audits
   - Includes SEO analysis, content writing, and CMS setup skills
 
+- [salespeak-ai/buyer-eval-skill](https://github.com/salespeak-ai/buyer-eval-skill) ![Stars](https://img.shields.io/github/stars/salespeak-ai/buyer-eval-skill?style=flat-square)
+  - Structured B2B software vendor evaluation skill (MIT)
+  - Domain-expert questions per software category
+  - Engages vendor AI agents for verified due diligence
+  - Evidence-tracked scoring across 7 dimensions; comparative scorecards for procurement and build-vs-buy decisions
+
 - [zarazhangrui/codebase-to-course](https://github.com/zarazhangrui/codebase-to-course) ![Stars](https://img.shields.io/github/stars/zarazhangrui/codebase-to-course?style=flat-square)
   - Transform codebases into interactive HTML courses
   - Beautiful, educational content generation
