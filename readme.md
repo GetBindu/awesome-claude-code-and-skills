@@ -729,6 +729,14 @@ We welcome contributions! To add a skill or tool to this list:
 **Quality over quantity** - we prioritize well-documented, production-ready skills over experimental projects.
 
 
+
+- [tellmefrankie/ai-investment-skills](https://github.com/tellmefrankie/ai-investment-skills) ![Stars](https://img.shields.io/github/stars/tellmefrankie/ai-investment-skills?style=flat-square)
+  - Options flow analyzer with lottery call filtering (production-tested on real portfolio)
+  - News sentiment engine: 50+ RSS feeds → Claude scoring → Telegram briefing
+  - EV calculator for earnings positioning
+  - Caught XLI P/C = 5.32 anomaly live (5.96x above baseline) — documented case study
+  - Free skills (options analyzer + sentiment engine) + $29 pro bundle
+
 ---
 
 ## License
