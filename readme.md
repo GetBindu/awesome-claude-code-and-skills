@@ -535,6 +535,11 @@ Orchestrate multiple Claude agents to work together on complex tasks.
 Professional-grade security skills for vulnerability detection, code auditing, and compliance.
 
 ### Security Analysis
+n- [GiulioDER/cca-audit](https://github.com/GiulioDER/cca-audit) ![Stars](https://img.shields.io/github/stars/GiulioDER/cca-audit?style=flat-square)
+  - 6-layer parallel code audit pipeline with non-overlapping scopes
+  - Runs 6 specialized LLM auditors (code quality, bugs, security, performance, docs, config)
+  - Deduplicates findings, auto-fixes P1+P2, re-verifies tests, architect review gate
+  - Three variants: Claude Code, Codex CLI, OpenRouter Python CLI
 
 - [wrsmith108/varlock-claude-skill](https://github.com/wrsmith108/varlock-claude-skill) ![Stars](https://img.shields.io/github/stars/wrsmith108/varlock-claude-skill?style=flat-square)
   - Secure environment variable management
