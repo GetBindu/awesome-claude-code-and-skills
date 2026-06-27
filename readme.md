@@ -256,6 +256,26 @@ Skills focused on software development, code quality, and engineering workflows.
 
 ### Core Development Skills
 
+- [gyujeongion/claude-code-rootcause](https://github.com/gyujeongion/claude-code-rootcause) ![Stars](https://img.shields.io/github/stars/gyujeongion/claude-code-rootcause?style=flat-square)
+  - Turns "never do X" bans into positive process gates
+  - Audits your instruction file for ban bloat (rethink + deusex)
+
+- [gyujeongion/claude-code-sandbox-gate](https://github.com/gyujeongion/claude-code-sandbox-gate) ![Stars](https://img.shields.io/github/stars/gyujeongion/claude-code-sandbox-gate?style=flat-square)
+  - Verification gate before a change hits main
+  - Stops the agent shipping "it works now" patches unchecked
+
+- [gyujeongion/claude-code-request-modes](https://github.com/gyujeongion/claude-code-request-modes) ![Stars](https://img.shields.io/github/stars/gyujeongion/claude-code-request-modes?style=flat-square)
+  - Classifies each request and activates only the rules that apply
+  - Stops one global rulebook bleeding into everything
+
+- [gyujeongion/claude-code-cold-tester](https://github.com/gyujeongion/claude-code-cold-tester) ![Stars](https://img.shields.io/github/stars/gyujeongion/claude-code-cold-tester?style=flat-square)
+  - Runs a doc through a zero-context model
+  - Finds where a real newcomer would get stuck
+
+- [gyujeongion/claude-code-mix-compare](https://github.com/gyujeongion/claude-code-mix-compare) ![Stars](https://img.shields.io/github/stars/gyujeongion/claude-code-mix-compare?style=flat-square)
+  - git diff for audio mixes — time-align two versions, phase-invert the change
+  - Per-stem, per-band, stereo and phase, translated into engineer notes
+
 - [obra/superpowers](https://github.com/obra/superpowers) ![Stars](https://img.shields.io/github/stars/obra/superpowers?style=flat-square)
   - 20+ battle-tested development skills
   - TDD (Test-Driven Development) workflows
@@ -429,6 +449,14 @@ Skills focused on software development, code quality, and engineering workflows.
 Orchestrate multiple Claude agents to work together on complex tasks.
 
 ### Orchestration Platforms
+
+- [gyujeongion/claude-code-council](https://github.com/gyujeongion/claude-code-council) ![Stars](https://img.shields.io/github/stars/gyujeongion/claude-code-council?style=flat-square)
+  - Claude chairs a panel of Gemini + GPT for a second opinion
+  - Runs through your logged-in CLIs, so no API keys
+
+- [gyujeongion/claude-code-goal-loop](https://github.com/gyujeongion/claude-code-goal-loop) ![Stars](https://img.shields.io/github/stars/gyujeongion/claude-code-goal-loop?style=flat-square)
+  - Autonomous goal loop with a verification gate each iteration
+  - Rollback snapshots and stall detection
 
 - [steveyegge/gastown](https://github.com/steveyegge/gastown) ![Stars](https://img.shields.io/github/stars/steveyegge/gastown?style=flat-square)
   - Multi-agent workspace manager
