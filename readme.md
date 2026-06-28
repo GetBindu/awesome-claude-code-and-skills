@@ -1021,6 +1021,11 @@ Utilities and tools to enhance your Claude workflow.
   - GREEN/YELLOW/RED task-fit triage with two hard vetoes; three-layer architecture (scheduler, inner loop, commit gate) keeps irreversible actions outside the loop body
   - Separates task loop-fit from as-specified-design safety (a GREEN-fit task can still have an UNSAFE design); ships a reproducible cross-model eval with pre-registered held-out and minimal-pair suites, a standalone runner, and an honest limitations writeup
 
+- [thousandflowers/skillreaper](https://github.com/thousandflowers/skillreaper) ![Stars](https://img.shields.io/github/stars/thousandflowers/skillreaper?style=flat-square)
+  - Reads real session transcripts to find skills, MCP servers, and agents that were loaded into context but never fired, then safely quarantines them
+  - Supports Claude Code, Codex CLI, Hermes, OpenCode, Cursor, and OpenClaw; zero telemetry, single static Go binary
+  - Scan / report / prune workflow keeps removals reversible; installable via Homebrew and npm (MIT)
+
 ### Memory & Context Management
 
 - [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) ![Stars](https://img.shields.io/github/stars/caioribeiroclw-pixel/pluribus?style=flat-square)
