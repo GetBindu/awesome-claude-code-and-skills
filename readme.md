@@ -743,6 +743,11 @@ Skills for marketing professionals, content creators, and growth teams.
   - **GTM pipeline agent** that syncs Smartlead, Instantly, HeyReach, PlusVibe, EmailBison, Prosp, and Calendly into a local SQLite database your agent can query directly
   - Every send, reply, bounce, and stage change lands on your machine
   - Install: `npx skills add outreachmagic/outreachmagic`
+
+- [fjilvi-afk/growthlens](https://github.com/fjilvi-afk/growthlens) ![Stars](https://img.shields.io/github/stars/fjilvi-afk/growthlens?style=flat-square)
+  - 12 business-analysis skills for marketers, growth & business analysts (not just coders)
+  - Competitor teardown, funnel audit, pricing analysis, offer/value ladder, ICP segmentation, SEO content-gap
+  - Installable as a Claude Code plugin (`/plugin marketplace add fjilvi-afk/growthlens`); MIT
 ---
 
 ## Domain-Specific Skills
