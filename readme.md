@@ -743,6 +743,12 @@ Skills for marketing professionals, content creators, and growth teams.
   - **GTM pipeline agent** that syncs Smartlead, Instantly, HeyReach, PlusVibe, EmailBison, Prosp, and Calendly into a local SQLite database your agent can query directly
   - Every send, reply, bounce, and stage change lands on your machine
   - Install: `npx skills add outreachmagic/outreachmagic`
+
+- [sergebulaev/facebook-skills](https://github.com/sergebulaev/facebook-skills) ![Stars](https://img.shields.io/github/stars/sergebulaev/facebook-skills?style=flat-square)
+  - 5 Claude Code and Codex skills for Facebook Pages
+  - High-share posts, hook extractor, humanizer, engagement drafter, and content planner
+  - MIT licensed
+  - Install: `/plugin marketplace add sergebulaev/facebook-skills`
 ---
 
 ## Domain-Specific Skills
