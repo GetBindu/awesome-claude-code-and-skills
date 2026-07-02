@@ -493,6 +493,12 @@ Orchestrate multiple Claude agents to work together on complex tasks.
   - Two unskippable gates — headless test gate + "is it fun" creative gate — then an on-device final pass
   - Deterministic build/test Workflow; pausable/resumable across sessions and usage-limit cutoffs
 
+- [5dive-ai/5dive](https://github.com/5dive-ai/5dive) ![Stars](https://img.shields.io/github/stars/5dive-ai/5dive?style=flat-square)
+  - Run a company of AI coding agents on a server you own
+  - One-command spin-up of named agents (Claude Code, Codex, Grok, and more)
+  - Cron + heartbeat scheduling, shared task queue with human-escalation gates, Telegram control
+  - Babysit and needs-you triage dashboard; self-hosted, MIT
+
 ### Parallel Processing
 
 - [Dicklesworthstone/claude_code_agent_farm](https://github.com/Dicklesworthstone/claude_code_agent_farm) ![Stars](https://img.shields.io/github/stars/Dicklesworthstone/claude_code_agent_farm?style=flat-square)
