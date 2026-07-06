@@ -1197,6 +1197,12 @@ Utilities and tools to enhance your Claude workflow.
   - Also ships a CLI (@zeroxyz/cli) and an MCP connector (mcp.zero.xyz)
   - Homepage: https://zero.xyz
 
+- [skillselion/skillselion-mcp](https://github.com/skillselion/skillselion-mcp) ![Stars](https://img.shields.io/github/stars/skillselion/skillselion-mcp?style=flat)
+  - MCP server for the [Skillselion](https://skillselion.com) catalog of community-vetted Claude Code skills, MCP servers & marketplaces
+  - `load_skill` fetches a real SKILL.md (plus bundled scripts/refs) mid-task, ranked by real install counts + GitHub stars
+  - Also indexes MCP servers and plugin marketplaces
+  - `npx -y skillselion-mcp`; TypeScript
+
 ### API & Integration Tools
 
 - [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) ![Stars](https://img.shields.io/github/stars/router-for-me/CLIProxyAPI?style=flat-square)
