@@ -1084,6 +1084,12 @@ Utilities and tools to enhance your Claude workflow.
   - Sync is via plain files/Git; includes a local MCP stdio server
   - Early `v0.1.0` prerelease
 
+- [TerminallyLazy/Tree-Ring-Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) ![Stars](https://img.shields.io/github/stars/TerminallyLazy/Tree-Ring-Memory?style=flat-square)
+  - Local-first memory lifecycle framework for AI agents and coding assistants
+  - Rust CLI with SQLite/FTS recall, consolidation, audit, redaction, and deletion workflows
+  - Portable skill packages let Claude Code, Codex, and other SKILL.md-capable agents use the same memory guidance
+  - Ships docs, tests, installer scripts, and terminal UX assets for production agent memory workflows
+
 - [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) ![Stars](https://img.shields.io/github/stars/thedotmack/claude-mem?style=flat-square)
   - Automatic session capture and AI compression
   - Long-term memory with RAG integration
