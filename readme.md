@@ -784,6 +784,7 @@ Skills for marketing professionals, content creators, and growth teams.
   - Installable as a Claude Code plugin (`/plugin marketplace add fjilvi-afk/growthlens`); MIT
 ---
 
+- [linkedin-growth](https://github.com/Linked-API/linkedin-skills/tree/main/linkedin-growth) - Import leads from LinkedIn or Sales Navigator searches, qualify them against an ideal-customer profile, schedule safe connection invites across accounts, track acceptances, and withdraw stale pending requests.
 ## Domain-Specific Skills
 
 - [Uhudsavasindankacanokcu2/finance-skills-for-claude](https://github.com/Uhudsavasindankacanokcu2/finance-skills-for-claude) ![Stars](https://img.shields.io/github/stars/Uhudsavasindankacanokcu2/finance-skills-for-claude?style=flat-square) - Cash flow, runway, invoices, budgets & scenario modeling for founders/finance teams
