@@ -455,6 +455,11 @@ Orchestrate multiple Claude agents to work together on complex tasks.
 
 ### Orchestration Platforms
 
+- [supernovae-st/nika](https://github.com/supernovae-st/nika) ![Stars](https://img.shields.io/github/stars/supernovae-st/nika?style=flat-square)
+  - Workflow engine for AI: Claude Code captures repeatable work as `.nika.yaml` DAG files
+  - Statically checked before execution (schema, permits, cost floor), tamper-evident traces after
+  - Ships a Claude Code plugin (authoring skill + read-only MCP oracle)
+
 - [gyujeongion/claude-code-council](https://github.com/gyujeongion/claude-code-council) ![Stars](https://img.shields.io/github/stars/gyujeongion/claude-code-council?style=flat-square)
   - Claude chairs a panel of Gemini + GPT for a second opinion
   - Runs through your logged-in CLIs, so no API keys
