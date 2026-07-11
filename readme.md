@@ -250,6 +250,14 @@ These repositories offer extensive collections of skills across multiple domains
   - Covers email sending, sandbox testing, templates, domain setup, and contacts
    -Follows the Agent Skills open standard (Anthropic, Dec 2025)
 
+- [redamancy231-create/claude-skills](https://github.com/redamancy231-create/claude-skills) ![Stars](https://img.shields.io/github/stars/redamancy231-create/claude-skills?style=flat-square)
+  - 3 professional Claude Code skills: session-end, write-claude-md, kill-test-first
+  - session-end: structured session wrap-up with passive observation capture and memory persistence
+  - write-claude-md: five-step protocol for codebase documentation, vetted through 3-backend independent review
+  - kill-test-first: enforce test-first methodology in AI-assisted development
+  - All skills validated through multi-model independent review (Codex + Kimi + Qwen)
+
+
 ## Development & Engineering
 
 Skills focused on software development, code quality, and engineering workflows.
