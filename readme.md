@@ -747,6 +747,11 @@ Skills for marketing professionals, content creators, and growth teams.
   - Citability scoring, AI crawler analysis, and brand-mention tracking
   - Python-driven
 
+- [gnaynij/github-geo-growth](https://github.com/gnaynij/github-geo-growth) ![Stars](https://img.shields.io/github/stars/gnaynij/github-geo-growth?style=flat-square)
+  - Agent skill for GitHub project GEO/AEO strategy
+  - Helps Claude Code, Codex, and compatible agents audit repository facts, draft `llms.txt`, FAQ, use-case, and comparison content, and plan ethical distribution
+  - Includes a real RepoReel audit case and no runtime/API dependency
+
 - [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) ![Stars](https://img.shields.io/github/stars/op7418/guizang-ppt-skill?style=flat-square)
   - Agent skill for generating polished HTML slide decks
   - Editorial-magazine and Swiss layouts with social-cover variants
