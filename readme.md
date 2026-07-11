@@ -373,6 +373,11 @@ Skills focused on software development, code quality, and engineering workflows.
   - TDD Loop Master — drives red-green-refactor: builds a test list, writes tests first, keeps the discipline tight
   - Free and MIT-licensed; a taste of the larger StrategistKit catalog
 
+- [zenlee123/routerbase-agent-skills](https://github.com/zenlee123/routerbase-agent-skills) ![Stars](https://img.shields.io/github/stars/zenlee123/routerbase-agent-skills?style=flat-square)
+  - Three agent skills for using [routerbase](https://routerbase.com/) as an OpenAI-compatible API gateway
+  - Covers API integration, model routing and fallback planning, and media generation workflows
+  - SKILL.md-based, MIT licensed, and compatible with Claude Code, Codex, OpenClaw, and other agent skill consumers
+
 
 ### Specialized Agents
 
