@@ -690,6 +690,11 @@ Skills for marketing professionals, content creators, and growth teams.
 
 - [nowork-studio/NotFair](https://github.com/nowork-studio/NotFair) ![Stars](https://img.shields.io/github/stars/nowork-studio/NotFair?style=flat-square)
   - Open-source Claude Code skills for SEO, GEO, Google Ads, and Meta Ads (MIT)
+
+- [Alisa0808/vox-director](https://github.com/Alisa0808/vox-director) ![Stars](https://img.shields.io/github/stars/Alisa0808/vox-director?style=flat-square)
+  - Turn one topic into a finished Vox-style paper-collage explainer/ad video
+  - Script → collage keyframes → motion → voice-over → music → captions, fully automated
+  - Runs on Atlas Cloud + ffmpeg; works with Claude Code, Codex & any SKILL.md agent (MIT)
   - [SEO skills](https://github.com/nowork-studio/NotFair/tree/main/seo): site analysis, keyword research, meta tags, schema markup, GEO optimization, and content writing
   - [Google Ads skills](https://github.com/nowork-studio/NotFair/tree/main/google-ads): audits, wasted-spend detection, search-term cleanup, keyword and bid management
   - [Meta Ads skills](https://github.com/nowork-studio/NotFair/tree/main/meta-ads): ROAS analysis, creative fatigue, and audience overlap detection
