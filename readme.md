@@ -952,6 +952,12 @@ Specialized skills for specific industries and use cases.
   - Judgment-first: won't flatten prompts that need precise control
   - One SKILL.md, open Agent Skills standard; MIT
 
+- [abe238/claude-video-plus](https://github.com/abe238/claude-video-plus) ![Stars](https://img.shields.io/github/stars/abe238/claude-video-plus?style=flat-square)
+  - Ask a video a question — retrieves only the chapters, numeric facts, and on-screen moments that answer it instead of sampling the whole timeline
+  - Sealed, receipt-gated benchmark matched the original's blind-judged answer quality (8.83 vs 8.80) at ~56% fewer tokens; 338 deterministic tests
+  - Fails open: reverts to the original pipeline on no captions, local file, short video, or any error
+  - Install with `npx skills add abe238/claude-video-plus -g`; attributed MIT fork of bradautomates/claude-video with upstream authorship preserved
+
 
 ## Productivity Tools
 
