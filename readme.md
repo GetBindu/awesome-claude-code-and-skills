@@ -787,6 +787,12 @@ Skills for marketing professionals, content creators, and growth teams.
   - 12 business-analysis skills for marketers, growth & business analysts (not just coders)
   - Competitor teardown, funnel audit, pricing analysis, offer/value ladder, ICP segmentation, SEO content-gap
   - Installable as a Claude Code plugin (`/plugin marketplace add fjilvi-afk/growthlens`); MIT
+
+- [localplugins/plugins](https://github.com/localplugins/plugins) ![Stars](https://img.shields.io/github/stars/localplugins/plugins?style=flat-square)
+  - brand-forge: generate on-brand logos, social templates, and marketing graphics from a saved brand profile (vector local, AI imagery opt-in)
+  - content-multiplier: turn one idea into on-brand, multi-channel, multi-language content
+  - cv-forge: turn one versioned résumé (JSON Resume) into an ATS-friendly PDF, fully local
+  - Install: `/plugin marketplace add localplugins/plugins`
 ---
 
 ## Domain-Specific Skills
