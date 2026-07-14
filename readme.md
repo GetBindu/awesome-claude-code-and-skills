@@ -1069,6 +1069,11 @@ Utilities and tools to enhance your Claude workflow.
   - Reads real session transcripts to find skills, MCP servers, and agents that were loaded into context but never fired, then safely quarantines them
   - Supports Claude Code, Codex CLI, Hermes, OpenCode, Cursor, and OpenClaw; zero telemetry, single static Go binary
   - Scan / report / prune workflow keeps removals reversible; installable via Homebrew and npm (MIT)
+- [KernelLord/pickysteve](https://github.com/KernelLord/pickysteve) ![Stars](https://img.shields.io/github/stars/KernelLord/pickysteve?style=flat-square)
+  - Local-first skill router: a cheap local model (default Ollama qwen3:8b) routes each prompt to the right skill via hybrid BM25 + embedding retrieval (RRF-fused), cross-encoder rerank, and an LLM judge, then assembles a minimal context bundle for the execution model
+  - Built-in ONNX prompt-injection gate scans both the raw request and every retrieved document, fail-closed — 100% detection / 0 bypasses on a 180-payload red-team corpus, 0/43 false positives on the real registry
+  - MCP stdio server plus an OpenAI-compatible proxy (`:8077/v1`); one-command installer wires 18 coding agents including Claude Code, Codex, Cursor, and Windsurf
+  - MIT licensed, Python 3.11; early-stage (v0.1.0, released 2026-07-06)
 
 ### Memory & Context Management
 
