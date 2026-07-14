@@ -1109,6 +1109,12 @@ Utilities and tools to enhance your Claude workflow.
   - Uses tree-sitter parsing and Leiden community detection for GraphRAG
   - Works with Claude Code, Codex, OpenCode, Cursor, and Gemini CLI
 
+- [0xsarwagya/ontoly](https://github.com/0xsarwagya/ontoly) ![Stars](https://img.shields.io/github/stars/0xsarwagya/ontoly?style=flat-square)
+  - Deterministic Software Graph for TypeScript repositories
+  - Agent Skills and MCP capabilities for architecture summaries, route tracing, dependency analysis, configuration usage, and impact analysis
+  - Graph-first workflow: query Ontoly evidence before broad source search
+  - Works with Claude Code, Codex, and other SKILL.md-compatible coding agents
+
 - [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) ![Stars](https://img.shields.io/github/stars/tirth8205/code-review-graph?style=flat-square)
   - Builds a persistent, incremental knowledge graph of your codebase for Claude Code
   - Claims roughly 6.8x fewer tokens on reviews and up to 49x on daily coding tasks
