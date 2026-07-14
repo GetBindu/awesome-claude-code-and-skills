@@ -671,6 +671,12 @@ n- [GiulioDER/cca-audit](https://github.com/GiulioDER/cca-audit) ![Stars](https:
 
 Skills for marketing professionals, content creators, and growth teams.
 
+- [ANVEAI/idea-hunt-skill](https://github.com/ANVEAI/idea-hunt-skill) ![Stars](https://img.shields.io/github/stars/ANVEAI/idea-hunt-skill?style=flat-square)
+  - Evidence-first AI business idea discovery and validation (MIT)
+  - Finds a painful, already-paid-for workflow AI can replace, then proves willingness-to-pay before you build
+  - 7-stage pipeline: pain mining, kill-gates, the Mom Test, and a proof-of-wallet test
+  - Works with Claude Code, Claude Desktop, and any agent that loads skills
+
 - [cognyai/claude-code-marketing-skills](https://github.com/cognyai/claude-code-marketing-skills) ![Stars](https://img.shields.io/github/stars/cognyai/claude-code-marketing-skills?style=flat-square)
   - 5 free marketing skills, no account required
   - SEO Audit, Landing Page Review, Competitor Analysis
