@@ -1280,6 +1280,13 @@ Utilities and tools to enhance your Claude workflow.
   - JSON-first requests, async task polling, and terminal/CI-friendly workflows
   - Apache-2.0 licensed; install with `git clone https://github.com/runapi-ai/cli-skill ~/.claude/skills/runapi-cli`
 
+- [Antheurus/anywrite](https://github.com/Antheurus/anywrite) ![Stars](https://img.shields.io/github/stars/Antheurus/anywrite?style=flat-square)
+  - CLI covering all 52 endpoints of the Anytype desktop app's local HTTP API
+  - Spaces, objects, properties, tags, types, templates, lists, chat, files, members, search, auth
+  - Data-driven endpoint registry; agent-first with JSON output by default and verbatim error envelopes
+  - Zero-context alternative to Anytype's always-loaded 52-tool MCP server
+  - MIT licensed; single ~55MB compiled Bun binary, zero runtime dependencies
+
 ### CLI Configuration Tools
 
 - [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) ![Stars](https://img.shields.io/github/stars/davila7/claude-code-templates?style=flat-square)
