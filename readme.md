@@ -787,6 +787,12 @@ Skills for marketing professionals, content creators, and growth teams.
   - 12 business-analysis skills for marketers, growth & business analysts (not just coders)
   - Competitor teardown, funnel audit, pricing analysis, offer/value ladder, ICP segmentation, SEO content-gap
   - Installable as a Claude Code plugin (`/plugin marketplace add fjilvi-afk/growthlens`); MIT
+
+- [yarin-hochman1/oss-distributor](https://github.com/yarin-hochman1/oss-distributor) ![Stars](https://img.shields.io/github/stars/yarin-hochman1/oss-distributor?style=flat-square)
+  - Gets your open-source project listed in GitHub awesome-lists and registries
+  - Refreshes a live GitHub snapshot, scores ecosystem-fit candidates, and opens PRs only after explicit approval
+  - Rate-limited to 5 PRs per session; skips lists requiring human-only attestations; MIT
+  - Install: `git clone https://github.com/yarin-hochman1/oss-distributor ~/.claude/agents/oss-distributor`
 ---
 
 ## Domain-Specific Skills
