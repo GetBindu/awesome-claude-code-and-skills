@@ -1414,6 +1414,11 @@ Utilities and tools to enhance your Claude workflow.
   - TypeScript-based
   - Useful for long-running autonomous runs
 
+- [eltonylfgi-blip/claude-session-triage](https://github.com/eltonylfgi-blip/claude-session-triage) ![Stars](https://img.shields.io/github/stars/eltonylfgi-blip/claude-session-triage?style=flat-square)
+  - Local-first CLI and Claude Code plugin that finds idle sessions and surfaces what each was waiting on
+  - Ranks pending decisions ahead of active work and scheduled routines; reads local JSONL with no network calls
+  - Zero dependencies, MIT licensed, with a 10-check synthetic self-test
+
 ### Configuration & Templates
 
 - [abhishekray07/claude-md-templates](https://github.com/abhishekray07/claude-md-templates) ![Stars](https://img.shields.io/github/stars/abhishekray07/claude-md-templates?style=flat-square)
