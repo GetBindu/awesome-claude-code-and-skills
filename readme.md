@@ -1280,6 +1280,13 @@ Utilities and tools to enhance your Claude workflow.
   - JSON-first requests, async task polling, and terminal/CI-friendly workflows
   - Apache-2.0 licensed; install with `git clone https://github.com/runapi-ai/cli-skill ~/.claude/skills/runapi-cli`
 
+- [Antheurus/sshepherd](https://github.com/Antheurus/sshepherd) ![Stars](https://img.shields.io/github/stars/Antheurus/sshepherd?style=flat-square)
+  - Zero-knowledge SSH ops CLI — the agent never sees a password, private key, hostname, user, or port
+  - Server health checks, docker/systemd control, log tailing, and config edits over SSH
+  - Read-only Postgres introspection and declarative deploy recipes
+  - Every op shells out to the system `ssh` binary and returns one typed envelope, never a raw terminal dump
+  - MIT licensed; single compiled Bun/TypeScript binary, no runtime dependencies
+
 ### CLI Configuration Tools
 
 - [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) ![Stars](https://img.shields.io/github/stars/davila7/claude-code-templates?style=flat-square)
