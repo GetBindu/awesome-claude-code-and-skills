@@ -354,6 +354,12 @@ Skills focused on software development, code quality, and engineering workflows.
   - Compatible with Claude Code, Hermes Agent, OpenClaw, Kilocode, Copilot, and Mastra
   - Python-backed and MIT licensed
 
+- [bo-cao/breaking-coding-chaos](https://github.com/bo-cao/breaking-coding-chaos) ![Stars](https://img.shields.io/github/stars/bo-cao/breaking-coding-chaos?style=flat-square)
+  - Human-in-the-loop dual-loop control-plane skill suite for coding agents
+  - throughline (progress cockpit) → plan-spar (align+lock PLAN) → clean-cut (minimal implement + verify)
+  - Standard Agent Skills layout; works with Claude Code, Codex, Cursor, Grok, OpenCode, Hermes, OpenClaw
+  - MIT licensed
+
 - [mturac/pluginpool](https://github.com/mturac/pluginpool) ![Stars](https://img.shields.io/github/stars/mturac/pluginpool?style=flat-square)
   - Ten focused Claude Code plugins for everyday developer productivity
   - Includes **commit-narrator**, **pr-storyteller**, **test-gap**, **deps-doctor**, **env-lint**, **secret-guard**, **standup-gen**, **todo-harvest**, **flaky-detector**, **changelog-forge**
