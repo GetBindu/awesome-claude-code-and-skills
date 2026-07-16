@@ -1325,6 +1325,13 @@ Utilities and tools to enhance your Claude workflow.
   - Python-based research-grade harness
   - Designed for fast agent-iteration cycles
 
+- [PapiScholz/roadmapsmith](https://github.com/PapiScholz/roadmapsmith) ![Stars](https://img.shields.io/github/stars/PapiScholz/roadmapsmith?style=flat-square)
+  - Keeps ROADMAP.md in sync with the codebase across sessions
+  - `/roadmap-init` scans the repo and generates a fresh roadmap
+  - `/roadmap-update` proposes marking tasks complete only when supporting evidence is detected in the code
+  - Works with Claude Code, Codex, and any host that reads SKILL.md
+  - MIT licensed, installed via `npx skills add`
+
 ### Monitoring & Observability
 
 - [disler/claude-code-hooks-multi-agent-observability](https://github.com/disler/claude-code-hooks-multi-agent-observability) ![Stars](https://img.shields.io/github/stars/disler/claude-code-hooks-multi-agent-observability?style=flat-square)
