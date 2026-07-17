@@ -1260,6 +1260,12 @@ Utilities and tools to enhance your Claude workflow.
   - Access free models through standardized API interface
   - Built with Go for performance
 
+- [madhavajay/alex](https://github.com/madhavajay/alex) ![Stars](https://img.shields.io/github/stars/madhavajay/alex?style=flat-square)
+  - Local Rust LLM proxy with an optional UI for Claude Code and other coding agents
+  - Routes provider subscriptions and API keys through compatible endpoints
+  - Captures requests, costs, sessions, and supported tool execution locally
+  - Adds scriptable middleware, subscription bonding, failover, and messenger-assisted re-authentication
+
 - [1rgs/claude-code-proxy](https://github.com/1rgs/claude-code-proxy) ![Stars](https://img.shields.io/github/stars/1rgs/claude-code-proxy?style=flat-square)
   - Run Claude Code on OpenAI and Gemini models
   - Anthropic API proxy for multiple model providers
