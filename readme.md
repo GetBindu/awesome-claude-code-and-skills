@@ -798,6 +798,12 @@ Skills for marketing professionals, content creators, and growth teams.
 
 Specialized skills for specific industries and use cases.
 
+- [dhosruiasn/accessible-dark-mode-design-expert](https://github.com/dhosruiasn/accessible-dark-mode-design-expert) ![Stars](https://img.shields.io/github/stars/dhosruiasn/accessible-dark-mode-design-expert?style=flat-square)
+  - Accessible light/dark theme design, implementation, review, and audit skill for Claude Code and OpenAI Codex
+  - Covers user preference precedence, semantic design tokens, WCAG text and non-text contrast, theme-aware assets, Material and Apple conventions, and reduced-motion-safe transitions
+  - Ships a deterministic contrast calculator, safe cross-runtime installation sync, automated tests, and bilingual Traditional Chinese/English documentation
+  - MIT licensed; invoked as `/accessible-dark-mode-design-expert`
+
 - [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) ![Stars](https://img.shields.io/github/stars/Donchitos/Claude-Code-Game-Studios?style=flat-square)
   - Turn Claude Code into a full game development studio
   - 48 AI agents and 37 workflow skills
