@@ -787,6 +787,12 @@ Skills for marketing professionals, content creators, and growth teams.
   - 12 business-analysis skills for marketers, growth & business analysts (not just coders)
   - Competitor teardown, funnel audit, pricing analysis, offer/value ladder, ICP segmentation, SEO content-gap
   - Installable as a Claude Code plugin (`/plugin marketplace add fjilvi-afk/growthlens`); MIT
+
+- [dashaworks/report-skills](https://github.com/dashaworks/report-skills) ![Stars](https://img.shields.io/github/stars/dashaworks/report-skills?style=flat-square)
+  - 5 skills for Claude Code and Codex that publish agent-made content as beautiful live web pages (MIT)
+  - Research/analysis → shareable web reports, recurring client reports (SEO monthlies), and view-tracked proposals (a DocSend alternative)
+  - Slide decks plus a design-polish pass, all on-brand via the ReportRoom MCP; view analytics returned to the agent after publish
+  - Install: `/plugin marketplace add dashaworks/report-skills`
 ---
 
 ## Domain-Specific Skills
