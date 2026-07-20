@@ -532,6 +532,12 @@ Orchestrate multiple Claude agents to work together on complex tasks.
   - Cron + heartbeat scheduling, shared task queue with human-escalation gates, Telegram control
   - Babysit and needs-you triage dashboard; self-hosted, MIT
 
+- [ofekron/better-agent](https://github.com/ofekron/better-agent) ![Stars](https://img.shields.io/github/stars/ofekron/better-agent?style=flat-square)
+  - Local workspace for Claude, Codex, and Gemini coding-agent sessions
+  - Fork and delegate work across providers with persistent session state
+  - Detached runners and restart recovery keep long-running work inspectable
+  - Source-available for non-commercial use; commercial use requires permission
+
 ### Parallel Processing
 
 - [Dicklesworthstone/claude_code_agent_farm](https://github.com/Dicklesworthstone/claude_code_agent_farm) ![Stars](https://img.shields.io/github/stars/Dicklesworthstone/claude_code_agent_farm?style=flat-square)
