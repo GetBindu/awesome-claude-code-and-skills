@@ -256,7 +256,7 @@ Skills focused on software development, code quality, and engineering workflows.
 
 ### Core Development Skills
 
-- [samuelbushi/uizze](https://github.com/uizze/uizze) ![Stars](https://img.shields.io/github/stars/uizze/uizze?style=flat-square)
+- [uizze/uizze](https://github.com/uizze/uizze) ![Stars](https://img.shields.io/github/stars/uizze/uizze?style=flat-square)
   - Stops Claude Code, Codex, and Cursor from shipping generic UI slop
   - Uses UIZZE's free catalogue of 800,000+ real web and iOS screens to build product-specific design contracts
   - Adds a hard finish gate for hierarchy, states, responsive behavior, and design-system drift
