@@ -1070,6 +1070,18 @@ Utilities and tools to enhance your Claude workflow.
   - Supports Claude Code, Codex CLI, Hermes, OpenCode, Cursor, and OpenClaw; zero telemetry, single static Go binary
   - Scan / report / prune workflow keeps removals reversible; installable via Homebrew and npm (MIT)
 
+- [AgentGameLab/tuneup](https://github.com/AgentGameLab/tuneup) ![Stars](https://img.shields.io/github/stars/AgentGameLab/tuneup?style=flat-square)
+  - Translates fuzzy human requests into high-information-density prompts — you don't learn prompt engineering, it makes the AI understand you
+  - Smart triage (fast lane / main lane / ER lane) + 4-quadrant forging (plain / template / XML / Lisp) + domain-expert lens presets + a theory-anchor dictionary that treats theory names as high-signal tokens and blacklists misused ones
+  - Implicit triggers: fires when a user keeps rephrasing or correcting across turns without realizing the real problem is the prompt — the users who need it most don't know the word "prompt"
+  - Hard safety boundary for finance / legal / medical / irreversible decisions; Chinese-native skill
+
+- [AgentGameLab/harness-evolve](https://github.com/AgentGameLab/harness-evolve) ![Stars](https://img.shields.io/github/stars/AgentGameLab/harness-evolve?style=flat-square)
+  - Self-evolving `SKILL.md` for any harness with a "config file + run logs" concept (Claude Code, OpenClaw, LangGraph, ...) — one run closes the loop: track frontier research → self-audit config → act
+  - Outward (scan ≤3-day research on agent harnesses / memory orchestration / multi-agent) + inward (find redundancy, conflicts, backlog, degradation) + action (ship the safe, propose the medium, log-only the risky)
+  - L1/L2/L3 risk tiers keep changes safe, verifiable, and reversible; high-risk (L3) edits are never auto-applied in the same run — the boundary is an in-flow hard gate, not an honor system
+  - Chinese-native skill
+
 ### Memory & Context Management
 
 - [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) ![Stars](https://img.shields.io/github/stars/caioribeiroclw-pixel/pluribus?style=flat-square)
@@ -1470,6 +1482,12 @@ Resources for mastering Claude skills and understanding best practices.
   - Writes a syllabus, then teaches one lesson at a time, adapting each next lesson to your inline written feedback
   - The opposite of "dump the full answer" — guides you to derive it yourself
   - Responds in Chinese; skill at `skills/bloom-tutor`
+
+- [AgentGameLab/learn-coach](https://github.com/AgentGameLab/learn-coach) ![Stars](https://img.shields.io/github/stars/AgentGameLab/learn-coach?style=flat-square)
+  - Upgrades "give the answer" into "teach to mastery" — fuses Feynman recall, Socratic questioning, scaffolding, and productive failure (guess-before-tell)
+  - One step per turn across a multi-round pipeline (probe → map → guess → minimal model → reinforce → teach-back → remove scaffold); built to fight the LLM's instinct to dump 800 words at once
+  - Escape hatch at highest priority: the moment the user says "just tell me," it drops the Socratic loop and answers directly (a Khanmigo-validated failure mode)
+  - Triggers on any "I want to understand/master X" intent in any domain, and skips lookup/firefighting questions; Chinese-native skill
 
 ### Comprehensive Guides
 
