@@ -1252,6 +1252,12 @@ Utilities and tools to enhance your Claude workflow.
   - Also indexes MCP servers and plugin marketplaces
   - `npx -y skillselion-mcp`; TypeScript
 
+- [getformo/cli](https://github.com/getformo/cli/tree/main/skills/formo-analytics) ![Stars](https://img.shields.io/github/stars/getformo/cli?style=flat-square)
+  - Official agent skill for [Formo](https://formo.so) product and onchain analytics
+  - Queries KPIs, SQL, funnels, retention, revenue, users, and wallet profiles
+  - Supports MCP, CLI, and REST workflows
+  - Read-only analytics operations with project-scoped authentication
+
 ### API & Integration Tools
 
 - [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) ![Stars](https://img.shields.io/github/stars/router-for-me/CLIProxyAPI?style=flat-square)
