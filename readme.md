@@ -1169,6 +1169,13 @@ Utilities and tools to enhance your Claude workflow.
   - One `skills/` tree works across Claude Code, Codex, and Copilot CLI; sync is via plain files/Git
   - MIT licensed; single self-hosted instance so far — documents the method, not adoption
 
+- [cremenescu/mem0ry4ai](https://github.com/cremenescu/mem0ry4ai) ![Stars](https://img.shields.io/github/stars/cremenescu/mem0ry4ai?style=flat-square)
+  - Local-first persistent memory whose source of truth is plain markdown files versioned by git — no cloud, no DB server, no telemetry, no API keys
+  - SessionStart hook injects the project-scoped slice of memory and SessionEnd captures new memories and commits them; also packaged as a Claude Code plugin
+  - Built-in stdio MCP server (8 tools, including full-text search over past session transcripts) works with Claude Code, Gemini CLI, Cursor, and OpenCode
+  - Hybrid SQLite FTS5 plus optional local Ollama embeddings fused with RRF, degrading to keyword search offline; secrets redacted on write and local-model proposals held in a human review queue
+  - Pure Python stdlib with no pip install or third-party deps; macOS, Linux, and Windows; bilingual EN/RO web UI; GPL-2.0-or-later
+
 ### MCP Servers & Integrations
 
 - [oraios/serena](https://github.com/oraios/serena) ![Stars](https://img.shields.io/github/stars/oraios/serena?style=flat-square)
