@@ -952,6 +952,23 @@ Specialized skills for specific industries and use cases.
   - Judgment-first: won't flatten prompts that need precise control
   - One SKILL.md, open Agent Skills standard; MIT
 
+- [b1rdmania/claude-plain-english-skill](https://github.com/b1rdmania/claude-plain-english-skill) ![Stars](https://img.shields.io/github/stars/b1rdmania/claude-plain-english-skill?style=flat-square)
+  - Strips AI writing tics and applies Orwell/Gowers plain-English rules
+  - Audit, rewrite, and in-place file-edit modes, plus a second self-check pass on its own rewrites
+  - Reference table of banned LLM vocabulary and constructions with before/after examples
+  - MIT licensed
+
+- [b1rdmania/claude-premortem-skill](https://github.com/b1rdmania/claude-premortem-skill) ![Stars](https://img.shields.io/github/stars/b1rdmania/claude-premortem-skill?style=flat-square)
+  - Klein-method premortem: assumes a plan has already failed and works backward to find why
+  - Spawns parallel sub-agents to generate independent failure narratives, then synthesizes them
+  - Outputs most-likely failure, most-dangerous failure, hidden assumptions, and a revised plan as a single HTML report
+  - MIT licensed
+
+- [b1rdmania/hinge-profile-optimizer](https://github.com/b1rdmania/hinge-profile-optimizer) ![Stars](https://img.shields.io/github/stars/b1rdmania/hinge-profile-optimizer?style=flat-square)
+  - Dating-profile optimization skill grounded in 45+ peer-reviewed sources on attraction and online-dating signaling
+  - Structured research-backed process for prompt selection, photo ordering, and bio writing
+  - MIT licensed
+
 
 ## Productivity Tools
 
