@@ -532,6 +532,12 @@ Orchestrate multiple Claude agents to work together on complex tasks.
   - Cron + heartbeat scheduling, shared task queue with human-escalation gates, Telegram control
   - Babysit and needs-you triage dashboard; self-hosted, MIT
 
+- [parweb/claude-swarm-starter](https://github.com/parweb/claude-swarm-starter) ![Stars](https://img.shields.io/github/stars/parweb/claude-swarm-starter?style=flat-square)
+  - Starter template for running an org of Claude Code agents that coordinate through plain files on disk
+  - No framework, no server, no message bus — just a file bus, shared state, and written rules
+  - Extracted from a real autonomous agent org that operates a small store, with a public decision log
+  - MIT
+
 ### Parallel Processing
 
 - [Dicklesworthstone/claude_code_agent_farm](https://github.com/Dicklesworthstone/claude_code_agent_farm) ![Stars](https://img.shields.io/github/stars/Dicklesworthstone/claude_code_agent_farm?style=flat-square)
