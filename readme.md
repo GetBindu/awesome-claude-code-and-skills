@@ -1078,6 +1078,21 @@ Utilities and tools to enhance your Claude workflow.
   - Includes an npm CLI plus copyable Context Receipts skill recipe and 60-second smoke checks
   - Focuses on audit evidence, not persistent memory or agent orchestration
 
+- [AgentGameLab/mneme](https://github.com/AgentGameLab/mneme) ![Stars](https://img.shields.io/github/stars/AgentGameLab/mneme?style=flat-square)
+  - Persistent long-term memory for Claude Code agents over MCP — SQLite + FTS5 + sqlite-vec with RRF hybrid recall
+  - Local-first with graceful degradation; includes Chinese (CJK) tokenization for mixed-language recall
+  - Store / recall / stats tools plus cross-session retention driven by access-count and recency
+
+- [AgentGameLab/OpenKOS](https://github.com/AgentGameLab/OpenKOS) ![Stars](https://img.shields.io/github/stars/AgentGameLab/OpenKOS?style=flat-square)
+  - Team memory OS for AI agents — stop your agents from hallucinating what the team already decided
+  - Typed writes with a semantic dedup gate and maturity grading; hybrid recall (FTS + vector + RRF)
+  - Exposes recall / feature / impact / stats over MCP; pairs with per-agent memory for shared team ground truth
+
+- [AgentGameLab/evolve](https://github.com/AgentGameLab/evolve) ![Stars](https://img.shields.io/github/stars/AgentGameLab/evolve?style=flat-square)
+  - Turns your AI agent into a capability amplifier — watches your real work and finds where you're actually stuck
+  - Traces each stuck point to the discipline that studied it for decades and feeds what it learns back into memory
+  - Pairs with AgentGameLab/mneme; works with Claude Code and agentic coding tools
+
 - [maxbaluev/accreted-intelligence](https://github.com/maxbaluev/accreted-intelligence) ![Stars](https://img.shields.io/github/stars/maxbaluev/accreted-intelligence?style=flat-square)
   - Local-first MCP work memory for Claude Code, Codex, Cursor, and OpenCode
   - Scored retrieval, commitment tracking, and outcome-based credit help coding agents reuse lessons across sessions
