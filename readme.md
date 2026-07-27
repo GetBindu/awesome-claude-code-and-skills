@@ -249,6 +249,11 @@ These repositories offer extensive collections of skills across multiple domains
   - Agent skills for Mailtrap email sending, sandbox testing, and contact management
   - Covers email sending, sandbox testing, templates, domain setup, and contacts
    -Follows the Agent Skills open standard (Anthropic, Dec 2025)
+- [SkillsIndex](https://skillsindex.dev)
+  - Searchable index of 1,272 Claude skills alongside 4,330 MCP servers, GPT actions, and IDE plugins
+  - Every entry scored 0-100, assembled from separate security, utility, and maintenance ratings
+  - Built for checking what a skill does and how it scores on security before installing it, with a published scoring method
+  - Agent-native lookups through its own MCP server, [skillsindex-mcp](https://github.com/thomasblc/skillsindex-mcp)
 
 ## Development & Engineering
 
