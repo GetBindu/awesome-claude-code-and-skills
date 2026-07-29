@@ -653,6 +653,7 @@ n- [GiulioDER/cca-audit](https://github.com/GiulioDER/cca-audit) ![Stars](https:
   - Uses `CLAUDE.md`, sub-agents, and rules for opinionated workflows
   - Python-driven
 
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source (GPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes, with proof of exploitation.
 - [LoRexxar/Kunlun-M](https://github.com/LoRexxar/Kunlun-M) ![Stars](https://img.shields.io/github/stars/LoRexxar/Kunlun-M?style=flat-square)
   - Fully open-source static white-box scanner for PHP and JavaScript
   - Semantic scanning combined with AI Agent integration (OpenClaw and Claude Code)
