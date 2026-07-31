@@ -114,6 +114,10 @@ These repositories offer extensive collections of skills across multiple domains
   - Includes adjacent Codex, Hermes, and OpenClaw hubs for cross-agent comparison
   - Useful when you want a Claude-specific entry point without losing the broader ecosystem view
 
+- [SkillSignal](https://skillsignal.cc/)
+  - Free, source-traceable directory for Agent Skills across Codex, Claude Code, Cursor, and Gemini CLI
+  - Links exact upstream files and pinned commits, with maintenance, compatibility, documentation quality, and static risk indicators
+
 - [CreatorSkills](https://creatorskills.co)
   - Curated marketplace of 30+ downloadable AI skills for content creators
   - Covers YouTube scripting, sponsorship analysis, content repurposing, and audience growth
