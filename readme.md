@@ -794,6 +794,7 @@ Skills for marketing professionals, content creators, and growth teams.
 - [Uhudsavasindankacanokcu2/finance-skills-for-claude](https://github.com/Uhudsavasindankacanokcu2/finance-skills-for-claude) ![Stars](https://img.shields.io/github/stars/Uhudsavasindankacanokcu2/finance-skills-for-claude?style=flat-square) - Cash flow, runway, invoices, budgets & scenario modeling for founders/finance teams
 - [Uhudsavasindankacanokcu2/legal-skills-for-claude](https://github.com/Uhudsavasindankacanokcu2/legal-skills-for-claude) ![Stars](https://img.shields.io/github/stars/Uhudsavasindankacanokcu2/legal-skills-for-claude?style=flat-square) - Contract review, summarization, drafting & negotiation redlines in plain English
 - [Uhudsavasindankacanokcu2/recruiting-skills-for-claude](https://github.com/Uhudsavasindankacanokcu2/recruiting-skills-for-claude) ![Stars](https://img.shields.io/github/stars/Uhudsavasindankacanokcu2/recruiting-skills-for-claude?style=flat-square) - Job descriptions, bias-aware resume screening & structured interview kits
+- [troulin-a11y/beachfinder-skills](https://github.com/troulin-a11y/beachfinder-skills) ![Stars](https://img.shields.io/github/stars/troulin-a11y/beachfinder-skills?style=flat-square) - Find and compare 184,900 swimming spots on [getbeachfinder.com](https://getbeachfinder.com) (beaches, lakes, bathing places) with live water temperature, wind, UV and wave signals, guides and source-backed local providers, via the public BeachFinder MCP server
 
 
 Specialized skills for specific industries and use cases.
