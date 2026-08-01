@@ -1431,6 +1431,12 @@ Utilities and tools to enhance your Claude workflow.
   - `/new-project` scaffolding and `/adopt-project` for existing repos
   - AI-tuned lint rules, hooks reference, and a per-project self-improvement loop
 
+- [Palo-Alto-AI-Research-Lab/claude-bible](https://github.com/Palo-Alto-AI-Research-Lab/claude-bible) ![Stars](https://img.shields.io/github/stars/Palo-Alto-AI-Research-Lab/claude-bible?style=flat-square)
+  - One rule per file with typed frontmatter; newer rule beats older on the same topic
+  - Routing tree decides where a rule belongs: rulebook, CLAUDE.md, memory, or a hook
+  - Always-loaded index carries trigger and pointer only; the rule body loads on demand
+  - Declined-decisions journal, so rejected ideas stop resurfacing a week later
+
 ### Cost Optimization
 
 - [Sagargupta16/claude-cost-optimizer](https://github.com/Sagargupta16/claude-cost-optimizer) ![Stars](https://img.shields.io/github/stars/Sagargupta16/claude-cost-optimizer?style=flat-square)
