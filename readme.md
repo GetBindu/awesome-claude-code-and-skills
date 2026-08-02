@@ -378,6 +378,10 @@ Skills focused on software development, code quality, and engineering workflows.
   - Covers API integration, model routing and fallback planning, and media generation workflows
   - SKILL.md-based, MIT licensed, and compatible with Claude Code, Codex, OpenClaw, and other agent skill consumers
 
+- [poloplay0114/hard-won-claude-skills](https://github.com/poloplay0114/hard-won-claude-skills) ![Stars](https://img.shields.io/github/stars/poloplay0114/hard-won-claude-skills?style=flat-square)
+  - Eight engineering-discipline skills, bilingual EN / zh-TW
+  - Every rule traces to a documented incident, with case files per skill
+
 
 ### Specialized Agents
 
