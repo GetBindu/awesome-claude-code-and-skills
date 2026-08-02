@@ -1458,6 +1458,7 @@ Utilities and tools to enhance your Claude workflow.
   - MIT-0 licensed; installs into Claude Code, Cursor, Codex, and 50+ runtimes
 
 ---
+- [WeekLife](https://letmethink.cc/app/weeklife/) - A lightweight life check-in tool for reclaiming everyday life beyond work.
 
 ## Learning & Documentation
 
