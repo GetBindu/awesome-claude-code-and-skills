@@ -1471,6 +1471,12 @@ Resources for mastering Claude skills and understanding best practices.
   - The opposite of "dump the full answer" — guides you to derive it yourself
   - Responds in Chinese; skill at `skills/bloom-tutor`
 
+- [delpicorp/dev-report](https://github.com/delpicorp/dev-report) ![Stars](https://img.shields.io/github/stars/delpicorp/dev-report?style=flat-square)
+  - Explains a Claude Code session in plain language after the work is done
+  - Reports what changed, why that approach was chosen, what is still unfinished or unverified, and what to do next
+  - Every technical term is explained at first use, and the option that was rejected is a required section
+  - Reports come out in the language the command was typed in; Korean, Japanese, and Spanish aliases ship with it
+
 ### Comprehensive Guides
 
 - [FlorianBruniaux/claude-code-ultimate-guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) ![Stars](https://img.shields.io/github/stars/FlorianBruniaux/claude-code-ultimate-guide?style=flat-square)
