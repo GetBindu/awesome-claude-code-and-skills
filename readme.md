@@ -532,6 +532,10 @@ Orchestrate multiple Claude agents to work together on complex tasks.
   - Cron + heartbeat scheduling, shared task queue with human-escalation gates, Telegram control
   - Babysit and needs-you triage dashboard; self-hosted, MIT
 
+- [beastlabai/multi-llm-plugin](https://github.com/beastlabai/multi-llm-plugin) ![Stars](https://img.shields.io/github/stars/beastlabai/multi-llm-plugin?style=flat-square)
+  - Multi-LLM orchestration plugin for Claude Code
+  - Parallel plan review, task generation, implementation, and code review across 12 coding harnesses (Codex, Cursor, opencode, pi, aider, Antigravity…)
+
 ### Parallel Processing
 
 - [Dicklesworthstone/claude_code_agent_farm](https://github.com/Dicklesworthstone/claude_code_agent_farm) ![Stars](https://img.shields.io/github/stars/Dicklesworthstone/claude_code_agent_farm?style=flat-square)
