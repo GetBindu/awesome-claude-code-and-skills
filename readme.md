@@ -104,6 +104,11 @@ These repositories offer extensive collections of skills across multiple domains
   - Compliance and C-level advisory capabilities
   - Compatible with 11 different tools
 
+- [JasonColapietro/suede-creator-skills](https://github.com/JasonColapietro/suede-creator-skills) ![Stars](https://img.shields.io/github/stars/JasonColapietro/suede-creator-skills?style=flat-square)
+  - 67 MIT-licensed skills for Claude Code and Codex
+  - Covers code review and ship grading, design, marketing, agent workflows, and mobile release preparation
+  - Installable through the Claude and Codex plugin marketplaces or the skills CLI
+
 - [Claude Code Skills 中文精选集](https://claude-skills.bt199.com/)
   - Chinese directory for Claude Code Skills, agents, and plugins
   - 140+ curated resources for Chinese-speaking developers
@@ -354,6 +359,12 @@ Skills focused on software development, code quality, and engineering workflows.
   - Compatible with Claude Code, Hermes Agent, OpenClaw, Kilocode, Copilot, and Mastra
   - Python-backed and MIT licensed
 
+- [bo-cao/breaking-coding-chaos](https://github.com/bo-cao/breaking-coding-chaos) ![Stars](https://img.shields.io/github/stars/bo-cao/breaking-coding-chaos?style=flat-square)
+  - Human-in-the-loop dual-loop control-plane skill suite for coding agents
+  - throughline (progress cockpit) → plan-spar (align+lock PLAN) → clean-cut (minimal implement + verify)
+  - Standard Agent Skills layout; works with Claude Code, Codex, Cursor, Grok, OpenCode, Hermes, OpenClaw
+  - MIT licensed
+
 - [mturac/pluginpool](https://github.com/mturac/pluginpool) ![Stars](https://img.shields.io/github/stars/mturac/pluginpool?style=flat-square)
   - Ten focused Claude Code plugins for everyday developer productivity
   - Includes **commit-narrator**, **pr-storyteller**, **test-gap**, **deps-doctor**, **env-lint**, **secret-guard**, **standup-gen**, **todo-harvest**, **flaky-detector**, **changelog-forge**
@@ -455,6 +466,11 @@ Orchestrate multiple Claude agents to work together on complex tasks.
 
 ### Orchestration Platforms
 
+- [supernovae-st/nika](https://github.com/supernovae-st/nika) ![Stars](https://img.shields.io/github/stars/supernovae-st/nika?style=flat-square)
+  - Workflow engine for AI: Claude Code captures repeatable work as `.nika.yaml` DAG files
+  - Statically checked before execution (schema, permits, cost floor), tamper-evident traces after
+  - Ships a Claude Code plugin (authoring skill + read-only MCP oracle)
+
 - [gyujeongion/claude-code-council](https://github.com/gyujeongion/claude-code-council) ![Stars](https://img.shields.io/github/stars/gyujeongion/claude-code-council?style=flat-square)
   - Claude chairs a panel of Gemini + GPT for a second opinion
   - Runs through your logged-in CLIs, so no API keys
@@ -537,6 +553,10 @@ Orchestrate multiple Claude agents to work together on complex tasks.
   - Fork and delegate work across providers with persistent session state
   - Detached runners and restart recovery keep long-running work inspectable
   - Source-available for non-commercial use; commercial use requires permission
+
+- [beastlabai/multi-llm-plugin](https://github.com/beastlabai/multi-llm-plugin) ![Stars](https://img.shields.io/github/stars/beastlabai/multi-llm-plugin?style=flat-square)
+  - Multi-LLM orchestration plugin for Claude Code
+  - Parallel plan review, task generation, implementation, and code review across 12 coding harnesses (Codex, Cursor, opencode, pi, aider, Antigravity…)
 
 ### Parallel Processing
 
@@ -664,6 +684,12 @@ n- [GiulioDER/cca-audit](https://github.com/GiulioDER/cca-audit) ![Stars](https:
   - Semantic scanning combined with AI Agent integration (OpenClaw and Claude Code)
   - Python-driven; useful for application-security teams
 
+- [SpicyNoodles3/claude-code-file-guard](https://github.com/SpicyNoodles3/claude-code-file-guard) ![Stars](https://img.shields.io/github/stars/SpicyNoodles3/claude-code-file-guard?style=flat-square)
+  - PreToolUse hook that blocks the agent from writing to files you declare protected
+  - Covers Edit/Write/NotebookEdit, any tool carrying a file_path, plus a Bash write-heuristic and a destructive-git blocklist
+  - One auditable bash script, jq-only, fail-closed; README is explicit about what it cannot stop
+  - Tested on ubuntu and macos (39-case harness + shellcheck)
+
 ### Compliance & Auditing
 
 - [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills) ![Stars](https://img.shields.io/github/stars/BehiSecc/awesome-claude-skills?style=flat-square)
@@ -789,12 +815,20 @@ Skills for marketing professionals, content creators, and growth teams.
   - Every send, reply, bounce, and stage change lands on your machine
   - Install: `npx skills add outreachmagic/outreachmagic`
 
+- [sergebulaev/facebook-skills](https://github.com/sergebulaev/facebook-skills) ![Stars](https://img.shields.io/github/stars/sergebulaev/facebook-skills?style=flat-square)
+  - 8 Claude Code and Codex skills for Facebook Pages
+  - High-share posts, hook extractor, humanizer, engagement drafter, and content planner
+  - Note: publishing depends on the commercial Publora API
+  - MIT licensed
+  - Install: `/plugin marketplace add sergebulaev/facebook-skills`
+
 - [fjilvi-afk/growthlens](https://github.com/fjilvi-afk/growthlens) ![Stars](https://img.shields.io/github/stars/fjilvi-afk/growthlens?style=flat-square)
   - 12 business-analysis skills for marketers, growth & business analysts (not just coders)
   - Competitor teardown, funnel audit, pricing analysis, offer/value ladder, ICP segmentation, SEO content-gap
   - Installable as a Claude Code plugin (`/plugin marketplace add fjilvi-afk/growthlens`); MIT
 ---
 
+- [linkedin-skills](https://github.com/Linked-API/linkedin-skills/tree/main/linkedin) - Fetch LinkedIn profiles, search people and companies, send messages, manage connections, create posts, react, comment, and run custom LinkedIn workflows from Claude Code, Codex, Cursor, and Windsurf.
 ## Domain-Specific Skills
 
 - [Uhudsavasindankacanokcu2/finance-skills-for-claude](https://github.com/Uhudsavasindankacanokcu2/finance-skills-for-claude) ![Stars](https://img.shields.io/github/stars/Uhudsavasindankacanokcu2/finance-skills-for-claude?style=flat-square) - Cash flow, runway, invoices, budgets & scenario modeling for founders/finance teams
@@ -803,6 +837,12 @@ Skills for marketing professionals, content creators, and growth teams.
 
 
 Specialized skills for specific industries and use cases.
+
+- [dhosruiasn/accessible-dark-mode-design-expert](https://github.com/dhosruiasn/accessible-dark-mode-design-expert) ![Stars](https://img.shields.io/github/stars/dhosruiasn/accessible-dark-mode-design-expert?style=flat-square)
+  - Accessible light/dark theme design, implementation, review, and audit skill for Claude Code and OpenAI Codex
+  - Covers user preference precedence, semantic design tokens, WCAG text and non-text contrast, theme-aware assets, Material and Apple conventions, and reduced-motion-safe transitions
+  - Ships a deterministic contrast calculator, safe cross-runtime installation sync, automated tests, and bilingual Traditional Chinese/English documentation
+  - MIT licensed; invoked as `/accessible-dark-mode-design-expert`
 
 - [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) ![Stars](https://img.shields.io/github/stars/Donchitos/Claude-Code-Game-Studios?style=flat-square)
   - Turn Claude Code into a full game development studio
@@ -958,6 +998,28 @@ Specialized skills for specific industries and use cases.
   - Judgment-first: won't flatten prompts that need precise control
   - One SKILL.md, open Agent Skills standard; MIT
 
+- [b1rdmania/claude-plain-english-skill](https://github.com/b1rdmania/claude-plain-english-skill) ![Stars](https://img.shields.io/github/stars/b1rdmania/claude-plain-english-skill?style=flat-square)
+  - Strips AI writing tics and applies Orwell/Gowers plain-English rules
+  - Audit, rewrite, and in-place file-edit modes, plus a second self-check pass on its own rewrites
+  - Reference table of banned LLM vocabulary and constructions with before/after examples
+  - No license file in repo
+
+- [b1rdmania/claude-premortem-skill](https://github.com/b1rdmania/claude-premortem-skill) ![Stars](https://img.shields.io/github/stars/b1rdmania/claude-premortem-skill?style=flat-square)
+  - Klein-method premortem: assumes a plan has already failed and works backward to find why
+  - Spawns parallel sub-agents to generate independent failure narratives, then synthesizes them
+  - Outputs most-likely failure, most-dangerous failure, hidden assumptions, and a revised plan as a single HTML report
+  - No license file in repo
+
+- [b1rdmania/hinge-profile-optimizer](https://github.com/b1rdmania/hinge-profile-optimizer) ![Stars](https://img.shields.io/github/stars/b1rdmania/hinge-profile-optimizer?style=flat-square)
+  - Dating-profile optimization skill grounded in 45+ peer-reviewed sources on attraction and online-dating signaling
+  - Structured research-backed process for prompt selection, photo ordering, and bio writing
+  - MIT licensed
+
+- [fcavalcantirj/claude-code-eyes](https://github.com/fcavalcantirj/claude-code-eyes) ![Stars](https://img.shields.io/github/stars/fcavalcantirj/claude-code-eyes?style=flat-square)
+  - Give Claude Code eyes — look at real hardware, displays, LCDs and wiring through a camera (Android IP Webcam, Pi cam, or any snapshot URL)
+  - Visual-verify a rendered panel and catch bugs that live on the glass, not in the logs; check wiring before power-on
+  - ~100 lines of bash + a SKILL.md, MIT, one-command setup
+
 
 ## Productivity Tools
 
@@ -1006,9 +1068,9 @@ Utilities and tools to enhance your Claude workflow.
   - Global Mix across active sessions, blocker alerts, and BYOK Gemini/OpenAI narration
 
 - [tristan666666/agent-island](https://github.com/tristan666666/agent-island) ![Stars](https://img.shields.io/github/stars/tristan666666/agent-island?style=flat-square)
-  - Native macOS notch companion for Claude Code and Codex long runs
-  - Shows live session state and usage locally
-  - Optional auto-resume for trusted sessions after reset windows
+  - Open-source status companion for Claude Code and Codex on macOS and Windows
+  - Shows live session state and your-turn alerts
+  - Keeps monitoring local with no Agent Island account or product telemetry
 
 - [automazeio/vibeproxy](https://github.com/automazeio/vibeproxy) ![Stars](https://img.shields.io/github/stars/automazeio/vibeproxy?style=flat-square)
   - Native macOS menu-bar app to use Claude Code and ChatGPT subscriptions with AI coding tools
@@ -1044,6 +1106,12 @@ Utilities and tools to enhance your Claude workflow.
   - Switches lean profiles such as core, research, frontend, and CTF with backup and restore support
   - Supports Claude Code, Codex, OpenCode, and generic local skill roots with JSON automation output
 
+- [Battlelamb/claude-code-conversation-titler](https://github.com/Battlelamb/claude-code-conversation-titler) ![Stars](https://img.shields.io/github/stars/Battlelamb/claude-code-conversation-titler?style=flat-square)
+  - Interactive skill that titles, names, and labels the current conversation
+  - Multilingual: user language, English, or Chinese
+  - 13+ title formats plus a recommended pick, description, and tags
+  - Suggestion-only; installable as a Claude Code plugin or standalone skill
+
 - [notlikeDev/CCPlugins](https://github.com/notlikeDev/CCPlugins) ![Stars](https://img.shields.io/github/stars/notlikeDev/CCPlugins?style=flat-square)
   - Claude Code framework focused on saving time on routine prompts
   - Built for developers tired of writing "please act like a senior engineer" every session
@@ -1075,8 +1143,19 @@ Utilities and tools to enhance your Claude workflow.
   - Reads real session transcripts to find skills, MCP servers, and agents that were loaded into context but never fired, then safely quarantines them
   - Supports Claude Code, Codex CLI, Hermes, OpenCode, Cursor, and OpenClaw; zero telemetry, single static Go binary
   - Scan / report / prune workflow keeps removals reversible; installable via Homebrew and npm (MIT)
+- [KernelLord/pickysteve](https://github.com/KernelLord/pickysteve) ![Stars](https://img.shields.io/github/stars/KernelLord/pickysteve?style=flat-square)
+  - Local-first skill router: a cheap local model (default Ollama qwen3:8b) routes each prompt to the right skill via hybrid BM25 + embedding retrieval (RRF-fused), cross-encoder rerank, and an LLM judge, then assembles a minimal context bundle for the execution model
+  - Built-in ONNX prompt-injection gate scans both the raw request and every retrieved document, fail-closed — 100% detection / 0 bypasses on a 180-payload red-team corpus, 0/43 false positives on the real registry
+  - MCP stdio server plus an OpenAI-compatible proxy (`:8077/v1`); one-command installer wires 18 coding agents including Claude Code, Codex, Cursor, and Windsurf
+  - MIT licensed, Python 3.11; early-stage (v0.1.0, released 2026-07-06)
 
 ### Memory & Context Management
+
+- [hjqcan/GoodMemory](https://github.com/hjqcan/GoodMemory) ![Stars](https://img.shields.io/github/stars/hjqcan/GoodMemory?style=flat-square)
+  - Local-first, auditable memory layer for Claude Code, Codex, and MCP clients
+  - One-command `goodmemory setup` installs managed hooks for scoped recall; governed writeback is opt-in, reviewable, and reversible
+  - Uses durable SQLite by default, with Postgres support and read-only MCP inspection plus forget/export controls
+  - Also exposes TypeScript, HTTP, and Python integration surfaces for product agents
 
 - [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) ![Stars](https://img.shields.io/github/stars/caioribeiroclw-pixel/pluribus?style=flat-square)
   - Privacy-safe context receipts for Claude Code, Cursor, Codex, OpenClaw, and MCP/skill workflows
@@ -1094,6 +1173,12 @@ Utilities and tools to enhance your Claude workflow.
   - Works across Claude Code, Codex, Cursor, Hermes, OpenClaw, MCP clients, and machines
   - Sync is via plain files/Git; includes a local MCP stdio server
   - Early `v0.1.0` prerelease
+
+- [TerminallyLazy/Tree-Ring-Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) ![Stars](https://img.shields.io/github/stars/TerminallyLazy/Tree-Ring-Memory?style=flat-square)
+  - Local-first memory lifecycle framework for AI agents and coding assistants
+  - Rust CLI with SQLite/FTS recall, consolidation, audit, redaction, and deletion workflows
+  - Portable skill packages let Claude Code, Codex, and other SKILL.md-capable agents use the same memory guidance
+  - Ships docs, tests, installer scripts, and terminal UX assets for production agent memory workflows
 
 - [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) ![Stars](https://img.shields.io/github/stars/thedotmack/claude-mem?style=flat-square)
   - Automatic session capture and AI compression
@@ -1114,6 +1199,12 @@ Utilities and tools to enhance your Claude workflow.
   - One graph holds application code, database schema, and infrastructure side by side
   - Uses tree-sitter parsing and Leiden community detection for GraphRAG
   - Works with Claude Code, Codex, OpenCode, Cursor, and Gemini CLI
+
+- [0xsarwagya/ontoly](https://github.com/0xsarwagya/ontoly) ![Stars](https://img.shields.io/github/stars/0xsarwagya/ontoly?style=flat-square)
+  - Deterministic Software Graph for TypeScript repositories
+  - Agent Skills and MCP capabilities for architecture summaries, route tracing, dependency analysis, configuration usage, and impact analysis
+  - Graph-first workflow: query Ontoly evidence before broad source search
+  - Works with Claude Code, Codex, and other SKILL.md-compatible coding agents
 
 - [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) ![Stars](https://img.shields.io/github/stars/tirth8205/code-review-graph?style=flat-square)
   - Builds a persistent, incremental knowledge graph of your codebase for Claude Code
@@ -1174,6 +1265,13 @@ Utilities and tools to enhance your Claude workflow.
   - It begins each session knowing your repos, clients, and task conventions instead of restarting from zero
   - One `skills/` tree works across Claude Code, Codex, and Copilot CLI; sync is via plain files/Git
   - MIT licensed; single self-hosted instance so far — documents the method, not adoption
+
+- [cremenescu/mem0ry4ai](https://github.com/cremenescu/mem0ry4ai) ![Stars](https://img.shields.io/github/stars/cremenescu/mem0ry4ai?style=flat-square)
+  - Local-first persistent memory whose source of truth is plain markdown files versioned by git — no cloud, no DB server, no telemetry, no API keys
+  - SessionStart hook injects the project-scoped slice of memory and SessionEnd captures new memories and commits them; also packaged as a Claude Code plugin
+  - Built-in stdio MCP server (8 tools, including full-text search over past session transcripts) works with Claude Code, Gemini CLI, Cursor, and OpenCode
+  - Hybrid SQLite FTS5 plus optional local Ollama embeddings fused with RRF, degrading to keyword search offline; secrets redacted on write and local-model proposals held in a human review queue
+  - Pure Python stdlib with no pip install or third-party deps; macOS, Linux, and Windows; bilingual EN/RO web UI; GPL-2.0-or-later
 
 ### MCP Servers & Integrations
 
@@ -1258,6 +1356,12 @@ Utilities and tools to enhance your Claude workflow.
   - Also indexes MCP servers and plugin marketplaces
   - `npx -y skillselion-mcp`; TypeScript
 
+- [getformo/cli](https://github.com/getformo/cli/tree/main/skills/formo-analytics) ![Stars](https://img.shields.io/github/stars/getformo/cli?style=flat-square)
+  - Official agent skill for [Formo](https://formo.so) product and onchain analytics
+  - Queries KPIs, SQL, funnels, retention, revenue, users, and wallet profiles
+  - Supports MCP, CLI, and REST workflows
+  - Read-only analytics operations with project-scoped authentication
+
 ### API & Integration Tools
 
 - [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) ![Stars](https://img.shields.io/github/stars/router-for-me/CLIProxyAPI?style=flat-square)
@@ -1265,6 +1369,12 @@ Utilities and tools to enhance your Claude workflow.
   - Support for Gemini CLI, Claude Code, ChatGPT Codex, Qwen Code
   - Access free models through standardized API interface
   - Built with Go for performance
+
+- [madhavajay/alex](https://github.com/madhavajay/alex) ![Stars](https://img.shields.io/github/stars/madhavajay/alex?style=flat-square)
+  - Local Rust LLM proxy with an optional UI for Claude Code and other coding agents
+  - Routes provider subscriptions and API keys through compatible endpoints
+  - Captures requests, costs, sessions, and supported tool execution locally
+  - Adds scriptable middleware, subscription bonding, failover, and messenger-assisted re-authentication
 
 - [1rgs/claude-code-proxy](https://github.com/1rgs/claude-code-proxy) ![Stars](https://img.shields.io/github/stars/1rgs/claude-code-proxy?style=flat-square)
   - Run Claude Code on OpenAI and Gemini models
@@ -1419,6 +1529,11 @@ Utilities and tools to enhance your Claude workflow.
   - Minimal plugin that lets Claude Code call you on the phone
   - TypeScript-based
   - Useful for long-running autonomous runs
+
+- [eltonylfgi-blip/claude-session-triage](https://github.com/eltonylfgi-blip/claude-session-triage) ![Stars](https://img.shields.io/github/stars/eltonylfgi-blip/claude-session-triage?style=flat-square)
+  - Local-first CLI and Claude Code plugin that finds idle sessions and surfaces what each was waiting on
+  - Ranks pending decisions ahead of active work and scheduled routines; reads local JSONL with no network calls
+  - Zero dependencies, MIT licensed, with a 10-check synthetic self-test
 
 ### Configuration & Templates
 
