@@ -249,11 +249,10 @@ These repositories offer extensive collections of skills across multiple domains
   - lookdev / lookdev-auto (tune AI output by eye or via a vision model), deterministic-design, ckw-design
   - screenstudio-alt and macOS system-audio screen recorder, web-media-getter
   - Install: `/plugin marketplace add connerkward/ckw-skills`
-- [mailtrap/mailtrap-skills](https://github.com/mailtrap/mailtrap-skills) [![Stars](https://img.shields.io/github/stars/mailtrap/mailtrap-skills?style=flat-square)](https://github.com/mailtrap/mailtrap-skills)
-
+- [mailtrap/mailtrap-skills](https://github.com/mailtrap/mailtrap-skills) ![Stars](https://img.shields.io/github/stars/mailtrap/mailtrap-skills?style=flat-square)
   - Agent skills for Mailtrap email sending, sandbox testing, and contact management
   - Covers email sending, sandbox testing, templates, domain setup, and contacts
-   -Follows the Agent Skills open standard (Anthropic, Dec 2025)
+  - Follows the Agent Skills open standard (Anthropic, Dec 2025)
 
 ## Development & Engineering
 
@@ -826,9 +825,13 @@ Skills for marketing professionals, content creators, and growth teams.
   - 12 business-analysis skills for marketers, growth & business analysts (not just coders)
   - Competitor teardown, funnel audit, pricing analysis, offer/value ladder, ICP segmentation, SEO content-gap
   - Installable as a Claude Code plugin (`/plugin marketplace add fjilvi-afk/growthlens`); MIT
+
+- [Linked-API/linkedin-skills](https://github.com/Linked-API/linkedin-skills/tree/main/linkedin) ![Stars](https://img.shields.io/github/stars/Linked-API/linkedin-skills?style=flat-square)
+  - Fetch LinkedIn profiles, search people and companies, send messages, manage connections, create posts, react, and comment
+  - Custom LinkedIn workflows from Claude Code, Codex, Cursor, and Windsurf
+
 ---
 
-- [linkedin-skills](https://github.com/Linked-API/linkedin-skills/tree/main/linkedin) - Fetch LinkedIn profiles, search people and companies, send messages, manage connections, create posts, react, comment, and run custom LinkedIn workflows from Claude Code, Codex, Cursor, and Windsurf.
 ## Domain-Specific Skills
 
 - [Uhudsavasindankacanokcu2/finance-skills-for-claude](https://github.com/Uhudsavasindankacanokcu2/finance-skills-for-claude) ![Stars](https://img.shields.io/github/stars/Uhudsavasindankacanokcu2/finance-skills-for-claude?style=flat-square) - Cash flow, runway, invoices, budgets & scenario modeling for founders/finance teams
