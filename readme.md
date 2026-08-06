@@ -351,13 +351,6 @@ Skills focused on software development, code quality, and engineering workflows.
   - 12 validator sub-agents enforce specificity; atomic cycle commit; project-stage-calibrated ceremony
   - Stack-neutral structure with TypeScript/Postgres/Zod/React defaults and a porting guide for Django/Rails/Go/Next.js
 
-- [voidborne-d/sober-coding](https://github.com/voidborne-d/sober-coding) ![Stars](https://img.shields.io/github/stars/voidborne-d/sober-coding?style=flat-square)
-  - Post-generation quality analyzer for AI-written code — 27 rules across 7 dimensions (dead code, duplication, architecture, error handling, dependencies, security, testing)
-  - Targets AI-native smells that ESLint/SonarQube miss: over-generation leftovers, structural clones, empty except blocks, god files, unused deps
-  - `sober scan .` prints a 0–100 sobriety score with severity-bucketed findings; `sober fix <rule-id>` returns actionable fix instructions per rule
-  - Language-agnostic and zero-config; CI mode returns non-zero on threshold breaches
-  - Ships Claude Code slash commands so reviews run as a /command inside the editor
-
 - [mturac/recsys-pipeline-architect](https://github.com/mturac/recsys-pipeline-architect) ![Stars](https://img.shields.io/github/stars/mturac/recsys-pipeline-architect?style=flat-square)
   - Designs composable recommendation, ranking, and feed pipelines using the six-stage **Source → Hydrator → Filter → Scorer → Selector → SideEffect** framework
   - Pattern popularized by xAI's open-sourced [X For You algorithm](https://github.com/xai-org/x-algorithm) — independent MIT reimplementation
