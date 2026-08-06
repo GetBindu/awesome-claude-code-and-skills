@@ -1750,5 +1750,3 @@ We welcome contributions! To add a skill or tool to this list:
 CC0 - Public Domain
 
 This curated list is maintained by the community for the community.
-
-- [Septim Agents Pack](https://septimlabs.com/agents?utm_source=awesome-list&utm_campaign=getbindu) - 15 named Claude Code sub-agents (Atlas, Luca, Canon, Ember, Tally, Nova, Ward, Mira, Juno, Pip, Hart, Halo, Beacon, Loom, Lynx) covering the full exec layer. Drops into `~/.claude/agents/`. Open-source sample at [github.com/septimlabs-code/septim-agents-pack-sample](https://github.com/septimlabs-code/septim-agents-pack-sample). $49 lifetime.
