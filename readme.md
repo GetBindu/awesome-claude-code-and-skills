@@ -963,6 +963,11 @@ Specialized skills for specific industries and use cases.
   - Judgment-first: won't flatten prompts that need precise control
   - One SKILL.md, open Agent Skills standard; MIT
 
+- [fcavalcantirj/claude-code-eyes](https://github.com/fcavalcantirj/claude-code-eyes) ![Stars](https://img.shields.io/github/stars/fcavalcantirj/claude-code-eyes?style=flat-square)
+  - Give Claude Code eyes — look at real hardware, displays, LCDs and wiring through a camera (Android IP Webcam, Pi cam, or any snapshot URL)
+  - Visual-verify a rendered panel and catch bugs that live on the glass, not in the logs; check wiring before power-on
+  - ~100 lines of bash + a SKILL.md, MIT, one-command setup
+
 
 ## Productivity Tools
 
