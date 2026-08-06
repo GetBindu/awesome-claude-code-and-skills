@@ -1103,6 +1103,12 @@ Utilities and tools to enhance your Claude workflow.
 
 ### Memory & Context Management
 
+- [hjqcan/GoodMemory](https://github.com/hjqcan/GoodMemory) ![Stars](https://img.shields.io/github/stars/hjqcan/GoodMemory?style=flat-square)
+  - Local-first, auditable memory layer for Claude Code, Codex, and MCP clients
+  - One-command `goodmemory setup` installs managed hooks for scoped recall; governed writeback is opt-in, reviewable, and reversible
+  - Uses durable SQLite by default, with Postgres support and read-only MCP inspection plus forget/export controls
+  - Also exposes TypeScript, HTTP, and Python integration surfaces for product agents
+
 - [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) ![Stars](https://img.shields.io/github/stars/caioribeiroclw-pixel/pluribus?style=flat-square)
   - Privacy-safe context receipts for Claude Code, Cursor, Codex, OpenClaw, and MCP/skill workflows
   - Proves what context crossed agent boundaries without copying private prompts or tool outputs
