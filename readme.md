@@ -147,7 +147,7 @@ These repositories offer extensive collections of skills across multiple domains
   - Contributions from Sentry, Trail of Bits, Expo, DuckDB, Figma, Google
   - Community-driven with regular updates
 
-- [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) ![Stars](https://img.shields.io/github/stars/sickn33/antigravity-awesome-skills?style=flat-square)
+- [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) ![Stars](https://img.shields.io/github/stars/sickn33/agentic-awesome-skills?style=flat-square)
   - 1,326+ installable agentic skills
   - CLI installer for easy setup
   - Bundled workflows for common tasks
@@ -332,7 +332,7 @@ Skills focused on software development, code quality, and engineering workflows.
   - `/retro` clusters patterns across sessions and opens patch PRs with per-patch human gates
   - MIT, runs locally, no service. Single-plugin marketplace at `ggrigo/align`; installs via `/plugin marketplace add ggrigo/align`
 
-- [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) ![Stars](https://img.shields.io/github/stars/affaan-m/everything-claude-code?style=flat-square)
+- [affaan-m/ECC](https://github.com/affaan-m/ECC) ![Stars](https://img.shields.io/github/stars/affaan-m/ECC?style=flat-square)
   - Agent harness performance optimization
   - Research-first development approach
   - Memory management and security patterns
@@ -536,7 +536,7 @@ Orchestrate multiple Claude agents to work together on complex tasks.
   - Statically checked before execution (schema, permits, cost floor), tamper-evident traces after
   - Ships a Claude Code plugin (authoring skill + read-only MCP oracle)
 
-- [gyujeongion/claude-code-council](https://github.com/gyujeongion/claude-code-council) ![Stars](https://img.shields.io/github/stars/gyujeongion/claude-code-council?style=flat-square)
+- [gyujeongion/llm-council-no-api](https://github.com/gyujeongion/llm-council-no-api) ![Stars](https://img.shields.io/github/stars/gyujeongion/llm-council-no-api?style=flat-square)
   - Claude chairs a panel of Gemini + GPT for a second opinion
   - Runs through your logged-in CLIs, so no API keys
 
@@ -544,13 +544,13 @@ Orchestrate multiple Claude agents to work together on complex tasks.
   - Autonomous goal loop with a verification gate each iteration
   - Rollback snapshots and stall detection
 
-- [steveyegge/gastown](https://github.com/steveyegge/gastown) ![Stars](https://img.shields.io/github/stars/steveyegge/gastown?style=flat-square)
+- [gastownhall/gastown](https://github.com/gastownhall/gastown) ![Stars](https://img.shields.io/github/stars/gastownhall/gastown?style=flat-square)
   - Multi-agent workspace manager
   - Persistent agent identity across sessions
   - Convoy system for coordinated tasks
   - Git-backed state tracking
 
-- [agentlas-ai/Hephaestus](https://github.com/agentlas-ai/Hephaestus) ![Stars](https://img.shields.io/github/stars/agentlas-ai/Hephaestus?style=flat-square)
+- [agentlas-ai/Agentlas-OS](https://github.com/agentlas-ai/Agentlas-OS) ![Stars](https://img.shields.io/github/stars/agentlas-ai/Agentlas-OS?style=flat-square)
   - Open Agent OS for Claude Code, Codex, and Cursor
   - Packages agents, skills, memory, routing rules, and security gates
   - Includes Hephaestus Network MCP for Agentlas Hub search, runtime bundles, and plugin resolution
@@ -561,7 +561,7 @@ Orchestrate multiple Claude agents to work together on complex tasks.
   - Singleplayer and multiplayer coordination
   - Supervisor-subagent pattern implementation
 
-- [ComposioHQ/agent-orchestrator](https://github.com/ComposioHQ/agent-orchestrator) ![Stars](https://img.shields.io/github/stars/ComposioHQ/agent-orchestrator?style=flat-square)
+- [Untrivial-ai/agent-orchestrator](https://github.com/Untrivial-ai/agent-orchestrator) ![Stars](https://img.shields.io/github/stars/Untrivial-ai/agent-orchestrator?style=flat-square)
   - Agent-agnostic parallel orchestrator
   - Git worktrees for isolated environments
   - CI auto-fix and review routing
@@ -586,12 +586,7 @@ Orchestrate multiple Claude agents to work together on complex tasks.
   - Runs multiple coding agents in parallel across any provider
   - TypeScript-driven
 
-- [21st-dev/1code](https://github.com/21st-dev/1code) ![Stars](https://img.shields.io/github/stars/21st-dev/1code?style=flat-square)
-  - Orchestration layer for coding agents including Claude Code and Codex
-  - One prompt can drive multiple downstream agents
-  - TypeScript-driven
-
-- [yehudalevy-collab/polis-protocol](https://github.com/yehudalevy-collab/polis-protocol) ![Stars](https://img.shields.io/github/stars/yehudalevy-collab/polis-protocol?style=flat-square)
+- [ymxlx/polis-protocol](https://github.com/ymxlx/polis-protocol) ![Stars](https://img.shields.io/github/stars/ymxlx/polis-protocol?style=flat-square)
   - Markdown coordination protocol for multi-vendor agent teams
   - Signed capability cards, ε-greedy bandit routing that learns from settled contracts
   - Chavruta paired review for high-stakes work; self-amending constitution
@@ -655,7 +650,7 @@ Orchestrate multiple Claude agents to work together on complex tasks.
   - Evolving iterations for complex problem-solving
   - Self-improving agent patterns
 
-- [ratamaha-git/agency-os](https://github.com/ratamaha-git/agency-os) ![Stars](https://img.shields.io/github/stars/ratamaha-git/agency-os?style=flat-square)
+- [AutomateLab-tech/agency-os](https://github.com/AutomateLab-tech/agency-os) ![Stars](https://img.shields.io/github/stars/AutomateLab-tech/agency-os?style=flat-square)
   - Run your work like an AI agency from a single Notion board
   - Plans ideas into dependency-sequenced subtasks
   - Dispatches each task to the right model (Haiku/Sonnet/Opus)
@@ -674,13 +669,6 @@ Orchestrate multiple Claude agents to work together on complex tasks.
   - Natural language interface, no commands to memorize
   - Automatic parallelization and cost optimization
   - Real-time HUD statusline for visibility
-
-- [bfly123/claude_code_bridge](https://github.com/bfly123/claude_code_bridge) ![Stars](https://img.shields.io/github/stars/bfly123/claude_code_bridge?style=flat-square)
-  - Real-time multi-AI collaboration bridge
-  - Claude, Codex, Gemini collaboration with persistent context
-  - Split-pane terminal with WYSIWYG interface
-  - Minimal token overhead and async messaging
-  - Every interaction visible and controllable
 
 - [mikeyobrien/ralph-orchestrator](https://github.com/mikeyobrien/ralph-orchestrator) ![Stars](https://img.shields.io/github/stars/mikeyobrien/ralph-orchestrator?style=flat-square)
   - Improved implementation of the Ralph Wiggum technique for autonomous AI agents
@@ -805,11 +793,6 @@ Skills for marketing professionals, content creators, and growth teams.
   - Copywriting and SEO strategies
   - Paid advertising and growth tactics
 
-- [nowork-studio/toprank](https://github.com/nowork-studio/toprank) ![Stars](https://img.shields.io/github/stars/nowork-studio/toprank?style=flat-square)
-  - Open-source Claude Code plugin for SEO, SEM, and Google Ads
-  - Connects Search Console and Google Ads for actionable audits
-  - Includes SEO analysis, content writing, and CMS setup skills
-
 - [nowork-studio/NotFair](https://github.com/nowork-studio/NotFair) ![Stars](https://img.shields.io/github/stars/nowork-studio/NotFair?style=flat-square)
   - Open-source Claude Code skills for SEO, GEO, Google Ads, and Meta Ads (MIT)
   - [SEO skills](https://github.com/nowork-studio/NotFair/tree/main/seo): site analysis, keyword research, meta tags, schema markup, GEO optimization, and content writing
@@ -912,10 +895,10 @@ Skills for marketing professionals, content creators, and growth teams.
   - MIT licensed
   - Install: `/plugin marketplace add sergebulaev/facebook-skills`
 
-- [fjilvi-afk/growthlens](https://github.com/fjilvi-afk/growthlens) ![Stars](https://img.shields.io/github/stars/fjilvi-afk/growthlens?style=flat-square)
+- [fjilvvi/growthlens](https://github.com/fjilvvi/growthlens) ![Stars](https://img.shields.io/github/stars/fjilvvi/growthlens?style=flat-square)
   - 12 business-analysis skills for marketers, growth & business analysts (not just coders)
   - Competitor teardown, funnel audit, pricing analysis, offer/value ladder, ICP segmentation, SEO content-gap
-  - Installable as a Claude Code plugin (`/plugin marketplace add fjilvi-afk/growthlens`); MIT
+  - Installable as a Claude Code plugin (`/plugin marketplace add fjilvvi/growthlens`); MIT
 
 - [Linked-API/linkedin-skills](https://github.com/Linked-API/linkedin-skills/tree/main/linkedin) ![Stars](https://img.shields.io/github/stars/Linked-API/linkedin-skills?style=flat-square)
   - Fetch LinkedIn profiles, search people and companies, send messages, manage connections, create posts, react, and comment
@@ -1202,12 +1185,6 @@ Utilities and tools to enhance your Claude workflow.
   - Multi-provider support (OpenAI, Gemini, Claude)
   - TypeScript-based with excellent developer experience
 
-- [gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done) ![Stars](https://img.shields.io/github/stars/gsd-build/get-shit-done?style=flat-square)
-  - Lightweight meta-prompting and context engineering system
-  - Spec-driven development approach
-  - Created by TÂCHES team
-  - Focus on productivity and getting things done
-
 - [intellectronica/ruler](https://github.com/intellectronica/ruler) ![Stars](https://img.shields.io/github/stars/intellectronica/ruler?style=flat-square)
   - Applies the same rules to every coding agent on your machine
   - One rule set propagates to Claude Code, Cursor, Codex, and others
@@ -1296,7 +1273,7 @@ Utilities and tools to enhance your Claude workflow.
   - Cost-effective for large codebases
   - No multi-round discovery needed
 
-- [safishamsi/graphify](https://github.com/safishamsi/graphify) ![Stars](https://img.shields.io/github/stars/safishamsi/graphify?style=flat-square)
+- [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) ![Stars](https://img.shields.io/github/stars/Graphify-Labs/graphify?style=flat-square)
   - Knowledge-graph skill that ingests code, SQL schemas, R/shell scripts, docs, papers, images, and videos
   - One graph holds application code, database schema, and infrastructure side by side
   - Uses tree-sitter parsing and Leiden community detection for GraphRAG
@@ -1398,7 +1375,7 @@ Utilities and tools to enhance your Claude workflow.
   - Language server protocol integration
   - Advanced semantic code understanding
 
-- [qwibitai/nanoclaw](https://github.com/qwibitai/nanoclaw) ![Stars](https://img.shields.io/github/stars/qwibitai/nanoclaw?style=flat-square)
+- [nanocoai/nanoclaw](https://github.com/nanocoai/nanoclaw) ![Stars](https://img.shields.io/github/stars/nanocoai/nanoclaw?style=flat-square)
   - Lightweight OpenClaw alternative for containers
   - Connects to WhatsApp, Telegram, Slack, Discord, Gmail
   - Built on Anthropic's Agents SDK
