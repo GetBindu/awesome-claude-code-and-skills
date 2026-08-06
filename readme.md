@@ -388,7 +388,6 @@ Skills focused on software development, code quality, and engineering workflows.
   - Covers API integration, model routing and fallback planning, and media generation workflows
   - SKILL.md-based, MIT licensed, and compatible with Claude Code, Codex, OpenClaw, and other agent skill consumers
 
-
 ### Specialized Agents
 
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) ![Stars](https://img.shields.io/github/stars/VoltAgent/awesome-claude-code-subagents?style=flat-square)
@@ -450,12 +449,6 @@ Skills focused on software development, code quality, and engineering workflows.
   - Claude Code Neovim IDE extension
   - Embeds Claude Code into the Neovim workflow
   - Lua-based; maintained by Coder
-
-- [infai-tech/claudemd-auditor-skill](https://github.com/infai-tech/claudemd-auditor-skill) ![Stars](https://img.shields.io/github/stars/infai-tech/claudemd-auditor-skill?style=flat-square)
-  - Calibrated 0–100 audit of `CLAUDE.md` files on six axes (Specificity, Coverage, Brevity, Currency, Quirks captured, Tone fit)
-  - v1.0 matches human baselines at Δ=0 across a 6-case corpus spanning 14–78 points; adversarial corpus exercises three error codes (`too_short`, `not_a_claudemd`, `too_long`)
-  - Returns paste-ready Top-3 improvements with concrete markdown snippets
-  - Drop-in `~/.claude/skills/claudemd-auditor/` install; MIT licensed; no external dependencies
 
 ---
 
@@ -838,7 +831,6 @@ Skills for marketing professionals, content creators, and growth teams.
 - [Uhudsavasindankacanokcu2/legal-skills-for-claude](https://github.com/Uhudsavasindankacanokcu2/legal-skills-for-claude) ![Stars](https://img.shields.io/github/stars/Uhudsavasindankacanokcu2/legal-skills-for-claude?style=flat-square) - Contract review, summarization, drafting & negotiation redlines in plain English
 - [Uhudsavasindankacanokcu2/recruiting-skills-for-claude](https://github.com/Uhudsavasindankacanokcu2/recruiting-skills-for-claude) ![Stars](https://img.shields.io/github/stars/Uhudsavasindankacanokcu2/recruiting-skills-for-claude?style=flat-square) - Job descriptions, bias-aware resume screening & structured interview kits
 
-
 Specialized skills for specific industries and use cases.
 
 - [dhosruiasn/accessible-dark-mode-design-expert](https://github.com/dhosruiasn/accessible-dark-mode-design-expert) ![Stars](https://img.shields.io/github/stars/dhosruiasn/accessible-dark-mode-design-expert?style=flat-square)
@@ -900,13 +892,6 @@ Specialized skills for specific industries and use cases.
   - Ships a PyPI package, Hermes plugin entry point, bundled skill, and `.claude-plugin/plugin.json`
   - Install with `hermes plugins install Xquik-dev/hermes-tweet --enable`
   - Read tools use `XQUIK_API_KEY`; write actions also require `HERMES_TWEET_ENABLE_ACTIONS=true`
-
-- [voidborne-d/humanize-chinese](https://github.com/voidborne-d/humanize-chinese) ![Stars](https://img.shields.io/github/stars/voidborne-d/humanize-chinese?style=flat-square)
-  - Detector + rewriter for Chinese AI-generated text — pure Python, zero dependencies
-  - 0–100 statistical scorer across 11 weighted dimensions (discourse density, parallel structure, four-character cliché, hedging, etc.) plus sentence-level breakdown
-  - 7 style transforms (casual / zhihu / xiaohongshu / wechat / academic / literary / weibo) with genre-aware auto-routing for long-form text
-  - Targeted optimizations for Chinese academic platforms (CNKI / VIP / Wanfang / 朱雀) with hedging injection and four-char cluster smoothing
-  - Ships as a Claude Code skill plus standalone CLI; offline-first, no API keys
 
 - [blader/humanizer](https://github.com/blader/humanizer) ![Stars](https://img.shields.io/github/stars/blader/humanizer?style=flat-square)
   - Claude Code and OpenCode skill that removes signs of AI-generated writing
@@ -1029,7 +1014,6 @@ Specialized skills for specific industries and use cases.
   - Visual-verify a rendered panel and catch bugs that live on the glass, not in the logs; check wiring before power-on
   - ~100 lines of bash + a SKILL.md, MIT, one-command setup
 
-
 ## Productivity Tools
 
 Utilities and tools to enhance your Claude workflow.
@@ -1072,10 +1056,6 @@ Utilities and tools to enhance your Claude workflow.
   - Agent Cockpit provides live iTerm2 orchestration and monitoring for active local agent sessions
   - Local-first transcript indexing with no telemetry
 
-- [agentfm-ai/agent-fm](https://github.com/agentfm-ai/agent-fm) ![Stars](https://img.shields.io/github/stars/agentfm-ai/agent-fm?style=flat-square)
-  - Local, open-source macOS app for listening to Claude Code and Codex agents as they work
-  - Global Mix across active sessions, blocker alerts, and BYOK Gemini/OpenAI narration
-
 - [tristan666666/agent-island](https://github.com/tristan666666/agent-island) ![Stars](https://img.shields.io/github/stars/tristan666666/agent-island?style=flat-square)
   - Open-source status companion for Claude Code and Codex on macOS and Windows
   - Shows live session state and your-turn alerts
@@ -1110,11 +1090,6 @@ Utilities and tools to enhance your Claude workflow.
   - One rule set propagates to Claude Code, Cursor, Codex, and others
   - TypeScript-driven
 
-- [go165/agent-skill-groups](https://github.com/go165/agent-skill-groups) ![Stars](https://img.shields.io/github/stars/go165/agent-skill-groups?style=flat-square)
-  - Local-first Agent Skills profile manager for grouping `SKILL.md` directories by scenario
-  - Switches lean profiles such as core, research, frontend, and CTF with backup and restore support
-  - Supports Claude Code, Codex, OpenCode, and generic local skill roots with JSON automation output
-
 - [Battlelamb/claude-code-conversation-titler](https://github.com/Battlelamb/claude-code-conversation-titler) ![Stars](https://img.shields.io/github/stars/Battlelamb/claude-code-conversation-titler?style=flat-square)
   - Interactive skill that titles, names, and labels the current conversation
   - Multilingual: user language, English, or Chinese
@@ -1142,11 +1117,6 @@ Utilities and tools to enhance your Claude workflow.
   - Three-layer memory architecture inspired by mem0 v3 (ADD-only), langmem (3 types × 2 timings), and Microsoft GraphRAG (community-summary indexing)
   - Portable Bash/Python tooling: `memory-health.sh`, `memory-search.sh` (BM25-style local retrieval), `skill-spec-audit.sh` (agentskills.io compliance — 168 PASS / 23 WARN / 3 FAIL on 194 community skills), and `dna-doctor.sh` (single-command health check)
   - Works across Claude Code, Cursor, Codex CLI, Gemini CLI, Aider, and Continue.dev — rules are model-agnostic markdown
-
-- [qingqingpi/loop-engineering-skill](https://github.com/qingqingpi/loop-engineering-skill) ![Stars](https://img.shields.io/github/stars/qingqingpi/loop-engineering-skill?style=flat-square)
-  - Design, evaluate, diagnose, and harden repeated or unattended AI-agent loops, organized around verifier fidelity (a loop is only as good as its verifier)
-  - GREEN/YELLOW/RED task-fit triage with two hard vetoes; three-layer architecture (scheduler, inner loop, commit gate) keeps irreversible actions outside the loop body
-  - Separates task loop-fit from as-specified-design safety (a GREEN-fit task can still have an UNSAFE design); ships a reproducible cross-model eval with pre-registered held-out and minimal-pair suites, a standalone runner, and an honest limitations writeup
 
 - [thousandflowers/skillreaper](https://github.com/thousandflowers/skillreaper) ![Stars](https://img.shields.io/github/stars/thousandflowers/skillreaper?style=flat-square)
   - Reads real session transcripts to find skills, MCP servers, and agents that were loaded into context but never fired, then safely quarantines them
@@ -1772,7 +1742,6 @@ We welcome contributions! To add a skill or tool to this list:
 4. Submit a pull request with a clear description
 
 **Quality over quantity** - we prioritize well-documented, production-ready skills over experimental projects.
-
 
 ---
 
