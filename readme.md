@@ -1070,6 +1070,12 @@ Utilities and tools to enhance your Claude workflow.
   - Switches lean profiles such as core, research, frontend, and CTF with backup and restore support
   - Supports Claude Code, Codex, OpenCode, and generic local skill roots with JSON automation output
 
+- [Battlelamb/claude-code-conversation-titler](https://github.com/Battlelamb/claude-code-conversation-titler) ![Stars](https://img.shields.io/github/stars/Battlelamb/claude-code-conversation-titler?style=flat-square)
+  - Interactive skill that titles, names, and labels the current conversation
+  - Multilingual: user language, English, or Chinese
+  - 13+ title formats plus a recommended pick, description, and tags
+  - Suggestion-only; installable as a Claude Code plugin or standalone skill
+
 - [notlikeDev/CCPlugins](https://github.com/notlikeDev/CCPlugins) ![Stars](https://img.shields.io/github/stars/notlikeDev/CCPlugins?style=flat-square)
   - Claude Code framework focused on saving time on routine prompts
   - Built for developers tired of writing "please act like a senior engineer" every session
