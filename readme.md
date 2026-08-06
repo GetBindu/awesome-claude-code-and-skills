@@ -254,6 +254,31 @@ These repositories offer extensive collections of skills across multiple domains
   - Covers email sending, sandbox testing, templates, domain setup, and contacts
   - Follows the Agent Skills open standard (Anthropic, Dec 2025)
 
+- [abubakarsiddik31/claude-skills-collection](https://github.com/abubakarsiddik31/claude-skills-collection) ![Stars](https://img.shields.io/github/stars/abubakarsiddik31/claude-skills-collection?style=flat-square)
+  - Curated collection of official and community Claude Skills
+  - Spans productivity, creativity, coding, and content workflows
+  - Actively maintained general-purpose skills library
+
+- [karanb192/awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills) ![Stars](https://img.shields.io/github/stars/karanb192/awesome-claude-skills?style=flat-square)
+  - Curated "awesome" list of 50+ verified skills
+  - Covers Claude Code, Claude.ai, and the API
+  - Document processing, git workflows, TDD, and debugging; MIT licensed
+
+- [borghei/Claude-Skills](https://github.com/borghei/Claude-Skills) ![Stars](https://img.shields.io/github/stars/borghei/Claude-Skills?style=flat-square)
+  - 368 skills, 76 expert agents, and 859 standard-library Python tools
+  - Spans engineering, PM, marketing, C-level, compliance, and research
+  - Persona system (`startup-cto`, `growth-marketer`, etc.); works with Claude Code, Cursor, Codex, Gemini, and Copilot
+
+- [levnikolaevich/claude-code-skills](https://github.com/levnikolaevich/claude-code-skills) ![Stars](https://img.shields.io/github/stars/levnikolaevich/claude-code-skills?style=flat-square)
+  - Standalone engineering skills organized by numbered categories
+  - Review, audit, optimization, testing, product discovery, architecture, and safe publishing
+  - Works with Claude Code and Codex; MIT licensed
+
+- [glebis/claude-skills](https://github.com/glebis/claude-skills) ![Stars](https://img.shields.io/github/stars/glebis/claude-skills?style=flat-square)
+  - ~100 skills covering meeting pipelines, research, image generation, and publishing
+  - Also personal analytics and Claude Code operations
+  - Each skill is a self-contained SKILL.md folder; installable via plugin marketplace or `npx skills add`
+
 ## Development & Engineering
 
 Skills focused on software development, code quality, and engineering workflows.
@@ -388,6 +413,36 @@ Skills focused on software development, code quality, and engineering workflows.
   - Covers API integration, model routing and fallback planning, and media generation workflows
   - SKILL.md-based, MIT licensed, and compatible with Claude Code, Codex, OpenClaw, and other agent skill consumers
 
+- [github/spec-kit](https://github.com/github/spec-kit) ![Stars](https://img.shields.io/github/stars/github/spec-kit?style=flat-square)
+  - GitHub's toolkit for Spec-Driven Development (spec → plan → tasks → implement)
+  - Drives agents from a written specification rather than ad-hoc prompts
+  - Works with Claude Code, Copilot, Cursor, and Gemini CLI; Python, MIT licensed
+
+- [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) ![Stars](https://img.shields.io/github/stars/eyaltoledano/claude-task-master?style=flat-square)
+  - AI task-management system that parses a PRD into structured, dependency-aware tasks
+  - Ships both a CLI and an MCP server; drives step-by-step implementation
+  - Integrates with Claude Code, Cursor, Windsurf, and Roo
+
+- [yamadashy/repomix](https://github.com/yamadashy/repomix) ![Stars](https://img.shields.io/github/stars/yamadashy/repomix?style=flat-square)
+  - Packs an entire repository into a single AI-friendly file
+  - Feed whole codebases to Claude and other LLMs for analysis
+  - Token counting, compression, and remote-repo support; TypeScript, MIT licensed
+
+- [Pimzino/claude-code-spec-workflow](https://github.com/Pimzino/claude-code-spec-workflow) ![Stars](https://img.shields.io/github/stars/Pimzino/claude-code-spec-workflow?style=flat-square)
+  - Spec-driven workflow: Requirements → Design → Tasks → Implementation
+  - Plus a Report → Analyze → Fix → Verify bug workflow, with a live dashboard
+  - TypeScript, MIT licensed
+
+- [awesome-skills/code-review-skill](https://github.com/awesome-skills/code-review-skill) ![Stars](https://img.shields.io/github/stars/awesome-skills/code-review-skill?style=flat-square)
+  - Comprehensive single code-review Skill for Claude Code
+  - Covers 20+ languages/frameworks (React 19, Vue 3, Rust, TypeScript, TanStack Query v5)
+  - ~21k lines of review guidelines; MIT licensed
+
+- [carlrannaberg/claudekit](https://github.com/carlrannaberg/claudekit) ![Stars](https://img.shields.io/github/stars/carlrannaberg/claudekit?style=flat-square)
+  - Toolkit of custom slash commands, hooks, and utilities for Claude Code
+  - Hooks enforce type-checking and lint on edits
+  - TypeScript, MIT licensed
+
 ### Specialized Agents
 
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) ![Stars](https://img.shields.io/github/stars/VoltAgent/awesome-claude-code-subagents?style=flat-square)
@@ -420,6 +475,31 @@ Skills focused on software development, code quality, and engineering workflows.
   - Meta-skill that designs domain-specific agent teams
   - Generates specialized agents and the skills they use
   - HTML-based interface for team composition
+
+- [0xfurai/claude-code-subagents](https://github.com/0xfurai/claude-code-subagents) ![Stars](https://img.shields.io/github/stars/0xfurai/claude-code-subagents?style=flat-square)
+  - 100+ production-ready development subagents
+  - Roughly one per language, framework, or domain
+  - Drop into `~/.claude/agents/`; MIT licensed
+
+- [hesreallyhim/a-list-of-claude-code-agents](https://github.com/hesreallyhim/a-list-of-claude-code-agents) ![Stars](https://img.shields.io/github/stars/hesreallyhim/a-list-of-claude-code-agents?style=flat-square)
+  - Community-submitted directory of Claude Code subagents
+  - Companion to the maintainer's awesome-claude-code list
+  - Browse and contribute agents by category
+
+- [qdhenry/Claude-Command-Suite](https://github.com/qdhenry/Claude-Command-Suite) ![Stars](https://img.shields.io/github/stars/qdhenry/Claude-Command-Suite?style=flat-square)
+  - Professional slash-command suite for structured dev workflows
+  - Code review, feature creation, security audit, and architecture commands
+  - Bundles agents and skills alongside the commands
+
+- [wshobson/commands](https://github.com/wshobson/commands) ![Stars](https://img.shields.io/github/stars/wshobson/commands?style=flat-square)
+  - Production-ready slash-command collection for Claude Code
+  - Split into multi-step workflows and single-purpose tools
+  - Companion to the popular `wshobson/agents`; MIT licensed
+
+- [composio-community/awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins) ![Stars](https://img.shields.io/github/stars/composio-community/awesome-claude-plugins?style=flat-square)
+  - Curated list of Claude Code plugins and marketplaces
+  - Custom commands, agents, hooks, and MCP servers via the plugin system
+  - Community-maintained directory
 
 ### Framework-Specific
 
@@ -550,6 +630,26 @@ Orchestrate multiple Claude agents to work together on complex tasks.
   - Multi-LLM orchestration plugin for Claude Code
   - Parallel plan review, task generation, implementation, and code review across 12 coding harnesses (Codex, Cursor, opencode, pi, aider, Antigravity…)
 
+- [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) ![Stars](https://img.shields.io/github/stars/bmad-code-org/BMAD-METHOD?style=flat-square)
+  - "Breakthrough Method for Agile AI-Driven Development"
+  - Role-based agent team (analyst, PM, architect, dev, QA) in a plan-then-build flow
+  - Tool-agnostic framework used heavily with Claude Code, Cursor, and others
+
+- [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban) ![Stars](https://img.shields.io/github/stars/BloopAI/vibe-kanban?style=flat-square)
+  - Kanban-style board to run and manage multiple coding agents
+  - Orchestrates Claude Code, Codex, and other agents from one UI
+  - Rust-based; Apache-2.0 licensed
+
+- [humanlayer/humanlayer](https://github.com/humanlayer/humanlayer) ![Stars](https://img.shields.io/github/stars/humanlayer/humanlayer?style=flat-square)
+  - Framework for steering coding agents through complex codebases
+  - Human-in-the-loop approvals and advanced context-engineering workflows
+  - TypeScript-based
+
+- [stravu/crystal](https://github.com/stravu/crystal) ![Stars](https://img.shields.io/github/stars/stravu/crystal?style=flat-square)
+  - Desktop app to run multiple Claude Code / Codex sessions in parallel git worktrees
+  - Compare competing approaches side by side
+  - TypeScript, MIT licensed
+
 ### Parallel Processing
 
 - [Dicklesworthstone/claude_code_agent_farm](https://github.com/Dicklesworthstone/claude_code_agent_farm) ![Stars](https://img.shields.io/github/stars/Dicklesworthstone/claude_code_agent_farm?style=flat-square)
@@ -624,6 +724,11 @@ Orchestrate multiple Claude agents to work together on complex tasks.
   - Skill/subagent that delegates tasks to DeepSeek V4, Codex, or Opus without leaving your session
   - Runs tasks in the background; result returns automatically when done
   - Backed by handoff-cli; supports parallel tasks and session resume
+
+- [dagger/container-use](https://github.com/dagger/container-use) ![Stars](https://img.shields.io/github/stars/dagger/container-use?style=flat-square)
+  - Sandboxed, isolated development environments for coding agents
+  - Lets multiple agents work in parallel without touching the host
+  - Go-based; Apache-2.0 licensed
 
 ## Security & Compliance
 
@@ -1014,6 +1119,31 @@ Specialized skills for specific industries and use cases.
   - Visual-verify a rendered panel and catch bugs that live on the glass, not in the logs; check wiring before power-on
   - ~100 lines of bash + a SKILL.md, MIT, one-command setup
 
+- [tfriedel/claude-office-skills](https://github.com/tfriedel/claude-office-skills) ![Stars](https://img.shields.io/github/stars/tfriedel/claude-office-skills?style=flat-square)
+  - Office-document skills for Claude Code: PPTX, DOCX, XLSX, and PDF
+  - HTML-to-PPTX conversion, DOCX tracked-changes editing, XLSX financial models
+  - Community suite beyond Anthropic's official document skills
+
+- [ndpvt-web/latex-document-skill](https://github.com/ndpvt-web/latex-document-skill) ![Stars](https://img.shields.io/github/stars/ndpvt-web/latex-document-skill?style=flat-square)
+  - Universal LaTeX document skill for Claude Code
+  - 27 templates, 27 scripts, and 26 reference guides
+  - Papers, reports, and Beamer slides for academic/technical writing
+
+- [nimrodfisher/data-analytics-skills](https://github.com/nimrodfisher/data-analytics-skills) ![Stars](https://img.shields.io/github/stars/nimrodfisher/data-analytics-skills?style=flat-square)
+  - Claude skills focused specifically on data-analytics tasks
+  - Customizable reference materials for analytics workflows
+  - Python-based
+
+- [lingzhi227/agent-research-skills](https://github.com/lingzhi227/agent-research-skills) ![Stars](https://img.shields.io/github/stars/lingzhi227/agent-research-skills?style=flat-square)
+  - Skills for the full academic research lifecycle
+  - Systematic literature review through slide generation
+  - Includes GitHub repository analysis for research topics
+
+- [boraoztunc/skills](https://github.com/boraoztunc/skills) ![Stars](https://img.shields.io/github/stars/boraoztunc/skills?style=flat-square)
+  - Claude Code skills for copywriting, SEO, and design
+  - Includes an AI-writing-pattern remover for humanizer-style prose cleanup
+  - Apache-2.0 licensed
+
 ## Productivity Tools
 
 Utilities and tools to enhance your Claude workflow.
@@ -1252,6 +1382,21 @@ Utilities and tools to enhance your Claude workflow.
   - Hybrid SQLite FTS5 plus optional local Ollama embeddings fused with RRF, degrading to keyword search offline; secrets redacted on write and local-model proposals held in a human review queue
   - Pure Python stdlib with no pip install or third-party deps; macOS, Linux, and Windows; bilingual EN/RO web UI; GPL-2.0-or-later
 
+- [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) ![Stars](https://img.shields.io/github/stars/supermemoryai/supermemory?style=flat-square)
+  - Memory + context engine and API for AI apps and agents
+  - Persistent memory across sessions and projects; can run fully locally
+  - Frequently used as a Claude memory layer; TypeScript, MIT licensed
+
+- [getzep/graphiti](https://github.com/getzep/graphiti) ![Stars](https://img.shields.io/github/stars/getzep/graphiti?style=flat-square)
+  - Real-time, temporally-aware knowledge-graph framework for agent memory
+  - Ships an MCP server: add/search episodes and entities backed by a Neo4j/FalkorDB graph
+  - Popular long-term memory backend; Python, Apache-2.0 licensed
+
+- [letta-ai/claude-subconscious](https://github.com/letta-ai/claude-subconscious) ![Stars](https://img.shields.io/github/stars/letta-ai/claude-subconscious?style=flat-square)
+  - Background agent that watches Claude Code sessions
+  - Builds memory and injects relevant context back into the session
+  - From Letta AI; TypeScript, MIT licensed
+
 ### MCP Servers & Integrations
 
 - [oraios/serena](https://github.com/oraios/serena) ![Stars](https://img.shields.io/github/stars/oraios/serena?style=flat-square)
@@ -1340,6 +1485,56 @@ Utilities and tools to enhance your Claude workflow.
   - Queries KPIs, SQL, funnels, retention, revenue, users, and wallet profiles
   - Supports MCP, CLI, and REST workflows
   - Read-only analytics operations with project-scoped authentication
+
+- [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) ![Stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=flat-square)
+  - Official Anthropic reference collection of MCP servers
+  - Bundles Filesystem, Git, Fetch, Memory, Sequential Thinking, and Time
+  - The canonical starting point for the MCP ecosystem; TypeScript and Python
+
+- [upstash/context7](https://github.com/upstash/context7) ![Stars](https://img.shields.io/github/stars/upstash/context7?style=flat-square)
+  - Pulls up-to-date, version-specific library docs and code examples into the model
+  - Exposes `resolve-library-id` and `get-library-docs`; runs remotely or via npx
+  - A near-ubiquitous "must-have" Claude Code MCP; TypeScript, MIT licensed
+
+- [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) ![Stars](https://img.shields.io/github/stars/ChromeDevTools/chrome-devtools-mcp?style=flat-square)
+  - Official Chrome DevTools MCP server for real-browser control and debugging
+  - Performance tracing, network/console inspection, and DOM/page automation
+  - Maintained by the Google Chrome DevTools team; Apache-2.0 licensed
+
+- [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) ![Stars](https://img.shields.io/github/stars/microsoft/playwright-mcp?style=flat-square)
+  - Microsoft's official browser-automation MCP server built on Playwright
+  - Drives pages via the structured accessibility tree, not screenshots
+  - De facto standard for end-to-end testing and web automation; Apache-2.0 licensed
+
+- [github/github-mcp-server](https://github.com/github/github-mcp-server) ![Stars](https://img.shields.io/github/stars/github/github-mcp-server?style=flat-square)
+  - GitHub's official MCP server for repos, issues, PRs, and Actions
+  - Offered as a hosted remote server and a local Go binary
+  - Supports OAuth and PAT auth; MIT licensed
+
+- [GLips/Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP) ![Stars](https://img.shields.io/github/stars/GLips/Figma-Context-MCP?style=flat-square)
+  - Framelink MCP server that feeds Figma layout and design data to coding agents
+  - Fetches a file/node's layout, styles, and component structure for accurate UI code
+  - Widely used for design-to-code; TypeScript, MIT licensed
+
+- [awslabs/mcp](https://github.com/awslabs/mcp) ![Stars](https://img.shields.io/github/stars/awslabs/mcp?style=flat-square)
+  - AWS's official open-source suite of MCP servers for AWS services
+  - Includes servers for docs, CDK, Cost Explorer, Bedrock Knowledge Bases, and DynamoDB
+  - Installable per-service; Python, Apache-2.0 licensed
+
+- [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) ![Stars](https://img.shields.io/github/stars/firecrawl/firecrawl-mcp-server?style=flat-square)
+  - Official Firecrawl MCP server for web scraping, crawling, and search
+  - Scrape/crawl/map/search tools return clean, LLM-ready markdown
+  - Works hosted (API key) or self-hosted; MIT licensed
+
+- [sooperset/mcp-atlassian](https://github.com/sooperset/mcp-atlassian) ![Stars](https://img.shields.io/github/stars/sooperset/mcp-atlassian?style=flat-square)
+  - Most popular MCP server for Atlassian Jira and Confluence
+  - Create/search/update issues and read/write Confluence pages
+  - Supports Cloud and Server/Data Center; distributed via Docker and uvx
+
+- [makenotion/notion-mcp-server](https://github.com/makenotion/notion-mcp-server) ![Stars](https://img.shields.io/github/stars/makenotion/notion-mcp-server?style=flat-square)
+  - Notion's official MCP server for reading and writing workspace content
+  - Query databases and create/update pages and blocks via the Notion API
+  - Supports a hosted remote endpoint and local stdio deployment
 
 ### API & Integration Tools
 
@@ -1514,6 +1709,11 @@ Utilities and tools to enhance your Claude workflow.
   - Ranks pending decisions ahead of active work and scheduled routines; reads local JSONL with no network calls
   - Zero dependencies, MIT licensed, with a 10-check synthetic self-test
 
+- [ccusage/ccusage](https://github.com/ccusage/ccusage) ![Stars](https://img.shields.io/github/stars/ccusage/ccusage?style=flat-square)
+  - `npx ccusage` CLI that parses local Claude Code JSONL logs
+  - Reports token usage and cost by day, month, session, and model
+  - The most-referenced usage/cost tool in the community; Rust, very actively maintained
+
 ### Configuration & Templates
 
 - [abhishekray07/claude-md-templates](https://github.com/abhishekray07/claude-md-templates) ![Stars](https://img.shields.io/github/stars/abhishekray07/claude-md-templates?style=flat-square)
@@ -1530,6 +1730,11 @@ Utilities and tools to enhance your Claude workflow.
   - Skills, hooks, templates, and engineering guides for AI-agent-friendly projects
   - `/new-project` scaffolding and `/adopt-project` for existing repos
   - AI-tuned lint rules, hooks reference, and a per-project self-improvement loop
+
+- [centminmod/my-claude-code-setup](https://github.com/centminmod/my-claude-code-setup) ![Stars](https://img.shields.io/github/stars/centminmod/my-claude-code-setup?style=flat-square)
+  - Shared starter configuration and CLAUDE.md "memory bank" system
+  - Bundles hooks and subagents; frequently forked as a reference setup
+  - Python, MIT licensed
 
 ### Cost Optimization
 
@@ -1681,6 +1886,21 @@ Resources for mastering Claude skills and understanding best practices.
   - Markdown-only bundle
 
 ---
+
+- [anthropics/prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) ![Stars](https://img.shields.io/github/stars/anthropics/prompt-eng-interactive-tutorial?style=flat-square)
+  - Anthropic's official interactive prompt-engineering course
+  - Hands-on Jupyter notebooks from basics to advanced techniques
+  - First-party learning resource
+
+- [anthropics/courses](https://github.com/anthropics/courses) ![Stars](https://img.shields.io/github/stars/anthropics/courses?style=flat-square)
+  - Anthropic's official educational course collection
+  - Covers the API, prompt engineering, evaluations, and tool use
+  - First-party, broadly cited learning material
+
+- [ericbuess/claude-code-docs](https://github.com/ericbuess/claude-code-docs) ![Stars](https://img.shields.io/github/stars/ericbuess/claude-code-docs?style=flat-square)
+  - Local, auto-updating mirror of the official Claude Code documentation
+  - Exposed through a `/docs` command for fast, offline lookup
+  - Shell-based; actively maintained
 
 ## Skill Development
 
