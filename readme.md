@@ -678,6 +678,12 @@ n- [GiulioDER/cca-audit](https://github.com/GiulioDER/cca-audit) ![Stars](https:
   - Semantic scanning combined with AI Agent integration (OpenClaw and Claude Code)
   - Python-driven; useful for application-security teams
 
+- [SpicyNoodles3/claude-code-file-guard](https://github.com/SpicyNoodles3/claude-code-file-guard) ![Stars](https://img.shields.io/github/stars/SpicyNoodles3/claude-code-file-guard?style=flat-square)
+  - PreToolUse hook that blocks the agent from writing to files you declare protected
+  - Covers Edit/Write/NotebookEdit, any tool carrying a file_path, plus a Bash write-heuristic and a destructive-git blocklist
+  - One auditable bash script, jq-only, fail-closed; README is explicit about what it cannot stop
+  - Tested on ubuntu and macos (39-case harness + shellcheck)
+
 ### Compliance & Auditing
 
 - [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills) ![Stars](https://img.shields.io/github/stars/BehiSecc/awesome-claude-skills?style=flat-square)
