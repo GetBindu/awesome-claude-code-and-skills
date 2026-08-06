@@ -803,6 +803,13 @@ Skills for marketing professionals, content creators, and growth teams.
   - Every send, reply, bounce, and stage change lands on your machine
   - Install: `npx skills add outreachmagic/outreachmagic`
 
+- [sergebulaev/facebook-skills](https://github.com/sergebulaev/facebook-skills) ![Stars](https://img.shields.io/github/stars/sergebulaev/facebook-skills?style=flat-square)
+  - 8 Claude Code and Codex skills for Facebook Pages
+  - High-share posts, hook extractor, humanizer, engagement drafter, and content planner
+  - Note: publishing depends on the commercial Publora API
+  - MIT licensed
+  - Install: `/plugin marketplace add sergebulaev/facebook-skills`
+
 - [fjilvi-afk/growthlens](https://github.com/fjilvi-afk/growthlens) ![Stars](https://img.shields.io/github/stars/fjilvi-afk/growthlens?style=flat-square)
   - 12 business-analysis skills for marketers, growth & business analysts (not just coders)
   - Competitor teardown, funnel audit, pricing analysis, offer/value ladder, ICP segmentation, SEO content-gap
