@@ -285,6 +285,10 @@ Skills focused on software development, code quality, and engineering workflows.
 
 ### Core Development Skills
 
+- [avansaber/tailtest](https://github.com/avansaber/tailtest) ![Stars](https://img.shields.io/github/stars/avansaber/tailtest?style=flat-square)
+  - Generates and runs adversarial tests on every file the agent edits, via a PostToolUse hook
+  - 8 languages, no commands to run, MIT
+
 - [gyujeongion/claude-code-rootcause](https://github.com/gyujeongion/claude-code-rootcause) ![Stars](https://img.shields.io/github/stars/gyujeongion/claude-code-rootcause?style=flat-square)
   - Turns "never do X" bans into positive process gates
   - Audits your instruction file for ban bloat (rethink + deusex)
