@@ -1158,14 +1158,14 @@ Utilities and tools to enhance your Claude workflow.
   - Plugin system for custom extensions
 
 - [jazzyalex/agent-sessions](https://github.com/jazzyalex/agent-sessions) ![Stars](https://img.shields.io/github/stars/jazzyalex/agent-sessions?style=flat-square)
-  - Native macOS app for searching, browsing, and resuming Claude Code sessions alongside Codex, Gemini CLI, OpenCode, and other agents
+  - Native macOS app for searching, browsing, and resuming Claude Code sessions alongside Codex, Antigravity, OpenCode, and other agents
   - Agent Cockpit provides live iTerm2 orchestration and monitoring for active local agent sessions
   - Local-first transcript indexing with no telemetry
 
 - [tristan666666/agent-island](https://github.com/tristan666666/agent-island) ![Stars](https://img.shields.io/github/stars/tristan666666/agent-island?style=flat-square)
-  - Open-source status companion for Claude Code and Codex on macOS and Windows
-  - Shows live session state and your-turn alerts
-  - Keeps monitoring local with no Agent Island account or product telemetry
+  - Free, MIT-licensed native companion for Claude, Codex, Antigravity, Grok, and Cursor
+  - Combines local session status, your-turn alerts, and provider usage views
+  - Works without an Agent Island account or product telemetry
 
 - [automazeio/vibeproxy](https://github.com/automazeio/vibeproxy) ![Stars](https://img.shields.io/github/stars/automazeio/vibeproxy?style=flat-square)
   - Native macOS menu-bar app to use Claude Code and ChatGPT subscriptions with AI coding tools
