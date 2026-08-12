@@ -782,7 +782,7 @@ n- [GiulioDER/cca-audit](https://github.com/GiulioDER/cca-audit) ![Stars](https:
 Skills for marketing professionals, content creators, and growth teams.
 
 - [humanpen/humanpen-skill](https://github.com/humanpen/humanpen-skill) ![Stars](https://img.shields.io/github/stars/humanpen/humanpen-skill?style=flat-square)
-  - Lowers a Word/PowerPoint/PDF document's AI-detection score so it reads as human-written
+  - Document-level AI humanizer for .docx/.pptx — whole file, selected passages, or detector-flagged text
   - Keeps every fact, number, table and all formatting intact
   - The document never enters the model's context — upload, then get a result path back
   - Works with Claude Code, Codex, Cursor, and other SKILL.md clients
