@@ -147,6 +147,12 @@ These repositories offer extensive collections of skills across multiple domains
   - Contributions from Sentry, Trail of Bits, Expo, DuckDB, Figma, Google
   - Community-driven with regular updates
 
+- [d4rkNinja/arcforge](https://github.com/d4rkNinja/arcforge) ![Stars](https://img.shields.io/github/stars/d4rkNinja/arcforge?style=flat-square)
+  - Portable architecture skills for production systems, AI agents, and independent review
+  - Evidence-backed workflows for trade-offs, risks, validation, and release gates
+  - Works with Claude Code, Codex, and compatible Agent Skills runtimes
+  - MIT licensed; instruction-first with references, examples, and repository checks
+
 - [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) ![Stars](https://img.shields.io/github/stars/sickn33/agentic-awesome-skills?style=flat-square)
   - 1,326+ installable agentic skills
   - CLI installer for easy setup
