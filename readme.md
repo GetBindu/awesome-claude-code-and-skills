@@ -1177,6 +1177,13 @@ Utilities and tools to enhance your Claude workflow.
   - Turns CLI-based AI orchestration into a desktop experience
   - TypeScript-driven Electron build
 
+- [scgopi/GraphCode](https://github.com/scgopi/GraphCode) ![Stars](https://img.shields.io/github/stars/scgopi/GraphCode?style=flat-square)
+  - Native macOS app that wires agent sessions into a graph
+  - Every node is a live terminal you can attach to and steer mid-run
+  - Edges are hand-offs, messages, or spawns that fire unattended
+  - Claude Code, Codex, and Copilot CLI loops on one canvas
+  - Sessions survive app quits, daemon restarts, and reboots
+
 ### Agent Harnesses & Meta-Tools
 
 - [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) ![Stars](https://img.shields.io/github/stars/code-yeongyu/oh-my-openagent?style=flat-square)
