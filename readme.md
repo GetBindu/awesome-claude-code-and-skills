@@ -1248,6 +1248,12 @@ Utilities and tools to enhance your Claude workflow.
   - Uses durable SQLite by default, with Postgres support and read-only MCP inspection plus forget/export controls
   - Also exposes TypeScript, HTTP, and Python integration surfaces for product agents
 
+- [JanYork/llm-wiki-cli](https://github.com/JanYork/llm-wiki-cli) ![Stars](https://img.shields.io/github/stars/JanYork/llm-wiki-cli?style=flat-square)
+  - Proactive, source-grounded project memory for Claude Code, Codex, Cursor, OpenCode, Gemini CLI, Kiro, Hermes, Antigravity, and pi
+  - Preserves immutable sources, citations, provenance, and atomic changesets, with SQLite/FTS5 retrieval and optional document/code graphs
+  - Integrates through lifecycle hooks, skills, additive agent instructions, and a bounded read-only one-tool MCP interface
+  - Apache-2.0 licensed; installable from npm as `@i-xor/lwc`
+
 - [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) ![Stars](https://img.shields.io/github/stars/caioribeiroclw-pixel/pluribus?style=flat-square)
   - Privacy-safe context receipts for Claude Code, Cursor, Codex, OpenClaw, and MCP/skill workflows
   - Proves what context crossed agent boundaries without copying private prompts or tool outputs
