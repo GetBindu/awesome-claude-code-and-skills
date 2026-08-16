@@ -1597,6 +1597,11 @@ Utilities and tools to enhance your Claude workflow.
   - Python-based research-grade harness
   - Designed for fast agent-iteration cycles
 
+- [aeonfun/aeon](https://github.com/aeonfun/aeon) ![Stars](https://img.shields.io/github/stars/aeonfun/aeon?style=flat-square)
+  - Autonomous agent framework that runs entirely inside GitHub Actions, with no long-lived server
+  - Cron-scheduled Markdown skills, self-healing (a health skill detects failures, a repair skill fixes them by PR)
+  - Spawns a fleet of clones and ships 70+ Agent Skills across six coding-agent harnesses (Claude Code, Grok, Codex, Pi, Vibe, Kimi)
+
 ### Monitoring & Observability
 
 - [disler/claude-code-hooks-multi-agent-observability](https://github.com/disler/claude-code-hooks-multi-agent-observability) ![Stars](https://img.shields.io/github/stars/disler/claude-code-hooks-multi-agent-observability?style=flat-square)
