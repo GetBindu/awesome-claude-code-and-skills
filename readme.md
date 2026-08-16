@@ -1488,6 +1488,12 @@ Utilities and tools to enhance your Claude workflow.
   - Drives pages via the structured accessibility tree, not screenshots
   - De facto standard for end-to-end testing and web automation; Apache-2.0 licensed
 
+- [vostride/agent-qa](https://github.com/vostride/agent-qa) ![Stars](https://img.shields.io/github/stars/vostride/agent-qa?style=flat-square)
+  - The self-improving QA agent for software teams
+  - Runs natural-language web and mobile tests with persistent execution memory and self-healing
+  - Ships Claude-compatible Agent Skills plus an stdio MCP server via `agent-qa mcp`
+  - TypeScript; FSL-1.1-ALv2 converting to Apache-2.0 after two years
+
 - [github/github-mcp-server](https://github.com/github/github-mcp-server) ![Stars](https://img.shields.io/github/stars/github/github-mcp-server?style=flat-square)
   - GitHub's official MCP server for repos, issues, PRs, and Actions
   - Offered as a hosted remote server and a local Go binary
