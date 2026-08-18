@@ -442,6 +442,12 @@ Skills focused on software development, code quality, and engineering workflows.
   - Hooks enforce type-checking and lint on edits
   - TypeScript, MIT licensed
 
+- [Maksim-Burtsev/simple-man](https://github.com/Maksim-Burtsev/simple-man) ![Stars](https://img.shields.io/github/stars/Maksim-Burtsev/simple-man?style=flat-square)
+  - Strips praise, recaps and filler from agent answers while keeping every fact you act on
+  - Findings carry location, consequence and one-line fix; refusals carry the safe procedure
+  - Knows when not to compress: tutorials and detailed reports stay long-form
+  - Benchmarked on 1,793 preregistered live calls, raw records committed; MIT licensed
+
 ### Specialized Agents
 
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) ![Stars](https://img.shields.io/github/stars/VoltAgent/awesome-claude-code-subagents?style=flat-square)
