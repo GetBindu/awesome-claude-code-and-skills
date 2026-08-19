@@ -917,6 +917,13 @@ Skills for marketing professionals, content creators, and growth teams.
   - Fetch LinkedIn profiles, search people and companies, send messages, manage connections, create posts, react, and comment
   - Custom LinkedIn workflows from Claude Code, Codex, Cursor, and Windsurf
 
+- [aragossa/ai-tell-detector](https://github.com/aragossa/ai-tell-detector) ![Stars](https://img.shields.io/github/stars/aragossa/ai-tell-detector?style=flat-square)
+  - Audits a finished draft for the patterns that make text read as AI-generated (24 checks, MIT)
+  - Flags rhetorical symmetry, filler transitions, uniform sentence rhythm, canned CTAs, and em-dash overload
+  - Also catches fabricated personal experience, which is a factual problem rather than a stylistic one
+  - Reports patterns with line numbers and a suggested fix instead of a single confidence score
+  - English and Russian versions included
+
 ---
 
 ## Domain-Specific Skills
