@@ -109,6 +109,12 @@ These repositories offer extensive collections of skills across multiple domains
   - Covers code review and ship grading, design, marketing, agent workflows, and mobile release preparation
   - Installable through the Claude and Codex plugin marketplaces or the skills CLI
 
+- [sandbaseai/sandbase-skills](https://github.com/sandbaseai/sandbase-skills) ![Stars](https://img.shields.io/github/stars/sandbaseai/sandbase-skills?style=flat-square)
+  - 88 Apache-2.0 Agent Skills for research, social intelligence, marketing, and business workflows
+  - Works with Claude Code, Codex, Cursor, Gemini CLI, and DeepSeek Harness
+  - Includes an offline validator and worked evidence-ledger example for multi-source research
+  - Installable through the skills CLI or as a native Claude Code marketplace plugin
+
 - [Claude Code Skills 中文精选集](https://claude-skills.bt199.com/)
   - Chinese directory for Claude Code Skills, agents, and plugins
   - 140+ curated resources for Chinese-speaking developers
