@@ -1389,6 +1389,11 @@ Utilities and tools to enhance your Claude workflow.
 
 ### MCP Servers & Integrations
 
+- [bekservice/Famulor-Skill](https://github.com/bekservice/Famulor-Skill) ![Stars](https://img.shields.io/github/stars/bekservice/Famulor-Skill?style=flat-square)
+  - Agent Skill for operating Famulor assistants, calls, messaging, campaigns, knowledge, dashboards, automations, settings, and tasks through remote MCP
+  - Uses progressive tool discovery for a 282-tool catalog across 13 toolsets
+  - Includes Claude, Cursor, and generic agent-plugin manifests; MCP access uses browser-based OAuth
+
 - [oraios/serena](https://github.com/oraios/serena) ![Stars](https://img.shields.io/github/stars/oraios/serena?style=flat-square)
   - Powerful coding agent toolkit with semantic capabilities
   - MCP server for retrieval and editing
