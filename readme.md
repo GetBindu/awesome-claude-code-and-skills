@@ -1317,6 +1317,11 @@ Utilities and tools to enhance your Claude workflow.
   - Ships hooks, skills, and an MCP server for 15+ platforms (Claude Code, Codex, Cursor, Kiro, Zed, OpenClaw)
   - Project site at context-mode.com
 
+- [vshulcz/deja-vu](https://github.com/vshulcz/deja-vu) ![Stars](https://img.shields.io/github/stars/vshulcz/deja-vu?style=flat-square)
+  - Recalls past sessions from the transcripts twenty coding agents already write to disk, including work from before it was installed
+  - Wires into each harness the way it supports: MCP tools, session start, before a file edit or command, and after one fails
+  - Local BM25, no LLM and no embeddings; credentials redacted at index time; single Go binary
+
 - [gastownhall/beads](https://github.com/gastownhall/beads) ![Stars](https://img.shields.io/github/stars/gastownhall/beads?style=flat-square)
   - Memory upgrade for coding agents
   - Persists context across sessions for Claude Code and other agents
