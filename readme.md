@@ -442,6 +442,14 @@ Skills focused on software development, code quality, and engineering workflows.
   - Hooks enforce type-checking and lint on edits
   - TypeScript, MIT licensed
 
+- [Maksim-Burtsev/punchcard](https://github.com/Maksim-Burtsev/punchcard) ![Stars](https://img.shields.io/github/stars/Maksim-Burtsev/punchcard?style=flat-square)
+  - Architecture-level review of a working tree, branch, or pull request
+  - Three independent search passes merged into one verdict, one card per finding
+  - Every blocker demonstrated by running the code on both branches, never asserted
+  - Every finding cites one of 78 principles distilled from thirty engineering books
+  - Says nothing about naming or formatting; MIT licensed
+  - Works in Claude Code, Codex, Cursor, Gemini CLI and other Agent Skills hosts
+
 ### Specialized Agents
 
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) ![Stars](https://img.shields.io/github/stars/VoltAgent/awesome-claude-code-subagents?style=flat-square)
