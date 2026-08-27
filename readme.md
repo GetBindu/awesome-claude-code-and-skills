@@ -1250,6 +1250,12 @@ Utilities and tools to enhance your Claude workflow.
 
 ### Memory & Context Management
 
+- [kgaidev/kgai](https://github.com/kgaidev/kgai) ![Stars](https://img.shields.io/github/stars/kgaidev/kgai?style=flat-square)
+  - Immutable append-only decision log for Claude Code, recording why the team chose what it chose
+  - Rejected approaches stay in history with the reason they failed, so an agent does not re-propose a path the team already ruled out
+  - Optional team sync writes to an S3 bucket you own, where parallel writers cannot produce a textual conflict and contradictory decisions surface as branches to resolve
+  - Records structural decisions, not session transcripts or codebase search. No daemon, no server, MIT
+
 - [hjqcan/GoodMemory](https://github.com/hjqcan/GoodMemory) ![Stars](https://img.shields.io/github/stars/hjqcan/GoodMemory?style=flat-square)
   - Local-first, auditable memory layer for Claude Code, Codex, and MCP clients
   - One-command `goodmemory setup` installs managed hooks for scoped recall; governed writeback is opt-in, reviewable, and reversible
