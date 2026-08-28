@@ -929,6 +929,7 @@ Skills for marketing professionals, content creators, and growth teams.
   - Reaches platforms with no public write API — Xiaohongshu, Douyin, Zhihu, WeChat — alongside X, Reddit, LinkedIn, Medium and Bluesky
   - No platform API keys: commands run on your own machine, in your own session
   - Guards the risky parts — verify the account first, stage long text as files, confirm a post landed instead of retrying blind
+  - Install with `npx skills add karuha-m/publishport-skill` (Claude Code, Cursor, Codex, Copilot, Gemini and 70+ others)
 
 ---
 
