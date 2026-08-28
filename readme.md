@@ -924,6 +924,12 @@ Skills for marketing professionals, content creators, and growth teams.
   - Reports patterns with line numbers and a suggested fix instead of a single confidence score
   - English and Russian versions included
 
+- [karuha-m/publishport-skill](https://github.com/karuha-m/publishport-skill) ![Stars](https://img.shields.io/github/stars/karuha-m/publishport-skill?style=flat-square)
+  - Publish and cross-post to 60+ social and content platforms through your own logged-in browser (MIT)
+  - Reaches platforms with no public write API — Xiaohongshu, Douyin, Zhihu, WeChat — alongside X, Reddit, LinkedIn, Medium and Bluesky
+  - No platform API keys: commands run on your own machine, in your own session
+  - Guards the risky parts — verify the account first, stage long text as files, confirm a post landed instead of retrying blind
+
 ---
 
 ## Domain-Specific Skills
