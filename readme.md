@@ -1709,6 +1709,13 @@ Utilities and tools to enhance your Claude workflow.
   - Reports token usage and cost by day, month, session, and model
   - The most-referenced usage/cost tool in the community; Rust, very actively maintained
 
+- [isquividet/claude-code-session-report](https://github.com/isquividet/claude-code-session-report) ![Stars](https://img.shields.io/github/stars/isquividet/claude-code-session-report?style=flat-square)
+  - Turns a local Claude Code session transcript into a Markdown work-log
+  - Reports files touched, commands run, tools invoked, and session duration
+  - Reads `~/.claude/projects/` transcripts only — no network call and no model call
+  - Deterministic output, zero dependencies, Node 18+, runs via `npx`
+  - MIT licensed
+
 ### Configuration & Templates
 
 - [abhishekray07/claude-md-templates](https://github.com/abhishekray07/claude-md-templates) ![Stars](https://img.shields.io/github/stars/abhishekray07/claude-md-templates?style=flat-square)
