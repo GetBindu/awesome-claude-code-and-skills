@@ -537,6 +537,12 @@ Orchestrate multiple Claude agents to work together on complex tasks.
 
 ### Orchestration Platforms
 
+- [charlesashe/backbrief-kit](https://github.com/charlesashe/backbrief-kit) ![Stars](https://img.shields.io/github/stars/charlesashe/backbrief-kit?style=flat-square)
+  - Orchestrator decomposes a goal into units with acceptance criteria and routes each to a specialist agent
+  - A separate verifier re-reads the finished artifact in fresh context, never the producing agent's reasoning, before work is called done
+  - Shared rules every agent obeys: it stops before spending, sending, publishing, or granting access rather than acting alone
+  - Opt-in SessionStart hook re-injects the newest handoff brief and decision-log tail after startup, /clear, and compaction
+
 - [supernovae-st/nika](https://github.com/supernovae-st/nika) ![Stars](https://img.shields.io/github/stars/supernovae-st/nika?style=flat-square)
   - Workflow engine for AI: Claude Code captures repeatable work as `.nika.yaml` DAG files
   - Statically checked before execution (schema, permits, cost floor), tamper-evident traces after
