@@ -442,6 +442,11 @@ Skills focused on software development, code quality, and engineering workflows.
   - Hooks enforce type-checking and lint on edits
   - TypeScript, MIT licensed
 
+- [d1vai/d1v-cli](https://github.com/d1vai/d1v-cli) ![Stars](https://img.shields.io/github/stars/d1vai/d1v-cli?style=flat-square)
+  - Official d1v Skill for deployment workflows in Claude Code and Codex
+  - Waits for verified preview deployments and reports terminal deployment status
+  - Production releases require an interactive TTY and explicit user confirmation; MIT licensed
+
 ### Specialized Agents
 
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) ![Stars](https://img.shields.io/github/stars/VoltAgent/awesome-claude-code-subagents?style=flat-square)
