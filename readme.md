@@ -285,6 +285,12 @@ Skills focused on software development, code quality, and engineering workflows.
 
 ### Core Development Skills
 
+- [Pr1m4lc0d3/KiSYSTEM](https://github.com/Pr1m4lc0d3/KiSYSTEM) ![Stars](https://img.shields.io/github/stars/Pr1m4lc0d3/KiSYSTEM?style=flat-square)
+  - 10 skills that keep AI-written code modular and readable, enforced from the base of a project (MIT)
+  - Size budgets with review/extract/hard-stop tiers, and a dependency-free debt audit script
+  - Blast-radius checks before editing, moving, or deleting existing code
+  - Guards both cliffs: files growing into monoliths, and codebases shattering into too many tiny files
+
 - [musoyangrigor/gitx-skill](https://github.com/musoyangrigor/gitx-skill) ![Stars](https://img.shields.io/github/stars/musoyangrigor/gitx-skill?style=flat-square)
   - Turns messy AI-generated changes into clean, reviewable Git history
   - Splits mixed working-tree changes into logical Conventional Commits
@@ -788,6 +794,34 @@ n- [GiulioDER/cca-audit](https://github.com/GiulioDER/cca-audit) ![Stars](https:
 
 Skills for marketing professionals, content creators, and growth teams.
 
+- [Pr1m4lc0d3/mavericks-monkey-werx](https://github.com/Pr1m4lc0d3/mavericks-monkey-werx) ![Stars](https://img.shields.io/github/stars/Pr1m4lc0d3/mavericks-monkey-werx?style=flat-square)
+  - 24 guerrilla-marketing skills across three installable packs (MIT)
+  - [SCOUT](https://github.com/Pr1m4lc0d3/SCOUT): reconnaissance, research intake, grading a source dump, measuring what a move did
+  - [RAID](https://github.com/Pr1m4lc0d3/RAID): positioning against an incumbent, borrowed audiences, stage-gated campaigns
+  - [FORTRESS](https://github.com/Pr1m4lc0d3/FORTRESS): a cleared/uncleared claim register with a linter that fails the build on an unsourced claim
+  - Nothing publishes itself; every skill stages a deliverable for a human to send
+
+- [Pr1m4lc0d3/peitho](https://github.com/Pr1m4lc0d3/peitho) ![Stars](https://img.shields.io/github/stars/Pr1m4lc0d3/peitho?style=flat-square)
+  - Prose method built on classical rhetoric, for copy that has to hold a reader who can leave (MIT)
+  - Enforces an em-dash ceiling, a banned-word list, and a catalog of machine-prose tells
+  - Refuses to invent a name, number, date or statistic; marks the slot instead
+  - Edits a draft in the author's voice rather than recomposing it
+
+- [Pr1m4lc0d3/janus](https://github.com/Pr1m4lc0d3/janus) ![Stars](https://img.shields.io/github/stars/Pr1m4lc0d3/janus?style=flat-square)
+  - Builds positioning out of a product's contradictions instead of resolving them (MIT)
+  - For products that must be two opposed things at once: private and social, premium and free
+  - Also audits an existing design doc for contradictions being carried unnamed
+
+- [Pr1m4lc0d3/paraphrasis](https://github.com/Pr1m4lc0d3/paraphrasis) ![Stars](https://img.shields.io/github/stars/Pr1m4lc0d3/paraphrasis?style=flat-square)
+  - Restates a claim for a different audience without letting the claim move (MIT)
+  - Fidelity ledger plus nine named ways a claim drifts under rewriting
+  - Pairs with peitho: this holds the meaning still, peitho makes the sentences read
+
+- [Pr1m4lc0d3/metaphrasis](https://github.com/Pr1m4lc0d3/metaphrasis) ![Stars](https://img.shields.io/github/stars/Pr1m4lc0d3/metaphrasis?style=flat-square)
+  - Reads audio you cannot hear: tempo, key, loudness, structure and cut points (MIT)
+  - Triage a music library, or check whether a track sits under a voiceover
+  - QA on narrated marketing video: transcript, pacing, dead air, music burying the voice
+
 - [humanpen/humanpen-skill](https://github.com/humanpen/humanpen-skill) ![Stars](https://img.shields.io/github/stars/humanpen/humanpen-skill?style=flat-square)
   - Document-level AI humanizer for .docx/.pptx — whole file, selected passages, or detector-flagged text
   - Keeps every fact, number, table and all formatting intact
@@ -1145,6 +1179,12 @@ Specialized skills for specific industries and use cases.
 Utilities and tools to enhance your Claude workflow.
 
 ### Desktop Applications & GUI Tools
+
+- [Pr1m4lc0d3/wheel-to-talk](https://github.com/Pr1m4lc0d3/wheel-to-talk) ![Stars](https://img.shields.io/github/stars/Pr1m4lc0d3/wheel-to-talk?style=flat-square)
+  - Hold the middle mouse button to dictate voice-to-text in Claude Code (MIT, Windows)
+  - AutoHotkey shim; add your own terminal to the host list if you do not use Windows Terminal
+  - Logs every press and release, so "nothing happened" can be told apart from an unhooked click
+  - Built for hands-free and dictation-first workflows
 
 - [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) ![Stars](https://img.shields.io/github/stars/CherryHQ/cherry-studio?style=flat-square)
   - AI productivity studio with smart chat and autonomous agents
