@@ -1248,6 +1248,11 @@ Utilities and tools to enhance your Claude workflow.
   - MCP stdio server plus an OpenAI-compatible proxy (`:8077/v1`); one-command installer wires 18 coding agents including Claude Code, Codex, Cursor, and Windsurf
   - MIT licensed, Python 3.11; early-stage (v0.1.0, released 2026-07-06)
 
+- [dotcomjack/claude-session-tint](https://github.com/dotcomjack/claude-session-tint) ![Stars](https://img.shields.io/github/stars/dotcomjack/claude-session-tint?style=flat-square)
+  - Tells you which of several parallel sessions is waiting on you: each macOS Terminal window wears its project colour and brightens when a response lands while you are looking elsewhere, clearing on focus
+  - Tabs that share a window get a title marker instead, because Terminal draws only the selected tab's body and gives the tab bar no colour of its own
+  - Ships a `UserPromptSubmit` hook that runs a command from the input box with no turn and no tokens spent; installable as a Claude Code plugin, MIT
+
 ### Memory & Context Management
 
 - [hjqcan/GoodMemory](https://github.com/hjqcan/GoodMemory) ![Stars](https://img.shields.io/github/stars/hjqcan/GoodMemory?style=flat-square)
