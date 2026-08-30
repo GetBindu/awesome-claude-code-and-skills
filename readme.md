@@ -1140,6 +1140,14 @@ Specialized skills for specific industries and use cases.
   - Includes an AI-writing-pattern remover for humanizer-style prose cleanup
   - Apache-2.0 licensed
 
+- [REMvisual/claude-wol-remote-access](https://github.com/REMvisual/claude-wol-remote-access) ![Stars](https://img.shields.io/github/stars/REMvisual/claude-wol-remote-access?style=flat-square)
+  - Guided setup for a phone-reachable Wake-on-LAN and remote power panel over Tailscale
+  - Explains why Wake-on-LAN cannot cross a tailnet (the magic packet is a layer-2 broadcast) and builds a relay on an always-on device such as a NAS or Raspberry Pi
+  - Live vitals per machine: GPU temperature, utilisation, VRAM, power and fan, plus CPU, RAM, uptime, disks, and which model is loaded on the GPU
+  - Ships a magic-packet listener that proves whether a packet actually arrived, separating network faults from firmware faults
+  - Symptom-first troubleshooting reference covering Wake-on-LAN, SSH, BIOS access, and NAS relay hosts
+  - MIT licensed; invoked as `/wake-panel`
+
 ## Productivity Tools
 
 Utilities and tools to enhance your Claude workflow.
