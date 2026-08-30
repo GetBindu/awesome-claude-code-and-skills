@@ -278,6 +278,10 @@ These repositories offer extensive collections of skills across multiple domains
   - ~100 skills covering meeting pipelines, research, image generation, and publishing
   - Also personal analytics and Claude Code operations
   - Each skill is a self-contained SKILL.md folder; installable via plugin marketplace or `npx skills add`
+- [agentbody/skills](https://github.com/agentbody/skills) ![Stars](https://img.shields.io/github/stars/agentbody/skills?style=flat-square)
+  - Production-ready Agent Skills with MCP-backed capabilities
+  - X/Twitter research, document parsing, lead discovery, competitor monitoring, and humanized writing
+  - MIT licensed
 
 ## Development & Engineering
 
