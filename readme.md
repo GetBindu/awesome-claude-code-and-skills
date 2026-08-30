@@ -1135,6 +1135,13 @@ Specialized skills for specific industries and use cases.
   - Systematic literature review through slide generation
   - Includes GitHub repository analysis for research topics
 
+- [ZeroPointRepo/zillow-skills](https://github.com/ZeroPointRepo/zillow-skills) ![Stars](https://img.shields.io/github/stars/ZeroPointRepo/zillow-skills?style=flat-square)
+  - Zestimates, comps, for-sale, sold and rental listings, price history, photos, taxes, and schools for 160M+ US homes
+  - 3 skills in one repo; install the bundled `zillow-full` for broad coverage or a focused variant for a smaller tool surface
+  - Works with Claude, ChatGPT, OpenClaw, and Hermes Agent through the open Agent Skills format
+  - Pure Python standard library with no dependencies; free tier, no card required; MIT-0 licensed
+  - Independent service for Zillow-sourced data, not affiliated with or endorsed by Zillow
+
 - [boraoztunc/skills](https://github.com/boraoztunc/skills) ![Stars](https://img.shields.io/github/stars/boraoztunc/skills?style=flat-square)
   - Claude Code skills for copywriting, SEO, and design
   - Includes an AI-writing-pattern remover for humanizer-style prose cleanup
