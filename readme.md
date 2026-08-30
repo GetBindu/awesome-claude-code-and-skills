@@ -442,6 +442,12 @@ Skills focused on software development, code quality, and engineering workflows.
   - Hooks enforce type-checking and lint on edits
   - TypeScript, MIT licensed
 
+- [qingtiandamowang/alibaba-java-guidelines-skills](https://github.com/qingtiandamowang/alibaba-java-guidelines-skills) ![Stars](https://img.shields.io/github/stars/qingtiandamowang/alibaba-java-guidelines-skills?style=flat-square)
+  - Alibaba Java Development Manual (Huangshan edition) as 8 skills — all 324 rules
+  - Fixes systematic PDF-extraction defects other ports share: chapter bleed, broken 【强制】/【推荐】markers, page numbers glued to rule text
+  - Schema, security, testing, error-code and design chapters retargeted to ANY language (Go, Rust, Python); Java-only chapters explicitly fenced off
+  - Installable as a Claude Code plugin marketplace, or copy individual skills
+
 ### Specialized Agents
 
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) ![Stars](https://img.shields.io/github/stars/VoltAgent/awesome-claude-code-subagents?style=flat-square)
