@@ -1395,6 +1395,11 @@ Utilities and tools to enhance your Claude workflow.
 
 ### MCP Servers & Integrations
 
+- [bekservice/Famulor-Skill](https://github.com/bekservice/Famulor-Skill/tree/main/claude-store/skills/famulor-assistants-history) ![Stars](https://img.shields.io/github/stars/bekservice/Famulor-Skill?style=flat-square)
+  - Read-only Agent Skill for reviewing Famulor assistant configurations and omnichannel call, messaging, and email history
+  - Uses exactly 11 list/get tools with the restricted `assistants:read` and `calls:read` OAuth scopes
+  - Includes connected-channel history such as WhatsApp and Instagram when the authenticated workspace returns it
+
 - [oraios/serena](https://github.com/oraios/serena) ![Stars](https://img.shields.io/github/stars/oraios/serena?style=flat-square)
   - Powerful coding agent toolkit with semantic capabilities
   - MCP server for retrieval and editing
