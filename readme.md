@@ -1197,6 +1197,12 @@ Utilities and tools to enhance your Claude workflow.
   - Turns CLI-based AI orchestration into a desktop experience
   - TypeScript-driven Electron build
 
+- [MarlBurroW/sillage](https://github.com/MarlBurroW/sillage) ![Stars](https://img.shields.io/github/stars/MarlBurroW/sillage?style=flat-square)
+  - Self-hosted, mobile-first web UI that drives the native Claude Code and Codex CLIs on your own machine
+  - Sessions that outlive the client, full-text search over every conversation, IDE panel (file explorer, editor, diffs, terminal)
+  - Installable PWA with push, single Docker container; agents read a board through its own MCP server
+  - MIT licensed
+
 ### Agent Harnesses & Meta-Tools
 
 - [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) ![Stars](https://img.shields.io/github/stars/code-yeongyu/oh-my-openagent?style=flat-square)
