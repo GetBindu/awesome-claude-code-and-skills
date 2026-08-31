@@ -165,6 +165,10 @@ These repositories offer extensive collections of skills across multiple domains
   - Tagged for agentic coding and AI workflow optimization
   - Frequently referenced as a starting point for Claude Code newcomers
 
+- [loqimean/awesome-claude-code-hooks](https://github.com/loqimean/awesome-claude-code-hooks) ![Stars](https://img.shields.io/github/stars/loqimean/awesome-claude-code-hooks?style=flat-square)
+  - Curated list of hooks, guides, and tools for Claude Code hooks
+  - Covers PreToolUse, PostToolUse, SessionStart, Notification, Stop, and more
+
 - [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) ![Stars](https://img.shields.io/github/stars/ComposioHQ/awesome-claude-skills?style=flat-square)
   - Composio-curated directory of Claude Skills, plugins, and workflow integrations
   - Covers agent skills, MCP servers, Claude Code, Codex, Cursor, Gemini CLI, and Antigravity
