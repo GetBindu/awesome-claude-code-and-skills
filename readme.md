@@ -529,6 +529,17 @@ Skills focused on software development, code quality, and engineering workflows.
   - Embeds Claude Code into the Neovim workflow
   - Lua-based; maintained by Coder
 
+- [infai-tech/claudemd-auditor-skill](https://github.com/infai-tech/claudemd-auditor-skill) ![Stars](https://img.shields.io/github/stars/infai-tech/claudemd-auditor-skill?style=flat-square)
+  - Calibrated 0–100 audit of `CLAUDE.md` files on six axes (Specificity, Coverage, Brevity, Currency, Quirks captured, Tone fit)
+  - v1.0 matches human baselines at Δ=0 across a 6-case corpus spanning 14–78 points; adversarial corpus exercises three error codes (`too_short`, `not_a_claudemd`, `too_long`)
+  - Returns paste-ready Top-3 improvements with concrete markdown snippets
+  - Drop-in `~/.claude/skills/claudemd-auditor/` install; MIT licensed; no external dependencies
+
+- [uizze/uizze](https://github.com/uizze/uizze) ![Stars](https://img.shields.io/github/stars/uizze/uizze?style=flat-square)
+  - Free anti-UI-slop Agent Skill and GitHub Action for Claude Code and other coding agents
+  - Grounds UI work in 800,000+ real web and iOS screens with product-specific design contracts and a hard finish gate
+  - MIT licensed; install with `npx skills add https://uizze.com --skill anti-ui-slop`
+
 ---
 
 ## Multi-Agent Systems
