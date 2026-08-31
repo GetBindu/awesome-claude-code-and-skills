@@ -1256,6 +1256,12 @@ Utilities and tools to enhance your Claude workflow.
 
 ### Memory & Context Management
 
+- [tonydzi/claude-memory-tidy](https://github.com/tonydzi/claude-memory-tidy) ![Stars](https://img.shields.io/github/stars/tonydzi/claude-memory-tidy?style=flat-square)
+  - Keeps Claude Code's always-loaded `MEMORY.md` from silently truncating: the harness cuts the tail past a fixed size with no error, so the agent quietly stops knowing things it "remembers"
+  - Deterministic guard (budget, orphaned notes, dead pointers, duplicates, sync-conflicts) plus verbatim folding of a domain into warm `hub-*.md` sub-indexes, so pointers never lose findability
+  - Mechanical work runs with no LLM at all; the model is summoned only when the detectors say there is work, and the guard re-verifies afterwards
+  - Declared per-machine ownership prevents a second writer on an index synced from another machine; macOS/Linux, stdlib only, 17 tests
+
 - [hjqcan/GoodMemory](https://github.com/hjqcan/GoodMemory) ![Stars](https://img.shields.io/github/stars/hjqcan/GoodMemory?style=flat-square)
   - Local-first, auditable memory layer for Claude Code, Codex, and MCP clients
   - One-command `goodmemory setup` installs managed hooks for scoped recall; governed writeback is opt-in, reviewable, and reversible
