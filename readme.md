@@ -285,6 +285,13 @@ Skills focused on software development, code quality, and engineering workflows.
 
 ### Core Development Skills
 
+- [ArcticFox2029/chamnan](https://github.com/ArcticFox2029/chamnan) ![Stars](https://img.shields.io/github/stars/ArcticFox2029/chamnan?style=flat-square)
+  - Builds an architecture index the agent reads instead of scanning files
+  - Keeps work state and the decisions behind the code across sessions, so an agent stops rediscovering them
+  - Records the procedures and traps you keep re-deriving, and notices when one repeats
+  - Warns before a read pulls in a lock file or a minified bundle; redacts secrets from everything it writes
+  - Python standard library only — no packages, no network, nothing leaves the machine
+
 - [musoyangrigor/gitx-skill](https://github.com/musoyangrigor/gitx-skill) ![Stars](https://img.shields.io/github/stars/musoyangrigor/gitx-skill?style=flat-square)
   - Turns messy AI-generated changes into clean, reviewable Git history
   - Splits mixed working-tree changes into logical Conventional Commits
