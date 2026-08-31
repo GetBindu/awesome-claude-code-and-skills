@@ -1254,6 +1254,12 @@ Utilities and tools to enhance your Claude workflow.
   - MCP stdio server plus an OpenAI-compatible proxy (`:8077/v1`); one-command installer wires 18 coding agents including Claude Code, Codex, Cursor, and Windsurf
   - MIT licensed, Python 3.11; early-stage (v0.1.0, released 2026-07-06)
 
+- [UiPath/coder_eval](https://github.com/UiPath/coder_eval) ![Stars](https://img.shields.io/github/stars/UiPath/coder_eval?style=flat-square)
+  - Measures whether a skill actually triggers: precision, recall, and F1 over labelled prompt datasets
+  - Runs one task suite across Claude Code, Codex, OpenCode, and Antigravity to separate skill defects from harness defects
+  - Sandboxed runs, LLM-judge and deterministic criteria, published GitHub Action for CI gating
+  - Python, Apache-2.0
+
 ### Memory & Context Management
 
 - [hjqcan/GoodMemory](https://github.com/hjqcan/GoodMemory) ![Stars](https://img.shields.io/github/stars/hjqcan/GoodMemory?style=flat-square)
