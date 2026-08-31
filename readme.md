@@ -1393,6 +1393,13 @@ Utilities and tools to enhance your Claude workflow.
   - Builds memory and injects relevant context back into the session
   - From Letta AI; TypeScript, MIT licensed
 
+- [secondbrainstarter/verified-memory-vault](https://github.com/secondbrainstarter/verified-memory-vault) ![Stars](https://img.shields.io/github/stars/secondbrainstarter/verified-memory-vault?style=flat-square)
+  - Free Obsidian vault that gives Claude Code, Codex, and Gemini CLI a persistent Markdown memory with a boot file (`CLAUDE.md`), dated append-only `MEMORY.md`, and daily session notes
+  - `memory_check.py` verifies memory health each session: undated entries, duplicates, dead wikilinks, and MEMORY.md bloat against a line budget, with a score and exit code
+  - `memory_guard.py` is an optional git pre-commit hook that refuses commits deleting many memory files or removing MEMORY.md lines without archiving them first
+  - Standard-library Python only, no Node/npm/plugins; unzip and open in Obsidian, setup under 10 minutes
+
+
 ### MCP Servers & Integrations
 
 - [oraios/serena](https://github.com/oraios/serena) ![Stars](https://img.shields.io/github/stars/oraios/serena?style=flat-square)
