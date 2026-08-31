@@ -1140,6 +1140,12 @@ Specialized skills for specific industries and use cases.
   - Includes an AI-writing-pattern remover for humanizer-style prose cleanup
   - Apache-2.0 licensed
 
+- [ZeroPointRepo/youtube-skills](https://github.com/ZeroPointRepo/youtube-skills) ![Stars](https://img.shields.io/github/stars/ZeroPointRepo/youtube-skills?style=flat-square)
+  - YouTube transcripts, video search, channel browsing, and playlist extraction from an agent
+  - 12 skills in one repo; install the bundled `youtube-full` for broad coverage or a focused variant for a smaller tool surface
+  - Works with Claude, ChatGPT, OpenClaw, and Hermes Agent through the open Agent Skills format
+  - Free tier, no card required; MIT licensed
+
 ## Productivity Tools
 
 Utilities and tools to enhance your Claude workflow.
