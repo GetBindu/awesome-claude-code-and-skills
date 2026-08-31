@@ -442,6 +442,12 @@ Skills focused on software development, code quality, and engineering workflows.
   - Hooks enforce type-checking and lint on edits
   - TypeScript, MIT licensed
 
+- [Hahaknight/claude-skills-pro](https://github.com/Hahaknight/claude-skills-pro) ![Stars](https://img.shields.io/github/stars/Hahaknight/claude-skills-pro?style=flat-square)
+  - 15 engineering-workflow skills: 7-dimension code review, bug-catching test generation, root-cause debugging, security audit, behavior-preserving refactor
+  - 7 free/MIT; Pro pack adds 8 more (API design, zero-downtime DB migration, dependency guardianship) + a Chinese handbook with a 15-row scenario lookup table
+  - One-command install into 78+ agents: `npx skills add Hahaknight/claude-skills-pro` (verified in Claude Code, Codex, Gemini CLI, Goose, Crush, Qwen Code)
+
+
 ### Specialized Agents
 
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) ![Stars](https://img.shields.io/github/stars/VoltAgent/awesome-claude-code-subagents?style=flat-square)
