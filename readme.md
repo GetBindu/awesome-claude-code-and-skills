@@ -924,6 +924,13 @@ Skills for marketing professionals, content creators, and growth teams.
   - Reports patterns with line numbers and a suggested fix instead of a single confidence score
   - English and Russian versions included
 
+- [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills) ![Stars](https://img.shields.io/github/stars/beatra-ai/beatra-skills?style=flat-square)
+  - 208 official Beatra skills for AI image, video, music, and voice generation (MIT-0)
+  - Content-creator workflows: product photos, ad and social video, covers, thumbnails, voice-over, dubbing, BGM
+  - Public social data lookup across YouTube, TikTok, Instagram, and X for research and trend work
+  - Installed from digest-verified immutable release archives; runs on prepaid credits with per-call cost shown before submission
+  - The bundled client self-updates by default (verified, rollback-safe); `update --auto off` pins an installation
+
 ---
 
 ## Domain-Specific Skills
