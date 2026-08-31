@@ -1532,6 +1532,12 @@ Utilities and tools to enhance your Claude workflow.
   - Query databases and create/update pages and blocks via the Notion API
   - Supports a hosted remote endpoint and local stdio deployment
 
+- [haljishi/vidwords-mcp](https://github.com/haljishi/vidwords-mcp) ![Stars](https://img.shields.io/github/stars/haljishi/vidwords-mcp?style=flat-square)
+  - Hosted YouTube MCP server: search transcripts, read captions, analyse a video's frames
+  - `search_transcript` takes a list of videos, so one call answers a question across a channel
+  - Every answer carries a clickable timestamp citation rather than a wall of transcript
+  - Remote Streamable HTTP with OAuth 2.1; official registry id `com.vidwords/youtube`
+
 ### API & Integration Tools
 
 - [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) ![Stars](https://img.shields.io/github/stars/router-for-me/CLIProxyAPI?style=flat-square)
