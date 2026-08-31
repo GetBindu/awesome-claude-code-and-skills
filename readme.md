@@ -929,6 +929,7 @@ Skills for marketing professionals, content creators, and growth teams.
   - Content-creator workflows: product photos, ad and social video, covers, thumbnails, voice-over, dubbing, BGM
   - Public social data lookup across YouTube, TikTok, Instagram, and X for research and trend work
   - Installed from digest-verified immutable release archives; runs on prepaid credits with per-call cost shown before submission
+  - The bundled client self-updates by default (verified, rollback-safe); `update --auto off` pins an installation
 
 ---
 
