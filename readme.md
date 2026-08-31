@@ -442,6 +442,12 @@ Skills focused on software development, code quality, and engineering workflows.
   - Hooks enforce type-checking and lint on edits
   - TypeScript, MIT licensed
 
+- [ToRvaLDz/trailhead](https://github.com/ToRvaLDz/trailhead) ![Stars](https://img.shields.io/github/stars/ToRvaLDz/trailhead?style=flat-square)
+  - Runs a project too large for one session as a map of decision tickets on GitHub Issues
+  - discuss→plan→execute→verify engine: grilling, throwaway prototypes, TDD, cross-AI plan review, adversarial code review, goal-backward verification
+  - Atomic commits; the map, discussions, plans, and verifications all live on the Issues, not in the session context
+  - Self-contained (ships its own trailhead-* agents); works on Claude Code and Codex
+
 ### Specialized Agents
 
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) ![Stars](https://img.shields.io/github/stars/VoltAgent/awesome-claude-code-subagents?style=flat-square)
