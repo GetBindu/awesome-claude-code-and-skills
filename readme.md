@@ -279,6 +279,11 @@ These repositories offer extensive collections of skills across multiple domains
   - Also personal analytics and Claude Code operations
   - Each skill is a self-contained SKILL.md folder; installable via plugin marketplace or `npx skills add`
 
+- [mloda-ai/mloda-skills](https://github.com/mloda-ai/mloda-skills) ![Stars](https://img.shields.io/github/stars/mloda-ai/mloda-skills?style=flat-square)
+  - Agent Skills for mloda, a Python plugin framework for declarative, deterministic data access for AI agents
+  - Skills for using mloda (context assembly, RAG feature-name chaining, the LLM Tool Function pattern) and for building mloda plugins
+  - MIT licensed
+
 ## Development & Engineering
 
 Skills focused on software development, code quality, and engineering workflows.
