@@ -1146,6 +1146,11 @@ Specialized skills for specific industries and use cases.
   - Works with Claude, ChatGPT, OpenClaw, and Hermes Agent through the open Agent Skills format
   - Free tier, no card required; MIT licensed
 
+- [apexbymanish/claude-ai-agents-ios](https://github.com/apexbymanish/claude-ai-agents-ios) ![Stars](https://img.shields.io/github/stars/apexbymanish/claude-ai-agents-ios?style=flat-square)
+  - iOS/Swift/Xcode subagents & skills: architecture, testing, memory/performance, security, App Store readiness, Tuist project generation
+  - Every agent reports against a seven-tier evidence taxonomy (ASSUMPTION → HUMAN_VERIFICATION) instead of asserting unverified claims
+  - Ships a `.claude-plugin` manifest for one-command install via `/plugin marketplace add`; MIT licensed
+
 ## Productivity Tools
 
 Utilities and tools to enhance your Claude workflow.
