@@ -105,7 +105,7 @@ These repositories offer extensive collections of skills across multiple domains
   - Compatible with 11 different tools
 
 - [JasonColapietro/suede-creator-skills](https://github.com/JasonColapietro/suede-creator-skills) ![Stars](https://img.shields.io/github/stars/JasonColapietro/suede-creator-skills?style=flat-square)
-  - 71 MIT-licensed skills for Claude Code and Codex
+  - 74 MIT-licensed skills for Claude Code and Codex
   - Covers code review and ship grading, design, marketing, agent workflows, and mobile release preparation
   - Installable through the Claude and Codex plugin marketplaces or the skills CLI
 
