@@ -1145,6 +1145,12 @@ Specialized skills for specific industries and use cases.
   - 12 skills in one repo; install the bundled `youtube-full` for broad coverage or a focused variant for a smaller tool surface
   - Works with Claude, ChatGPT, OpenClaw, and Hermes Agent through the open Agent Skills format
   - Free tier, no card required; MIT licensed
+- [dylnbaker15/Claude-Skills-For-Business-Intelligence](https://github.com/dylnbaker15/Claude-Skills-For-Business-Intelligence) ![Stars](https://img.shields.io/github/stars/dylnbaker15/Claude-Skills-For-Business-Intelligence?style=flat-square)
+  - Business intelligence skill and doctrine for Claude Code, Cursor and any agent with a system prompt
+  - Every figure reconciles to a total the source file itself asserts; anything the file cannot prove is named on the page instead of shipped as a number
+  - Ships the eleven principles of certified BI in full, plus a doctrine gate that reads the finished artifact and fails the build when a principle is broken
+  - Four formats in the box: SKILL.md, a Cursor .mdc rule, AGENTS.md, and a plain prompt
+  - MIT licensed; installs in one command with `npx skills add dylnbaker15/Claude-Skills-For-Business-Intelligence`
 
 ## Productivity Tools
 
