@@ -350,6 +350,12 @@ Skills focused on software development, code quality, and engineering workflows.
   - CLI tool with full LLM usage guide
   - Works with Claude Code, Amp, and Codex
 
+- [pungme/superagent-desktop](https://github.com/pungme/superagent-desktop) ![Stars](https://img.shields.io/github/stars/pungme/superagent-desktop?style=flat-square)
+  - macOS desktop app giving Claude Code a real (non-headless) browser it can navigate and drive
+  - iOS Simulator window it can install apps into and screenshot
+  - Phone companion app + relay for remote monitoring of a session
+  - MIT licensed
+
 - [arun-mosai/claude-code-slice-skills](https://github.com/arun-mosai/claude-code-slice-skills) ![Stars](https://img.shields.io/github/stars/arun-mosai/claude-code-slice-skills?style=flat-square)
   - Three composable skills (`/slice`, `/slice-resume`, `/slice-build`) for vertical-slice feature development
   - Turns a one-line feature idea into 11 validated design docs (persona, journey, UI, API, data, security, observability, AI, seed, tests, index)
