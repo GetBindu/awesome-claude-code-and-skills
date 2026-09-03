@@ -442,6 +442,14 @@ Skills focused on software development, code quality, and engineering workflows.
   - Hooks enforce type-checking and lint on edits
   - TypeScript, MIT licensed
 
+- [tainguyen091994/receipts](https://github.com/tainguyen091994/receipts) ![Stars](https://img.shields.io/github/stars/tainguyen091994/receipts?style=flat-square)
+  - Evidence gate: makes an agent paste what it ran before it may claim work is done
+  - Ships a 4-tier benchmark graded by a `pytest` exit code, not by another model
+  - 424 runs, six predictions filed before the data, two of them lost; every transcript committed
+  - Raises evidence rate from 3% to 98%, and is measured *not* to reduce false claims
+  - Adapters for 6 agents from one `SKILL.md`; MIT
+
+
 ### Specialized Agents
 
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) ![Stars](https://img.shields.io/github/stars/VoltAgent/awesome-claude-code-subagents?style=flat-square)
