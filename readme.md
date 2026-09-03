@@ -1152,6 +1152,12 @@ Utilities and tools to enhance your Claude workflow.
 
 ### Desktop Applications & GUI Tools
 
+- [vivekchand/clawmetry](https://github.com/vivekchand/clawmetry) ![Stars](https://img.shields.io/github/stars/vivekchand/clawmetry?style=flat-square)
+  - Local dashboard and kill switch for Claude Code, Codex, Cursor, Gemini CLI, OpenClaw and other coding agents
+  - Reads the session logs the runtimes already write on disk: sessions, transcripts, tool calls, tokens and cache-aware cost; no SDK, nothing in the request path
+  - Opt-in emergency stop per session and pre-tool approvals for risky actions; website at [clawmetry.com](https://clawmetry.com)
+  - Python, MIT, open-core: OpenClaw and NemoClaw free, other runtimes on the Cloud or self-hosted Pro tier
+
 - [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) ![Stars](https://img.shields.io/github/stars/CherryHQ/cherry-studio?style=flat-square)
   - AI productivity studio with smart chat and autonomous agents
   - 300+ built-in assistants for various tasks
