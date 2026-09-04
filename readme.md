@@ -934,6 +934,11 @@ Skills for marketing professionals, content creators, and growth teams.
 
 Specialized skills for specific industries and use cases.
 
+- [diffbot/diffbot-skills](https://github.com/diffbot/diffbot-skills) ![Stars](https://img.shields.io/github/stars/diffbot/diffbot-skills?style=flat-square)
+  - Agent skills for fetching web knowledge as structured data, not AI summaries.
+  - Access web search, Knowledge Graph (companies, people, news, places, deals, and more), extract, and crawl
+  - Compatible with Claude Code, Cursor, Codex, Copilot, Pi, and more via `npx skills add diffbot/diffbot-skills`
+
 - [dhosruiasn/accessible-dark-mode-design-expert](https://github.com/dhosruiasn/accessible-dark-mode-design-expert) ![Stars](https://img.shields.io/github/stars/dhosruiasn/accessible-dark-mode-design-expert?style=flat-square)
   - Accessible light/dark theme design, implementation, review, and audit skill for Claude Code and OpenAI Codex
   - Covers user preference precedence, semantic design tokens, WCAG text and non-text contrast, theme-aware assets, Material and Apple conventions, and reduced-motion-safe transitions
