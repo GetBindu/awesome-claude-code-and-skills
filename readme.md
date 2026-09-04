@@ -147,6 +147,12 @@ These repositories offer extensive collections of skills across multiple domains
   - Contributions from Sentry, Trail of Bits, Expo, DuckDB, Figma, Google
   - Community-driven with regular updates
 
+- [diffbot/diffbot-skills](https://github.com/diffbot/diffbot-skills) ![Stars](https://img.shields.io/github/stars/diffbot/diffbot-skills?style=flat-square)
+  - Official Diffbot collection: 10 production skills for structured web knowledge
+  - Query the Diffbot Knowledge Graph (companies, people, news, places, deals) with DQL
+  - Web extraction, crawling, entity resolution, and web search
+  - MIT-licensed; installs across Claude Code, Cursor, Codex, Copilot, Pi, and more via `npx skills add diffbot/diffbot-skills`
+
 - [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) ![Stars](https://img.shields.io/github/stars/sickn33/agentic-awesome-skills?style=flat-square)
   - 1,326+ installable agentic skills
   - CLI installer for easy setup
