@@ -1532,6 +1532,13 @@ Utilities and tools to enhance your Claude workflow.
   - Query databases and create/update pages and blocks via the Notion API
   - Supports a hosted remote endpoint and local stdio deployment
 
+- [nikolai-vysotskyi/trace-mcp](https://github.com/nikolai-vysotskyi/trace-mcp) ![Stars](https://img.shields.io/github/stars/nikolai-vysotskyi/trace-mcp?style=flat-square)
+  - Indexes a repository once, then answers with symbols, call graphs and change impact instead of file reads
+  - Outline and single-symbol lookups replace re-reading whole files turn after turn
+  - 81 languages and 87 framework integrations; runs entirely local, no API key
+  - Median 90.6% fewer input tokens to assemble PR-review context, measured over 60 merged PRs in 6 repos that are not ours ([method](https://trace-mcp.com/pr-context-benchmark.html))
+  - TypeScript, MIT licensed
+
 ### API & Integration Tools
 
 - [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) ![Stars](https://img.shields.io/github/stars/router-for-me/CLIProxyAPI?style=flat-square)
