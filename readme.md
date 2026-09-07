@@ -445,7 +445,7 @@ Skills focused on software development, code quality, and engineering workflows.
 - [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) ![Stars](https://img.shields.io/github/stars/Continuum-AI-Corp/OrcaReplay?style=flat-square)
   - Answers "why did the earlier run do that" from a recording instead of from memory
   - Records below the harness: model traffic, shell exit codes, per-turn file changes and MCP calls on one timeline
-  - Replays a run offline byte-for-byte with the network off, or forks it from a checkpoint onto a different model
+  - Replays a run offline with the network off, or forks it from a checkpoint onto a different model
   - Ships an MCP server (6 tools) plus a SKILL.md; works with Claude Code, Codex, opencode, Qwen Code and Cursor
 
 ### Specialized Agents
