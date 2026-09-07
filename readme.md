@@ -1203,6 +1203,10 @@ Utilities and tools to enhance your Claude workflow.
   - Turns CLI-based AI orchestration into a desktop experience
   - TypeScript-driven Electron build
 
+- [Orkas-AI/Orkas](https://github.com/Orkas-AI/Orkas)
+  - Open-source, local-first desktop AI workforce coordinated by a Commander through one chat.
+  - Coordinates built-in specialist agents and local coding agents, including Claude Code and Codex
+
 ### Agent Harnesses & Meta-Tools
 
 - [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) ![Stars](https://img.shields.io/github/stars/code-yeongyu/oh-my-openagent?style=flat-square)
