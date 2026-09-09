@@ -1152,6 +1152,12 @@ Utilities and tools to enhance your Claude workflow.
 
 ### Desktop Applications & GUI Tools
 
+- [sorkila/lockpaw](https://github.com/sorkila/lockpaw) ![Stars](https://img.shields.io/github/stars/sorkila/lockpaw?style=flat-square)
+  - Menu bar app that covers and input-locks the screen while agents keep working
+  - The locked screen glows when Claude Code pauses for permission or finishes
+  - One-click hook setup for Claude Code, Codex, Gemini, Cursor, Copilot and Aider
+  - Native Swift, 10 MB, signed and notarized; no Electron, no analytics
+
 - [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) ![Stars](https://img.shields.io/github/stars/CherryHQ/cherry-studio?style=flat-square)
   - AI productivity studio with smart chat and autonomous agents
   - 300+ built-in assistants for various tasks
