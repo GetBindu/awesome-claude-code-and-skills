@@ -924,6 +924,13 @@ Skills for marketing professionals, content creators, and growth teams.
   - Reports patterns with line numbers and a suggested fix instead of a single confidence score
   - English and Russian versions included
 
+- [patlf/shotkit](https://github.com/patlf/shotkit) ![Stars](https://img.shields.io/github/stars/patlf/shotkit?style=flat-square)
+  - Turns a raw screenshot into one that looks like a product shipped it, for landing pages, READMEs, changelogs and store listings
+  - Backdrops derived from the shot's own colours, layered shadows, macOS/browser chrome, arrows and numbered badges
+  - Redaction that is actually irreversible — pixelation rather than blur, which is recoverable
+  - Audits a finished set and fails the build on crops that cut through text, wrong resolution, or mismatched sizes
+  - Skill plus a zero-dependency Node CLI (MIT); works with Claude Code, Cursor, Codex and other SKILL.md clients
+
 ---
 
 ## Domain-Specific Skills
