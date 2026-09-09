@@ -279,6 +279,11 @@ These repositories offer extensive collections of skills across multiple domains
   - Also personal analytics and Claude Code operations
   - Each skill is a self-contained SKILL.md folder; installable via plugin marketplace or `npx skills add`
 
+- [tushaarmehtaa/tushar-skills](https://github.com/tushaarmehtaa/tushar-skills) ![Stars](https://img.shields.io/github/stars/tushaarmehtaa/tushar-skills?style=flat-square)
+  - MIT-licensed Agent Skills for software design, implementation, release checks, and documentation
+  - Per-runtime installation guidance for Claude Code, Codex, and Cursor
+  - Explicit tool requirements and bundled Markdown references
+
 ## Development & Engineering
 
 Skills focused on software development, code quality, and engineering workflows.
