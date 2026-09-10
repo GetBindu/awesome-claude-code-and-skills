@@ -531,6 +531,12 @@ Skills focused on software development, code quality, and engineering workflows.
 
 ---
 
+- [Nagarjuna2997/ios-agent-skill](https://github.com/Nagarjuna2997/ios-agent-skill)
+  - Swift/SwiftUI guidance with local source examples and Apple reference retrieval
+  - Published MCP package with 11 read-only Swift review tools; optional macOS/Xcode simulator tools
+  - MIT licensed; setup guides for Claude, Codex, and Gemini CLI
+
+
 ## Multi-Agent Systems
 
 Orchestrate multiple Claude agents to work together on complex tasks.
