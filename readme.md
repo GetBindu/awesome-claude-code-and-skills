@@ -1323,6 +1323,12 @@ Utilities and tools to enhance your Claude workflow.
   - Ships hooks, skills, and an MCP server for 15+ platforms (Claude Code, Codex, Cursor, Kiro, Zed, OpenClaw)
   - Project site at context-mode.com
 
+- [contextstream/mcp-server](https://github.com/contextstream/mcp-server) ![Stars](https://img.shields.io/github/stars/contextstream/mcp-server?style=flat-square)
+  - Shared project context for Cursor, Claude Code, Codex, and Grok via hosted MCP
+  - Hosted endpoint: https://mcp.contextstream.io/mcp — site: https://contextstream.io
+  - Keeps teammates and multi-agent workflows aligned on the same project context
+  - Intelligence isn’t the bottleneck. Context is.
+
 - [gastownhall/beads](https://github.com/gastownhall/beads) ![Stars](https://img.shields.io/github/stars/gastownhall/beads?style=flat-square)
   - Memory upgrade for coding agents
   - Persists context across sessions for Claude Code and other agents
