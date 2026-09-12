@@ -1395,6 +1395,9 @@ Utilities and tools to enhance your Claude workflow.
 
 ### MCP Servers & Integrations
 
+- [cohesivity-org/cohesivity-plugin](https://github.com/cohesivity-org/cohesivity-plugin) ![Stars](https://img.shields.io/github/stars/cohesivity-org/cohesivity-plugin?style=flat-square)
+  - cohesivity.ai offers free agent native backend services. Anonymous account (no-signup) to get started through MCP or API. Hosting, postgres, email, storage, containers, LLMs, voice and third-party APIs. Includes free tiers and 5 USD/mo in AI and Search credits. Top-ups through x402.
+
 - [oraios/serena](https://github.com/oraios/serena) ![Stars](https://img.shields.io/github/stars/oraios/serena?style=flat-square)
   - Powerful coding agent toolkit with semantic capabilities
   - MCP server for retrieval and editing
