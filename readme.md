@@ -926,6 +926,11 @@ Skills for marketing professionals, content creators, and growth teams.
 
 ---
 
+- [ranahaani/i-hate-editing](https://github.com/ranahaani/i-hate-editing) ![Stars](https://img.shields.io/github/stars/ranahaani/i-hate-editing?style=flat-square)
+  - Claude Code skill that turns raw talking-head takes into a finished cut
+  - Local whisper.cpp + ffmpeg; the model never watches the video
+  - 67 craft rules paid for by rejected renders; MIT
+
 ## Domain-Specific Skills
 
 - [Uhudsavasindankacanokcu2/finance-skills-for-claude](https://github.com/Uhudsavasindankacanokcu2/finance-skills-for-claude) ![Stars](https://img.shields.io/github/stars/Uhudsavasindankacanokcu2/finance-skills-for-claude?style=flat-square) - Cash flow, runway, invoices, budgets & scenario modeling for founders/finance teams
