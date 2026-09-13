@@ -924,6 +924,12 @@ Skills for marketing professionals, content creators, and growth teams.
   - Reports patterns with line numbers and a suggested fix instead of a single confidence score
   - English and Russian versions included
 
+- [squirrelscan/squirrelscan](https://github.com/squirrelscan/squirrelscan) ![Stars](https://img.shields.io/github/stars/squirrelscan/squirrelscan?style=flat-square)
+  - Website audit CLI built for coding agents: crawls a site, runs 260+ rules across SEO, performance, security, accessibility and agent experience, and hands the agent exact, source-mapped fixes (MIT)
+  - `audit-website` skill drives the loop: audit, map findings to source files, fix, re-audit until the site scores well
+  - Free local audits, GitHub Action for CI budgets, and a hosted MCP server
+  - Install: `/plugin marketplace add squirrelscan/squirrelscan` (plugin) or `npx skills add squirrelscan/squirrelscan` (skills)
+
 ---
 
 ## Domain-Specific Skills
