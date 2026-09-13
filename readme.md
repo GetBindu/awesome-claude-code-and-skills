@@ -438,6 +438,7 @@ Skills focused on software development, code quality, and engineering workflows.
   - ~21k lines of review guidelines; MIT licensed
 
 - [carlrannaberg/claudekit](https://github.com/carlrannaberg/claudekit) ![Stars](https://img.shields.io/github/stars/carlrannaberg/claudekit?style=flat-square)
+- [mblode/agent-skills](https://github.com/mblode/agent-skills) - Nobody ships AI slop on purpose. These skills make sure you don't. UI audits, typography, docs, PR review, and releases. `npx skills add mblode/agent-skills`
   - Toolkit of custom slash commands, hooks, and utilities for Claude Code
   - Hooks enforce type-checking and lint on edits
   - TypeScript, MIT licensed
