@@ -1006,6 +1006,12 @@ Specialized skills for specific industries and use cases.
   - Go dashboard for tracking applications and pipeline status
   - MIT licensed; site at career-ops.org
 
+- [vaibhavarora14/job-application-agent](https://github.com/vaibhavarora14/job-application-agent) ![Stars](https://img.shields.io/github/stars/vaibhavarora14/job-application-agent?style=flat-square)
+  - Privacy-first Agent Skill for discovering, qualifying, completing, and tracking your own job applications
+  - Verified résumé facts only; OS-backed local profile storage; applied ledger updates only on confirmed submission
+  - Compatible with Claude Code, Cursor, Codex, and OpenClaw/ClawHub
+  - MIT licensed; install via `npx job-application-agent@latest install`
+
 - [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) ![Stars](https://img.shields.io/github/stars/mvanhorn/last30days-skill?style=flat-square)
   - Agent skill that researches topics across Reddit, X, YouTube, Hacker News, TikTok, Polymarket, Bluesky, and the open web
   - Synthesizes findings into a grounded recency summary, weighted toward the last 30 days
