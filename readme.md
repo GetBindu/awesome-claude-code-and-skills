@@ -442,6 +442,11 @@ Skills focused on software development, code quality, and engineering workflows.
   - Hooks enforce type-checking and lint on edits
   - TypeScript, MIT licensed
 
+- [Getgodmode/godmode-lite](https://github.com/Getgodmode/godmode-lite) ![Stars](https://img.shields.io/github/stars/Getgodmode/godmode-lite?style=flat-square)
+  - Free 4-layer execution protocol skill: context, execute, test, polish
+  - Pushes Claude Code past the first working draft to handle edge cases and write exhaustive tests before calling a task done
+  - Single SKILL.md, no signup, no paywall
+
 ### Specialized Agents
 
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) ![Stars](https://img.shields.io/github/stars/VoltAgent/awesome-claude-code-subagents?style=flat-square)
