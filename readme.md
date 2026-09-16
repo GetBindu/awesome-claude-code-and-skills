@@ -533,7 +533,7 @@ Skills focused on software development, code quality, and engineering workflows.
 
 - [Nagarjuna2997/ios-agent-skill](https://github.com/Nagarjuna2997/ios-agent-skill)
   - Swift/SwiftUI guidance with local source examples and Apple reference retrieval
-  - Published MCP package with 11 read-only Swift review tools; optional macOS/Xcode simulator tools
+  - One MCP connection with 34 review, reference, scaffolding and simulator tools; Node.js 20+, macOS/Xcode for simulation
   - MIT licensed; setup guides for Claude, Codex, and Gemini CLI
 
 
