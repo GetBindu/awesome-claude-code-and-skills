@@ -1393,6 +1393,12 @@ Utilities and tools to enhance your Claude workflow.
   - Builds memory and injects relevant context back into the session
   - From Letta AI; TypeScript, MIT licensed
 
+- [mnemoverse/mcp-memory-server](https://github.com/mnemoverse/mcp-memory-server) ![Stars](https://img.shields.io/github/stars/mnemoverse/mcp-memory-server?style=flat-square)
+  - Memory server for Claude Code and other agents over MCP; the agent reports whether a recalled memory helped or misled, and the next recall is re-ranked
+  - One key shared across Claude Code, Cursor, VS Code, and ChatGPT; remote endpoint with OAuth sign-in or the npm package `@mnemoverse/mcp-memory-server`
+  - Claude Code plugin at [mnemoverse/claude-plugin](https://github.com/mnemoverse/claude-plugin)
+  - MCP server is TypeScript, MIT licensed; the memory engine is hosted and not open source, with a free tier
+
 ### MCP Servers & Integrations
 
 - [oraios/serena](https://github.com/oraios/serena) ![Stars](https://img.shields.io/github/stars/oraios/serena?style=flat-square)
