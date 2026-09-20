@@ -442,6 +442,12 @@ Skills focused on software development, code quality, and engineering workflows.
   - Hooks enforce type-checking and lint on edits
   - TypeScript, MIT licensed
 
+- [chl03ks/shut-up-and-code](https://github.com/chl03ks/shut-up-and-code) ![Stars](https://img.shields.io/github/stars/chl03ks/shut-up-and-code?style=flat-square)
+  - Load-bearing comments only: one ships if deleting it costs the reader something the code cannot tell them
+  - Bounds doc comments too — a contract is written when the signature leaves a real question, not because something is exported
+  - Publishes a benchmark with fixtures, prompts and raw outputs, so its effect can be re-measured
+  - Skill plus optional always-on SessionStart hook; MIT licensed
+
 ### Specialized Agents
 
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) ![Stars](https://img.shields.io/github/stars/VoltAgent/awesome-claude-code-subagents?style=flat-square)
