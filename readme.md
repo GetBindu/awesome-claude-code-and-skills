@@ -1715,6 +1715,13 @@ Utilities and tools to enhance your Claude workflow.
   - Reports token usage and cost by day, month, session, and model
   - The most-referenced usage/cost tool in the community; Rust, very actively maintained
 
+- [drakulavich/zapara](https://github.com/drakulavich/zapara) ![Stars](https://img.shields.io/github/stars/drakulavich/zapara?style=flat-square)
+  - Cognitive load index: scores every hour of Claude Code work from 0 to 100
+  - Built from parallel sessions, prompt pace, agent supervision, model output, streak length and late-night work
+  - Week heatmap, per-hour day table, a status-line file and a shareable card
+  - Reads local transcripts only; keeps no message text and sends nothing anywhere
+  - Bun CLI, runs with `bunx @drakulavich/zapara@latest`
+
 ### Configuration & Templates
 
 - [abhishekray07/claude-md-templates](https://github.com/abhishekray07/claude-md-templates) ![Stars](https://img.shields.io/github/stars/abhishekray07/claude-md-templates?style=flat-square)
