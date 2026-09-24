@@ -775,6 +775,11 @@ n- [GiulioDER/cca-audit](https://github.com/GiulioDER/cca-audit) ![Stars](https:
   - One auditable bash script, jq-only, fail-closed; README is explicit about what it cannot stop
   - Tested on ubuntu and macos (39-case harness + shellcheck)
 
+- [NovaCode37/claude-security-skills](https://github.com/NovaCode37/claude-security-skills) ![Stars](https://img.shields.io/github/stars/NovaCode37/claude-security-skills?style=flat-square)
+  - Eight security skills running on the Python standard library, with no runtime dependencies
+  - Secret scanning with entropy gating and vendor rules (AWS, GitHub, Stripe, OpenAI, Hugging Face, Groq, Cohere), AST-based Python SAST tagged with CWEs, prompt-injection red-teaming with canary detection
+  - HTTP header, JWT, Dockerfile, CORS and dependency auditing; every engine also runs from the CLI and exits non-zero on a finding, so it doubles as a CI step
+
 ### Compliance & Auditing
 
 - [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills) ![Stars](https://img.shields.io/github/stars/BehiSecc/awesome-claude-skills?style=flat-square)
