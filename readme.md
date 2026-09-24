@@ -1012,6 +1012,12 @@ Specialized skills for specific industries and use cases.
   - Targets deep research, social-media monitoring, and trend tracking
   - Compatible with Claude Code, OpenClaw, and ClawHub
 
+- [socai-io/jev-social](https://github.com/socai-io/jev-social) ![Stars](https://img.shields.io/github/stars/socai-io/jev-social?style=flat-square)
+  - Read-only Agent Skill for browser-grounded Instagram, TikTok, and LinkedIn research
+  - Jev selects bounded search, read, inspect, or finish operations; the local `socai CLI` executes them in the user's Chrome and returns source-linked evidence with an explicit run status
+  - Requires Node.js 20+, OpenRouter Jev access, and a local socai build that supports the requested platform
+  - Install with `npx skills add socai-io/jev-social --skill jev-social`; MIT licensed
+
 - [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) ![Stars](https://img.shields.io/github/stars/K-Dense-AI/scientific-agent-skills?style=flat-square)
   - Ready-to-use agent skills for research, science, engineering, analysis, finance, and writing
   - Coverage includes bioinformatics, chemoinformatics, genomics, proteomics, and materials science
