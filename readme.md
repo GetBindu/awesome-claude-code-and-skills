@@ -924,6 +924,12 @@ Skills for marketing professionals, content creators, and growth teams.
   - Reports patterns with line numbers and a suggested fix instead of a single confidence score
   - English and Russian versions included
 
+- [amflimited/threadfox](https://github.com/amflimited/threadfox) ![Stars](https://img.shields.io/github/stars/amflimited/threadfox?style=flat-square)
+  - Reddit MCP server and skill for Claude Code and Codex (26 tools)
+  - Reads community rules, searches, posts and replies through your own logged-in Chrome
+  - Local SQLite ledger blocks double posts, resolves lost responses and rechecks posts for removal
+  - Paid product ($49 one-time); the repo holds docs and the tool reference, the server installs after purchase
+
 ---
 
 ## Domain-Specific Skills
