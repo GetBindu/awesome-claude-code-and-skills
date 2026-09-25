@@ -279,6 +279,11 @@ These repositories offer extensive collections of skills across multiple domains
   - Also personal analytics and Claude Code operations
   - Each skill is a self-contained SKILL.md folder; installable via plugin marketplace or `npx skills add`
 
+- [tonone-ai/tonone](https://github.com/tonone-ai/tonone) ![Stars](https://img.shields.io/github/stars/tonone-ai/tonone?style=flat-square)
+  - Claude Code plugin with 100 specialist agents and 429 skills
+  - Covers engineering, product, design, security, legal, and operations
+  - Install via `claude plugin marketplace add tonone-ai/tonone`; MIT licensed
+
 ## Development & Engineering
 
 Skills focused on software development, code quality, and engineering workflows.
@@ -1392,6 +1397,11 @@ Utilities and tools to enhance your Claude workflow.
   - Background agent that watches Claude Code sessions
   - Builds memory and injects relevant context back into the session
   - From Letta AI; TypeScript, MIT licensed
+
+- [tonone-ai/elephant](https://github.com/tonone-ai/elephant) ![Stars](https://img.shields.io/github/stars/tonone-ai/elephant?style=flat-square)
+  - Persistent per-repo memory for Claude Code in a committed `ELEPHANT.md`, shared across teammates
+  - `SessionStart` hook loads memory each session; optional global cross-repo memory file
+  - Also generates changelogs and READMEs from git history; MIT licensed
 
 ### MCP Servers & Integrations
 
