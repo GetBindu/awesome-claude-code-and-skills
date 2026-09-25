@@ -789,7 +789,7 @@ n- [GiulioDER/cca-audit](https://github.com/GiulioDER/cca-audit) ![Stars](https:
 Skills for marketing professionals, content creators, and growth teams.
 
 - [auroracapital/upres-cli](https://github.com/auroracapital/upres-cli) ![Stars](https://img.shields.io/github/stars/auroracapital/upres-cli?style=flat-square)
-  - AI image and video upscaling up to 8K resolution across 14 neural models
+  - AI image and video upscaling up to 8K resolution across 14 public model aliases
   - REST API and MCP server support for Claude Code and automated agent workflows
   - Batch mode, async task polling, zero GPU required locally
   - Install: `claude mcp add upres -- npx -y github:auroracapital/upres-cli mcp`
