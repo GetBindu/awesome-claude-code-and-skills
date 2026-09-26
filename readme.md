@@ -888,6 +888,12 @@ Professional-grade security skills for vulnerability detection, code auditing, a
   - Go binary with a GitHub Action and Docker image
   - Feature complete: security patches only, with development moving to Betterleaks
 
+- [sunglasses-dev/sunglasses](https://github.com/sunglasses-dev/sunglasses) ![Stars](https://img.shields.io/github/stars/sunglasses-dev/sunglasses?style=flat-square)
+  - Local input firewall for AI agents that scans text and files for prompt injection, credential leaks and data exfiltration
+  - 1,554 patterns across 118 categories, all running on your machine
+  - MCP server with `scan_text`, `scan_file` and `scanner_info` via `python -m sunglasses.mcp`, plus a CLI and a Python API
+  - Python-driven; `pip install sunglasses`, MIT
+
 ### Compliance & Auditing
 
 - [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills) ![Stars](https://img.shields.io/github/stars/BehiSecc/awesome-claude-skills?style=flat-square)
