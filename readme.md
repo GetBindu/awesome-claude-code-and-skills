@@ -93,6 +93,11 @@ Start here for official tools and documentation from Anthropic.
 
 These repositories offer extensive collections of skills across multiple domains. Great starting points if you want a broad toolkit.
 
+- [kaazyxx/ultimate-dev-toolkit](https://github.com/kaazyxx/ultimate-dev-toolkit) ![Stars](https://img.shields.io/github/stars/kaazyxx/ultimate-dev-toolkit?style=flat-square)
+  - 520 skills, 176 commands, 120 agents
+  - 28 safety hooks, 4 MCP connectors
+  - Security-first: detects what's really installed, never fakes support
+
 - [rohitg00/awesome-claude-code-toolkit](https://github.com/rohitg00/awesome-claude-code-toolkit) ![Stars](https://img.shields.io/github/stars/rohitg00/awesome-claude-code-toolkit?style=flat-square)
   - Most comprehensive toolkit available
   - 135 agents, 35 skills, 42 commands
