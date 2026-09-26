@@ -1259,6 +1259,13 @@ Specialized skills for specific industries and use cases.
   - Works with Claude, ChatGPT, OpenClaw, and Hermes Agent through the open Agent Skills format
   - Free tier, no card required; MIT licensed
 
+- [IRON/OS](https://luisandoin.gumroad.com/l/ironos)
+  - Claude skill that interviews you once about your goal, equipment, schedule and injuries, writes a training programme you read and approve, then builds a single-file workout app you keep on your phone
+  - Rewrites the programme from plain sentences such as "my knee has started hurting on split squats" or "I can only train three days now", and carries your logged history across the rebuild
+  - Deficit, maintenance and surplus switch changes the set count on every exercise, with a matching meal plan and shopping list by aisle
+  - 302 illustrated exercises that play frame by frame, plus rest timer, exercise swapping and records by weight and volume; the app is one HTML file with no account and no server
+  - Paid, GBP 25 one-off, and needs a paid Claude plan separately for the setup interview and ongoing coaching
+
 ## Productivity Tools
 
 Utilities and tools to enhance your Claude workflow.
