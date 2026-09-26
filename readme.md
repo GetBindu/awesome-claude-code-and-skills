@@ -1059,7 +1059,13 @@ Specialized skills for specific industries and use cases.
   - Complete coordination system mirroring real studio hierarchy
   - Engine specialists, designers, and production agents
   - Perfect for game development projects
-    
+
+- [tubeagentkit/youtube-transcript-skills](https://github.com/tubeagentkit/youtube-transcript-skills) ![Stars](https://img.shields.io/github/stars/tubeagentkit/youtube-transcript-skills?style=flat-square)
+  - Fetch YouTube transcripts, search videos/channels, browse channels, and extract playlists via getyoutubetranscript.com's free-tier API
+  - No yt-dlp, no headless browser, no Google Cloud API key or quota setup
+  - Also available as an MCP server (OAuth 2.1 or API key)
+  - MIT licensed
+
 - [Miscodings/paper-plugin](https://github.com/Miscodings/paper-plugin) ![Stars](https://img.shields.io/github/stars/Miscodings/paper-plugin?style=flat-square)
   - Complete Minecraft Paper plugin development suite for Claude Code
   - 1 comprehensive skill + 8 specialized subagents (architect, debugger, reviewer, data, commands, events, performance, publisher)
