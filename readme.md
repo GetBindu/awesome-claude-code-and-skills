@@ -1259,6 +1259,12 @@ Specialized skills for specific industries and use cases.
   - Works with Claude, ChatGPT, OpenClaw, and Hermes Agent through the open Agent Skills format
   - Free tier, no card required; MIT licensed
 
+- [Furox-Art/axiomize](https://github.com/Furox-Art/axiomize) ![Stars](https://img.shields.io/github/stars/Furox-Art/axiomize?style=flat-square)
+  - Agent skill and scientific modeling engine that turns natural-language ideas into versioned mathematical models
+  - Model IR with simulation, parameter fitting, uncertainty quantification, and causal/Bayesian inference
+  - Formal and numerical validation plus reproducible export; REST, MCP, and CLI interfaces
+  - MIT licensed
+
 ## Productivity Tools
 
 Utilities and tools to enhance your Claude workflow.
