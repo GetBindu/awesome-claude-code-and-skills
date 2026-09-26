@@ -16,6 +16,7 @@ This list focuses on verified, actively maintained projects that provide real va
 - [Official Resources](#official-resources)
 - [Comprehensive Skill Collections](#comprehensive-skill-collections)
 - [Development & Engineering](#development--engineering)
+- [AI Slop Elimination](#ai-slop-elimination)
 - [Multi-Agent Systems](#multi-agent-systems)
 - [Security & Compliance](#security--compliance)
 - [Marketing & Content](#marketing--content)
@@ -279,6 +280,12 @@ These repositories offer extensive collections of skills across multiple domains
   - Also personal analytics and Claude Code operations
   - Each skill is a self-contained SKILL.md folder; installable via plugin marketplace or `npx skills add`
 
+- [getsentry/skills](https://github.com/getsentry/skills) ![Stars](https://img.shields.io/github/stars/getsentry/skills?style=flat-square)
+  - Agent skills the Sentry team uses internally, in the open Agent Skills format
+  - Includes AGENTS.md/CLAUDE.md authoring, blog writing standards, and brand guidelines
+  - Install as a Claude Code plugin marketplace or via `npx skills add getsentry/skills`
+  - For Sentry setup and production debugging skills, see `getsentry/sentry-for-ai`
+
 ## Development & Engineering
 
 Skills focused on software development, code quality, and engineering workflows.
@@ -523,6 +530,96 @@ Skills focused on software development, code quality, and engineering workflows.
   - Embeds Claude Code into the Neovim workflow
   - Lua-based; maintained by Coder
 
+### Code Review
+
+- [alibaba/open-code-review](https://github.com/alibaba/open-code-review) ![Stars](https://img.shields.io/github/stars/alibaba/open-code-review?style=flat-square)
+  - Hybrid code review: deterministic pipelines plus an LLM agent, with precise line-level comments
+  - Built-in multi-language ruleset covering NPE, thread-safety, XSS, and SQL injection
+  - OpenAI- and Anthropic-compatible; Go binary, also on npm as `@alibaba-group/open-code-review`
+  - Battle-tested at Alibaba scale
+
+- [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) ![Stars](https://img.shields.io/github/stars/The-PR-Agent/pr-agent?style=flat-square)
+  - The original open-source AI PR reviewer, now community-maintained
+  - Works across GitHub, GitLab, Bitbucket, and Azure DevOps
+  - Python-driven; a legacy Qodo project, distinct from Qodo's own offering
+
+- [coderabbitai/skills](https://github.com/coderabbitai/skills) ![Stars](https://img.shields.io/github/stars/coderabbitai/skills?style=flat-square)
+  - CodeRabbit's agent-native skills and plugin packaging for AI code review
+  - Installs into 35+ agents including Claude Code, Cursor, Gemini CLI, and Antigravity CLI
+  - Needs the CodeRabbit CLI; `npx skills add coderabbitai/skills`, MIT licensed
+
+- [modem-dev/hunk](https://github.com/modem-dev/hunk) ![Stars](https://img.shields.io/github/stars/modem-dev/hunk?style=flat-square)
+  - Review-first terminal diff viewer built for agent-authored changesets
+  - Multi-file review stream with sidebar nav and inline AI/agent annotations beside the code
+  - Split, unified, and auto layouts; watch mode for file and Git-backed reviews
+  - TypeScript, built on OpenTUI and Pierre diffs; works as a Git difftool, MIT licensed
+
+---
+
+## AI Slop Elimination
+
+Skills and tools that stop agent output from looking and reading machine-generated: design tells, generic copy, and the dead code, duplication, and complexity that agents leave behind. Writing-slop skills ([blader/humanizer](https://github.com/blader/humanizer), [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh)) live in [Marketing & Content](#marketing--content).
+
+### Design & UI Slop
+
+- [Nutlope/hallmark](https://github.com/Nutlope/hallmark) ![Stars](https://img.shields.io/github/stars/Nutlope/hallmark?style=flat-square)
+  - Design skill for Claude Code, Cursor, and Codex that refuses the defaults every LLM was trained into
+  - Picks a macrostructure per brief, dresses it in one of 21 themes, runs 57 slop-test gates plus a pre-emit self-critique
+  - Four verbs: build (default), `audit` (score, no edits), `redesign` (keep copy and IA, new fingerprint), `study` (extract DNA from a design you admire)
+  - Made by Together AI; live demo at usehallmark.com
+
+- [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) ![Stars](https://img.shields.io/github/stars/miqdadbadjuber/anti-slop?style=flat-square)
+  - 38 mandatory rules (R-01 to R-38) in three tiers: Hard Gate, Purpose-Gate, Quality Locks
+  - A filter, not a style guide: no prescribed colors, fonts, or layouts — your `DESIGN.md` supplies direction
+  - Covers UI, copy, and code; ships a Liveliness Toolkit (ENERGY / RHYTHM / MOTION) so results stay specific instead of sterile
+  - Mandatory PASS/FAIL Delivery Gate before anything ships; additive skills so agents load only what a task needs
+
+- [funboy322/avoid-ai-design](https://github.com/funboy322/avoid-ai-design) ![Stars](https://img.shields.io/github/stars/funboy322/avoid-ai-design?style=flat-square)
+  - Audits AI-generated frontend, then rewrites it around a direction drawn from your product
+  - Catches both slop generations: purple-gradient hero era and the "tasteful" replacements (cream + terracotta, mono chrome, 01 / 02 / 03)
+  - Zero-dependency scanner included; writes a `DESIGN.md` so page two cannot drift from page one
+  - Design counterpart to `avoid-ai-writing`; MIT licensed, works with Claude Code, Cursor, Codex, and Copilot
+
+- [superdesigndev/superdesign-skill](https://github.com/superdesigndev/superdesign-skill) ![Stars](https://img.shields.io/github/stars/superdesigndev/superdesign-skill?style=flat-square)
+  - Design skill that generates and iterates UI, slide decks, and graphics on an infinite canvas
+  - Designs into your existing design system: reads your code for context and produces branchable drafts
+  - Cross-session continuity — remembers project, draft, and extracted components between runs
+  - Install with `npx skills add superdesigndev/superdesign-skill`, or as a Claude Code plugin; powered by superdesign.dev
+
+- [jakubkrehel/make-interfaces-feel-better](https://github.com/jakubkrehel/make-interfaces-feel-better) ![Stars](https://img.shields.io/github/stars/jakubkrehel/make-interfaces-feel-better?style=flat-square)
+  - Agent skill for the small details that separate shipped UI from generated UI
+  - Covers animations, typography, icons, hover states, optical alignment, concentric border radius, shadows, and hit areas
+  - Single `SKILL.md`; install with `npx skills add jakubkrehel/make-interfaces-feel-better`
+
+### Code Slop & Dead Code
+
+- [peteromallet/desloppify](https://github.com/peteromallet/desloppify) ![Stars](https://img.shields.io/github/stars/peteromallet/desloppify?style=flat-square)
+  - Agent harness that pairs mechanical detection (dead code, duplication, complexity) with LLM review of naming, abstractions, and module boundaries
+  - Prioritized fix loop with state that persists across scans, so quality improves over multiple sessions
+  - Scoring designed to resist gaming, plus a scorecard badge for your README
+  - 29 languages; installs a workflow guide for Claude, Cursor, Codex, Copilot, and others via `desloppify update-skill`
+
+- [millionco/react-doctor](https://github.com/millionco/react-doctor) ![Stars](https://img.shields.io/github/stars/millionco/react-doctor?style=flat-square)
+  - Deterministic scanner for the React your agent just wrote: state and effects, performance, architecture, security, a11y, maintainability
+  - Flags overly complex components and repeated JSX trees as composition candidates
+  - `npx react-doctor@latest install` turns the audit into a skill so the agent learns the fixes
+  - Works across Next.js, Vite, Astro, TanStack, React Native, and Expo; CI mode reports only newly introduced issues
+
+- [webpro-nl/knip](https://github.com/webpro-nl/knip) ![Stars](https://img.shields.io/github/stars/webpro-nl/knip?style=flat-square)
+  - Finds and fixes unused files, dependencies, and exports in JavaScript and TypeScript projects
+  - Catches the leftovers agents accumulate across refactors; ISC licensed
+  - Ships an MCP server (`@knip/mcp`), a language server, and VS Code and Open VSX extensions
+
+- [fallow-rs/fallow](https://github.com/fallow-rs/fallow) ![Stars](https://img.shields.io/github/stars/fallow-rs/fallow?style=flat-square)
+  - Single-binary static analysis for TypeScript and JavaScript: unused code, circular deps, duplication, complexity hotspots, boundary violations, design-system drift
+  - Deterministic findings and typed output contracts — no AI in the analyzer, no tsc or Node needed for static analysis
+  - Free static layer; optional paid Fallow Runtime adds production execution evidence
+
+- [kucherenko/jscpd](https://github.com/kucherenko/jscpd) ![Stars](https://img.shields.io/github/stars/kucherenko/jscpd?style=flat-square)
+  - Copy/paste detector for 224 formats, plus dead code, complexity hotspots, duplication trends over git history, and one health score
+  - Rust engine with per-language tokenization and Rabin-Karp hashing; opt-in Type-2 and Type-3 passes catch renamed and lightly edited copies
+  - AI-ready: MCP server, token-efficient reporter, SARIF/HTML/badge reporters, and a GitHub Action
+
 ---
 
 ## Multi-Agent Systems
@@ -728,7 +825,8 @@ Orchestrate multiple Claude agents to work together on complex tasks.
 Professional-grade security skills for vulnerability detection, code auditing, and compliance.
 
 ### Security Analysis
-n- [GiulioDER/cca-audit](https://github.com/GiulioDER/cca-audit) ![Stars](https://img.shields.io/github/stars/GiulioDER/cca-audit?style=flat-square)
+
+- [GiulioDER/cca-audit](https://github.com/GiulioDER/cca-audit) ![Stars](https://img.shields.io/github/stars/GiulioDER/cca-audit?style=flat-square)
   - 6-layer parallel code audit pipeline with non-overlapping scopes
   - Runs 6 specialized LLM auditors (code quality, bugs, security, performance, docs, config)
   - Deduplicates findings, auto-fixes P1+P2, re-verifies tests, architect review gate
@@ -779,6 +877,21 @@ n- [GiulioDER/cca-audit](https://github.com/GiulioDER/cca-audit) ![Stars](https:
   - Covers Edit/Write/NotebookEdit, any tool carrying a file_path, plus a Bash write-heuristic and a destructive-git blocklist
   - One auditable bash script, jq-only, fail-closed; README is explicit about what it cannot stop
   - Tested on ubuntu and macos (39-case harness + shellcheck)
+
+- [usestrix/strix](https://github.com/usestrix/strix) ![Stars](https://img.shields.io/github/stars/usestrix/strix?style=flat-square)
+  - Open-source AI pentesting tool: autonomous agents that find and validate app vulnerabilities
+  - Python-driven, Apache-licensed, with hosted Strix Cloud and enterprise tiers
+  - For authorized testing of systems you own or have permission to assess
+
+- [snyk/agent-scan](https://github.com/snyk/agent-scan) ![Stars](https://img.shields.io/github/stars/snyk/agent-scan?style=flat-square)
+  - Discovers and scans the agent components on your machine — agents, MCP servers, and skills
+  - Checks them for prompt injections and vulnerabilities
+  - Install via `uvx` or a standalone binary (no npm package); CLI output is explicitly experimental
+
+- [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) ![Stars](https://img.shields.io/github/stars/gitleaks/gitleaks?style=flat-square)
+  - Detects secrets in code and git history — catches keys an agent pasted into a commit
+  - Go binary with a GitHub Action and Docker image
+  - Feature complete: security patches only, with development moving to Betterleaks
 
 ### Compliance & Auditing
 
