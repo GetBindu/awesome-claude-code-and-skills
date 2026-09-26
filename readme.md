@@ -1414,6 +1414,13 @@ Utilities and tools to enhance your Claude workflow.
   - Proactive notifications from webhooks and CI/CD
   - Built-in authentication and audit logging
 
+- [k1p1l0/claude-telegram-supercharged](https://github.com/k1p1l0/claude-telegram-supercharged) ![Stars](https://img.shields.io/github/stars/k1p1l0/claude-telegram-supercharged?style=flat-square)
+  - Drop-in upgrade for the official Claude Code Telegram channel plugin
+  - Voice transcription (OpenAI, Groq, Deepgram, local Whisper) and ElevenLabs voice replies
+  - SQLite message history, memory, group threading and forum topics
+  - launchd daemon supervisor, scheduled messages, inline-button questions
+  - Agentic Mode: live tool-by-tool progress in the chat while Claude works
+
 - [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) ![Stars](https://img.shields.io/github/stars/wonderwhy-er/DesktopCommanderMCP?style=flat-square)
   - MCP server for terminal control and file system management
   - Execute commands, search files, and diff-based editing
