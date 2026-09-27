@@ -449,6 +449,12 @@ Skills focused on software development, code quality, and engineering workflows.
   - Hooks enforce type-checking and lint on edits
   - TypeScript, MIT licensed
 
+- [angel291592/Intent-Router](https://github.com/angel291592/Intent-Router) ![Stars](https://img.shields.io/github/stars/angel291592/Intent-Router?style=flat-square)
+  - Turns a vague request into a typed, machine-readable IntentSpec before the agent plans or codes
+  - Looks up what the repo already answers; asks only preference or irreversible questions, one at a time
+  - Flags a request that reads two ways, contradicts itself, or rests on a premise the repo rules out
+  - Prompt-only Agent Skill, zero dependencies, MIT licensed
+
 ### Specialized Agents
 
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) ![Stars](https://img.shields.io/github/stars/VoltAgent/awesome-claude-code-subagents?style=flat-square)
