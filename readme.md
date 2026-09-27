@@ -1254,6 +1254,7 @@ Specialized skills for specific industries and use cases.
   - Apache-2.0 licensed
 
 - [ZeroPointRepo/youtube-skills](https://github.com/ZeroPointRepo/youtube-skills) ![Stars](https://img.shields.io/github/stars/ZeroPointRepo/youtube-skills?style=flat-square)
+- [Spicy-API/nsfw-ai-skill](https://github.com/Spicy-API/nsfw-ai-skill) ![Stars](https://img.shields.io/github/stars/Spicy-API/nsfw-ai-skill?style=flat-square) - Adult (18+) image, image-to-video and image-edit generation through the SpicyAPI API, with cost quotes before every run and adults-only / consent rules
   - YouTube transcripts, video search, channel browsing, and playlist extraction from an agent
   - 12 skills in one repo; install the bundled `youtube-full` for broad coverage or a focused variant for a smaller tool surface
   - Works with Claude, ChatGPT, OpenClaw, and Hermes Agent through the open Agent Skills format
