@@ -1259,6 +1259,12 @@ Specialized skills for specific industries and use cases.
   - Works with Claude, ChatGPT, OpenClaw, and Hermes Agent through the open Agent Skills format
   - Free tier, no card required; MIT licensed
 
+- [stayingapi/travel-skills](https://github.com/stayingapi/travel-skills) ![Stars](https://img.shields.io/github/stars/stayingapi/travel-skills?style=flat-square)
+  - Accommodation data skills for travel agents: search stays, compare prices across booking sites, check availability, and read normalized reviews
+  - Covers Airbnb, Booking.com, Vrbo, and Google Hotels in one unified schema; backed by the StayingAPI REST API and hosted MCP server
+  - Works with Claude, ChatGPT, Cursor, and any client that reads the open Agent Skills format
+  - Free tier, 300 credits, no card required; MIT-0 licensed
+
 ## Productivity Tools
 
 Utilities and tools to enhance your Claude workflow.
