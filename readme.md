@@ -1037,6 +1037,13 @@ Skills for marketing professionals, content creators, and growth teams.
   - Reports patterns with line numbers and a suggested fix instead of a single confidence score
   - English and Russian versions included
 
+- [Finderchangchang/brewreel](https://github.com/Finderchangchang/brewreel) ![Stars](https://img.shields.io/github/stars/Finderchangchang/brewreel?style=flat-square)
+  - Agent skill (SKILL.md) that turns a product brief into a 1080x1920 vertical promo video rendered with Remotion
+  - The model only writes a storyboard JSON (shots and copy); layout, motion, music and rendering come from bundled components
+  - 3 style recipes (card feed, quiz, character journey) and 6 industry packs with ad-copy and industry compliance checks
+  - Optional voiceover with word-level captions and music ducking; EN/ZH captions
+  - Works with Claude Code and Codex, plus a DeepSeek Harness plugin; Apache-2.0, labelled a preview
+
 ---
 
 ## Domain-Specific Skills
