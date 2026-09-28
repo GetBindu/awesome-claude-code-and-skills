@@ -1037,6 +1037,12 @@ Skills for marketing professionals, content creators, and growth teams.
   - Reports patterns with line numbers and a suggested fix instead of a single confidence score
   - English and Russian versions included
 
+- [hagg-in/skills](https://github.com/hagg-in/skills) ![Stars](https://img.shields.io/github/stars/hagg-in/skills?style=flat-square)
+  - Your agent runs your SaaS price negotiations on HAGGIN
+  - Reads the offers in your inbox, ranks them against your standard price, drafts each reply
+  - Opens a private "make an offer" page for a trial that just ended or a customer about to churn
+  - Never accepts, counters or publishes without your explicit yes
+
 ---
 
 ## Domain-Specific Skills
