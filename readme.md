@@ -1037,6 +1037,12 @@ Skills for marketing professionals, content creators, and growth teams.
   - Reports patterns with line numbers and a suggested fix instead of a single confidence score
   - English and Russian versions included
 
+- [vanshyadav1408/Omentir linkedin-outreach](https://github.com/vanshyadav1408/Omentir/tree/main/plugins/omentir/skills/linkedin-outreach) ![Stars](https://img.shields.io/github/stars/vanshyadav1408/Omentir?style=flat-square)
+  - LinkedIn prospecting and outreach through the hosted Omentir MCP server (OAuth, no API key)
+  - Find and score leads, draft messages, check campaigns and replies
+  - Research and drafts only by default; the agent never signs into LinkedIn
+  - MIT, works with Claude Code, Cursor, Codex, and Grok Bot
+
 ---
 
 ## Domain-Specific Skills
