@@ -292,6 +292,12 @@ Skills focused on software development, code quality, and engineering workflows.
 
 ### Core Development Skills
 
+- [archcore-ai/archcore](https://github.com/archcore-ai/archcore) ![Stars](https://img.shields.io/github/stars/archcore-ai/archcore?style=flat-square)
+  - Spec-driven development and context engineering for Claude Code, Cursor, Codex, and GitHub Copilot — backed by project context in Git
+  - Keeps specs, architecture, decisions, rules, and plans in Git and makes the right project context available to AI coding agents
+  - Plugin commands: `/archcore:init`, `/archcore:plan`, `/archcore:document`, `/archcore:review`
+  - Go CLI with an MCP server (`archcore mcp`); Apache-2.0 licensed
+
 - [musoyangrigor/gitx-skill](https://github.com/musoyangrigor/gitx-skill) ![Stars](https://img.shields.io/github/stars/musoyangrigor/gitx-skill?style=flat-square)
   - Turns messy AI-generated changes into clean, reviewable Git history
   - Splits mixed working-tree changes into logical Conventional Commits
