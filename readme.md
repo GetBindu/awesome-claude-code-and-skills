@@ -1679,6 +1679,12 @@ Utilities and tools to enhance your Claude workflow.
   - JSON-first requests, async task polling, and terminal/CI-friendly workflows
   - Apache-2.0 licensed; install with `git clone https://github.com/runapi-ai/cli-skill ~/.claude/skills/runapi-cli`
 
+- [tlgrcli/tlgr](https://github.com/tlgrcli/tlgr) ![Stars](https://img.shields.io/github/stars/tlgrcli/tlgr?style=flat-square)
+  - Claude Code plugin and Agent Skill for operating a personal Telegram account through the tlgr CLI (MTProto, not the Bot API)
+  - Catch up on unread chats without read receipts, search history, send and edit messages, manage chats and contacts
+  - JSON output with stable exit codes; a background daemon can push Telegram events to a signed webhook
+  - MIT licensed; install with `claude plugin marketplace add tlgrcli/tlgr`, then `claude plugin install tlgr@tlgr`
+
 ### CLI Configuration Tools
 
 - [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) ![Stars](https://img.shields.io/github/stars/davila7/claude-code-templates?style=flat-square)
