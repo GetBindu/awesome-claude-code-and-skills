@@ -1369,6 +1369,12 @@ Utilities and tools to enhance your Claude workflow.
 
 ### Memory & Context Management
 
+- [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) ![Stars](https://img.shields.io/github/stars/screenpipe/screenpipe?style=flat-square)
+  - Search locally captured screen text and audio transcripts from daily work through MCP or the local API
+  - Gives Claude Code context for recall, meeting notes, and work summaries; requires the Screenpipe recorder and local API key
+  - Source-available under the Screenpipe Commercial License
+  - Configured cloud AI, transcription, sync, and integrations can transmit context off-device
+
 - [hjqcan/GoodMemory](https://github.com/hjqcan/GoodMemory) ![Stars](https://img.shields.io/github/stars/hjqcan/GoodMemory?style=flat-square)
   - Local-first, auditable memory layer for Claude Code, Codex, and MCP clients
   - One-command `goodmemory setup` installs managed hooks for scoped recall; governed writeback is opt-in, reviewable, and reversible
