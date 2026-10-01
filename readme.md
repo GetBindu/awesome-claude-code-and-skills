@@ -1645,6 +1645,12 @@ Utilities and tools to enhance your Claude workflow.
   - Query databases and create/update pages and blocks via the Notion API
   - Supports a hosted remote endpoint and local stdio deployment
 
+- [skeptrunedev/call4me](https://github.com/skeptrunedev/call4me) ![Stars](https://img.shields.io/github/stars/skeptrunedev/call4me?style=flat-square)
+  - Remote MCP server that lets Claude Code place real phone calls to businesses
+  - Books appointments and dinners, cancels subscriptions, changes flights
+  - Works through phone menus and can patch you into the live call
+  - Returns the transcript and outcome when the call ends
+
 ### API & Integration Tools
 
 - [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) ![Stars](https://img.shields.io/github/stars/router-for-me/CLIProxyAPI?style=flat-square)
