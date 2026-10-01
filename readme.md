@@ -597,6 +597,12 @@ Skills and tools that stop agent output from looking and reading machine-generat
   - Covers animations, typography, icons, hover states, optical alignment, concentric border radius, shadows, and hit areas
   - Single `SKILL.md`; install with `npx skills add jakubkrehel/make-interfaces-feel-better`
 
+- [better-designs/better-design-plugin](https://github.com/better-designs/better-design-plugin) ![Stars](https://img.shields.io/github/stars/better-designs/better-design-plugin?style=flat-square)
+  - Two skills backed by the Better Design MCP server: `build-with-better-design` and `review-ui-with-better-design`
+  - Build: picks or creates a design system with the user, installs its components, then builds the screen on them with UI and UX principles
+  - Review: checks accessibility, visual design, copy clarity and spacing, then fixes the critical and serious findings
+  - Install with `npx skills add better-designs/better-design-plugin`, or in Claude Code `/plugin marketplace add better-designs/better-design-plugin`; needs a free Better Design account
+
 ### Code Slop & Dead Code
 
 - [peteromallet/desloppify](https://github.com/peteromallet/desloppify) ![Stars](https://img.shields.io/github/stars/peteromallet/desloppify?style=flat-square)
