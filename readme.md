@@ -1037,6 +1037,12 @@ Skills for marketing professionals, content creators, and growth teams.
   - Reports patterns with line numbers and a suggested fix instead of a single confidence score
   - English and Russian versions included
 
+- [lognorm/lognorm-mcp](https://github.com/lognorm/lognorm-mcp) ![Stars](https://img.shields.io/github/stars/lognorm/lognorm-mcp?style=flat-square)
+  - Skill and hosted MCP server for working a site's SEO and AI-visibility (GEO) backlog (MIT, [skill](https://github.com/lognorm/lognorm-mcp/tree/main/skills/lognorm))
+  - Site audits, code fixes, researched content drafts, and tracking of how ChatGPT, Gemini and Google AI Overviews answer buyer prompts
+  - OAuth, no API keys; free plan available (the repo is new, created 2026-10-02)
+  - Works with Claude Code, Codex, and Cursor
+
 ---
 
 ## Domain-Specific Skills
