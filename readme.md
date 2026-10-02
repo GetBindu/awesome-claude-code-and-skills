@@ -873,6 +873,14 @@ Professional-grade security skills for vulnerability detection, code auditing, a
   - One auditable bash script, jq-only, fail-closed; README is explicit about what it cannot stop
   - Tested on ubuntu and macos (39-case harness + shellcheck)
 
+- [honokasoftware-ai/claude-code-guardrails](https://github.com/honokasoftware-ai/claude-code-guardrails) ![Stars](https://img.shields.io/github/stars/honokasoftware-ai/claude-code-guardrails?style=flat-square)
+  - PreToolUse hook that blocks destructive shell commands before they run: `rm -rf ~`, force-push and branch deletion on `main`/`master`/`release/*`, `DROP DATABASE`, `DELETE FROM` with no `WHERE`, `curl | sh`, `npm publish`
+  - Also blocks reads of `.env`, `~/.ssh`, `~/.aws/credentials`, and Write/Edit calls whose content looks like a private key or a live `sk_live_`/`sk-ant-`/`AKIA` key
+  - Installs as a Claude Code plugin in two lines (`/plugin marketplace add honokasoftware-ai/claude-code-guardrails`, then `/plugin install claude-code-guardrails@honoka-software`); `install.sh` for a manual `settings.json` merge is still there
+  - 72-assertion test suite ships with it, of which 17 are commands that must still run (`rm -rf node_modules`, `git push origin feature/x`, `cat .env.example`), so false positives are tested as carefully as blocks
+  - A second 10-assertion suite tests the plugin packaging itself (both manifests pass `claude plugin validate --strict`, marketplace entry name matches `plugin.json`, hooks resolve from outside the repo via `${CLAUDE_PLUGIN_ROOT}`)
+  - One bash script plus two optional hooks, `jq` or `python3`, no network calls, MIT; README states the single environment it was tested on and what it cannot stop
+
 - [usestrix/strix](https://github.com/usestrix/strix) ![Stars](https://img.shields.io/github/stars/usestrix/strix?style=flat-square)
   - Open-source AI pentesting tool: autonomous agents that find and validate app vulnerabilities
   - Python-driven, Apache-licensed, with hosted Strix Cloud and enterprise tiers
