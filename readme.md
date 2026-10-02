@@ -286,6 +286,11 @@ These repositories offer extensive collections of skills across multiple domains
   - Install as a Claude Code plugin marketplace or via `npx skills add getsentry/skills`
   - For Sentry setup and production debugging skills, see `getsentry/sentry-for-ai`
 
+- [alapha888/agent-skills-en](https://github.com/alapha888/agent-skills-en) ![Stars](https://img.shields.io/github/stars/alapha888/agent-skills-en?style=flat-square)
+  - Five MIT-licensed productivity skills for AI coding agents
+  - Meeting notes to structured minutes, a five-axis code review checklist, and a deep research framework
+  - Also covers technical writing proofreading and conventional-commit message generation
+
 ## Development & Engineering
 
 Skills focused on software development, code quality, and engineering workflows.
