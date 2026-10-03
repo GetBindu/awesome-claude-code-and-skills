@@ -628,6 +628,12 @@ Skills and tools that stop agent output from looking and reading machine-generat
 
 ---
 
+- [Nagarjuna2997/ios-agent-skill](https://github.com/Nagarjuna2997/ios-agent-skill)
+  - Swift/SwiftUI guidance with local source examples and Apple reference retrieval
+  - One MCP connection with 34 review, reference, scaffolding and simulator tools; Node.js 20+, macOS/Xcode for simulation
+  - MIT licensed; setup guides for Claude, Codex, and Gemini CLI
+
+
 ## Multi-Agent Systems
 
 Orchestrate multiple Claude agents to work together on complex tasks.
