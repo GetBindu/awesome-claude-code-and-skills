@@ -888,6 +888,16 @@ Professional-grade security skills for vulnerability detection, code auditing, a
   - Go binary with a GitHub Action and Docker image
   - Feature complete: security patches only, with development moving to Betterleaks
 
+- [basitalisandhu/cc-plugin-lock](https://github.com/basitalisandhu/cc-plugin-lock) ![Stars](https://img.shields.io/github/stars/basitalisandhu/cc-plugin-lock?style=flat-square)
+  - Lock file for Claude Code plugins: pins marketplace plugins and skills to content hashes
+  - Verifies them before a session loads them and scores changes by component (hooks and MCP high, skills medium)
+  - Scans plugin folders before install; SARIF output, SessionStart gate, Python standard library only
+
+- [basitalisandhu/claude-perm-sim](https://github.com/basitalisandhu/claude-perm-sim) ![Stars](https://img.shields.io/github/stars/basitalisandhu/claude-perm-sim?style=flat-square)
+  - Claude Code permission rule simulator: shows which allow, ask or deny rule decides any tool call
+  - Finds bypasses: commands that slip past a Bash pattern, paths that escape an Edit scope, MCP tools nothing covers
+  - Table, JSON and SARIF output; TypeScript CLI
+
 ### Compliance & Auditing
 
 - [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills) ![Stars](https://img.shields.io/github/stars/BehiSecc/awesome-claude-skills?style=flat-square)
@@ -1645,6 +1655,11 @@ Utilities and tools to enhance your Claude workflow.
   - Query databases and create/update pages and blocks via the Notion API
   - Supports a hosted remote endpoint and local stdio deployment
 
+- [basitalisandhu/claude-mcp-allow](https://github.com/basitalisandhu/claude-mcp-allow) ![Stars](https://img.shields.io/github/stars/basitalisandhu/claude-mcp-allow?style=flat-square)
+  - Generates least-privilege Claude Code permission rules for MCP tools from their live annotations
+  - readOnlyHint tools go to allow, everything else to ask, one mcp__server__tool rule each, never a glob
+  - Merges into settings files, prints a diff, and --check exits 1 when annotations drift; TypeScript CLI on npm
+
 ### API & Integration Tools
 
 - [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) ![Stars](https://img.shields.io/github/stars/router-for-me/CLIProxyAPI?style=flat-square)
@@ -1709,6 +1724,11 @@ Utilities and tools to enhance your Claude workflow.
   - Author rules, agents, and skills once in plain Markdown
   - Routes them into each tool's native formats (Claude Code, Cursor, GitHub Copilot, Codex, AGENTS.md)
   - Zero-dependency, bash and awk, MIT licensed
+
+- [basitalisandhu/cc-hooks](https://github.com/basitalisandhu/cc-hooks) ![Stars](https://img.shields.io/github/stars/basitalisandhu/cc-hooks?style=flat-square)
+  - Typed Python SDK and offline test runner for Claude Code hooks
+  - One frozen dataclass per documented event, with decision builders that print the documented JSON and exit codes
+  - CLI explains which handlers fire from merged settings and replays recorded payloads in dry run; standard library only
 
 ### Autonomous Development
 
