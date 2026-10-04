@@ -1828,6 +1828,12 @@ Utilities and tools to enhance your Claude workflow.
   - Reports token usage and cost by day, month, session, and model
   - The most-referenced usage/cost tool in the community; Rust, very actively maintained
 
+- [dspv/caprock](https://github.com/dspv/caprock) ![Stars](https://img.shields.io/github/stars/dspv/caprock?style=flat-square)
+  - Local, open-source web dashboard for Claude Code sessions, also covering Codex, OpenCode, and Gemini CLI
+  - Live activity, token cost per repository at API list prices, 5-hour and weekly plan-limit windows
+  - Loop alerts and search across everything the agent wrote
+  - Single Go binary, loopback only, no telemetry; Apache-2.0
+
 ### Configuration & Templates
 
 - [abhishekray07/claude-md-templates](https://github.com/abhishekray07/claude-md-templates) ![Stars](https://img.shields.io/github/stars/abhishekray07/claude-md-templates?style=flat-square)
