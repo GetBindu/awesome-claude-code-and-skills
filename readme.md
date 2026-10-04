@@ -1645,6 +1645,12 @@ Utilities and tools to enhance your Claude workflow.
   - Query databases and create/update pages and blocks via the Notion API
   - Supports a hosted remote endpoint and local stdio deployment
 
+- [Aident-AI/aident-skill](https://github.com/Aident-AI/aident-skill) ![Stars](https://img.shields.io/github/stars/Aident-AI/aident-skill?style=flat-square)
+  - [Aident Loadout](https://aident.ai): hosted remote MCP server (`https://loadout.aident.ai/mcp`) plus a Claude Code skill and CLI
+  - Connects Claude Code, Codex, Cursor and other MCP clients to 1,000+ apps and 400+ expert-built Skills through one setup
+  - OAuth in the browser; credentials stay in Aident Vault and every action is logged in Audit
+  - MIT-licensed skill; free pay-as-you-go start
+
 ### API & Integration Tools
 
 - [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) ![Stars](https://img.shields.io/github/stars/router-for-me/CLIProxyAPI?style=flat-square)
