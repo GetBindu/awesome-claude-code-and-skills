@@ -1081,6 +1081,11 @@ Specialized skills for specific industries and use cases.
   - Quality gates and replication protocols
   - Extracted from production PhD course
 
+- [BuyWhere/buywhere-mcp](https://github.com/BuyWhere/buywhere-mcp) ![Stars](https://img.shields.io/github/stars/BuyWhere/buywhere-mcp?style=flat-square)
+  - Hosted product-search MCP for multi-merchant price comparison (Singapore, SEA, US)
+  - Remote endpoint `https://api.buywhere.ai/mcp`; docs at https://docs.buywhere.ai
+  - Install: `npx -y @buywhere/mcp-server`
+
 - [takechanman1228/claude-ecom](https://github.com/takechanman1228/claude-ecom) ![Stars](https://img.shields.io/github/stars/takechanman1228/claude-ecom?style=flat-square)
   - Ecommerce business review skill for D2C stores
   - Multi-horizon KPI decomposition across 30d/90d/365d
