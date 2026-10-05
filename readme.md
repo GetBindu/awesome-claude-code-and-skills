@@ -741,6 +741,11 @@ Orchestrate multiple Claude agents to work together on complex tasks.
   - Compare competing approaches side by side
   - TypeScript, MIT licensed
 
+- [ITW-Creative-Works/workkit](https://github.com/ITW-Creative-Works/workkit) ![Stars](https://img.shields.io/github/stars/ITW-Creative-Works/workkit?style=flat-square)
+  - Claude Code plugin that runs GitHub Issues as the agent work pipeline
+  - Manager agent specs each issue, dispatches scout, worker and verifier subagents
+  - Labels track each issue from inbox to spec, build, QA and done; guard hooks enforce tests and commit rules
+
 ### Parallel Processing
 
 - [Dicklesworthstone/claude_code_agent_farm](https://github.com/Dicklesworthstone/claude_code_agent_farm) ![Stars](https://img.shields.io/github/stars/Dicklesworthstone/claude_code_agent_farm?style=flat-square)
