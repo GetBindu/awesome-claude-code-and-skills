@@ -601,7 +601,7 @@ Skills and tools that stop agent output from looking and reading machine-generat
   - 8 agent skills for editing real Figma files: preflight before a write, slop check after it, handoff gate, and a comment-to-fix loop
   - `figma-slop-check` flags machine-made tells and drift off tokens and scales; `figma-handoff-gate` checks that every action has a destination and a way back
   - 90 gotchas (45 Plugin API anomalies, 45 field notes) indexed by symptom and by literal error message; CI checks every Plugin API name the skills cite against `@figma/plugin-typings`
-  - Works with Figma's official MCP server or figma-console-mcp; install with `npx skills add thiagoxikota/figma-maxxing` or as a Claude Code plugin; MIT licensed
+  - Built on figma-console-mcp; 3 of the checks also ran once on Figma's official MCP server; install with `npx skills add thiagoxikota/figma-maxxing` or as a Claude Code plugin; MIT licensed
 
 ### Code Slop & Dead Code
 
