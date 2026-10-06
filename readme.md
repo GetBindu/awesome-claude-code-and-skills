@@ -1828,6 +1828,14 @@ Utilities and tools to enhance your Claude workflow.
   - Reports token usage and cost by day, month, session, and model
   - The most-referenced usage/cost tool in the community; Rust, very actively maintained
 
+- [drakulavich/cogload](https://github.com/drakulavich/cogload) ![Stars](https://img.shields.io/github/stars/drakulavich/cogload?style=flat-square)
+  - Cognitive load index: scores every hour of Claude Code work from 0 to 100
+  - Built from parallel sessions, prompt pace, agent supervision, model output, streak length and late-night work
+  - Week heatmap, per-hour day table and a shareable card
+  - Claude Code plugin: the hour's level above the prompt, a ten-minute rest after 40 minutes without a break, and `/cogload` names what drives the hour
+  - Reads local transcripts only; keeps no message text and sends nothing anywhere
+  - Bun CLI, runs with `bunx @drakulavich/cogload@latest`
+
 ### Configuration & Templates
 
 - [abhishekray07/claude-md-templates](https://github.com/abhishekray07/claude-md-templates) ![Stars](https://img.shields.io/github/stars/abhishekray07/claude-md-templates?style=flat-square)
