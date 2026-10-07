@@ -1037,6 +1037,14 @@ Skills for marketing professionals, content creators, and growth teams.
   - Reports patterns with line numbers and a suggested fix instead of a single confidence score
   - English and Russian versions included
 
+- [CosmoBlk/email-marketing-bible](https://github.com/CosmoBlk/email-marketing-bible) ![Stars](https://img.shields.io/github/stars/CosmoBlk/email-marketing-bible?style=flat-square)
+  - Data-backed email marketing skill built from 908 sources (MIT, instructions only)
+  - Builds automation flows (welcome, abandoned cart, win-back), segments audiences, and writes and de-slops email copy
+  - Triages deliverability and directs AI email design instead of accepting model defaults
+  - Drives an ESP (Klaviyo, Mailchimp, Resend, Nitrosend) over MCP with send-safety gates: nothing sends without approval
+  - Reference layer covers benchmarks, GDPR/CAN-SPAM/CASL compliance, cold email, SMS and WhatsApp, and 19 industry playbooks
+  - Install: `npx skills add CosmoBlk/email-marketing-bible`
+
 ---
 
 ## Domain-Specific Skills
