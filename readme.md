@@ -1687,6 +1687,11 @@ Utilities and tools to enhance your Claude workflow.
   - JSON-first requests, async task polling, and terminal/CI-friendly workflows
   - Apache-2.0 licensed; install with `git clone https://github.com/runapi-ai/cli-skill ~/.claude/skills/runapi-cli`
 
+- [loootai/looot-skills](https://github.com/loootai/looot-skills) ![Stars](https://img.shields.io/github/stars/loootai/looot-skills?style=flat-square)
+  - 21 Agent Skills for data API jobs: find work emails, enrich a company or person, Google results, keyword volume, web pages
+  - One prepaid balance for 2,500+ endpoints; each skill shows the price before the call runs and a failed call costs nothing
+  - MIT licensed; install with `npx skills add loootai/looot-skills`
+
 ### CLI Configuration Tools
 
 - [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) ![Stars](https://img.shields.io/github/stars/davila7/claude-code-templates?style=flat-square)
