@@ -536,6 +536,11 @@ Skills focused on software development, code quality, and engineering workflows.
   - Embeds Claude Code into the Neovim workflow
   - Lua-based; maintained by Coder
 
+- [Omega-JS-Stack/omega](https://github.com/Omega-JS-Stack/omega/tree/main/agent-plugins/claude) ![Stars](https://img.shields.io/github/stars/Omega-JS-Stack/omega?style=flat-square)
+  - Claude Code skills for the OMEGA JavaScript stack
+  - Builds a website (Eleventy), backend (Firebase), desktop app (Electron) and browser extension from one project
+  - SEO, accessibility, analytics and brand checks before work is called done; bundles an MCP router
+
 ### Code Review
 
 - [alibaba/open-code-review](https://github.com/alibaba/open-code-review) ![Stars](https://img.shields.io/github/stars/alibaba/open-code-review?style=flat-square)
