@@ -1259,6 +1259,11 @@ Specialized skills for specific industries and use cases.
   - Works with Claude, ChatGPT, OpenClaw, and Hermes Agent through the open Agent Skills format
   - Free tier, no card required; MIT licensed
 
+- [fxmacrodata/claude-plugin-fxmacrodata](https://github.com/fxmacrodata/claude-plugin-fxmacrodata) ![Stars](https://img.shields.io/github/stars/fxmacrodata/claude-plugin-fxmacrodata?style=flat-square)
+  - Official macro releases, central bank decisions, release calendars and FX rates for 22 currencies, with publication times and source links
+  - Claude Code plugin with a skill and the FXMacroData hosted MCP server; USD data works without an API key
+  - MIT licensed
+
 ## Productivity Tools
 
 Utilities and tools to enhance your Claude workflow.
