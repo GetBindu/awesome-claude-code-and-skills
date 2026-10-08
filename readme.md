@@ -560,6 +560,11 @@ Skills focused on software development, code quality, and engineering workflows.
   - Split, unified, and auto layouts; watch mode for file and Git-backed reviews
   - TypeScript, built on OpenTUI and Pierre diffs; works as a Git difftool, MIT licensed
 
+- [awss1i/assay](https://github.com/awss1i/assay) ![Stars](https://img.shields.io/github/stars/awss1i/assay?style=flat-square)
+  - Deterministic QA for a web page an agent just wrote, with no tests to write and no LLM
+  - Opens the page in Chromium through Playwright, drives every control it finds, and reports where the page contradicts itself
+  - Ships a Claude Code skill and a hook; install the CLI with `pip install assay-ui`, MIT licensed
+
 ---
 
 ## AI Slop Elimination
