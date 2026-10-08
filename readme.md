@@ -1075,6 +1075,12 @@ Specialized skills for specific industries and use cases.
   - MythicMobs, ModelEngine, PlaceholderAPI, WorldGuard, Vault, LuckPerms integrations
   - Kotlin/Java, Paper 1.21.x, Gradle Kotlin DSL
 
+- [equalang/equalang-skill](https://github.com/equalang/equalang-skill)
+  - Translate documents, slides, spreadsheets and e-books with layout preservation where supported; transcribe recordings and translate text
+  - Python CLI workflow with cost estimates and confirmation before file processing
+  - Requires Python 3, an Equalang API key and account credits; files are uploaded to the Equalang cloud
+  - Apache-2.0; install with `npx skills add equalang/equalang-skill --skill equalang`
+
 - [fruitwyatt/puzzlegenio-claude-skill](https://github.com/fruitwyatt/puzzlegenio-claude-skill) ![Stars](https://img.shields.io/github/stars/fruitwyatt/puzzlegenio-claude-skill?style=flat-square)
   - Generate free printable puzzles (crossword, word search, sudoku, jigsaw, bingo, nonogram)
   - Deep links with URL parameters for pre-filled puzzle settings
