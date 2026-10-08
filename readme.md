@@ -1514,6 +1514,12 @@ Utilities and tools to enhance your Claude workflow.
   - Builds memory and injects relevant context back into the session
   - From Letta AI; TypeScript, MIT licensed
 
+- [muthuishere/ctx-optimize](https://github.com/muthuishere/ctx-optimize) ![Stars](https://img.shields.io/github/stars/muthuishere/ctx-optimize?style=flat-square)
+  - Deterministic code knowledge graph for coding agents; one static Go binary indexes a repo into a local store
+  - `query`, `card`, `change-plan`, `affected`, `path`, `boundaries`, and `verify` answer "who calls this" or "what breaks if I change this" in one call instead of a grep-and-read chain
+  - Optionally indexes databases, buckets, queues, and APIs by env-var name; no LLM, no embeddings, no database, no MCP, no credentials at rest
+  - Ships an agent skill installed by `ctx-optimize install --skills` for Claude Code and Codex; Go, MIT licensed
+
 ### MCP Servers & Integrations
 
 - [oraios/serena](https://github.com/oraios/serena) ![Stars](https://img.shields.io/github/stars/oraios/serena?style=flat-square)
