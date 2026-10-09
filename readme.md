@@ -1055,6 +1055,9 @@ Skills for marketing professionals, content creators, and growth teams.
 
 Specialized skills for specific industries and use cases.
 
+- [replynodes/url-to-markdown](https://github.com/replynodes/replynodes-agent-skills/tree/main/skills/url-to-markdown) ![Stars](https://img.shields.io/github/stars/replynodes/replynodes-agent-skills?style=flat-square)
+  - Fetch public webpages as clean Markdown for LLM context through a zero-auth, read-only HTTP endpoint
+
 - [dhosruiasn/accessible-dark-mode-design-expert](https://github.com/dhosruiasn/accessible-dark-mode-design-expert) ![Stars](https://img.shields.io/github/stars/dhosruiasn/accessible-dark-mode-design-expert?style=flat-square)
   - Accessible light/dark theme design, implementation, review, and audit skill for Claude Code and OpenAI Codex
   - Covers user preference precedence, semantic design tokens, WCAG text and non-text contrast, theme-aware assets, Material and Apple conventions, and reduced-motion-safe transitions
