@@ -536,6 +536,11 @@ Skills focused on software development, code quality, and engineering workflows.
   - Embeds Claude Code into the Neovim workflow
   - Lua-based; maintained by Coder
 
+- [allxsmith/bestax](https://github.com/allxsmith/bestax) ![Stars](https://img.shields.io/github/stars/allxsmith/bestax?style=flat-square)
+  - Agent Skills for Bestax, a React component library for Bulma v1
+  - Covers page layouts, forms, icons, theming, custom components, migration and CSS size
+  - Install with `npx skills add https://github.com/allxsmith/bestax --skill bestax-layout-scaffold`
+
 ### Code Review
 
 - [alibaba/open-code-review](https://github.com/alibaba/open-code-review) ![Stars](https://img.shields.io/github/stars/alibaba/open-code-review?style=flat-square)
