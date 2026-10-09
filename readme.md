@@ -449,6 +449,13 @@ Skills focused on software development, code quality, and engineering workflows.
   - Hooks enforce type-checking and lint on edits
   - TypeScript, MIT licensed
 
+- [cloudishai/skills](https://github.com/cloudishai/skills) ![Stars](https://img.shields.io/github/stars/cloudishai/skills?style=flat-square)
+  - Deploys a Dockerfile, source folder, or container image to Cloudish and reports the live URL
+  - Images build server-side, so no local Docker is needed; optional persistent volume for databases and files
+  - The agent can create its own API key with one call; spending is capped by the key's prepaid credits
+  - Keeps keys in a gitignored `.env` and confirms before spending beyond the request
+  - Installs as a Claude Code plugin or a plain `SKILL.md`; MIT licensed
+
 ### Specialized Agents
 
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) ![Stars](https://img.shields.io/github/stars/VoltAgent/awesome-claude-code-subagents?style=flat-square)
