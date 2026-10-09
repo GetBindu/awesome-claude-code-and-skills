@@ -888,6 +888,11 @@ Professional-grade security skills for vulnerability detection, code auditing, a
   - Go binary with a GitHub Action and Docker image
   - Feature complete: security patches only, with development moving to Betterleaks
 
+- [morluto/rea](https://github.com/morluto/rea/tree/main/skill-src/reverse-engineer-anything) ![Stars](https://img.shields.io/github/stars/morluto/rea?style=flat-square)
+  - `reverse-engineer-anything` skill for investigating shipped binaries and JavaScript/Electron apps with local REA CLI/MCP tools
+  - Keeps source evidence, inferences, and unknowns distinct; skips ordinary source-repository analysis
+  - Skill instructions and tools are installed separately; deep native analysis requires your own Hopper, Ghidra, or IDA
+
 ### Compliance & Auditing
 
 - [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills) ![Stars](https://img.shields.io/github/stars/BehiSecc/awesome-claude-skills?style=flat-square)
