@@ -449,6 +449,12 @@ Skills focused on software development, code quality, and engineering workflows.
   - Hooks enforce type-checking and lint on edits
   - TypeScript, MIT licensed
 
+- [GeiserX/agent-skills](https://github.com/GeiserX/agent-skills) ![Stars](https://img.shields.io/github/stars/GeiserX/agent-skills?style=flat-square)
+  - Skills for Claude Code and Codex: durable loops that drive a repository toward a goal, and parallel skills for review, investigation, research and implementation
+  - `/sergio-loop` runs a durable goal loop one small slice at a time with resumable state; an optional Stop hook continues it in the same Claude Code session
+  - `/investigate`, `/review-pr`, `/review-code`, `/research` and `/implement` split the work across parallel agents and check every finding before acting on it
+  - No skill treats a stored goal as permission to merge, publish or deploy; GPL-3.0-or-later
+
 ### Specialized Agents
 
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) ![Stars](https://img.shields.io/github/stars/VoltAgent/awesome-claude-code-subagents?style=flat-square)
