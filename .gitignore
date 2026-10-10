@@ -1,2 +1,4 @@
 # Claude local configuration
 .claude/
+config.bat
+node_modules
