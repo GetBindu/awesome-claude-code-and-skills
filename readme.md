@@ -286,6 +286,11 @@ These repositories offer extensive collections of skills across multiple domains
   - Install as a Claude Code plugin marketplace or via `npx skills add getsentry/skills`
   - For Sentry setup and production debugging skills, see `getsentry/sentry-for-ai`
 
+- [Shaisolaris/solaris-dev-shop](https://github.com/Shaisolaris/solaris-dev-shop) ![Stars](https://img.shields.io/github/stars/Shaisolaris/solaris-dev-shop?style=flat-square)
+  - Free MIT skill library for AI coding agents
+  - A chief of staff assigns one specialist to a task
+  - Version 0.53
+
 ## Development & Engineering
 
 Skills focused on software development, code quality, and engineering workflows.
