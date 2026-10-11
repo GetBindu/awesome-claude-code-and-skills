@@ -449,6 +449,12 @@ Skills focused on software development, code quality, and engineering workflows.
   - Hooks enforce type-checking and lint on edits
   - TypeScript, MIT licensed
 
+- [iamumeransari/claude-show-your-work](https://github.com/iamumeransari/claude-show-your-work) ![Stars](https://img.shields.io/github/stars/iamumeransari/claude-show-your-work?style=flat-square)
+  - Claude shows its finished work inline in the terminal: screenshots and videos
+  - Records itself clicking through your app with Playwright and plays it back
+  - Before/after QA runs side by side in sync, with what changed and the checks
+  - Ghostty and kitty on macOS, MIT licensed
+
 ### Specialized Agents
 
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) ![Stars](https://img.shields.io/github/stars/VoltAgent/awesome-claude-code-subagents?style=flat-square)
