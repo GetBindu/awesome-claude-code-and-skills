@@ -1514,6 +1514,12 @@ Utilities and tools to enhance your Claude workflow.
   - Builds memory and injects relevant context back into the session
   - From Letta AI; TypeScript, MIT licensed
 
+- [tjqscott/dory](https://github.com/tjqscott/dory) ![Stars](https://img.shields.io/github/stars/tjqscott/dory?style=flat-square)
+  - Project memory in a linked Markdown wiki, with decisions, findings and a taskboard
+  - Claude Code plugin with session-start context loading, structural lint hooks and five wiki-management skills
+  - Includes AGENTS.md directives for Codex and a separate single-file browser edition
+  - MIT licensed; no hosted memory service required
+
 ### MCP Servers & Integrations
 
 - [oraios/serena](https://github.com/oraios/serena) ![Stars](https://img.shields.io/github/stars/oraios/serena?style=flat-square)
