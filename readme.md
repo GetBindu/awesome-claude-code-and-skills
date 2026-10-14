@@ -286,6 +286,9 @@ These repositories offer extensive collections of skills across multiple domains
   - Install as a Claude Code plugin marketplace or via `npx skills add getsentry/skills`
   - For Sentry setup and production debugging skills, see `getsentry/sentry-for-ai`
 
+- [The Enso Method](https://github.com/EnsoDynamics/enso-method)
+  - Agent skills for Claude Code and Codex that record business assumptions with evidence and confidence, and preserve requirements as the source of truth.
+
 ## Development & Engineering
 
 Skills focused on software development, code quality, and engineering workflows.
