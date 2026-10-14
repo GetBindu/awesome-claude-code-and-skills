@@ -1603,6 +1603,12 @@ Utilities and tools to enhance your Claude workflow.
   - Supports MCP, CLI, and REST workflows
   - Read-only analytics operations with project-scoped authentication
 
+- [fclairamb/solidping](https://github.com/fclairamb/solidping) ![Stars](https://img.shields.io/github/stars/fclairamb/solidping?style=flat-square)
+  - Remote MCP server (OAuth 2.1) for SolidPing, open-source uptime monitoring
+  - Lists and creates checks across 40+ types: HTTP, TCP, DNS, SSL, databases, queues
+  - Reads results and incidents, diagnoses a failing check, manages status pages
+  - Hosted at solidping.io or self-hosted, same `/api/v1/mcp` endpoint
+
 - [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) ![Stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=flat-square)
   - Official Anthropic reference collection of MCP servers
   - Bundles Filesystem, Git, Fetch, Memory, Sequential Thinking, and Time
