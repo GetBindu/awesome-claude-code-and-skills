@@ -2072,6 +2072,12 @@ Tools and frameworks for creating your own Claude skills.
   - Turns approved specs into long-running autonomous implementation
   - TypeScript-driven, minimal and adaptable
 
+- [2016judea/harvest-harness](https://github.com/2016judea/harvest-harness) ![Stars](https://img.shields.io/github/stars/2016judea/harvest-harness?style=flat-square)
+  - A method for harvesting skills from finished Claude Code sessions, not writing them up front
+  - `crystallize` turns a session that worked into a skill whose rules carry their why
+  - Free slice: the method plus four skills, one-line `curl` install
+  - MIT licensed
+
 ---
 
 ## Contributing
