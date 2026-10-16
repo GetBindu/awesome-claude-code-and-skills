@@ -1266,6 +1266,10 @@ Specialized skills for specific industries and use cases.
   - 12 skills in one repo; install the bundled `youtube-full` for broad coverage or a focused variant for a smaller tool surface
   - Works with Claude, ChatGPT, OpenClaw, and Hermes Agent through the open Agent Skills format
   - Free tier, no card required; MIT licensed
+- [yumaheymans/carejobs-mcp](https://github.com/yumaheymans/carejobs-mcp/tree/main/skills/healthcare-job-search)
+  - Agent Skill for US healthcare job and pay questions, backed by the free CareJobs.Now remote MCP server and JSON endpoints
+  - Searches 170,000+ open jobs read daily from hospitals and health systems, with the pay each employer posts
+  - MIT licensed; no API key needed
 
 ## Productivity Tools
 
