@@ -1653,6 +1653,12 @@ Utilities and tools to enhance your Claude workflow.
   - Query databases and create/update pages and blocks via the Notion API
   - Supports a hosted remote endpoint and local stdio deployment
 
+- [SergiuPogor/curlshot-mcp](https://github.com/SergiuPogor/curlshot-mcp) ![Stars](https://img.shields.io/github/stars/SergiuPogor/curlshot-mcp?style=flat-square)
+  - Hosted MCP server for the CurlShot screenshot API (`take_screenshot`, `list_devices`)
+  - Captures public pages as PNG, JPEG, WebP, PDF or a scrolling video; full page, device presets, CSS selector
+  - Installs as a Claude Code plugin with a bundled agent skill; also a Gemini CLI extension
+  - Needs a CurlShot API key (free plan available)
+
 ### API & Integration Tools
 
 - [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) ![Stars](https://img.shields.io/github/stars/router-for-me/CLIProxyAPI?style=flat-square)
