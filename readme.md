@@ -1045,6 +1045,13 @@ Skills for marketing professionals, content creators, and growth teams.
   - Reference layer covers benchmarks, GDPR/CAN-SPAM/CASL compliance, cold email, SMS and WhatsApp, and 19 industry playbooks
   - Install: `npx skills add CosmoBlk/email-marketing-bible`
 
+- [MachGTM/lead-finder](https://github.com/MachGTM/lead-finder) ![Stars](https://img.shields.io/github/stars/MachGTM/lead-finder?style=flat-square)
+  - Finds B2B companies that fit your ideal customer and show a buying signal now (MIT)
+  - Every claim carries a source link and an exact quote; anything it can't check stays "unknown" instead of being guessed
+  - A standard-library Python script does the scoring with a fixed formula, so the same evidence always gives the same ranking
+  - Hiring signals from 7 public job-board APIs (Greenhouse, Lever, Ashby, SmartRecruiters, Recruitee, Breezy HR, Personio); no API keys
+  - Install: `/plugin marketplace add machgtm/lead-finder`
+
 ---
 
 ## Domain-Specific Skills
