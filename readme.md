@@ -1045,6 +1045,14 @@ Skills for marketing professionals, content creators, and growth teams.
   - Reference layer covers benchmarks, GDPR/CAN-SPAM/CASL compliance, cold email, SMS and WhatsApp, and 19 industry playbooks
   - Install: `npx skills add CosmoBlk/email-marketing-bible`
 
+- [KuudoAI/skills](https://github.com/KuudoAI/skills) ![Stars](https://img.shields.io/github/stars/KuudoAI/skills?style=flat-square)
+  - 22 Agent Skills for Amazon sellers and advertisers, built for Kuudo's hosted Amazon Ads and Selling Partner (SP-API) MCP servers
+  - Sponsored Products and Brands audits, search-term mining, budget pacing, DSP and Amazon Marketing Cloud, and reporting
+  - Listing optimization and compliance, product images, repricing, FBA inbound, stockout, refunds, buyer messaging, and profitability
+  - Report rows, listings, and tool text are treated as data; price, budget, campaign, listing, shipment, and buyer-message writes are previewed and wait for explicit approval
+  - PolyForm Shield 1.0.0 (source-available, not OSI open source)
+  - Install: `claude plugin marketplace add KuudoAI/skills` then `claude plugin install kuudo-skills@kuudo-skills-dev`, or one skill with `npx skills add KuudoAI/skills --skill <skill-name>`
+
 ---
 
 ## Domain-Specific Skills
