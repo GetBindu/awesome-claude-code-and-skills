@@ -741,6 +741,12 @@ Orchestrate multiple Claude agents to work together on complex tasks.
   - Compare competing approaches side by side
   - TypeScript, MIT licensed
 
+- [remakecraft/remakecraft](https://github.com/remakecraft/remakecraft) ![Stars](https://img.shields.io/github/stars/remakecraft/remakecraft?style=flat-square)
+  - Claude Code plugin that rewrites an app from its observable behaviour (screenshots, recordings, public docs)
+  - Spec first, then tests with about 30% sealed from the builders behind a logged, hook-enforced wall
+  - Parallel builders in git worktrees; the parity score counts the sealed tests
+  - Early alpha, MIT licensed
+
 ### Parallel Processing
 
 - [Dicklesworthstone/claude_code_agent_farm](https://github.com/Dicklesworthstone/claude_code_agent_farm) ![Stars](https://img.shields.io/github/stars/Dicklesworthstone/claude_code_agent_farm?style=flat-square)
