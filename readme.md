@@ -1737,6 +1737,12 @@ Utilities and tools to enhance your Claude workflow.
   - Cron-scheduled Markdown skills, self-healing (a health skill detects failures, a repair skill fixes them by PR)
   - Spawns a fleet of clones and ships 70+ Agent Skills across six coding-agent harnesses (Claude Code, Grok, Codex, Pi, Vibe, Kimi)
 
+- [DecodedXR/claude-workflow-skills](https://github.com/DecodedXR/claude-workflow-skills) ![Stars](https://img.shields.io/github/stars/DecodedXR/claude-workflow-skills?style=flat-square)
+  - Claude Code plugin with five workflow skills for long, unattended sessions
+  - autopilot: picks the next task needing no human decision, builds it test-first, runs an adversarial verifier, auto-merges only on green CI
+  - wargame: plans a task to an 8-point standard so a cheaper model can execute it blind
+  - delegate, afk and prepare-for-next-session for context hygiene and session handoff
+
 ### Monitoring & Observability
 
 - [disler/claude-code-hooks-multi-agent-observability](https://github.com/disler/claude-code-hooks-multi-agent-observability) ![Stars](https://img.shields.io/github/stars/disler/claude-code-hooks-multi-agent-observability?style=flat-square)
