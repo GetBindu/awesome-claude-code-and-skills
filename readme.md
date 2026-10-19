@@ -1653,6 +1653,12 @@ Utilities and tools to enhance your Claude workflow.
   - Query databases and create/update pages and blocks via the Notion API
   - Supports a hosted remote endpoint and local stdio deployment
 
+- [evergreen-it-dev/folio](https://github.com/evergreen-it-dev/folio) ![Stars](https://img.shields.io/github/stars/evergreen-it-dev/folio?style=flat-square)
+  - Self-hosted, Git-backed team wiki with a built-in MCP server (40 tools; Streamable HTTP, OAuth 2.1 or personal access token)
+  - Search, read, create and update pages, data tables and whiteboards from Claude Code, Claude Desktop or claude.ai
+  - Includes a Claude Code plugin with a `folio-wiki` skill for careful wiki edits
+  - TypeScript, MIT licensed; Docker image and live demo at https://demo.foliowiki.online
+
 ### API & Integration Tools
 
 - [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) ![Stars](https://img.shields.io/github/stars/router-for-me/CLIProxyAPI?style=flat-square)
