@@ -1324,6 +1324,11 @@ Utilities and tools to enhance your Claude workflow.
   - Turns CLI-based AI orchestration into a desktop experience
   - TypeScript-driven Electron build
 
+- [benord-labs/frink](https://github.com/benord-labs/frink) ![Stars](https://img.shields.io/github/stars/benord-labs/frink?style=flat-square)
+  - Fine-tuned automation for everyone: visual workflows where AI coding agents act on your tickets, errors and schedules, and ask before they change anything
+  - Works with Claude Code, Codex, OpenCode, GitHub Copilot and Cursor
+  - Local and open source (MIT), on macOS and Linux
+
 ### Agent Harnesses & Meta-Tools
 
 - [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) ![Stars](https://img.shields.io/github/stars/code-yeongyu/oh-my-openagent?style=flat-square)
