@@ -1325,9 +1325,8 @@ Utilities and tools to enhance your Claude workflow.
   - TypeScript-driven Electron build
 
 - [benord-labs/frink](https://github.com/benord-labs/frink) ![Stars](https://img.shields.io/github/stars/benord-labs/frink?style=flat-square)
-  - Fine-tuned automation for everyone: visual workflows where AI coding agents act on your tickets, errors and schedules, and ask before they change anything
-  - Works with Claude Code, Codex, OpenCode, GitHub Copilot and Cursor
-  - Local and open source (MIT), on macOS and Linux
+  - Desktop-first, open-source (MIT) application for running parallel agents, and multi-step custom workflows triggered by schedules, webhooks or events from tools like Linear and Sentry, across your already-used providers
+  - Workflows can include steps you write yourself in code, alongside agent, command and approval steps
 
 ### Agent Harnesses & Meta-Tools
 
