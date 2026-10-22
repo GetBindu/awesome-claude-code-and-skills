@@ -1653,6 +1653,12 @@ Utilities and tools to enhance your Claude workflow.
   - Query databases and create/update pages and blocks via the Notion API
   - Supports a hosted remote endpoint and local stdio deployment
 
+- [datawebot/datawebot-mcp](https://github.com/datawebot/datawebot-mcp) ![Stars](https://img.shields.io/github/stars/datawebot/datawebot-mcp?style=flat-square)
+  - Official hosted datawebot MCP server, agent skill and Claude Code plugin for ecommerce product data
+  - Product search across online shops, plus every seller's price for one product with direct shop links
+  - Extraction Jobs on Amazon search and product pages (10 countries) and 1,100+ Shopify stores, paid from 200 free trial credits
+  - Streamable HTTP at `https://mcp.datawebot.com/mcp`, OAuth email sign-in, no install; MIT licensed
+
 ### API & Integration Tools
 
 - [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) ![Stars](https://img.shields.io/github/stars/router-for-me/CLIProxyAPI?style=flat-square)
