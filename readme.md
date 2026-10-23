@@ -888,6 +888,11 @@ Professional-grade security skills for vulnerability detection, code auditing, a
   - Go binary with a GitHub Action and Docker image
   - Feature complete: security patches only, with development moving to Betterleaks
 
+- [shanjeevrajendran/cloakroom](https://github.com/shanjeevrajendran/cloakroom) ![Stars](https://img.shields.io/github/stars/shanjeevrajendran/cloakroom?style=flat-square)
+  - Claude Code plugin that masks API keys, secrets and personal data (PII) on your machine before the model sees them
+  - Restores the real values for local tools
+  - Open source (Apache-2.0); Mac, Windows and Linux
+
 ### Compliance & Auditing
 
 - [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills) ![Stars](https://img.shields.io/github/stars/BehiSecc/awesome-claude-skills?style=flat-square)
