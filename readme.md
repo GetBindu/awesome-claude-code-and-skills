@@ -803,6 +803,11 @@ Orchestrate multiple Claude agents to work together on complex tasks.
   - 10 compliance packs auto-attach by archetype (PCI, HIPAA, FDA SaMD, NYC AEDT, GDPR, etc.)
   - Two human gates per feature plus memory feedback loop that persists decisions across sessions
 
+- [kanibal-studio/agent-collab-kit](https://github.com/kanibal-studio/agent-collab-kit) ![Stars](https://img.shields.io/github/stars/kanibal-studio/agent-collab-kit?style=flat-square)
+  - SQLite mailbox with acknowledgements for several Claude Code sessions on one machine
+  - Cooperative leases on exact file names with generation tokens
+  - Python standard library only; MIT licensed
+
 ---
 - [dazuiba/handoff](https://github.com/dazuiba/handoff) ![Stars](https://img.shields.io/github/stars/dazuiba/handoff?style=flat-square)
   - Skill/subagent that delegates tasks to DeepSeek V4, Codex, or Opus without leaving your session
@@ -1883,6 +1888,11 @@ Utilities and tools to enhance your Claude workflow.
   - Topic research, writing pipeline, SVG figures, editorial calendar
   - Platform-agnostic: Ghost, WordPress, or any static site
   - MIT-0 licensed; installs into Claude Code, Cursor, Codex, and 50+ runtimes
+
+- [kanibal-studio/least-cost-capable](https://github.com/kanibal-studio/least-cost-capable) ![Stars](https://img.shields.io/github/stars/kanibal-studio/least-cost-capable?style=flat-square)
+  - Portable Agent Skill (SKILL.md) choosing the lowest declared cost rank among capable models
+  - Unknown capability or cost evidence stays unresolved instead of guessed
+  - No provider calls; Python helper; MIT licensed
 
 ---
 
