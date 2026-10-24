@@ -1045,6 +1045,22 @@ Skills for marketing professionals, content creators, and growth teams.
   - Reference layer covers benchmarks, GDPR/CAN-SPAM/CASL compliance, cold email, SMS and WhatsApp, and 19 industry playbooks
   - Install: `npx skills add CosmoBlk/email-marketing-bible`
 
+- [jack-reson8/renhua](https://github.com/jack-reson8/renhua) ![Stars](https://img.shields.io/github/stars/jack-reson8/renhua?style=flat-square)
+  - Writes Chinese posts, product copy and replies in a real person's voice for Xiaohongshu, X and WeChat
+  - Strips Chinese AI tells: emoji checklists, parallel triplets, slogan endings, stock closing questions
+  - Viral Xiaohongshu title library and optional humor patterns
+  - Works with Claude Code, Codex and other SKILL.md clients
+
+- [jack-reson8/post-skill](https://github.com/jack-reson8/post-skill) ![Stars](https://img.shields.io/github/stars/jack-reson8/post-skill?style=flat-square)
+  - Turns a day's true facts into a Xiaohongshu / X carousel that looks native, not templated
+  - App Store screenshot-poster layouts, pixel-faithful UI mocks, charts that aren't tables
+  - Every image may only contain facts listed in the brief, with sources
+
+- [jack-reson8/pro-motion](https://github.com/jack-reson8/pro-motion) ![Stars](https://img.shields.io/github/stars/jack-reson8/pro-motion?style=flat-square)
+  - Launch films, brand films and promos rendered in code (canvas to MP4), cut to the beat
+  - Audio first: campaign mechanism, sonic logo and Suno/Udio prompts before any picture
+  - Spectrogram-based beat analysis, parallel rendering, named AE/Blender-style effects
+
 ---
 
 ## Domain-Specific Skills
@@ -2071,6 +2087,11 @@ Tools and frameworks for creating your own Claude skills.
   - Spec-driven development harness for Claude Code
   - Turns approved specs into long-running autonomous implementation
   - TypeScript-driven, minimal and adaptable
+
+- [jack-reson8/skill-skill](https://github.com/jack-reson8/skill-skill) ![Stars](https://img.shields.io/github/stars/jack-reson8/skill-skill?style=flat-square)
+  - Distils real work (corrections, rejections, accepted outputs) into skills with forcing functions: required artifacts, gates, scripts
+  - Static audit with a 0–100 health score against the Agent Skills spec; in-browser checker at jack-reson8.github.io/skill-skill/check
+  - Publish preflight and PR triage for getting a skill listed
 
 ---
 
