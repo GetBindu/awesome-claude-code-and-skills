@@ -888,6 +888,11 @@ Professional-grade security skills for vulnerability detection, code auditing, a
   - Go binary with a GitHub Action and Docker image
   - Feature complete: security patches only, with development moving to Betterleaks
 
+- [Frank-Masciopinto/ironheights](https://github.com/Frank-Masciopinto/ironheights) ![Stars](https://img.shields.io/github/stars/Frank-Masciopinto/ironheights?style=flat-square)
+  - Scans a skill folder (`SKILL.md` plus its files) before you install it: instruction override, hidden text, credential reads, exfiltration, remote-exec installs, persistence
+  - Lists package installs it did not scan instead of grading wrapper skills a clean A; integrity baseline and quarantine for installed skills
+  - Built for OpenClaw/ClawHub skills, works on any `SKILL.md` folder; TypeScript CLI (`npx ironheights scan <path>`), Apache-2.0, early-stage
+
 ### Compliance & Auditing
 
 - [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills) ![Stars](https://img.shields.io/github/stars/BehiSecc/awesome-claude-skills?style=flat-square)
