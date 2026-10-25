@@ -1045,6 +1045,13 @@ Skills for marketing professionals, content creators, and growth teams.
   - Reference layer covers benchmarks, GDPR/CAN-SPAM/CASL compliance, cold email, SMS and WhatsApp, and 19 industry playbooks
   - Install: `npx skills add CosmoBlk/email-marketing-bible`
 
+- [CalebAnderson-Coder/ai-agency-os-starter](https://github.com/CalebAnderson-Coder/ai-agency-os-starter) ![Stars](https://img.shields.io/github/stars/CalebAnderson-Coder/ai-agency-os-starter?style=flat-square)
+  - Client-ops skills for agencies and freelancers running several clients from Claude Code (MIT)
+  - One folder and CLAUDE.md per client with its own voice, approved claims, scope and log
+  - scope-guard checks each client request against SCOPE.md and drafts a change order without sending it
+  - quick-quote prices a project from 6 workflow numbers with the math shown
+  - Install: `npx skills add CalebAnderson-Coder/ai-agency-os-starter` or as a Claude Code plugin
+
 ---
 
 ## Domain-Specific Skills
