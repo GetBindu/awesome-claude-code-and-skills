@@ -1267,6 +1267,12 @@ Specialized skills for specific industries and use cases.
   - Works with Claude, ChatGPT, OpenClaw, and Hermes Agent through the open Agent Skills format
   - Free tier, no card required; MIT licensed
 
+- [Keith-CY/sketchbook-style](https://github.com/Keith-CY/sketchbook-style) ![Stars](https://img.shields.io/github/stars/Keith-CY/sketchbook-style?style=flat-square)
+  - Draws any object as a black-ink page from an industrial designer's sketchbook: three-quarter view, hatching, a few solid blacks
+  - Four looks (pen, marker, ink, bold+fine), with open image models: Qwen-Image 2.1 on ComfyUI, or FLUX.2 klein / Z-Image locally through mflux; no API key
+  - Ships prompt templates, an ink post-process and a measurement script; 52 sample pages with prompts and seeds
+  - Install: `npx skills add Keith-CY/sketchbook-style -g -a claude-code`; Apache-2.0
+
 ## Productivity Tools
 
 Utilities and tools to enhance your Claude workflow.
