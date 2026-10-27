@@ -1127,6 +1127,12 @@ Specialized skills for specific industries and use cases.
   - Go dashboard for tracking applications and pipeline status
   - MIT licensed; site at career-ops.org
 
+- [landedjobs/ai-job-hunt-os](https://github.com/landedjobs/ai-job-hunt-os) ![Stars](https://img.shields.io/github/stars/landedjobs/ai-job-hunt-os?style=flat-square)
+  - Six Claude Code skills for a job search that hand off to each other
+  - Job description decoder, company research, resume tailoring, outreach drafts, mock interviews, salary negotiation
+  - Plain SKILL.md files, no account or API key
+  - MIT licensed
+
 - [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) ![Stars](https://img.shields.io/github/stars/mvanhorn/last30days-skill?style=flat-square)
   - Agent skill that researches topics across Reddit, X, YouTube, Hacker News, TikTok, Polymarket, Bluesky, and the open web
   - Synthesizes findings into a grounded recency summary, weighted toward the last 30 days
