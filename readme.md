@@ -1653,6 +1653,11 @@ Utilities and tools to enhance your Claude workflow.
   - Query databases and create/update pages and blocks via the Notion API
   - Supports a hosted remote endpoint and local stdio deployment
 
+- [LeulAria/Aria-Icons](https://github.com/LeulAria/Aria-Icons) ![Stars](https://img.shields.io/github/stars/LeulAria/Aria-Icons?style=flat-square)
+  - MCP server and CLI for searching 1.4M open-source SVG icons (Lucide, Tabler, Heroicons, theSVG brands, 200+ Iconify sets)
+  - Agents can find an icon, find equivalents across sets, and write it into the repo as SVG or a React/Vue component
+  - Runs locally over stdio (`npx -y aria-icons`) or as a hosted remote HTTP endpoint with no auth
+
 ### API & Integration Tools
 
 - [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) ![Stars](https://img.shields.io/github/stars/router-for-me/CLIProxyAPI?style=flat-square)
