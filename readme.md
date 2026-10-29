@@ -741,6 +741,11 @@ Orchestrate multiple Claude agents to work together on complex tasks.
   - Compare competing approaches side by side
   - TypeScript, MIT licensed
 
+- [yanauto/opus-manager](https://github.com/yanauto/opus-manager) ![Stars](https://img.shields.io/github/stars/yanauto/opus-manager?style=flat-square)
+  - Claude Code skill that keeps Claude as the manager: it plans work as Markdown tickets and hands off coding to cheaper local AI CLIs
+  - Acceptance commands are rerun by Claude, not taken from the worker's report
+  - A model from another vendor reviews each change, and Claude checks every finding
+
 ### Parallel Processing
 
 - [Dicklesworthstone/claude_code_agent_farm](https://github.com/Dicklesworthstone/claude_code_agent_farm) ![Stars](https://img.shields.io/github/stars/Dicklesworthstone/claude_code_agent_farm?style=flat-square)
