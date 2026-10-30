@@ -1154,6 +1154,12 @@ Specialized skills for specific industries and use cases.
   - Adapted from Prof. Peng Sida's open notes
   - Works with Codex, Claude Code, and Gemini CLI
 
+- [lucasbabur/jp-essay](https://github.com/lucasbabur/jp-essay) ![Stars](https://img.shields.io/github/stars/lucasbabur/jp-essay?style=flat-square)
+  - Claude Code skills for researching, outlining, drafting, revising, and fact-checking essays
+  - General-reader and scientific modes, with citations and references in scientific mode
+  - Produces one final essay per run and retains intermediate Markdown files for inspection
+  - MIT licensed; requires Claude Code and uv, with model usage billed separately
+
 - [Galaxy-Dawn/claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) ![Stars](https://img.shields.io/github/stars/Galaxy-Dawn/claude-scholar?style=flat-square)
   - Semi-automated research assistant for academic and software work
   - Supports Claude Code, OpenCode, and Codex CLI
