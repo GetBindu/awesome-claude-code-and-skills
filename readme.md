@@ -887,6 +887,20 @@ Professional-grade security skills for vulnerability detection, code auditing, a
   - Detects secrets in code and git history — catches keys an agent pasted into a commit
   - Go binary with a GitHub Action and Docker image
   - Feature complete: security patches only, with development moving to Betterleaks
+ 
+- [appsec-sentinel](https://github.com/dextsamu/appsec-sentinel) - Application and cloud security assessment for AI coding agents. Italian and English.
+  - Authorization gate and rules of engagement before any active test
+  - Findings with explicit proof states: reproduced, confirmed by code, hypothesis, not verifiable
+  - Quick, standard and full modes; deterministic pre-pass and 14-area checklist for repeatable runs
+  - Independent refutation of high-severity findings by a second agent
+  - Coverage with real denominators, PDF report, measured on OWASP Juice Shop and public benches
+    
+- [gdpr-sentinel](https://github.com/dextsamu/gdpr-sentinel) - Technical GDPR/ePrivacy review for AI coding agents; never declares compliance. Italian and English.
+  - Privacy notice vs what the code actually collects, sends and keeps
+  - 14 controls (A–N): cookies before consent, suppliers and transfers, retention, data subject rights
+  - Structured gaps with file and line, one per cause
+  - Ready-made questions for controller, DPO, counsel and suppliers
+  - Draft Art. 30 record and DPIA sheet, shared PDF report with appsec-sentinel
 
 ### Compliance & Auditing
 
