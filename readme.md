@@ -1653,6 +1653,12 @@ Utilities and tools to enhance your Claude workflow.
   - Query databases and create/update pages and blocks via the Notion API
   - Supports a hosted remote endpoint and local stdio deployment
 
+- [modelsalt/model-salt](https://github.com/modelsalt/model-salt) ![Stars](https://img.shields.io/github/stars/modelsalt/model-salt?style=flat-square)
+  - MCP server with one tool: before a creative task Claude gets a few choices to settle this time (a palette, a pose, a name)
+  - Choices come from randomness outside the model: random.org atmospheric noise, a quantum RNG and the drand beacon
+  - One prompt gives different answers that still do what was asked; randomness 0 gives the usual answer
+  - MIT licensed, local stdio; install with `npx -y model-salt setup claude`
+
 ### API & Integration Tools
 
 - [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) ![Stars](https://img.shields.io/github/stars/router-for-me/CLIProxyAPI?style=flat-square)
