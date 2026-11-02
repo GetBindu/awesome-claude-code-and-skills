@@ -330,6 +330,12 @@ Skills focused on software development, code quality, and engineering workflows.
   - Codebase architecture guidance
   - Git guardrails and issue triage
 
+- [Quinnod345/ponder](https://github.com/Quinnod345/ponder) ![Stars](https://img.shields.io/github/stars/Quinnod345/ponder?style=flat-square)
+  - Convergent multi-pass code deliberation loop and review ledger
+  - Refuses early stopping until every unit is audited across four adversarial perspectives
+  - Pure Node.js with zero runtime dependencies and 101/101 conformance checks
+  - Works with Claude Code, OpenAI Codex, Cursor, and OpenClaw
+
 - [YoungApple/growth-retrospective-skill](https://github.com/YoungApple/growth-retrospective-skill) ![Stars](https://img.shields.io/github/stars/YoungApple/growth-retrospective-skill?style=flat-square)
   - Personal growth retrospectives ranked by decision-velocity signals from git + chat history
   - Tracks 5 categories: domain knowledge, human skills, work habits, meta-cognition, productivity rhythm
