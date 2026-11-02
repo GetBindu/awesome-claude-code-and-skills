@@ -741,6 +741,12 @@ Orchestrate multiple Claude agents to work together on complex tasks.
   - Compare competing approaches side by side
   - TypeScript, MIT licensed
 
+- [zozo123/ariflow-swfactory](https://github.com/zozo123/ariflow-swfactory) ![Stars](https://img.shields.io/github/stars/zozo123/ariflow-swfactory?style=flat-square)
+  - Software factory that runs Claude Code, Codex and other agents under Apache Airflow
+  - GitHub issues become tested, reviewed pull requests through approval gates
+  - Sandboxed work cells, retained evidence, and a human merge key
+  - Ships Agent Skills and a `swf` CLI; Python, Apache-2.0 licensed
+
 ### Parallel Processing
 
 - [Dicklesworthstone/claude_code_agent_farm](https://github.com/Dicklesworthstone/claude_code_agent_farm) ![Stars](https://img.shields.io/github/stars/Dicklesworthstone/claude_code_agent_farm?style=flat-square)
