@@ -1643,6 +1643,11 @@ Utilities and tools to enhance your Claude workflow.
   - Scrape/crawl/map/search tools return clean, LLM-ready markdown
   - Works hosted (API key) or self-hosted; MIT licensed
 
+- [keenableai/keenable-cli](https://github.com/keenableai/keenable-cli) ![Stars](https://img.shields.io/github/stars/keenableai/keenable-cli?style=flat-square)
+  - Keenable web search and page fetch for Claude Code over MCP (`https://api.keenable.ai/mcp`)
+  - Independent web index built for agents; `keenable` CLI wires the MCP server into Claude Code
+  - 100K free requests/month; keyless public endpoint available
+
 - [sooperset/mcp-atlassian](https://github.com/sooperset/mcp-atlassian) ![Stars](https://img.shields.io/github/stars/sooperset/mcp-atlassian?style=flat-square)
   - Most popular MCP server for Atlassian Jira and Confluence
   - Create/search/update issues and read/write Confluence pages
