@@ -1121,11 +1121,11 @@ Specialized skills for specific industries and use cases.
   - Single-file `SKILL.md` invoked via `/humanizer` in either tool
   - MIT licensed
 
-- [santifer/career-ops](https://github.com/santifer/career-ops) ![Stars](https://img.shields.io/github/stars/santifer/career-ops?style=flat-square)
-  - End-to-end job-search system built on Claude Code with 14 skill modes
-  - Resume tailoring, batch outreach, interview prep, and PDF generation
+- [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) ![Stars](https://img.shields.io/github/stars/career-ops-hq/career-ops?style=flat-square)
+  - Open-source AI job search agent for Claude Code, Codex and other AI coding CLIs
+  - Scores each job against your CV, tailors ATS-friendly PDF resumes and prepares interviews; you submit every application yourself
   - Go dashboard for tracking applications and pipeline status
-  - MIT licensed; site at career-ops.org
+  - MIT licensed; site at [career-ops.org](https://career-ops.org)
 
 - [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) ![Stars](https://img.shields.io/github/stars/mvanhorn/last30days-skill?style=flat-square)
   - Agent skill that researches topics across Reddit, X, YouTube, Hacker News, TikTok, Polymarket, Bluesky, and the open web
