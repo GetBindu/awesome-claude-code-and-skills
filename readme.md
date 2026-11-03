@@ -126,6 +126,12 @@ These repositories offer extensive collections of skills across multiple domains
   - Skills use the open SKILL.md format and work with Claude, ChatGPT, and 20+ AI platforms
   - Paid marketplace; skills are domain-specific and ready to install
 
+- [Homingo Learn Agent Skills](https://learn.homingo.co.in/agent-skills?utm_source=github&utm_medium=list&utm_campaign=getbindu)
+  - Two paid Claude Code skills in the SKILL.md format
+  - Animated Horror Reels: hook-first story method, timed episode spec, camera, light and colour grade, caption timing and QA scripts for 1080x1920 episodes
+  - Isometric Explainers: interactive isometric explainer figures for docs, blog posts and landing pages, which also turn into 1080x1920 explainer reels
+  - Paid, one-time download; needs Claude Code
+
 - [garrytan/gstack](https://github.com/garrytan/gstack) ![Stars](https://img.shields.io/github/stars/garrytan/gstack?style=flat-square)
   - Garry Tan's exact Claude Code setup
   - 6 opinionated tools for startup leadership
