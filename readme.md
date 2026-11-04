@@ -1687,6 +1687,12 @@ Utilities and tools to enhance your Claude workflow.
   - JSON-first requests, async task polling, and terminal/CI-friendly workflows
   - Apache-2.0 licensed; install with `git clone https://github.com/runapi-ai/cli-skill ~/.claude/skills/runapi-cli`
 
+- [PSA-Team-source/uberllm](https://github.com/PSA-Team-source/uberllm) ![Stars](https://img.shields.io/github/stars/PSA-Team-source/uberllm?style=flat-square)
+  - Claude Code plugin and `uberllm` SKILL.md for [UberLLM](https://uberllm.dev), a paid OpenAI- and Anthropic-compatible API (prepaid from $5, no free tier)
+  - Skill sets up the API in Claude Code, Codex and SDKs, picks a model, and makes images and videos
+  - Plugin adds the hosted MCP server (`list_models`, `quote`, `generate_image`, `start_video`, `balance`); install with `/plugin marketplace add PSA-Team-source/uberllm`
+  - MIT licensed
+
 ### CLI Configuration Tools
 
 - [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) ![Stars](https://img.shields.io/github/stars/davila7/claude-code-templates?style=flat-square)
