@@ -1045,6 +1045,12 @@ Skills for marketing professionals, content creators, and growth teams.
   - Reference layer covers benchmarks, GDPR/CAN-SPAM/CASL compliance, cold email, SMS and WhatsApp, and 19 industry playbooks
   - Install: `npx skills add CosmoBlk/email-marketing-bible`
 
+- [neftgazbur-prog/write-like-a-human](https://github.com/neftgazbur-prog/write-like-a-human) ![Stars](https://img.shields.io/github/stars/neftgazbur-prog/write-like-a-human?style=flat-square)
+  - Edit English drafts with a phrase-pattern sweep and 21 tell-and-fix rules
+  - Treat matches as candidates; review edits for meaning and factual accuracy
+  - Instruction-only SKILL.md, with documented installation for Claude Code, Codex, and OpenCode
+  - Adapted from Wikipedia's Signs of AI writing under CC BY-SA 4.0
+
 ---
 
 ## Domain-Specific Skills
