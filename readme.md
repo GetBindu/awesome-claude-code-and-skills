@@ -1653,6 +1653,11 @@ Utilities and tools to enhance your Claude workflow.
   - Query databases and create/update pages and blocks via the Notion API
   - Supports a hosted remote endpoint and local stdio deployment
 
+- [radres/call-me](https://github.com/radres/call-me) ![Stars](https://img.shields.io/github/stars/radres/call-me?style=flat-square)
+  - Hosted remote MCP server and Claude Code plugin that rings your real phone for a spoken answer
+  - Call, text, keep a line open for a conversation, and play audio; iPhone and Android apps
+  - Also ships a Gemini CLI extension and a Grok Build plugin
+
 ### API & Integration Tools
 
 - [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) ![Stars](https://img.shields.io/github/stars/router-for-me/CLIProxyAPI?style=flat-square)
