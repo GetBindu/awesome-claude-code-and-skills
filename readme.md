@@ -255,6 +255,12 @@ These repositories offer extensive collections of skills across multiple domains
   - Covers email sending, sandbox testing, templates, domain setup, and contacts
   - Follows the Agent Skills open standard (Anthropic, Dec 2025)
 
+- [suprsend/claude-plugin](https://github.com/suprsend/claude-plugin) ![Stars](https://img.shields.io/github/stars/suprsend/claude-plugin?style=flat-square)
+  - Claude plugin with a skill and hosted MCP server for SuprSend notifications
+  - Build and manage workflows, templates, users and preferences, and query delivery logs
+  - Covers email, SMS, push, in-app, and chat
+  - Install: `/plugin marketplace add suprsend/claude-plugin`
+
 - [abubakarsiddik31/claude-skills-collection](https://github.com/abubakarsiddik31/claude-skills-collection) ![Stars](https://img.shields.io/github/stars/abubakarsiddik31/claude-skills-collection?style=flat-square)
   - Curated collection of official and community Claude Skills
   - Spans productivity, creativity, coding, and content workflows
