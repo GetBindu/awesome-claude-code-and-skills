@@ -1046,12 +1046,12 @@ Skills for marketing professionals, content creators, and growth teams.
   - Install: `npx skills add CosmoBlk/email-marketing-bible`
 
 - [verma6uc/mach-gtm-mcp](https://github.com/verma6uc/mach-gtm-mcp) ![Stars](https://img.shields.io/github/stars/verma6uc/mach-gtm-mcp?style=flat-square)
-  - Open-source MCP server for B2B outbound sales (MIT)
-  - `build_icp` — define ideal customer profiles; `research_prospect` — find verified buying signals
-  - `score_lead` — score leads 0-100; `draft_outreach` — cold emails and LinkedIn messages (1-3-1 framework)
+  - Open-source MCP server with five outbound sales helpers (MIT)
+  - `build_icp` — define ideal customer profiles; `research_prospect` — get a research checklist
+  - `score_lead` — score leads 0-100; `draft_outreach` — cold emails and LinkedIn messages (1-3-1 framework) from signals you provide
   - `build_sequence` — generate multi-touch outreach sequences
-  - Human approval required before any message is sent
-  - Install: `npx mach-gtm-mcp`
+  - Template-based: works only from what you give it; looks nothing up and sends nothing
+  - Install: `npx -y github:verma6uc/mach-gtm-mcp`
 
 ---
 
