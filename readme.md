@@ -1987,6 +1987,12 @@ Utilities and tools to enhance your Claude workflow.
   - Query databases and create/update pages and blocks via the Notion API
   - Supports a hosted remote endpoint and local stdio deployment
 
+- [LeulAria/Aria-Icons](https://github.com/LeulAria/Aria-Icons) ![Stars](https://img.shields.io/github/stars/LeulAria/Aria-Icons?style=flat-square)
+  - MCP server and CLI for searching 1.4M open-source SVG icons (Lucide, Tabler, Heroicons, theSVG brands, 200+ Iconify sets)
+  - Agents can find an icon, find equivalents across sets, and write it into the repo as SVG or a React/Vue component
+  - Runs locally over stdio (`npx -y aria-icons`) or as a hosted remote HTTP endpoint with no auth
+
+||||||| f158635
 - [voygr-tech/placecall](https://github.com/voygr-tech/placecall) ![Stars](https://img.shields.io/github/stars/voygr-tech/placecall?style=flat-square)
   - Claude Code plugin and Agent Skill that place real outbound phone calls to US businesses
   - Gets through IVR menus, holds and transfers, and can ask you a question mid-call
