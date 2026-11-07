@@ -472,6 +472,13 @@ Skills focused on software development, code quality, and engineering workflows.
   - Hooks enforce type-checking and lint on edits
   - TypeScript, MIT licensed
 
+- [iamumeransari/claude-show-your-work](https://github.com/iamumeransari/claude-show-your-work) ![Stars](https://img.shields.io/github/stars/iamumeransari/claude-show-your-work?style=flat-square)
+  - Claude shows its finished work inline in the terminal: screenshots and videos
+  - Records itself clicking through your app with Playwright and plays it back
+  - Before/after QA runs side by side in sync, with what changed and the checks
+  - Ghostty and kitty on macOS, MIT licensed
+
+||||||| f158635
 - [cloudishai/skills](https://github.com/cloudishai/skills) ![Stars](https://img.shields.io/github/stars/cloudishai/skills?style=flat-square)
   - Deploys a Dockerfile, source folder, or container image to Cloudish and reports the live URL
   - Images build server-side, so no local Docker is needed; optional persistent volume for databases and files
