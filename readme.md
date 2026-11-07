@@ -1097,6 +1097,14 @@ Skills for marketing professionals, content creators, and growth teams.
   - Reference layer covers benchmarks, GDPR/CAN-SPAM/CASL compliance, cold email, SMS and WhatsApp, and 19 industry playbooks
   - Install: `npx skills add CosmoBlk/email-marketing-bible`
 
+- [emotixco/claude-skills-founder](https://github.com/emotixco/claude-skills-founder) ![Stars](https://img.shields.io/github/stars/emotixco/claude-skills-founder?style=flat-square)
+  - 13 skills for the founder side of a product: idea validation, competitor research, pricing, MVP scope, go-to-market, pitch decks, fundraising
+  - Competitor prices, funding rounds and market numbers carry a source link, or are marked as an estimate or not found
+  - The founder's own metrics, quotes and testimonials are never invented, and missing ones come back as bracketed placeholders
+  - Skills save to a founder/ folder and read what earlier skills saved, so pricing reuses the competitor matrix instead of searching again
+  - Eval suite in evals/ compares the plugin against plain Claude, including the cases where it makes no difference
+  - Install: `/plugin marketplace add emotixco/claude-skills-founder`
+
 ---
 
 ## Domain-Specific Skills
