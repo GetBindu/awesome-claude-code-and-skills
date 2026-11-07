@@ -467,6 +467,13 @@ Skills focused on software development, code quality, and engineering workflows.
   - Hooks enforce type-checking and lint on edits
   - TypeScript, MIT licensed
 
+- [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) ![Stars](https://img.shields.io/github/stars/Continuum-AI-Corp/OrcaReplay?style=flat-square)
+  - Answers "why did the earlier run do that" from a recording instead of from memory
+  - Records below the harness: model traffic, shell exit codes, per-turn file changes and MCP calls on one timeline
+  - Replays a run offline with the network off, or forks it from a checkpoint onto a different model
+  - Ships an MCP server (6 tools) plus a SKILL.md; works with Claude Code, Codex, opencode, Qwen Code and Cursor
+
+||||||| 2fe8cbb
 - [ToRvaLDz/trailhead](https://github.com/ToRvaLDz/trailhead) ![Stars](https://img.shields.io/github/stars/ToRvaLDz/trailhead?style=flat-square)
   - Runs a project too large for one session as a map of decision tickets on GitHub Issues
   - discuss→plan→execute→verify engine: grilling, throwaway prototypes, TDD, cross-AI plan review, adversarial code review, goal-backward verification
