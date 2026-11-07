@@ -472,6 +472,13 @@ Skills focused on software development, code quality, and engineering workflows.
   - Hooks enforce type-checking and lint on edits
   - TypeScript, MIT licensed
 
+- [angel291592/Intent-Router](https://github.com/angel291592/Intent-Router) ![Stars](https://img.shields.io/github/stars/angel291592/Intent-Router?style=flat-square)
+  - Turns a vague request into a typed, machine-readable IntentSpec before the agent plans or codes
+  - Looks up what the repo already answers; asks only preference or irreversible questions, one at a time
+  - Flags a request that reads two ways, contradicts itself, or rests on a premise the repo rules out
+  - Prompt-only Agent Skill, zero dependencies, MIT licensed
+
+||||||| 5302371
 - [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) ![Stars](https://img.shields.io/github/stars/Continuum-AI-Corp/OrcaReplay?style=flat-square)
   - Answers "why did the earlier run do that" from a recording instead of from memory
   - Records below the harness: model traffic, shell exit codes, per-turn file changes and MCP calls on one timeline
