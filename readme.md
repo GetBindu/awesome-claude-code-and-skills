@@ -1944,6 +1944,13 @@ Utilities and tools to enhance your Claude workflow.
   - Query databases and create/update pages and blocks via the Notion API
   - Supports a hosted remote endpoint and local stdio deployment
 
+- [voygr-tech/placecall](https://github.com/voygr-tech/placecall) ![Stars](https://img.shields.io/github/stars/voygr-tech/placecall?style=flat-square)
+  - Claude Code plugin and Agent Skill that place real outbound phone calls to US businesses
+  - Gets through IVR menus, holds and transfers, and can ask you a question mid-call
+  - Returns a structured outcome, transcript and recording; finds a business to call when you have no number
+  - Hosted MCP server at `https://api.voygr.tech/mcp` (OAuth or API key); MIT client, first 250 calls free
+
+||||||| f158635
 - [evergreen-it-dev/folio](https://github.com/evergreen-it-dev/folio) ![Stars](https://img.shields.io/github/stars/evergreen-it-dev/folio?style=flat-square)
   - Self-hosted, Git-backed team wiki with a built-in MCP server (40 tools; Streamable HTTP, OAuth 2.1 or personal access token)
   - Search, read, create and update pages, data tables and whiteboards from Claude Code, Claude Desktop or claude.ai
