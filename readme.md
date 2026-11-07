@@ -654,6 +654,13 @@ Skills focused on software development, code quality, and engineering workflows.
   - Split, unified, and auto layouts; watch mode for file and Git-backed reviews
   - TypeScript, built on OpenTUI and Pierre diffs; works as a Git difftool, MIT licensed
 
+- [uiverify/uiverify](https://github.com/uiverify/uiverify) ![Stars](https://img.shields.io/github/stars/uiverify/uiverify?style=flat-square)
+  - Visual review for agent-written UI: skills plus a remote MCP server that show Claude Code the before-and-after screenshot of each component its change touched
+  - Reuses existing Storybook stories, Playwright or Vitest browser tests; runs in CI on every pull request
+  - AI judge labels each change as intended, a regression or flake; the agent can accept intended baselines from the terminal
+  - `npx skills add uiverify/uiverify` or `/plugin marketplace add uiverify/uiverify`; MIT client, hosted service
+
+||||||| f158635
 - [awss1i/assay](https://github.com/awss1i/assay) ![Stars](https://img.shields.io/github/stars/awss1i/assay?style=flat-square)
   - Deterministic QA for a web page an agent just wrote, with no tests to write and no LLM
   - Opens the page in Chromium through Playwright, drives every control it finds, and reports where the page contradicts itself
