@@ -1466,6 +1466,11 @@ Utilities and tools to enhance your Claude workflow.
   - Turns CLI-based AI orchestration into a desktop experience
   - TypeScript-driven Electron build
 
+- [Orkas-AI/Orkas](https://github.com/Orkas-AI/Orkas)
+  - Open-source, local-first desktop AI workforce coordinated by a Commander through one chat.
+  - Coordinates built-in specialist agents and local coding agents, including Claude Code and Codex
+
+||||||| 2fe8cbb
 - [MarlBurroW/sillage](https://github.com/MarlBurroW/sillage) ![Stars](https://img.shields.io/github/stars/MarlBurroW/sillage?style=flat-square)
   - Self-hosted, mobile-first web UI that drives the native Claude Code and Codex CLIs on your own machine
   - Sessions that outlive the client, full-text search over every conversation, IDE panel (file explorer, editor, diffs, terminal)
