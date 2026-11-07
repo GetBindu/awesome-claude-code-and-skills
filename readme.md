@@ -472,6 +472,13 @@ Skills focused on software development, code quality, and engineering workflows.
   - Hooks enforce type-checking and lint on edits
   - TypeScript, MIT licensed
 
+- [bewithkhan/bansat](https://github.com/bewithkhan/bansat) ![Stars](https://img.shields.io/github/stars/bewithkhan/bansat?style=flat-square)
+  - Blueprint-first planning skill: writes the full project blueprint before any code (requirements, architecture, data, API, security, AI, privacy, UX)
+  - Privacy and security rules for the markets you launch in (UK, EU, US, Nigeria and more), backed by a public law registry
+  - 17 mandatory UI states with acceptance tests, a launch gate, and a Day-0 triage for apps that are already live
+  - Works in Claude Code and Claude.ai; CC BY 4.0
+
+||||||| f158635
 - [iamumeransari/claude-show-your-work](https://github.com/iamumeransari/claude-show-your-work) ![Stars](https://img.shields.io/github/stars/iamumeransari/claude-show-your-work?style=flat-square)
   - Claude shows its finished work inline in the terminal: screenshots and videos
   - Records itself clicking through your app with Playwright and plays it back
