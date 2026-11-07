@@ -467,6 +467,13 @@ Skills focused on software development, code quality, and engineering workflows.
   - Hooks enforce type-checking and lint on edits
   - TypeScript, MIT licensed
 
+- [ToRvaLDz/trailhead](https://github.com/ToRvaLDz/trailhead) ![Stars](https://img.shields.io/github/stars/ToRvaLDz/trailhead?style=flat-square)
+  - Runs a project too large for one session as a map of decision tickets on GitHub Issues
+  - discuss→plan→execute→verify engine: grilling, throwaway prototypes, TDD, cross-AI plan review, adversarial code review, goal-backward verification
+  - Atomic commits; the map, discussions, plans, and verifications all live on the Issues, not in the session context
+  - Self-contained (ships its own trailhead-* agents); works on Claude Code and Codex
+
+||||||| 15ab059
 - [d1vai/d1v-cli](https://github.com/d1vai/d1v-cli) ![Stars](https://img.shields.io/github/stars/d1vai/d1v-cli?style=flat-square)
   - Official d1v Skill for deployment workflows in Claude Code and Codex
   - Waits for verified preview deployments and reports terminal deployment status
