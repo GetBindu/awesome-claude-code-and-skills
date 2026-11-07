@@ -473,6 +473,11 @@ Skills focused on software development, code quality, and engineering workflows.
   - Publishes a benchmark with fixtures, prompts and raw outputs, so its effect can be re-measured
   - Skill plus optional always-on SessionStart hook; MIT licensed
 
+- [vulnify/vulnify-examples (vulnify-guard-actions)](https://github.com/vulnify/vulnify-examples/tree/main/skills/vulnify-guard-actions) ![Stars](https://img.shields.io/github/stars/vulnify/vulnify-examples?style=flat-square)
+  - Agent skill that calls Vulnify `decide_action` before consequential tool use (send, export, delete, write)
+  - Acts on ALLOW / REVIEW / BLOCK; REVIEW waits for a person
+  - Works with Claude Code, Cursor, and other Agent Skills-compatible hosts; pairs with the Vulnify MCP server
+
 ### Specialized Agents
 
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) ![Stars](https://img.shields.io/github/stars/VoltAgent/awesome-claude-code-subagents?style=flat-square)
