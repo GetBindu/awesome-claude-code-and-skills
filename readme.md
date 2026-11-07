@@ -787,6 +787,11 @@ Orchestrate multiple Claude agents to work together on complex tasks.
   - Compare competing approaches side by side
   - TypeScript, MIT licensed
 
+- [Crapule421/tiger-team](https://github.com/Crapule421/tiger-team) ![Stars](https://img.shields.io/github/stars/Crapule421/tiger-team?style=flat-square)
+  - Nine senior expert subagents for integration projects: job scheduling (VTOM, Dollar Universe, Control-M), DBA, ERP, IBM i, DevSecOps, network, enterprise architecture, project management
+  - Mission orchestrator that routes handoffs between experts, 12 slash commands, confidentiality-guard hook
+  - Claude Code plugin and marketplace; MIT
+
 ### Parallel Processing
 
 - [Dicklesworthstone/claude_code_agent_farm](https://github.com/Dicklesworthstone/claude_code_agent_farm) ![Stars](https://img.shields.io/github/stars/Dicklesworthstone/claude_code_agent_farm?style=flat-square)
