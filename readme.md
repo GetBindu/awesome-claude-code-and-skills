@@ -1332,6 +1332,12 @@ Specialized skills for specific industries and use cases.
   - Works with Claude, ChatGPT, OpenClaw, and Hermes Agent through the open Agent Skills format
   - Free tier, no card required; MIT licensed
 
+- [Arcmira: YouTube Transcript Search](https://github.com/arcmira/arcmira/tree/master/skills) ![Stars](https://img.shields.io/github/stars/arcmira/arcmira?style=flat-square)
+  - Find timestamped quotes and clip boundaries in indexed YouTube videos and podcasts, with links to the original recordings
+  - Six research skills cover quote search, speaker appearances, sponsors, recommendations, company monitoring, and show comparisons
+  - [Connect Claude to Arcmira](https://arcmira.com/docs/mcp-server) or use the [API documentation](https://arcmira.com/docs) to build your own transcript search
+  - The skill files are Apache-2.0 licensed. An [Arcmira account](https://arcmira.com) includes free access with usage limits
+
 ## Productivity Tools
 
 Utilities and tools to enhance your Claude workflow.
