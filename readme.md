@@ -1987,6 +1987,12 @@ Utilities and tools to enhance your Claude workflow.
   - Query databases and create/update pages and blocks via the Notion API
   - Supports a hosted remote endpoint and local stdio deployment
 
+- [radres/call-me](https://github.com/radres/call-me) ![Stars](https://img.shields.io/github/stars/radres/call-me?style=flat-square)
+  - Hosted remote MCP server and Claude Code plugin that rings your real phone for a spoken answer
+  - Call, text, keep a line open for a conversation, and play audio; iPhone and Android apps
+  - Also ships a Gemini CLI extension and a Grok Build plugin
+
+||||||| f158635
 - [LeulAria/Aria-Icons](https://github.com/LeulAria/Aria-Icons) ![Stars](https://img.shields.io/github/stars/LeulAria/Aria-Icons?style=flat-square)
   - MCP server and CLI for searching 1.4M open-source SVG icons (Lucide, Tabler, Heroicons, theSVG brands, 200+ Iconify sets)
   - Agents can find an icon, find equivalents across sets, and write it into the repo as SVG or a React/Vue component
