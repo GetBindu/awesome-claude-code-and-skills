@@ -467,6 +467,12 @@ Skills focused on software development, code quality, and engineering workflows.
   - Hooks enforce type-checking and lint on edits
   - TypeScript, MIT licensed
 
+- [d1vai/d1v-cli](https://github.com/d1vai/d1v-cli) ![Stars](https://img.shields.io/github/stars/d1vai/d1v-cli?style=flat-square)
+  - Official d1v Skill for deployment workflows in Claude Code and Codex
+  - Waits for verified preview deployments and reports terminal deployment status
+  - Production releases require an interactive TTY and explicit user confirmation; MIT licensed
+
+||||||| 15ab059
 - [Maksim-Burtsev/simple-man](https://github.com/Maksim-Burtsev/simple-man) ![Stars](https://img.shields.io/github/stars/Maksim-Burtsev/simple-man?style=flat-square)
   - Strips praise, recaps and filler from agent answers while keeping every fact you act on
   - Findings carry location, consequence and one-line fix; refusals carry the safe procedure
