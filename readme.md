@@ -1925,6 +1925,12 @@ Utilities and tools to enhance your Claude workflow.
   - Query databases and create/update pages and blocks via the Notion API
   - Supports a hosted remote endpoint and local stdio deployment
 
+- [Tapetide-hq/nse-bse-indian-stock-market-data-mcp](https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp) ![Stars](https://img.shields.io/github/stars/Tapetide-hq/nse-bse-indian-stock-market-data-mcp?style=flat-square)
+  - MCP server for Indian stock market data across about 8,200 NSE and BSE stocks
+  - Quotes, quarterly financials, shareholding, a 326-ratio screener, FII/DII flows and option chains
+  - Remote endpoint with OAuth or a free token, or local stdio via `npx -y tapetide-mcp`; MIT licensed
+
+||||||| f158635
 - [skeptrunedev/call4me](https://github.com/skeptrunedev/call4me) ![Stars](https://img.shields.io/github/stars/skeptrunedev/call4me?style=flat-square)
   - Remote MCP server that lets Claude Code place real phone calls to businesses
   - Books appointments and dinners, cancels subscriptions, changes flights
