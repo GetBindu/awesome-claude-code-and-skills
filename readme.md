@@ -148,6 +148,12 @@ These repositories offer extensive collections of skills across multiple domains
   - Contributions from Sentry, Trail of Bits, Expo, DuckDB, Figma, Google
   - Community-driven with regular updates
 
+- [d4rkNinja/arcforge](https://github.com/d4rkNinja/arcforge) ![Stars](https://img.shields.io/github/stars/d4rkNinja/arcforge?style=flat-square)
+  - Portable architecture skills for production systems, AI agents, and independent review
+  - Evidence-backed workflows for trade-offs, risks, validation, and release gates
+  - Works with Claude Code, Codex, and compatible Agent Skills runtimes
+  - MIT licensed; instruction-first with references, examples, and repository checks
+
 - [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) ![Stars](https://img.shields.io/github/stars/sickn33/agentic-awesome-skills?style=flat-square)
   - 1,326+ installable agentic skills
   - CLI installer for easy setup
@@ -280,17 +286,28 @@ These repositories offer extensive collections of skills across multiple domains
   - Also personal analytics and Claude Code operations
   - Each skill is a self-contained SKILL.md folder; installable via plugin marketplace or `npx skills add`
 
+- [tonone-ai/tonone](https://github.com/tonone-ai/tonone) ![Stars](https://img.shields.io/github/stars/tonone-ai/tonone?style=flat-square)
+  - Claude Code plugin with 100 specialist agents and 429 skills
+  - Covers engineering, product, design, security, legal, and operations
+  - Install via `claude plugin marketplace add tonone-ai/tonone`; MIT licensed
+
+||||||| 2fe8cbb
 - [getsentry/skills](https://github.com/getsentry/skills) ![Stars](https://img.shields.io/github/stars/getsentry/skills?style=flat-square)
   - Agent skills the Sentry team uses internally, in the open Agent Skills format
   - Includes AGENTS.md/CLAUDE.md authoring, blog writing standards, and brand guidelines
   - Install as a Claude Code plugin marketplace or via `npx skills add getsentry/skills`
   - For Sentry setup and production debugging skills, see `getsentry/sentry-for-ai`
-
 ## Development & Engineering
 
 Skills focused on software development, code quality, and engineering workflows.
 
 ### Core Development Skills
+
+- [archcore-ai/archcore](https://github.com/archcore-ai/archcore) ![Stars](https://img.shields.io/github/stars/archcore-ai/archcore?style=flat-square)
+  - Spec-driven development and context engineering for Claude Code, Cursor, Codex, and GitHub Copilot — backed by project context in Git
+  - Keeps specs, architecture, decisions, rules, and plans in Git and makes the right project context available to AI coding agents
+  - Plugin commands: `/archcore:init`, `/archcore:plan`, `/archcore:document`, `/archcore:review`
+  - Go CLI with an MCP server (`archcore mcp`); Apache-2.0 licensed
 
 - [musoyangrigor/gitx-skill](https://github.com/musoyangrigor/gitx-skill) ![Stars](https://img.shields.io/github/stars/musoyangrigor/gitx-skill?style=flat-square)
   - Turns messy AI-generated changes into clean, reviewable Git history
@@ -356,6 +373,12 @@ Skills focused on software development, code quality, and engineering workflows.
   - Sandboxed QuickJS WASM environment
   - CLI tool with full LLM usage guide
   - Works with Claude Code, Amp, and Codex
+
+- [pungme/superagent-desktop](https://github.com/pungme/superagent-desktop) ![Stars](https://img.shields.io/github/stars/pungme/superagent-desktop?style=flat-square)
+  - macOS desktop app giving Claude Code a real (non-headless) browser it can navigate and drive
+  - iOS Simulator window it can install apps into and screenshot
+  - Phone companion app + relay for remote monitoring of a session
+  - MIT licensed
 
 - [arun-mosai/claude-code-slice-skills](https://github.com/arun-mosai/claude-code-slice-skills) ![Stars](https://img.shields.io/github/stars/arun-mosai/claude-code-slice-skills?style=flat-square)
   - Three composable skills (`/slice`, `/slice-resume`, `/slice-build`) for vertical-slice feature development
@@ -449,6 +472,60 @@ Skills focused on software development, code quality, and engineering workflows.
   - Hooks enforce type-checking and lint on edits
   - TypeScript, MIT licensed
 
+- [iamumeransari/claude-show-your-work](https://github.com/iamumeransari/claude-show-your-work) ![Stars](https://img.shields.io/github/stars/iamumeransari/claude-show-your-work?style=flat-square)
+  - Claude shows its finished work inline in the terminal: screenshots and videos
+  - Records itself clicking through your app with Playwright and plays it back
+  - Before/after QA runs side by side in sync, with what changed and the checks
+  - Ghostty and kitty on macOS, MIT licensed
+
+||||||| f158635
+- [cloudishai/skills](https://github.com/cloudishai/skills) ![Stars](https://img.shields.io/github/stars/cloudishai/skills?style=flat-square)
+  - Deploys a Dockerfile, source folder, or container image to Cloudish and reports the live URL
+  - Images build server-side, so no local Docker is needed; optional persistent volume for databases and files
+  - The agent can create its own API key with one call; spending is capped by the key's prepaid credits
+  - Keeps keys in a gitignored `.env` and confirms before spending beyond the request
+  - Installs as a Claude Code plugin or a plain `SKILL.md`; MIT licensed
+
+||||||| 5302371
+- [angel291592/Intent-Router](https://github.com/angel291592/Intent-Router) ![Stars](https://img.shields.io/github/stars/angel291592/Intent-Router?style=flat-square)
+  - Turns a vague request into a typed, machine-readable IntentSpec before the agent plans or codes
+  - Looks up what the repo already answers; asks only preference or irreversible questions, one at a time
+  - Flags a request that reads two ways, contradicts itself, or rests on a premise the repo rules out
+  - Prompt-only Agent Skill, zero dependencies, MIT licensed
+
+||||||| 5302371
+- [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) ![Stars](https://img.shields.io/github/stars/Continuum-AI-Corp/OrcaReplay?style=flat-square)
+  - Answers "why did the earlier run do that" from a recording instead of from memory
+  - Records below the harness: model traffic, shell exit codes, per-turn file changes and MCP calls on one timeline
+  - Replays a run offline with the network off, or forks it from a checkpoint onto a different model
+  - Ships an MCP server (6 tools) plus a SKILL.md; works with Claude Code, Codex, opencode, Qwen Code and Cursor
+
+||||||| 2fe8cbb
+- [ToRvaLDz/trailhead](https://github.com/ToRvaLDz/trailhead) ![Stars](https://img.shields.io/github/stars/ToRvaLDz/trailhead?style=flat-square)
+  - Runs a project too large for one session as a map of decision tickets on GitHub Issues
+  - discuss→plan→execute→verify engine: grilling, throwaway prototypes, TDD, cross-AI plan review, adversarial code review, goal-backward verification
+  - Atomic commits; the map, discussions, plans, and verifications all live on the Issues, not in the session context
+  - Self-contained (ships its own trailhead-* agents); works on Claude Code and Codex
+
+||||||| 15ab059
+- [d1vai/d1v-cli](https://github.com/d1vai/d1v-cli) ![Stars](https://img.shields.io/github/stars/d1vai/d1v-cli?style=flat-square)
+  - Official d1v Skill for deployment workflows in Claude Code and Codex
+  - Waits for verified preview deployments and reports terminal deployment status
+  - Production releases require an interactive TTY and explicit user confirmation; MIT licensed
+
+||||||| 15ab059
+- [Maksim-Burtsev/simple-man](https://github.com/Maksim-Burtsev/simple-man) ![Stars](https://img.shields.io/github/stars/Maksim-Burtsev/simple-man?style=flat-square)
+  - Strips praise, recaps and filler from agent answers while keeping every fact you act on
+  - Findings carry location, consequence and one-line fix; refusals carry the safe procedure
+  - Knows when not to compress: tutorials and detailed reports stay long-form
+  - Benchmarked on 1,793 preregistered live calls, raw records committed; MIT licensed
+
+||||||| a493ab1
+- [chl03ks/shut-up-and-code](https://github.com/chl03ks/shut-up-and-code) ![Stars](https://img.shields.io/github/stars/chl03ks/shut-up-and-code?style=flat-square)
+  - Load-bearing comments only: one ships if deleting it costs the reader something the code cannot tell them
+  - Bounds doc comments too — a contract is written when the signature leaves a real question, not because something is exported
+  - Publishes a benchmark with fixtures, prompts and raw outputs, so its effect can be re-measured
+  - Skill plus optional always-on SessionStart hook; MIT licensed
 ### Specialized Agents
 
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) ![Stars](https://img.shields.io/github/stars/VoltAgent/awesome-claude-code-subagents?style=flat-square)
@@ -536,6 +613,23 @@ Skills focused on software development, code quality, and engineering workflows.
   - Embeds Claude Code into the Neovim workflow
   - Lua-based; maintained by Coder
 
+- [infai-tech/claudemd-auditor-skill](https://github.com/infai-tech/claudemd-auditor-skill) ![Stars](https://img.shields.io/github/stars/infai-tech/claudemd-auditor-skill?style=flat-square)
+  - Calibrated 0–100 audit of `CLAUDE.md` files on six axes (Specificity, Coverage, Brevity, Currency, Quirks captured, Tone fit)
+  - v1.0 matches human baselines at Δ=0 across a 6-case corpus spanning 14–78 points; adversarial corpus exercises three error codes (`too_short`, `not_a_claudemd`, `too_long`)
+  - Returns paste-ready Top-3 improvements with concrete markdown snippets
+  - Drop-in `~/.claude/skills/claudemd-auditor/` install; MIT licensed; no external dependencies
+
+- [uizze/uizze](https://github.com/uizze/uizze) ![Stars](https://img.shields.io/github/stars/uizze/uizze?style=flat-square)
+  - Free anti-UI-slop Agent Skill and GitHub Action for Claude Code and other coding agents
+  - Grounds UI work in 800,000+ real web and iOS screens with product-specific design contracts and a hard finish gate
+  - MIT licensed; install with `npx skills add https://uizze.com --skill anti-ui-slop`
+
+||||||| d7c901d
+- [allxsmith/bestax](https://github.com/allxsmith/bestax) ![Stars](https://img.shields.io/github/stars/allxsmith/bestax?style=flat-square)
+  - Agent Skills for Bestax, a React component library for Bulma v1
+  - Covers page layouts, forms, icons, theming, custom components, migration and CSS size
+  - Install with `npx skills add https://github.com/allxsmith/bestax --skill bestax-layout-scaffold`
+
 ### Code Review
 
 - [alibaba/open-code-review](https://github.com/alibaba/open-code-review) ![Stars](https://img.shields.io/github/stars/alibaba/open-code-review?style=flat-square)
@@ -560,6 +654,17 @@ Skills focused on software development, code quality, and engineering workflows.
   - Split, unified, and auto layouts; watch mode for file and Git-backed reviews
   - TypeScript, built on OpenTUI and Pierre diffs; works as a Git difftool, MIT licensed
 
+- [uiverify/uiverify](https://github.com/uiverify/uiverify) ![Stars](https://img.shields.io/github/stars/uiverify/uiverify?style=flat-square)
+  - Visual review for agent-written UI: skills plus a remote MCP server that show Claude Code the before-and-after screenshot of each component its change touched
+  - Reuses existing Storybook stories, Playwright or Vitest browser tests; runs in CI on every pull request
+  - AI judge labels each change as intended, a regression or flake; the agent can accept intended baselines from the terminal
+  - `npx skills add uiverify/uiverify` or `/plugin marketplace add uiverify/uiverify`; MIT client, hosted service
+
+||||||| f158635
+- [awss1i/assay](https://github.com/awss1i/assay) ![Stars](https://img.shields.io/github/stars/awss1i/assay?style=flat-square)
+  - Deterministic QA for a web page an agent just wrote, with no tests to write and no LLM
+  - Opens the page in Chromium through Playwright, drives every control it finds, and reports where the page contradicts itself
+  - Ships a Claude Code skill and a hook; install the CLI with `pip install assay-ui`, MIT licensed
 ---
 
 ## AI Slop Elimination
@@ -597,6 +702,12 @@ Skills and tools that stop agent output from looking and reading machine-generat
   - Covers animations, typography, icons, hover states, optical alignment, concentric border radius, shadows, and hit areas
   - Single `SKILL.md`; install with `npx skills add jakubkrehel/make-interfaces-feel-better`
 
+- [thiagoxikota/figma-maxxing](https://github.com/thiagoxikota/figma-maxxing) ![Stars](https://img.shields.io/github/stars/thiagoxikota/figma-maxxing?style=flat-square)
+  - 8 agent skills for editing real Figma files: preflight before a write, slop check after it, handoff gate, and a comment-to-fix loop
+  - `figma-slop-check` flags machine-made tells and drift off tokens and scales; `figma-handoff-gate` checks that every action has a destination and a way back
+  - 90 gotchas (45 Plugin API anomalies, 45 field notes) indexed by symptom and by literal error message; CI checks every Plugin API name the skills cite against `@figma/plugin-typings`
+  - Built on figma-console-mcp; 3 of the checks also ran once on Figma's official MCP server; install with `npx skills add thiagoxikota/figma-maxxing` or as a Claude Code plugin; MIT licensed
+
 ### Code Slop & Dead Code
 
 - [peteromallet/desloppify](https://github.com/peteromallet/desloppify) ![Stars](https://img.shields.io/github/stars/peteromallet/desloppify?style=flat-square)
@@ -627,6 +738,12 @@ Skills and tools that stop agent output from looking and reading machine-generat
   - AI-ready: MCP server, token-efficient reporter, SARIF/HTML/badge reporters, and a GitHub Action
 
 ---
+
+- [Nagarjuna2997/ios-agent-skill](https://github.com/Nagarjuna2997/ios-agent-skill)
+  - Swift/SwiftUI guidance with local source examples and Apple reference retrieval
+  - One MCP connection with 34 review, reference, scaffolding and simulator tools; Node.js 20+, macOS/Xcode for simulation
+  - MIT licensed; setup guides for Claude, Codex, and Gemini CLI
+
 
 ## Multi-Agent Systems
 
@@ -740,6 +857,11 @@ Orchestrate multiple Claude agents to work together on complex tasks.
   - Desktop app to run multiple Claude Code / Codex sessions in parallel git worktrees
   - Compare competing approaches side by side
   - TypeScript, MIT licensed
+
+- [Crapule421/tiger-team](https://github.com/Crapule421/tiger-team) ![Stars](https://img.shields.io/github/stars/Crapule421/tiger-team?style=flat-square)
+  - Nine senior expert subagents for integration projects: job scheduling (VTOM, Dollar Universe, Control-M), DBA, ERP, IBM i, DevSecOps, network, enterprise architecture, project management
+  - Mission orchestrator that routes handoffs between experts, 12 slash commands, confidentiality-guard hook
+  - Claude Code plugin and marketplace; MIT
 
 ### Parallel Processing
 
@@ -888,6 +1010,17 @@ Professional-grade security skills for vulnerability detection, code auditing, a
   - Go binary with a GitHub Action and Docker image
   - Feature complete: security patches only, with development moving to Betterleaks
 
+- [shanjeevrajendran/cloakroom](https://github.com/shanjeevrajendran/cloakroom) ![Stars](https://img.shields.io/github/stars/shanjeevrajendran/cloakroom?style=flat-square)
+  - Claude Code plugin that masks API keys, secrets and personal data (PII) on your machine before the model sees them
+  - Restores the real values for local tools
+  - Open source (Apache-2.0); Mac, Windows and Linux
+
+||||||| f158635
+- [sunglasses-dev/sunglasses](https://github.com/sunglasses-dev/sunglasses) ![Stars](https://img.shields.io/github/stars/sunglasses-dev/sunglasses?style=flat-square)
+  - Local input firewall for AI agents that scans text and files for prompt injection, credential leaks and data exfiltration
+  - 1,554 patterns across 118 categories, all running on your machine
+  - MCP server with `scan_text`, `scan_file` and `scanner_info` via `python -m sunglasses.mcp`, plus a CLI and a Python API
+  - Python-driven; `pip install sunglasses`, MIT
 ### Compliance & Auditing
 
 - [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills) ![Stars](https://img.shields.io/github/stars/BehiSecc/awesome-claude-skills?style=flat-square)
@@ -1037,6 +1170,28 @@ Skills for marketing professionals, content creators, and growth teams.
   - Reports patterns with line numbers and a suggested fix instead of a single confidence score
   - English and Russian versions included
 
+- [vanshyadav1408/Omentir linkedin-outreach](https://github.com/vanshyadav1408/Omentir/tree/main/plugins/omentir/skills/linkedin-outreach) ![Stars](https://img.shields.io/github/stars/vanshyadav1408/Omentir?style=flat-square)
+  - LinkedIn prospecting and outreach through the hosted Omentir MCP server (OAuth, no API key)
+  - Find and score leads, draft messages, check campaigns and replies
+  - Research and drafts only by default; the agent never signs into LinkedIn
+  - MIT, works with Claude Code, Cursor, Codex, and Grok Bot
+
+||||||| 5302371
+- [Finderchangchang/brewreel](https://github.com/Finderchangchang/brewreel) ![Stars](https://img.shields.io/github/stars/Finderchangchang/brewreel?style=flat-square)
+  - Agent skill (SKILL.md) that turns a product brief into a 1080x1920 vertical promo video rendered with Remotion
+  - The model only writes a storyboard JSON (shots and copy); layout, motion, music and rendering come from bundled components
+  - 3 style recipes (card feed, quiz, character journey) and 6 industry packs with ad-copy and industry compliance checks
+  - Optional voiceover with word-level captions and music ducking; EN/ZH captions
+  - Works with Claude Code and Codex, plus a DeepSeek Harness plugin; Apache-2.0, labelled a preview
+
+||||||| 5302371
+- [squirrelscan/squirrelscan](https://github.com/squirrelscan/squirrelscan) ![Stars](https://img.shields.io/github/stars/squirrelscan/squirrelscan?style=flat-square)
+  - Website audit CLI built for coding agents: crawls a site, runs 260+ rules across SEO, performance, security, accessibility and agent experience, and hands the agent exact, source-mapped fixes (MIT)
+  - `audit-website` skill drives the loop: audit, map findings to source files, fix, re-audit until the site scores well
+  - Free local audits, GitHub Action for CI budgets, and a hosted MCP server
+  - Install: `/plugin marketplace add squirrelscan/squirrelscan` (plugin) or `npx skills add squirrelscan/squirrelscan` (skills)
+
+||||||| 2fe8cbb
 - [CosmoBlk/email-marketing-bible](https://github.com/CosmoBlk/email-marketing-bible) ![Stars](https://img.shields.io/github/stars/CosmoBlk/email-marketing-bible?style=flat-square)
   - Data-backed email marketing skill built from 908 sources (MIT, instructions only)
   - Builds automation flows (welcome, abandoned cart, win-back), segments audiences, and writes and de-slops email copy
@@ -1052,6 +1207,31 @@ Skills for marketing professionals, content creators, and growth teams.
   - Extra skills for SEO writing, quality scoring, multi-article content strategy, and research intake
   - Install: `npx skills add Jeffallan/writing-with-agents` or `/plugin marketplace add Jeffallan/writing-with-agents`
 
+||||||| f158635
+- [zhuyansen/backlink-guard](https://github.com/zhuyansen/backlink-guard) ![Stars](https://img.shields.io/github/stars/zhuyansen/backlink-guard?style=flat-square)
+  - Checks a link source (directory, awesome list, guest-post site) before you submit your site to it (MIT)
+  - Gives each site an action (skip, look first, free only, low value or submit) and a verdict with the evidence, against Google's link spam policies
+  - Verifies a listing once it is live (followed or not, and where the link sits) and audits your own backlink profile
+  - Also finds the pages that rank for your keywords, the sites linking to your competitors and not to you, and who AI Overviews and AI assistants cite; never submits anything
+  - One skill and an MCP server; the page checks are free, paid signals need a Glasser or AIsa API key (`vet` about $0.01 a site plus $0.16 a batch), and the skill states the cost first
+  - Install: `npx skills add zhuyansen/backlink-guard`
+
+||||||| f158635
+- [zhuyansen/new-term-radar](https://github.com/zhuyansen/new-term-radar) ![Stars](https://img.shields.io/github/stars/zhuyansen/new-term-radar?style=flat-square)
+  - Finds the names of new AI models, products and repos on X, Hugging Face, GitHub and sitemaps (MIT)
+  - Sizes the search terms behind each name with Google Ads volume and Google Trends, marked prioritize, watch or skip
+  - Three skills (`new-term-radar`, `ai-listening`, `seo-new-keywords-research`) and an MCP server; the CLI uses only the Python standard library
+  - Needs an AIsa API key for the paid lookups (about $0.30 for a daily run); the skills state the cost first
+  - Install: `npx skills add zhuyansen/new-term-radar`
+
+||||||| f158635
+- [emotixco/claude-skills-founder](https://github.com/emotixco/claude-skills-founder) ![Stars](https://img.shields.io/github/stars/emotixco/claude-skills-founder?style=flat-square)
+  - 13 skills for the founder side of a product: idea validation, competitor research, pricing, MVP scope, go-to-market, pitch decks, fundraising
+  - Competitor prices, funding rounds and market numbers carry a source link, or are marked as an estimate or not found
+  - The founder's own metrics, quotes and testimonials are never invented, and missing ones come back as bracketed placeholders
+  - Skills save to a founder/ folder and read what earlier skills saved, so pricing reuses the competitor matrix instead of searching again
+  - Eval suite in evals/ compares the plugin against plain Claude, including the cases where it makes no difference
+  - Install: `/plugin marketplace add emotixco/claude-skills-founder`
 ---
 
 ## Domain-Specific Skills
@@ -1074,13 +1254,25 @@ Specialized skills for specific industries and use cases.
   - Complete coordination system mirroring real studio hierarchy
   - Engine specialists, designers, and production agents
   - Perfect for game development projects
-    
+
+- [tubeagentkit/youtube-transcript-skills](https://github.com/tubeagentkit/youtube-transcript-skills) ![Stars](https://img.shields.io/github/stars/tubeagentkit/youtube-transcript-skills?style=flat-square)
+  - Fetch YouTube transcripts, search videos/channels, browse channels, and extract playlists via getyoutubetranscript.com's free-tier API
+  - No yt-dlp, no headless browser, no Google Cloud API key or quota setup
+  - Also available as an MCP server (OAuth 2.1 or API key)
+  - MIT licensed
+
 - [Miscodings/paper-plugin](https://github.com/Miscodings/paper-plugin) ![Stars](https://img.shields.io/github/stars/Miscodings/paper-plugin?style=flat-square)
   - Complete Minecraft Paper plugin development suite for Claude Code
   - 1 comprehensive skill + 8 specialized subagents (architect, debugger, reviewer, data, commands, events, performance, publisher)
   - Enforces modern practices: Adventure API, Display entities, config-driven items/GUIs, lang files, LuckPerms permission trees
   - MythicMobs, ModelEngine, PlaceholderAPI, WorldGuard, Vault, LuckPerms integrations
   - Kotlin/Java, Paper 1.21.x, Gradle Kotlin DSL
+
+- [equalang/equalang-skill](https://github.com/equalang/equalang-skill)
+  - Translate documents, slides, spreadsheets and e-books with layout preservation where supported; transcribe recordings and translate text
+  - Python CLI workflow with cost estimates and confirmation before file processing
+  - Requires Python 3, an Equalang API key and account credits; files are uploaded to the Equalang cloud
+  - Apache-2.0; install with `npx skills add equalang/equalang-skill --skill equalang`
 
 - [fruitwyatt/puzzlegenio-claude-skill](https://github.com/fruitwyatt/puzzlegenio-claude-skill) ![Stars](https://img.shields.io/github/stars/fruitwyatt/puzzlegenio-claude-skill?style=flat-square)
   - Generate free printable puzzles (crossword, word search, sudoku, jigsaw, bingo, nonogram)
@@ -1095,6 +1287,11 @@ Specialized skills for specific industries and use cases.
   - Multi-agent review and adversarial QA
   - Quality gates and replication protocols
   - Extracted from production PhD course
+
+- [BuyWhere/buywhere-mcp](https://github.com/BuyWhere/buywhere-mcp) ![Stars](https://img.shields.io/github/stars/BuyWhere/buywhere-mcp?style=flat-square)
+  - Hosted product-search MCP for multi-merchant price comparison (Singapore, SEA, US)
+  - Remote endpoint `https://api.buywhere.ai/mcp`; docs at https://docs.buywhere.ai
+  - Install: `npx -y @buywhere/mcp-server`
 
 - [takechanman1228/claude-ecom](https://github.com/takechanman1228/claude-ecom) ![Stars](https://img.shields.io/github/stars/takechanman1228/claude-ecom?style=flat-square)
   - Ecommerce business review skill for D2C stores
@@ -1134,11 +1331,23 @@ Specialized skills for specific industries and use cases.
   - Go dashboard for tracking applications and pipeline status
   - MIT licensed; site at career-ops.org
 
+- [vaibhavarora14/job-application-agent](https://github.com/vaibhavarora14/job-application-agent) ![Stars](https://img.shields.io/github/stars/vaibhavarora14/job-application-agent?style=flat-square)
+  - Privacy-first Agent Skill for discovering, qualifying, completing, and tracking your own job applications
+  - Verified résumé facts only; OS-backed local profile storage; applied ledger updates only on confirmed submission
+  - Compatible with Claude Code, Cursor, Codex, and OpenClaw/ClawHub
+  - MIT licensed; install via `npx job-application-agent@latest install`
+
 - [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) ![Stars](https://img.shields.io/github/stars/mvanhorn/last30days-skill?style=flat-square)
   - Agent skill that researches topics across Reddit, X, YouTube, Hacker News, TikTok, Polymarket, Bluesky, and the open web
   - Synthesizes findings into a grounded recency summary, weighted toward the last 30 days
   - Targets deep research, social-media monitoring, and trend tracking
   - Compatible with Claude Code, OpenClaw, and ClawHub
+
+- [socai-io/jev-social](https://github.com/socai-io/jev-social) ![Stars](https://img.shields.io/github/stars/socai-io/jev-social?style=flat-square)
+  - Read-only Agent Skill for browser-grounded Instagram, TikTok, and LinkedIn research
+  - Jev selects bounded search, read, inspect, or finish operations; the local `socai CLI` executes them in the user's Chrome and returns source-linked evidence with an explicit run status
+  - Requires Node.js 20+, OpenRouter Jev access, and a local socai build that supports the requested platform
+  - Install with `npx skills add socai-io/jev-social --skill jev-social`; MIT licensed
 
 - [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) ![Stars](https://img.shields.io/github/stars/K-Dense-AI/scientific-agent-skills?style=flat-square)
   - Ready-to-use agent skills for research, science, engineering, analysis, finance, and writing
@@ -1160,6 +1369,12 @@ Specialized skills for specific industries and use cases.
   - Skill package for ML, CV, and NLP paper writing
   - Adapted from Prof. Peng Sida's open notes
   - Works with Codex, Claude Code, and Gemini CLI
+
+- [lucasbabur/jp-essay](https://github.com/lucasbabur/jp-essay) ![Stars](https://img.shields.io/github/stars/lucasbabur/jp-essay?style=flat-square)
+  - Claude Code skills for researching, outlining, drafting, revising, and fact-checking essays
+  - General-reader and scientific modes, with citations and references in scientific mode
+  - Produces one final essay per run and retains intermediate Markdown files for inspection
+  - MIT licensed; requires Claude Code and uv, with model usage billed separately
 
 - [Galaxy-Dawn/claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) ![Stars](https://img.shields.io/github/stars/Galaxy-Dawn/claude-scholar?style=flat-square)
   - Semi-automated research assistant for academic and software work
@@ -1274,12 +1489,36 @@ Specialized skills for specific industries and use cases.
   - Works with Claude, ChatGPT, OpenClaw, and Hermes Agent through the open Agent Skills format
   - Free tier, no card required; MIT licensed
 
+- [neuman/nopekit](https://github.com/neuman/nopekit) ![Stars](https://img.shields.io/github/stars/neuman/nopekit?style=flat-square)
+  - Claude Code plugin for designing physical things (CAD, 3D printing, thermal, structures)
+  - Turns requirements into claims and math/physics gates; every gate ships a negative control proving it can fail
+  - Packs for beam analysis, CAD solid/mesh checks, FDM print checks, fluids/buoyancy, thermal/solar, OpenModelica, and sourcing/BOM
+  - Zero-dependency Python core; Apache-2.0; install with `/plugin marketplace add neuman/nopekit` then `/plugin install nopekit`
+
+||||||| f158635
+- [Arcmira: YouTube Transcript Search](https://github.com/arcmira/arcmira/tree/master/skills) ![Stars](https://img.shields.io/github/stars/arcmira/arcmira?style=flat-square)
+  - Find timestamped quotes and clip boundaries in indexed YouTube videos and podcasts, with links to the original recordings
+  - Six research skills cover quote search, speaker appearances, sponsors, recommendations, company monitoring, and show comparisons
+  - [Connect Claude to Arcmira](https://arcmira.com/docs/mcp-server) or use the [API documentation](https://arcmira.com/docs) to build your own transcript search
+  - The skill files are Apache-2.0 licensed. An [Arcmira account](https://arcmira.com) includes free access with usage limits
 ## Productivity Tools
 
 Utilities and tools to enhance your Claude workflow.
 
 ### Desktop Applications & GUI Tools
 
+- [sorkila/lockpaw](https://github.com/sorkila/lockpaw) ![Stars](https://img.shields.io/github/stars/sorkila/lockpaw?style=flat-square)
+  - Menu bar app that covers and input-locks the screen while agents keep working
+  - The locked screen glows when Claude Code pauses for permission or finishes
+  - One-click hook setup for Claude Code, Codex, Gemini, Cursor, Copilot and Aider
+  - Native Swift, 10 MB, signed and notarized; no Electron, no analytics
+
+||||||| 2fe8cbb
+- [vivekchand/clawmetry](https://github.com/vivekchand/clawmetry) ![Stars](https://img.shields.io/github/stars/vivekchand/clawmetry?style=flat-square)
+  - Local dashboard and kill switch for Claude Code, Codex, Cursor, Gemini CLI, OpenClaw and other coding agents
+  - Reads the session logs the runtimes already write on disk: sessions, transcripts, tool calls, tokens and cache-aware cost; no SDK, nothing in the request path
+  - Opt-in emergency stop per session and pre-tool approvals for risky actions; website at [clawmetry.com](https://clawmetry.com)
+  - Python, MIT, open-core: OpenClaw and NemoClaw free, other runtimes on the Cloud or self-hosted Pro tier
 - [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) ![Stars](https://img.shields.io/github/stars/CherryHQ/cherry-studio?style=flat-square)
   - AI productivity studio with smart chat and autonomous agents
   - 300+ built-in assistants for various tasks
@@ -1331,6 +1570,29 @@ Utilities and tools to enhance your Claude workflow.
   - Turns CLI-based AI orchestration into a desktop experience
   - TypeScript-driven Electron build
 
+- [benord-labs/frink](https://github.com/benord-labs/frink) ![Stars](https://img.shields.io/github/stars/benord-labs/frink?style=flat-square)
+  - Desktop-first, open-source (MIT) application for running parallel agents, and multi-step custom workflows triggered by schedules, webhooks or events from tools like Linear and Sentry, across your already-used providers
+  - Workflows can include steps you write yourself in code, alongside agent, command and approval steps
+
+||||||| f158635
+- [Orkas-AI/Orkas](https://github.com/Orkas-AI/Orkas)
+  - Open-source, local-first desktop AI workforce coordinated by a Commander through one chat.
+  - Coordinates built-in specialist agents and local coding agents, including Claude Code and Codex
+
+||||||| 2fe8cbb
+- [MarlBurroW/sillage](https://github.com/MarlBurroW/sillage) ![Stars](https://img.shields.io/github/stars/MarlBurroW/sillage?style=flat-square)
+  - Self-hosted, mobile-first web UI that drives the native Claude Code and Codex CLIs on your own machine
+  - Sessions that outlive the client, full-text search over every conversation, IDE panel (file explorer, editor, diffs, terminal)
+  - Installable PWA with push, single Docker container; agents read a board through its own MCP server
+  - MIT licensed
+
+||||||| 15ab059
+- [scgopi/GraphCode](https://github.com/scgopi/GraphCode) ![Stars](https://img.shields.io/github/stars/scgopi/GraphCode?style=flat-square)
+  - Native macOS app that wires agent sessions into a graph
+  - Every node is a live terminal you can attach to and steer mid-run
+  - Edges are hand-offs, messages, or spawns that fire unattended
+  - Claude Code, Codex, and Copilot CLI loops on one canvas
+  - Sessions survive app quits, daemon restarts, and reboots
 ### Agent Harnesses & Meta-Tools
 
 - [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) ![Stars](https://img.shields.io/github/stars/code-yeongyu/oh-my-openagent?style=flat-square)
@@ -1382,13 +1644,36 @@ Utilities and tools to enhance your Claude workflow.
   - MCP stdio server plus an OpenAI-compatible proxy (`:8077/v1`); one-command installer wires 18 coding agents including Claude Code, Codex, Cursor, and Windsurf
   - MIT licensed, Python 3.11; early-stage (v0.1.0, released 2026-07-06)
 
+- [yylo-dev/yylo](https://github.com/yylo-dev/yylo) ![Stars](https://img.shields.io/github/stars/yylo-dev/yylo?style=flat-square)
+  - Command-line orchestrator for coding agents, repeatable workflows, and receipt-backed repository changes, with typed task, validation, merge, and release-readiness boundaries
+  - Each task runs in a dedicated branch/worktree off a frozen target SHA; a merge queue owns risk-based review (low risk: no semantic reviewer, high risk: two sequential reviewers on one frozen candidate)
+  - Subagents include Pi and Codex, which run Claude models via alias tables (`:sonnet` → anthropic/claude-sonnet-4-6, `:opus` → anthropic/claude-opus-4-6); task agents read the worktree AGENTS.md/CLAUDE.md and commit with receipts
+
+||||||| 2fe8cbb
+- [UiPath/coder_eval](https://github.com/UiPath/coder_eval) ![Stars](https://img.shields.io/github/stars/UiPath/coder_eval?style=flat-square)
+  - Measures whether a skill actually triggers: precision, recall, and F1 over labelled prompt datasets
+  - Runs one task suite across Claude Code, Codex, OpenCode, and Antigravity to separate skill defects from harness defects
+  - Sandboxed runs, LLM-judge and deterministic criteria, published GitHub Action for CI gating
+  - Python, Apache-2.0
 ### Memory & Context Management
+
+- [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) ![Stars](https://img.shields.io/github/stars/screenpipe/screenpipe?style=flat-square)
+  - Search locally captured screen text and audio transcripts from daily work through MCP or the local API
+  - Gives Claude Code context for recall, meeting notes, and work summaries; requires the Screenpipe recorder and local API key
+  - Source-available under the Screenpipe Commercial License
+  - Configured cloud AI, transcription, sync, and integrations can transmit context off-device
 
 - [hjqcan/GoodMemory](https://github.com/hjqcan/GoodMemory) ![Stars](https://img.shields.io/github/stars/hjqcan/GoodMemory?style=flat-square)
   - Local-first, auditable memory layer for Claude Code, Codex, and MCP clients
   - One-command `goodmemory setup` installs managed hooks for scoped recall; governed writeback is opt-in, reviewable, and reversible
   - Uses durable SQLite by default, with Postgres support and read-only MCP inspection plus forget/export controls
   - Also exposes TypeScript, HTTP, and Python integration surfaces for product agents
+
+- [JanYork/llm-wiki-cli](https://github.com/JanYork/llm-wiki-cli) ![Stars](https://img.shields.io/github/stars/JanYork/llm-wiki-cli?style=flat-square)
+  - Proactive, source-grounded project memory for Claude Code, Codex, Cursor, OpenCode, Gemini CLI, Kiro, Hermes, Antigravity, and pi
+  - Preserves immutable sources, citations, provenance, and atomic changesets, with SQLite/FTS5 retrieval and optional document/code graphs
+  - Integrates through lifecycle hooks, skills, additive agent instructions, and a bounded read-only one-tool MCP interface
+  - Apache-2.0 licensed; installable from npm as `@i-xor/lwc`
 
 - [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) ![Stars](https://img.shields.io/github/stars/caioribeiroclw-pixel/pluribus?style=flat-square)
   - Privacy-safe context receipts for Claude Code, Cursor, Codex, OpenClaw, and MCP/skill workflows
@@ -1451,6 +1736,17 @@ Utilities and tools to enhance your Claude workflow.
   - Ships hooks, skills, and an MCP server for 15+ platforms (Claude Code, Codex, Cursor, Kiro, Zed, OpenClaw)
   - Project site at context-mode.com
 
+- [contextstream/mcp-server](https://github.com/contextstream/mcp-server) ![Stars](https://img.shields.io/github/stars/contextstream/mcp-server?style=flat-square)
+  - Shared project context for Cursor, Claude Code, Codex, and Grok via hosted MCP
+  - Hosted endpoint: https://mcp.contextstream.io/mcp — site: https://contextstream.io
+  - Keeps teammates and multi-agent workflows aligned on the same project context
+  - Intelligence isn’t the bottleneck. Context is.
+
+||||||| 2fe8cbb
+- [vshulcz/deja-vu](https://github.com/vshulcz/deja-vu) ![Stars](https://img.shields.io/github/stars/vshulcz/deja-vu?style=flat-square)
+  - Recalls past sessions from the transcripts twenty coding agents already write to disk, including work from before it was installed
+  - Wires into each harness the way it supports: MCP tools, session start, before a file edit or command, and after one fails
+  - Local BM25, no LLM and no embeddings; credentials redacted at index time; single Go binary
 - [gastownhall/beads](https://github.com/gastownhall/beads) ![Stars](https://img.shields.io/github/stars/gastownhall/beads?style=flat-square)
   - Memory upgrade for coding agents
   - Persists context across sessions for Claude Code and other agents
@@ -1521,6 +1817,24 @@ Utilities and tools to enhance your Claude workflow.
   - Builds memory and injects relevant context back into the session
   - From Letta AI; TypeScript, MIT licensed
 
+- [Thanatos9404/llmslim](https://github.com/Thanatos9404/llmslim) ![Stars](https://img.shields.io/github/stars/Thanatos9404/llmslim?style=flat-square)
+  - Local MCP memory server and Claude Code plugin (`claude mcp add llmslim -- llmslim mcp`) for Claude Code, Cursor, Codex and other MCP clients
+  - Stores messages word for word in local SQLite or PostgreSQL and recalls the ones that answer a question within a token budget, with no LLM call
+  - Five tools: remember, recall, list_memories, forget, and fit_context for trimming long logs and tool output to a budget
+  - MIT, on PyPI and the official MCP Registry
+
+||||||| f158635
+- [tonone-ai/elephant](https://github.com/tonone-ai/elephant) ![Stars](https://img.shields.io/github/stars/tonone-ai/elephant?style=flat-square)
+  - Persistent per-repo memory for Claude Code in a committed `ELEPHANT.md`, shared across teammates
+  - `SessionStart` hook loads memory each session; optional global cross-repo memory file
+  - Also generates changelogs and READMEs from git history; MIT licensed
+
+||||||| 2fe8cbb
+- [mnemoverse/mcp-memory-server](https://github.com/mnemoverse/mcp-memory-server) ![Stars](https://img.shields.io/github/stars/mnemoverse/mcp-memory-server?style=flat-square)
+  - Memory server for Claude Code and other agents over MCP; the agent reports whether a recalled memory helped or misled, and the next recall is re-ranked
+  - One key shared across Claude Code, Cursor, VS Code, and ChatGPT; remote endpoint with OAuth sign-in or the npm package `@mnemoverse/mcp-memory-server`
+  - Claude Code plugin at [mnemoverse/claude-plugin](https://github.com/mnemoverse/claude-plugin)
+  - MCP server is TypeScript, MIT licensed; the memory engine is hosted and not open source, with a free tier
 ### MCP Servers & Integrations
 
 - [oraios/serena](https://github.com/oraios/serena) ![Stars](https://img.shields.io/github/stars/oraios/serena?style=flat-square)
@@ -1541,6 +1855,13 @@ Utilities and tools to enhance your Claude workflow.
   - Automatic session persistence per project
   - Proactive notifications from webhooks and CI/CD
   - Built-in authentication and audit logging
+
+- [k1p1l0/claude-telegram-supercharged](https://github.com/k1p1l0/claude-telegram-supercharged) ![Stars](https://img.shields.io/github/stars/k1p1l0/claude-telegram-supercharged?style=flat-square)
+  - Drop-in upgrade for the official Claude Code Telegram channel plugin
+  - Voice transcription (OpenAI, Groq, Deepgram, local Whisper) and ElevenLabs voice replies
+  - SQLite message history, memory, group threading and forum topics
+  - launchd daemon supervisor, scheduled messages, inline-button questions
+  - Agentic Mode: live tool-by-tool progress in the chat while Claude works
 
 - [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) ![Stars](https://img.shields.io/github/stars/wonderwhy-er/DesktopCommanderMCP?style=flat-square)
   - MCP server for terminal control and file system management
@@ -1610,6 +1931,12 @@ Utilities and tools to enhance your Claude workflow.
   - Supports MCP, CLI, and REST workflows
   - Read-only analytics operations with project-scoped authentication
 
+- [fclairamb/solidping](https://github.com/fclairamb/solidping) ![Stars](https://img.shields.io/github/stars/fclairamb/solidping?style=flat-square)
+  - Remote MCP server (OAuth 2.1) for SolidPing, open-source uptime monitoring
+  - Lists and creates checks across 40+ types: HTTP, TCP, DNS, SSL, databases, queues
+  - Reads results and incidents, diagnoses a failing check, manages status pages
+  - Hosted at solidping.io or self-hosted, same `/api/v1/mcp` endpoint
+
 - [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) ![Stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=flat-square)
   - Official Anthropic reference collection of MCP servers
   - Bundles Filesystem, Git, Fetch, Memory, Sequential Thinking, and Time
@@ -1660,6 +1987,39 @@ Utilities and tools to enhance your Claude workflow.
   - Query databases and create/update pages and blocks via the Notion API
   - Supports a hosted remote endpoint and local stdio deployment
 
+- [voygr-tech/placecall](https://github.com/voygr-tech/placecall) ![Stars](https://img.shields.io/github/stars/voygr-tech/placecall?style=flat-square)
+  - Claude Code plugin and Agent Skill that place real outbound phone calls to US businesses
+  - Gets through IVR menus, holds and transfers, and can ask you a question mid-call
+  - Returns a structured outcome, transcript and recording; finds a business to call when you have no number
+  - Hosted MCP server at `https://api.voygr.tech/mcp` (OAuth or API key); MIT client, first 250 calls free
+
+||||||| f158635
+- [evergreen-it-dev/folio](https://github.com/evergreen-it-dev/folio) ![Stars](https://img.shields.io/github/stars/evergreen-it-dev/folio?style=flat-square)
+  - Self-hosted, Git-backed team wiki with a built-in MCP server (40 tools; Streamable HTTP, OAuth 2.1 or personal access token)
+  - Search, read, create and update pages, data tables and whiteboards from Claude Code, Claude Desktop or claude.ai
+  - Includes a Claude Code plugin with a `folio-wiki` skill for careful wiki edits
+  - TypeScript, MIT licensed; Docker image and live demo at https://demo.foliowiki.online
+
+||||||| f158635
+- [Tapetide-hq/nse-bse-indian-stock-market-data-mcp](https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp) ![Stars](https://img.shields.io/github/stars/Tapetide-hq/nse-bse-indian-stock-market-data-mcp?style=flat-square)
+  - MCP server for Indian stock market data across about 8,200 NSE and BSE stocks
+  - Quotes, quarterly financials, shareholding, a 326-ratio screener, FII/DII flows and option chains
+  - Remote endpoint with OAuth or a free token, or local stdio via `npx -y tapetide-mcp`; MIT licensed
+
+||||||| f158635
+- [skeptrunedev/call4me](https://github.com/skeptrunedev/call4me) ![Stars](https://img.shields.io/github/stars/skeptrunedev/call4me?style=flat-square)
+  - Remote MCP server that lets Claude Code place real phone calls to businesses
+  - Books appointments and dinners, cancels subscriptions, changes flights
+  - Works through phone menus and can patch you into the live call
+  - Returns the transcript and outcome when the call ends
+
+||||||| 5302371
+- [nikolai-vysotskyi/trace-mcp](https://github.com/nikolai-vysotskyi/trace-mcp) ![Stars](https://img.shields.io/github/stars/nikolai-vysotskyi/trace-mcp?style=flat-square)
+  - Indexes a repository once, then answers with symbols, call graphs and change impact instead of file reads
+  - Outline and single-symbol lookups replace re-reading whole files turn after turn
+  - 81 languages and 87 framework integrations; runs entirely local, no API key
+  - Median 90.6% fewer input tokens to assemble PR-review context, measured over 60 merged PRs in 6 repos that are not ours ([method](https://trace-mcp.com/pr-context-benchmark.html))
+  - TypeScript, MIT licensed
 ### API & Integration Tools
 
 - [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) ![Stars](https://img.shields.io/github/stars/router-for-me/CLIProxyAPI?style=flat-square)
@@ -1693,6 +2053,12 @@ Utilities and tools to enhance your Claude workflow.
   - Also covers JSON-first requests, async polling, and other model API jobs through the RunAPI CLI
   - JSON-first requests, async task polling, and terminal/CI-friendly workflows
   - Apache-2.0 licensed; install with `git clone https://github.com/runapi-ai/cli-skill ~/.claude/skills/runapi-cli`
+
+- [tlgrcli/tlgr](https://github.com/tlgrcli/tlgr) ![Stars](https://img.shields.io/github/stars/tlgrcli/tlgr?style=flat-square)
+  - Claude Code plugin and Agent Skill for operating a personal Telegram account through the tlgr CLI (MTProto, not the Bot API)
+  - Catch up on unread chats without read receipts, search history, send and edit messages, manage chats and contacts
+  - JSON output with stable exit codes; a background daemon can push Telegram events to a signed webhook
+  - MIT licensed; install with `claude plugin marketplace add tlgrcli/tlgr`, then `claude plugin install tlgr@tlgr`
 
 ### CLI Configuration Tools
 
@@ -1743,6 +2109,11 @@ Utilities and tools to enhance your Claude workflow.
   - Autonomous agent framework that runs entirely inside GitHub Actions, with no long-lived server
   - Cron-scheduled Markdown skills, self-healing (a health skill detects failures, a repair skill fixes them by PR)
   - Spawns a fleet of clones and ships 70+ Agent Skills across six coding-agent harnesses (Claude Code, Grok, Codex, Pi, Vibe, Kimi)
+
+- [orbi-build/orbi](https://github.com/orbi-build/orbi) ![Stars](https://img.shields.io/github/stars/orbi-build/orbi?style=flat-square)
+  - Self-hostable (AGPL-3.0) GitHub App: label an Issue, get an independently reviewed, merged PR and a tagged release
+  - Ships Claude Code skills (`write-ai-ready-issue`, `suggest-ai-ready-issues`) for writing Issues an agent can deliver unsupervised
+  - Site: [orbi.build](https://orbi.build/?ref=awesome-claude-code-and-skills)
 
 ### Monitoring & Observability
 
@@ -1842,6 +2213,12 @@ Utilities and tools to enhance your Claude workflow.
   - `npx ccusage` CLI that parses local Claude Code JSONL logs
   - Reports token usage and cost by day, month, session, and model
   - The most-referenced usage/cost tool in the community; Rust, very actively maintained
+
+- [dspv/caprock](https://github.com/dspv/caprock) ![Stars](https://img.shields.io/github/stars/dspv/caprock?style=flat-square)
+  - Local, open-source web dashboard for Claude Code sessions, also covering Codex, OpenCode, and Gemini CLI
+  - Live activity, token cost per repository at API list prices, 5-hour and weekly plan-limit windows
+  - Loop alerts and search across everything the agent wrote
+  - Single Go binary, loopback only, no telemetry; Apache-2.0
 
 ### Configuration & Templates
 
