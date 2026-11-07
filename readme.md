@@ -1542,12 +1542,17 @@ Utilities and tools to enhance your Claude workflow.
   - MCP stdio server plus an OpenAI-compatible proxy (`:8077/v1`); one-command installer wires 18 coding agents including Claude Code, Codex, Cursor, and Windsurf
   - MIT licensed, Python 3.11; early-stage (v0.1.0, released 2026-07-06)
 
+- [yylo-dev/yylo](https://github.com/yylo-dev/yylo) ![Stars](https://img.shields.io/github/stars/yylo-dev/yylo?style=flat-square)
+  - Command-line orchestrator for coding agents, repeatable workflows, and receipt-backed repository changes, with typed task, validation, merge, and release-readiness boundaries
+  - Each task runs in a dedicated branch/worktree off a frozen target SHA; a merge queue owns risk-based review (low risk: no semantic reviewer, high risk: two sequential reviewers on one frozen candidate)
+  - Subagents include Pi and Codex, which run Claude models via alias tables (`:sonnet` → anthropic/claude-sonnet-4-6, `:opus` → anthropic/claude-opus-4-6); task agents read the worktree AGENTS.md/CLAUDE.md and commit with receipts
+
+||||||| 2fe8cbb
 - [UiPath/coder_eval](https://github.com/UiPath/coder_eval) ![Stars](https://img.shields.io/github/stars/UiPath/coder_eval?style=flat-square)
   - Measures whether a skill actually triggers: precision, recall, and F1 over labelled prompt datasets
   - Runs one task suite across Claude Code, Codex, OpenCode, and Antigravity to separate skill defects from harness defects
   - Sandboxed runs, LLM-judge and deterministic criteria, published GitHub Action for CI gating
   - Python, Apache-2.0
-
 ### Memory & Context Management
 
 - [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) ![Stars](https://img.shields.io/github/stars/screenpipe/screenpipe?style=flat-square)
