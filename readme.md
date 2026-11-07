@@ -1200,6 +1200,14 @@ Skills for marketing professionals, content creators, and growth teams.
   - Reference layer covers benchmarks, GDPR/CAN-SPAM/CASL compliance, cold email, SMS and WhatsApp, and 19 industry playbooks
   - Install: `npx skills add CosmoBlk/email-marketing-bible`
 
+- [Jeffallan/writing-with-agents](https://github.com/Jeffallan/writing-with-agents) ![Stars](https://img.shields.io/github/stars/Jeffallan/writing-with-agents?style=flat-square)
+  - Claude Code plugin built on Betty Flowers' Madman, Architect, Carpenter, Judge writing method (MIT)
+  - Brainstorming, outlining, drafting, and editing run as separate skills, each with defined AI and human roles
+  - Judge phase checks drafts for AI voice patterns, readability, and consistency
+  - Extra skills for SEO writing, quality scoring, multi-article content strategy, and research intake
+  - Install: `npx skills add Jeffallan/writing-with-agents` or `/plugin marketplace add Jeffallan/writing-with-agents`
+
+||||||| f158635
 - [zhuyansen/backlink-guard](https://github.com/zhuyansen/backlink-guard) ![Stars](https://img.shields.io/github/stars/zhuyansen/backlink-guard?style=flat-square)
   - Checks a link source (directory, awesome list, guest-post site) before you submit your site to it (MIT)
   - Gives each site an action (skip, look first, free only, low value or submit) and a verdict with the evidence, against Google's link spam policies
