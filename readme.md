@@ -303,6 +303,11 @@ Skills focused on software development, code quality, and engineering workflows.
 
 ### Core Development Skills
 
+- [avansaber/tailtest](https://github.com/avansaber/tailtest) ![Stars](https://img.shields.io/github/stars/avansaber/tailtest?style=flat-square)
+  - Auto-generates and runs tests for every file Claude Code edits via a PostToolUse hook
+  - Produces production-shaped scenarios through an R1–R15 rule layer; failures come back to the agent in the same turn
+  - Adversarial test mode (V13); MIT licensed
+
 - [archcore-ai/archcore](https://github.com/archcore-ai/archcore) ![Stars](https://img.shields.io/github/stars/archcore-ai/archcore?style=flat-square)
   - Spec-driven development and context engineering for Claude Code, Cursor, Codex, and GitHub Copilot — backed by project context in Git
   - Keeps specs, architecture, decisions, rules, and plans in Git and makes the right project context available to AI coding agents
