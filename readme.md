@@ -286,12 +286,17 @@ These repositories offer extensive collections of skills across multiple domains
   - Also personal analytics and Claude Code operations
   - Each skill is a self-contained SKILL.md folder; installable via plugin marketplace or `npx skills add`
 
+- [tonone-ai/tonone](https://github.com/tonone-ai/tonone) ![Stars](https://img.shields.io/github/stars/tonone-ai/tonone?style=flat-square)
+  - Claude Code plugin with 100 specialist agents and 429 skills
+  - Covers engineering, product, design, security, legal, and operations
+  - Install via `claude plugin marketplace add tonone-ai/tonone`; MIT licensed
+
+||||||| 2fe8cbb
 - [getsentry/skills](https://github.com/getsentry/skills) ![Stars](https://img.shields.io/github/stars/getsentry/skills?style=flat-square)
   - Agent skills the Sentry team uses internally, in the open Agent Skills format
   - Includes AGENTS.md/CLAUDE.md authoring, blog writing standards, and brand guidelines
   - Install as a Claude Code plugin marketplace or via `npx skills add getsentry/skills`
   - For Sentry setup and production debugging skills, see `getsentry/sentry-for-ai`
-
 ## Development & Engineering
 
 Skills focused on software development, code quality, and engineering workflows.
@@ -1727,12 +1732,17 @@ Utilities and tools to enhance your Claude workflow.
   - Builds memory and injects relevant context back into the session
   - From Letta AI; TypeScript, MIT licensed
 
+- [tonone-ai/elephant](https://github.com/tonone-ai/elephant) ![Stars](https://img.shields.io/github/stars/tonone-ai/elephant?style=flat-square)
+  - Persistent per-repo memory for Claude Code in a committed `ELEPHANT.md`, shared across teammates
+  - `SessionStart` hook loads memory each session; optional global cross-repo memory file
+  - Also generates changelogs and READMEs from git history; MIT licensed
+
+||||||| 2fe8cbb
 - [mnemoverse/mcp-memory-server](https://github.com/mnemoverse/mcp-memory-server) ![Stars](https://img.shields.io/github/stars/mnemoverse/mcp-memory-server?style=flat-square)
   - Memory server for Claude Code and other agents over MCP; the agent reports whether a recalled memory helped or misled, and the next recall is re-ranked
   - One key shared across Claude Code, Cursor, VS Code, and ChatGPT; remote endpoint with OAuth sign-in or the npm package `@mnemoverse/mcp-memory-server`
   - Claude Code plugin at [mnemoverse/claude-plugin](https://github.com/mnemoverse/claude-plugin)
   - MCP server is TypeScript, MIT licensed; the memory engine is hosted and not open source, with a free tier
-
 ### MCP Servers & Integrations
 
 - [oraios/serena](https://github.com/oraios/serena) ![Stars](https://img.shields.io/github/stars/oraios/serena?style=flat-square)
