@@ -1794,6 +1794,13 @@ Utilities and tools to enhance your Claude workflow.
   - Builds memory and injects relevant context back into the session
   - From Letta AI; TypeScript, MIT licensed
 
+- [Thanatos9404/llmslim](https://github.com/Thanatos9404/llmslim) ![Stars](https://img.shields.io/github/stars/Thanatos9404/llmslim?style=flat-square)
+  - Local MCP memory server and Claude Code plugin (`claude mcp add llmslim -- llmslim mcp`) for Claude Code, Cursor, Codex and other MCP clients
+  - Stores messages word for word in local SQLite or PostgreSQL and recalls the ones that answer a question within a token budget, with no LLM call
+  - Five tools: remember, recall, list_memories, forget, and fit_context for trimming long logs and tool output to a budget
+  - MIT, on PyPI and the official MCP Registry
+
+||||||| f158635
 - [tonone-ai/elephant](https://github.com/tonone-ai/elephant) ![Stars](https://img.shields.io/github/stars/tonone-ai/elephant?style=flat-square)
   - Persistent per-repo memory for Claude Code in a committed `ELEPHANT.md`, shared across teammates
   - `SessionStart` hook loads memory each session; optional global cross-repo memory file
