@@ -1195,6 +1195,14 @@ Skills for marketing professionals, content creators, and growth teams.
   - Reference layer covers benchmarks, GDPR/CAN-SPAM/CASL compliance, cold email, SMS and WhatsApp, and 19 industry playbooks
   - Install: `npx skills add CosmoBlk/email-marketing-bible`
 
+- [zhuyansen/new-term-radar](https://github.com/zhuyansen/new-term-radar) ![Stars](https://img.shields.io/github/stars/zhuyansen/new-term-radar?style=flat-square)
+  - Finds the names of new AI models, products and repos on X, Hugging Face, GitHub and sitemaps (MIT)
+  - Sizes the search terms behind each name with Google Ads volume and Google Trends, marked prioritize, watch or skip
+  - Three skills (`new-term-radar`, `ai-listening`, `seo-new-keywords-research`) and an MCP server; the CLI uses only the Python standard library
+  - Needs an AIsa API key for the paid lookups (about $0.30 for a daily run); the skills state the cost first
+  - Install: `npx skills add zhuyansen/new-term-radar`
+
+||||||| f158635
 - [emotixco/claude-skills-founder](https://github.com/emotixco/claude-skills-founder) ![Stars](https://img.shields.io/github/stars/emotixco/claude-skills-founder?style=flat-square)
   - 13 skills for the founder side of a product: idea validation, competitor research, pricing, MVP scope, go-to-market, pitch decks, fundraising
   - Competitor prices, funding rounds and market numbers carry a source link, or are marked as an estimate or not found
