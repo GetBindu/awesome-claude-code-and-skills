@@ -472,6 +472,14 @@ Skills focused on software development, code quality, and engineering workflows.
   - Hooks enforce type-checking and lint on edits
   - TypeScript, MIT licensed
 
+- [cloudishai/skills](https://github.com/cloudishai/skills) ![Stars](https://img.shields.io/github/stars/cloudishai/skills?style=flat-square)
+  - Deploys a Dockerfile, source folder, or container image to Cloudish and reports the live URL
+  - Images build server-side, so no local Docker is needed; optional persistent volume for databases and files
+  - The agent can create its own API key with one call; spending is capped by the key's prepaid credits
+  - Keeps keys in a gitignored `.env` and confirms before spending beyond the request
+  - Installs as a Claude Code plugin or a plain `SKILL.md`; MIT licensed
+
+||||||| 5302371
 - [angel291592/Intent-Router](https://github.com/angel291592/Intent-Router) ![Stars](https://img.shields.io/github/stars/angel291592/Intent-Router?style=flat-square)
   - Turns a vague request into a typed, machine-readable IntentSpec before the agent plans or codes
   - Looks up what the repo already answers; asks only preference or irreversible questions, one at a time
