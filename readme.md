@@ -1527,6 +1527,11 @@ Utilities and tools to enhance your Claude workflow.
   - Turns CLI-based AI orchestration into a desktop experience
   - TypeScript-driven Electron build
 
+- [benord-labs/frink](https://github.com/benord-labs/frink) ![Stars](https://img.shields.io/github/stars/benord-labs/frink?style=flat-square)
+  - Desktop-first, open-source (MIT) application for running parallel agents, and multi-step custom workflows triggered by schedules, webhooks or events from tools like Linear and Sentry, across your already-used providers
+  - Workflows can include steps you write yourself in code, alongside agent, command and approval steps
+
+||||||| f158635
 - [Orkas-AI/Orkas](https://github.com/Orkas-AI/Orkas)
   - Open-source, local-first desktop AI workforce coordinated by a Commander through one chat.
   - Coordinates built-in specialist agents and local coding agents, including Claude Code and Codex
