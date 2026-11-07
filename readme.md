@@ -1267,6 +1267,12 @@ Specialized skills for specific industries and use cases.
   - Works with Claude, ChatGPT, OpenClaw, and Hermes Agent through the open Agent Skills format
   - Free tier, no card required; MIT licensed
 
+- [salespeak-ai/inbox-envoy](https://github.com/salespeak-ai/inbox-envoy) ![Stars](https://img.shields.io/github/stars/salespeak-ai/inbox-envoy?style=flat-square)
+  - Lets your personal AI agent protect your inbox, keep important mail visible, and research unfamiliar offers (MIT)
+  - Labels and filters unsolicited pitches reversibly; never deletes mail
+  - Starts read-only and escalates autonomy only with user approval; treats email as untrusted input
+  - For personal agents that can load SKILL.md skills; no account, backend, or telemetry; public beta
+
 ## Productivity Tools
 
 Utilities and tools to enhance your Claude workflow.
