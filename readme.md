@@ -1481,12 +1481,18 @@ Specialized skills for specific industries and use cases.
   - Works with Claude, ChatGPT, OpenClaw, and Hermes Agent through the open Agent Skills format
   - Free tier, no card required; MIT licensed
 
+- [neuman/nopekit](https://github.com/neuman/nopekit) ![Stars](https://img.shields.io/github/stars/neuman/nopekit?style=flat-square)
+  - Claude Code plugin for designing physical things (CAD, 3D printing, thermal, structures)
+  - Turns requirements into claims and math/physics gates; every gate ships a negative control proving it can fail
+  - Packs for beam analysis, CAD solid/mesh checks, FDM print checks, fluids/buoyancy, thermal/solar, OpenModelica, and sourcing/BOM
+  - Zero-dependency Python core; Apache-2.0; install with `/plugin marketplace add neuman/nopekit` then `/plugin install nopekit`
+
+||||||| f158635
 - [Arcmira: YouTube Transcript Search](https://github.com/arcmira/arcmira/tree/master/skills) ![Stars](https://img.shields.io/github/stars/arcmira/arcmira?style=flat-square)
   - Find timestamped quotes and clip boundaries in indexed YouTube videos and podcasts, with links to the original recordings
   - Six research skills cover quote search, speaker appearances, sponsors, recommendations, company monitoring, and show comparisons
   - [Connect Claude to Arcmira](https://arcmira.com/docs/mcp-server) or use the [API documentation](https://arcmira.com/docs) to build your own transcript search
   - The skill files are Apache-2.0 licensed. An [Arcmira account](https://arcmira.com) includes free access with usage limits
-
 ## Productivity Tools
 
 Utilities and tools to enhance your Claude workflow.
