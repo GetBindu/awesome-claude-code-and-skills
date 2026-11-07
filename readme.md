@@ -793,7 +793,7 @@ Orchestrate multiple Claude agents to work together on complex tasks.
   - Singleplayer and multiplayer coordination
   - Supervisor-subagent pattern implementation
 
-- [Untrivial-ai/agent-orchestrator](https://github.com/Untrivial-ai/agent-orchestrator) ![Stars](https://img.shields.io/github/stars/Untrivial-ai/agent-orchestrator?style=flat-square)
+- [OrchestratorInc/agent-orchestrator](https://github.com/OrchestratorInc/agent-orchestrator) ![Stars](https://img.shields.io/github/stars/OrchestratorInc/agent-orchestrator?style=flat-square)
   - Agent-agnostic parallel orchestrator
   - Git worktrees for isolated environments
   - CI auto-fix and review routing
