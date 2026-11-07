@@ -1905,6 +1905,11 @@ Utilities and tools to enhance your Claude workflow.
   - Cron-scheduled Markdown skills, self-healing (a health skill detects failures, a repair skill fixes them by PR)
   - Spawns a fleet of clones and ships 70+ Agent Skills across six coding-agent harnesses (Claude Code, Grok, Codex, Pi, Vibe, Kimi)
 
+- [orbi-build/orbi](https://github.com/orbi-build/orbi) ![Stars](https://img.shields.io/github/stars/orbi-build/orbi?style=flat-square)
+  - Self-hostable (AGPL-3.0) GitHub App: label an Issue, get an independently reviewed, merged PR and a tagged release
+  - Ships Claude Code skills (`write-ai-ready-issue`, `suggest-ai-ready-issues`) for writing Issues an agent can deliver unsupervised
+  - Site: [orbi.build](https://orbi.build/?ref=awesome-claude-code-and-skills)
+
 ### Monitoring & Observability
 
 - [disler/claude-code-hooks-multi-agent-observability](https://github.com/disler/claude-code-hooks-multi-agent-observability) ![Stars](https://img.shields.io/github/stars/disler/claude-code-hooks-multi-agent-observability?style=flat-square)
