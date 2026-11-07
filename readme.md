@@ -1047,6 +1047,12 @@ Skills for marketing professionals, content creators, and growth teams.
   - The document never enters the model's context — upload, then get a result path back
   - Works with Claude Code, Codex, Cursor, and other SKILL.md clients
 
+- [alexadams6ix/imagera-skills](https://github.com/alexadams6ix/imagera-skills) ![Stars](https://img.shields.io/github/stars/alexadams6ix/imagera-skills?style=flat-square)
+  - 37 skills for image and video jobs: product photos, ads, UGC, reels, films, and Character ID sheets that keep a face or product consistent
+  - Runs through the hosted Imagera MCP server (`https://mcp.imagera.ai/mcp`); each run is quoted in credits first and starts only after you agree
+  - Needs a paid Imagera account (running skills through MCP is part of the Pro plan); MIT licensed
+  - Install: `claude plugin marketplace add alexadams6ix/imagera-skills` (also Codex, Copilot CLI, Gemini CLI, Grok CLI, Cursor, or `npx skills add alexadams6ix/imagera-skills`)
+
 - [cognyai/claude-code-marketing-skills](https://github.com/cognyai/claude-code-marketing-skills) ![Stars](https://img.shields.io/github/stars/cognyai/claude-code-marketing-skills?style=flat-square)
   - 5 free marketing skills, no account required
   - SEO Audit, Landing Page Review, Competitor Analysis
