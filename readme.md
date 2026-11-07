@@ -1131,6 +1131,13 @@ Skills for marketing professionals, content creators, and growth teams.
   - Reports patterns with line numbers and a suggested fix instead of a single confidence score
   - English and Russian versions included
 
+- [squirrelscan/squirrelscan](https://github.com/squirrelscan/squirrelscan) ![Stars](https://img.shields.io/github/stars/squirrelscan/squirrelscan?style=flat-square)
+  - Website audit CLI built for coding agents: crawls a site, runs 260+ rules across SEO, performance, security, accessibility and agent experience, and hands the agent exact, source-mapped fixes (MIT)
+  - `audit-website` skill drives the loop: audit, map findings to source files, fix, re-audit until the site scores well
+  - Free local audits, GitHub Action for CI budgets, and a hosted MCP server
+  - Install: `/plugin marketplace add squirrelscan/squirrelscan` (plugin) or `npx skills add squirrelscan/squirrelscan` (skills)
+
+||||||| 2fe8cbb
 - [CosmoBlk/email-marketing-bible](https://github.com/CosmoBlk/email-marketing-bible) ![Stars](https://img.shields.io/github/stars/CosmoBlk/email-marketing-bible?style=flat-square)
   - Data-backed email marketing skill built from 908 sources (MIT, instructions only)
   - Builds automation flows (welcome, abandoned cart, win-back), segments audiences, and writes and de-slops email copy
@@ -1146,7 +1153,6 @@ Skills for marketing professionals, content creators, and growth teams.
   - Skills save to a founder/ folder and read what earlier skills saved, so pricing reuses the competitor matrix instead of searching again
   - Eval suite in evals/ compares the plugin against plain Claude, including the cases where it makes no difference
   - Install: `/plugin marketplace add emotixco/claude-skills-founder`
-
 ---
 
 ## Domain-Specific Skills
