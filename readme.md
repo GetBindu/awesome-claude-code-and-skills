@@ -720,6 +720,11 @@ Skills and tools that stop agent output from looking and reading machine-generat
   - 90 gotchas (45 Plugin API anomalies, 45 field notes) indexed by symptom and by literal error message; CI checks every Plugin API name the skills cite against `@figma/plugin-typings`
   - Built on figma-console-mcp; 3 of the checks also ran once on Figma's official MCP server; install with `npx skills add thiagoxikota/figma-maxxing` or as a Claude Code plugin; MIT licensed
 
+- [jangtrinh/design-os](https://github.com/jangtrinh/design-os) ![Stars](https://img.shields.io/github/stars/jangtrinh/design-os?style=flat-square)
+  - DESIGN:OS CLI: free design skills and verification gates for Claude Code, Codex, Gemini CLI and Antigravity
+  - Describe the UI in plain words; get web, SwiftUI or Figma-compatible output that must pass deterministic taste and accessibility gates before it ships
+  - Runs locally; source-available under PolyForm Shield 1.0.0 (disclosure: I am the author)
+
 ### Code Slop & Dead Code
 
 - [peteromallet/desloppify](https://github.com/peteromallet/desloppify) ![Stars](https://img.shields.io/github/stars/peteromallet/desloppify?style=flat-square)
