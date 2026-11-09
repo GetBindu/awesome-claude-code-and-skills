@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 # Awesome Claude Skills
 
@@ -514,6 +514,8 @@ Utilities and tools to enhance your Claude workflow.
 - [orbi-build/orbi](https://github.com/orbi-build/orbi) ![★](https://img.shields.io/github/stars/orbi-build/orbi?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Self-hostable (AGPL-3.0) GitHub App that turns a labeled Issue into an independently reviewed, merged PR and tagged release.
 
 ### Monitoring & Observability
+
+- [nareshh74/agent-tap](https://github.com/nareshh74/agent-tap) ![â˜…](https://img.shields.io/github/stars/nareshh74/agent-tap?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Local-first operational observability CLI and dashboard (`127.0.0.1:6007`) correlating sessions, parent/child subagents, tool failures, crons, and local AI services across Claude Code, Codex, Copilot CLI, Aider, Cline, LiteLLM, SearXNG, and Firecrawl into SQLite.
 
 - [disler/claude-code-hooks-multi-agent-observability](https://github.com/disler/claude-code-hooks-multi-agent-observability) ![★](https://img.shields.io/github/stars/disler/claude-code-hooks-multi-agent-observability?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Real-time agent monitoring with hook event tracking, SQLite dashboard, and visual tool event indicators.
 - [Maciek-roboblog/Claude-Code-Usage-Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor) ![★](https://img.shields.io/github/stars/Maciek-roboblog/Claude-Code-Usage-Monitor?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Real-time terminal monitoring for token usage with ML-based predictions, burn rate tracking, and session limit warnings.
