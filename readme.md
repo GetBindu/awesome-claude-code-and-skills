@@ -261,6 +261,7 @@ Orchestrate multiple Claude agents to work together on complex tasks.
 - [avelikiy/great_cto](https://github.com/avelikiy/great_cto) ![★](https://img.shields.io/github/stars/avelikiy/great_cto?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Multi-agent SDLC plugin with 34 specialist reviewer agents, 25 archetypes, and 10 auto-attaching compliance packs.
 - [dazuiba/handoff](https://github.com/dazuiba/handoff) ![★](https://img.shields.io/github/stars/dazuiba/handoff?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Skill that delegates tasks to DeepSeek V4, Codex, or Opus in the background with parallel tasks and session resume.
 - [dagger/container-use](https://github.com/dagger/container-use) ![★](https://img.shields.io/github/stars/dagger/container-use?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Sandboxed, isolated development environments letting multiple coding agents work in parallel without touching the host.
+- [dooly6276/claude-bulkhead](https://github.com/dooly6276/claude-bulkhead) ![★](https://img.shields.io/github/stars/dooly6276/claude-bulkhead?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - PreToolUse hooks keeping parallel Claude Code sessions on one machine from colliding: blocks kills by process name, port clashes, low-RAM heavy commands, shared-tree git commands and whole-disk scans.
 
 ---
 
