@@ -207,6 +207,11 @@ Skills and tools that stop agent output from looking machine-generated: design t
 - [jakubkrehel/make-interfaces-feel-better](https://github.com/jakubkrehel/make-interfaces-feel-better) ![★](https://img.shields.io/github/stars/jakubkrehel/make-interfaces-feel-better?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Agent skill for the small details (animations, typography, icons, hover states, optical alignment) separating shipped from generated UI.
 - [thiagoxikota/figma-maxxing](https://github.com/thiagoxikota/figma-maxxing) ![★](https://img.shields.io/github/stars/thiagoxikota/figma-maxxing?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - 8 agent skills for editing real Figma files with preflight, slop check, handoff gate, and comment-to-fix loops.
 
+- [jangtrinh/design-os](https://github.com/jangtrinh/design-os) ![Stars](https://img.shields.io/github/stars/jangtrinh/design-os?style=flat-square)
+  - DESIGN:OS CLI: free design skills and verification gates for Claude Code, Codex, Gemini CLI and Antigravity
+  - Describe the UI in plain words; get web, SwiftUI or Figma-compatible output that must pass deterministic taste and accessibility gates before it ships
+  - Runs locally; source-available under PolyForm Shield 1.0.0 (disclosure: I am the author)
+
 ### Code Slop & Dead Code
 
 - [peteromallet/desloppify](https://github.com/peteromallet/desloppify) ![★](https://img.shields.io/github/stars/peteromallet/desloppify?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Agent harness pairing mechanical dead-code/duplication detection with LLM review of naming, abstractions, and boundaries.
