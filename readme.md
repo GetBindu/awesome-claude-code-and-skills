@@ -488,6 +488,7 @@ Utilities and tools to enhance your Claude workflow.
 - [Tapetide-hq/nse-bse-indian-stock-market-data-mcp](https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp) ![★](https://img.shields.io/github/stars/Tapetide-hq/nse-bse-indian-stock-market-data-mcp?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - MCP server for Indian stock market data across 8,200 NSE/BSE stocks: quotes, financials, 326 ratios, FII/DII, options.
 - [skeptrunedev/call4me](https://github.com/skeptrunedev/call4me) ![★](https://img.shields.io/github/stars/skeptrunedev/call4me?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Remote MCP server that lets Claude Code place real phone calls to businesses for bookings, cancellations, and changes.
 - [nikolai-vysotskyi/trace-mcp](https://github.com/nikolai-vysotskyi/trace-mcp) ![★](https://img.shields.io/github/stars/nikolai-vysotskyi/trace-mcp?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Indexes a repo once and answers with symbols, call graphs, and change impact, cutting input tokens ~90% on PR reviews.
+- [kochetkov-ma/brewpage-openapi](https://github.com/kochetkov-ma/brewpage-openapi) ![★](https://img.shields.io/github/stars/kochetkov-ma/brewpage-openapi?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Remote MCP server (`https://brewpage.app/mcp`) and npm package that let Claude Code publish HTML, Markdown, files or JSON and get a public HTTPS link, no signup.
 
 ### API & Integration Tools
 
