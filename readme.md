@@ -160,7 +160,7 @@ Skills focused on software development, code quality, and engineering workflows.
 - [chl03ks/shut-up-and-code](https://github.com/chl03ks/shut-up-and-code) ![★](https://img.shields.io/github/stars/chl03ks/shut-up-and-code?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Load-bearing comments only: ships a comment only when deleting it costs the reader something the code cannot tell them.
 
 ### Specialized Agents
-
+- [cipher-cmd/Baithak](https://github.com/cipher-cmd/Baithak) ![★](https://img.shields.io/github/stars/cipher-cmd/Baithak?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Open-source AI founder council evaluating Indian startup ideas with a 24-file Indian legal gate and five simulated founder seats.
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) ![★](https://img.shields.io/github/stars/VoltAgent/awesome-claude-code-subagents?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - 100+ specialized subagents covering full-stack development, research, and DevOps automation.
 - [vijaythecoder/awesome-claude-agents](https://github.com/vijaythecoder/awesome-claude-agents) ![★](https://img.shields.io/github/stars/vijaythecoder/awesome-claude-agents?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - 24 specialized development agents including Tech Lead Orchestrator, Code Archaeologist, and Performance Optimizer.
 - [lst97/claude-code-sub-agents](https://github.com/lst97/claude-code-sub-agents) ![★](https://img.shields.io/github/stars/lst97/claude-code-sub-agents?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Domain-expert subagents with multi-agent orchestration and automatic task delegation.
