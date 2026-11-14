@@ -381,6 +381,7 @@ Skills for marketing professionals, content creators, and growth teams.
 - [ZeroPointRepo/youtube-skills](https://github.com/ZeroPointRepo/youtube-skills) ![★](https://img.shields.io/github/stars/ZeroPointRepo/youtube-skills?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - 12 skills for YouTube transcripts, video search, channel browsing, and playlist extraction via the Agent Skills format.
 - [neuman/nopekit](https://github.com/neuman/nopekit) ![★](https://img.shields.io/github/stars/neuman/nopekit?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Claude Code plugin for designing physical things (CAD, 3D printing, thermal, structures) with math/physics gates.
 - [Arcmira: YouTube Transcript Search](https://github.com/arcmira/arcmira/tree/master/skills) - Six research skills for timestamped quote search, speaker appearances, sponsors, recommendations, and company monitoring.
+- [bragoatski/foundit-business-fees](https://github.com/bragoatski/foundit-business-fees/tree/main/skills/start-a-business) ![★](https://img.shields.io/github/stars/bragoatski/foundit-business-fees?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Walks a person through starting and keeping a US LLC, corporation or nonprofit in any state, with each state's real filing fees, due dates and official links from an open CC BY 4.0 dataset.
 
 ---
 
