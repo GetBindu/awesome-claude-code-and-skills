@@ -451,6 +451,7 @@ Utilities and tools to enhance your Claude workflow.
 - [Thanatos9404/llmslim](https://github.com/Thanatos9404/llmslim) ![★](https://img.shields.io/github/stars/Thanatos9404/llmslim?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Local MCP memory server storing messages word-for-word in SQLite/PostgreSQL with token-budgeted recall and no LLM call.
 - [tonone-ai/elephant](https://github.com/tonone-ai/elephant) ![★](https://img.shields.io/github/stars/tonone-ai/elephant?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Persistent per-repo memory in a committed `ELEPHANT.md` shared across teammates, with SessionStart hook loading on startup.
 - [mnemoverse/mcp-memory-server](https://github.com/mnemoverse/mcp-memory-server) ![★](https://img.shields.io/github/stars/mnemoverse/mcp-memory-server?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - MCP memory server with feedback-ranked recall and one key shared across Claude Code, Cursor, VS Code, and ChatGPT.
+- [ClickHouse/loom](https://github.com/ClickHouse/loom) ![★](https://img.shields.io/github/stars/ClickHouse/loom?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Self-hosted shared memory for Claude Code, Codex and other agents, with a Claude Code plugin that loads context at session start; memories are linked to the code they name.
 
 ### MCP Servers & Integrations
 
