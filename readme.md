@@ -158,6 +158,7 @@ Skills focused on software development, code quality, and engineering workflows.
 - [d1vai/d1v-cli](https://github.com/d1vai/d1v-cli) ![★](https://img.shields.io/github/stars/d1vai/d1v-cli?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Official d1v Skill for deployment workflows that waits for verified preview deployments and requires TTY for production.
 - [Maksim-Burtsev/simple-man](https://github.com/Maksim-Burtsev/simple-man) ![★](https://img.shields.io/github/stars/Maksim-Burtsev/simple-man?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Strips praise, recaps, and filler from agent answers while keeping every actionable fact, with one-line fixes.
 - [chl03ks/shut-up-and-code](https://github.com/chl03ks/shut-up-and-code) ![★](https://img.shields.io/github/stars/chl03ks/shut-up-and-code?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Load-bearing comments only: ships a comment only when deleting it costs the reader something the code cannot tell them.
+- [buddy/buddy-plugin](https://github.com/buddy/buddy-plugin) ![★](https://img.shields.io/github/stars/buddy/buddy-plugin?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Official Buddy plugin and skill with `/deploy`, `/expose`, `/logs`, `/domain` and `/ci` commands for deploying apps to sandboxes, publishing static sites, opening tunnels and running pipelines through the bdy CLI.
 
 ### Specialized Agents
 
