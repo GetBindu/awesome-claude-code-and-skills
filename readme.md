@@ -113,6 +113,7 @@ Extensive collections of skills spanning multiple domains — good starting poin
 - [tonone-ai/tonone](https://github.com/tonone-ai/tonone) ![★](https://img.shields.io/github/stars/tonone-ai/tonone?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Claude Code plugin with 100 specialist agents and 429 skills across engineering, product, design, security, and legal.
 - [off-grid-ai/skills](https://github.com/off-grid-ai/skills) ![★](https://img.shields.io/github/stars/off-grid-ai/skills?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - 49 MIT-licensed skills for code review on one before-and-after page, testing like a real user, safe legacy changes, design, launch, and growth.
 - [getsentry/skills](https://github.com/getsentry/skills) ![★](https://img.shields.io/github/stars/getsentry/skills?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Agent skills the Sentry team uses internally: AGENTS.md/CLAUDE.md authoring, blog standards, and brand guidelines.
+- [getshipready/ship-ready-skills](https://github.com/getshipready/ship-ready-skills) ![★](https://img.shields.io/github/stars/getshipready/ship-ready-skills?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - 53 free Agent Skills to make Lovable, Bolt and Cursor apps safe to launch, plus an offline quick scan (8 checks, runs locally, no code upload) for open Supabase RLS, exposed keys, unsigned Stripe webhooks and edge functions with verify_jwt off.
 
 ---
 
