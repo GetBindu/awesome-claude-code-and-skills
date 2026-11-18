@@ -115,6 +115,11 @@ Extensive collections of skills spanning multiple domains — good starting poin
 
 ---
 
+- [SurgePix/agent-skills](https://github.com/SurgePix/agent-skills) ![Stars](https://img.shields.io/github/stars/SurgePix/agent-skills?style=flat-square)
+  - Agent-callable AI visual skills: presentations, background removal, image translation, inpainting, logos, posters, storyboards
+  - Works with Claude Code, Cursor, Codex, Gemini CLI, and any SKILL.md agent
+  - One short skill call per output; MIT-licensed; also runs in-browser at surgepix.ai
+
 ## Development & Engineering
 
 Skills focused on software development, code quality, and engineering workflows.
