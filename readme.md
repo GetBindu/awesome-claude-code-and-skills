@@ -550,6 +550,7 @@ Utilities and tools to enhance your Claude workflow.
 - [eltonylfgi-blip/claude-session-triage](https://github.com/eltonylfgi-blip/claude-session-triage) ![★](https://img.shields.io/github/stars/eltonylfgi-blip/claude-session-triage?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Local-first CLI finding idle sessions and ranking pending decisions ahead of active work and scheduled routines.
 - [ccusage/ccusage](https://github.com/ccusage/ccusage) ![★](https://img.shields.io/github/stars/ccusage/ccusage?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - `npx ccusage` CLI parsing local Claude Code JSONL logs for token usage and cost by day, month, session, and model.
 - [dspv/caprock](https://github.com/dspv/caprock) ![★](https://img.shields.io/github/stars/dspv/caprock?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Local, open-source web dashboard for Claude Code sessions covering Codex, OpenCode, and Gemini with live activity and alerts.
+- [catude/catude](https://github.com/catude/catude) ![★](https://img.shields.io/github/stars/catude/catude?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Go TUI and CLI showing where Claude Code tokens go, what loads into context, subagent costs, and a 25-rule audit of skills, hooks and MCP configs.
 
 ### Configuration & Templates
 
