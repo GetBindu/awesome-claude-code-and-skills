@@ -343,6 +343,8 @@ Skills for marketing professionals, content creators, and growth teams.
 - [zhuyansen/new-term-radar](https://github.com/zhuyansen/new-term-radar) ![★](https://img.shields.io/github/stars/zhuyansen/new-term-radar?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Finds names of new AI models, products, and repos on X, Hugging Face, GitHub, and sitemaps with search-volume prioritization.
 - [emotixco/claude-skills-founder](https://github.com/emotixco/claude-skills-founder) ![★](https://img.shields.io/github/stars/emotixco/claude-skills-founder?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - 13 founder-side skills for idea validation, competitor research, pricing, MVP scope, GTM, and fundraising with source-linked data.
 
+- [小红书图文与实况图·红鸦 AI](https://github.com/xiaoxuux/redya-skills/tree/73a1529fd3cb9303195b7370d492dbf57a6b7604/skill/redya-xiaohongshu) ![★](https://img.shields.io/github/stars/rnthking/redya-skills?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Create illustrated Xiaohongshu posts and Live Photos from a topic, product photo, or reference note with a RedYA API key and credits.
+
 ---
 
 ## Domain-Specific Skills
