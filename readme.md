@@ -564,6 +564,7 @@ Utilities and tools to enhance your Claude workflow.
 - [nadimtuhin/claude-token-optimizer](https://github.com/nadimtuhin/claude-token-optimizer) ![★](https://img.shields.io/github/stars/nadimtuhin/claude-token-optimizer?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Up to 90% token savings via progressive disclosure patterns, framework-specific optimization, and a 4-file architecture.
 - [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) ![★](https://img.shields.io/github/stars/JuliusBrussee/caveman?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Rewrites prompts and responses in compressed caveman-style language, claiming ~65% token reduction.
 - [AutomateLab-tech/publishing-skills](https://github.com/AutomateLab-tech/publishing-skills) ![★](https://img.shields.io/github/stars/AutomateLab-tech/publishing-skills?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Four composable skills for end-to-end SEO blog publishing: topic research, writing, SVG figures, and editorial calendar.
+- [msertdev/deadweight](https://github.com/msertdev/deadweight) ![★](https://img.shields.io/github/stars/msertdev/deadweight?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Rust CLI that measures what your setup adds to every request before you type and traces it to each plugin, skill, MCP server and hook; disables what you never use and loads what you use in only a few projects just there, with backup and undo.
 
 ---
 
