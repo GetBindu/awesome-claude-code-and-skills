@@ -190,6 +190,7 @@ Skills focused on software development, code quality, and engineering workflows.
 - [coder/claudecode.nvim](https://github.com/coder/claudecode.nvim) ![★](https://img.shields.io/github/stars/coder/claudecode.nvim?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Claude Code Neovim IDE extension embedding Claude Code into the Neovim workflow.
 - [uizze/uizze](https://github.com/uizze/uizze) ![★](https://img.shields.io/github/stars/uizze/uizze?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Free anti-UI-slop Agent Skill grounding UI work in 800,000+ real web and iOS screens with design contracts and a finish gate.
 - [allxsmith/bestax](https://github.com/allxsmith/bestax) ![★](https://img.shields.io/github/stars/allxsmith/bestax?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Agent Skills for Bestax, a React component library for Bulma v1, covering layouts, forms, icons, and theming.
+- [VladislavKorzh/trayui](https://github.com/VladislavKorzh/trayui) ![★](https://img.shields.io/github/stars/VladislavKorzh/trayui?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Agent skill for Tray UI, an MIT design system in plain HTML and CSS with typed React components, 64 page blocks, and a markup checker.
 
 ### Code Review
 
