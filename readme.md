@@ -300,6 +300,7 @@ Professional-grade security skills for vulnerability detection, code auditing, a
 - [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) ![★](https://img.shields.io/github/stars/gitleaks/gitleaks?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Detects secrets in code and git history — catches keys an agent pasted into a commit, with a GitHub Action and Docker image.
 - [shanjeevrajendran/cloakroom](https://github.com/shanjeevrajendran/cloakroom) ![★](https://img.shields.io/github/stars/shanjeevrajendran/cloakroom?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Masks API keys, secrets, and PII on your machine before the model sees them, restoring real values for local tools.
 - [sunglasses-dev/sunglasses](https://github.com/sunglasses-dev/sunglasses) ![★](https://img.shields.io/github/stars/sunglasses-dev/sunglasses?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Local input firewall for AI agents scanning text and files with 1,554 patterns for prompt injection and credential leaks.
+- [zColdWater/omniforge-skills](https://github.com/zColdWater/omniforge-skills) ![★](https://img.shields.io/github/stars/zColdWater/omniforge-skills?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - 40 zero-dependency pre-deploy audit skills for client JS secret scanning, unguarded Supabase RLS tables, CSP/HSTS headers, SPF/DKIM/DMARC deliverability, and llms.txt readiness.
 
 ### Compliance & Auditing
 
