@@ -342,6 +342,7 @@ Skills for marketing professionals, content creators, and growth teams.
 - [zhuyansen/backlink-guard](https://github.com/zhuyansen/backlink-guard) ![★](https://img.shields.io/github/stars/zhuyansen/backlink-guard?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Checks link sources before submission against Google's link spam policies and audits your own backlink profile.
 - [zhuyansen/new-term-radar](https://github.com/zhuyansen/new-term-radar) ![★](https://img.shields.io/github/stars/zhuyansen/new-term-radar?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Finds names of new AI models, products, and repos on X, Hugging Face, GitHub, and sitemaps with search-volume prioritization.
 - [emotixco/claude-skills-founder](https://github.com/emotixco/claude-skills-founder) ![★](https://img.shields.io/github/stars/emotixco/claude-skills-founder?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - 13 founder-side skills for idea validation, competitor research, pricing, MVP scope, GTM, and fundraising with source-linked data.
+- [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) ![★](https://img.shields.io/github/stars/heygen-com/hyperframes?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Open-source AI video editor from HeyGen (50M+ videos rendered): make launch videos, explainers and motion graphics with Claude Code, caption your own footage and remake any video; HTML, CSS and GSAP rendered to MP4, about 450 ready-made blocks, ports Remotion projects.
 
 ---
 
