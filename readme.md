@@ -504,6 +504,7 @@ Utilities and tools to enhance your Claude workflow.
 - [skeptrunedev/call4me](https://github.com/skeptrunedev/call4me) ![★](https://img.shields.io/github/stars/skeptrunedev/call4me?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Remote MCP server that lets Claude Code place real phone calls to businesses for bookings, cancellations, and changes.
 - [nikolai-vysotskyi/trace-mcp](https://github.com/nikolai-vysotskyi/trace-mcp) ![★](https://img.shields.io/github/stars/nikolai-vysotskyi/trace-mcp?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Indexes a repo once and answers with symbols, call graphs, and change impact, cutting input tokens ~90% on PR reviews.
 - [AtlasCloudAI/mcp-server](https://github.com/AtlasCloudAI/mcp-server) ![★](https://img.shields.io/github/stars/AtlasCloudAI/mcp-server?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - MCP server for Atlas Cloud's image, video, 3D, audio, and LLM models, with media upload, usage tracking, and a hosted OAuth endpoint or local `npx atlascloud-mcp`.
+- [loyt1/flowfeed-mcp](https://github.com/loyt1/flowfeed-mcp) ![★](https://img.shields.io/github/stars/loyt1/flowfeed-mcp?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Hosted remote MCP server and Claude Code plugin with real-time macro, forex and crypto news, an economic calendar and central bank releases (OAuth, paid).
 
 ### API & Integration Tools
 
