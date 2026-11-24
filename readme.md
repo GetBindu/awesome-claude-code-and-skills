@@ -613,6 +613,7 @@ Tools and frameworks for creating your own Claude skills.
 - [microsoft/apm](https://github.com/microsoft/apm) ![★](https://img.shields.io/github/stars/microsoft/apm?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Microsoft's Agent Package Manager distributing agent skills, MCP servers, and custom agents.
 - [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills) ![★](https://img.shields.io/github/stars/tech-leads-club/agent-skills?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Secure, validated skill registry for professional AI coding agents extending Antigravity, Claude Code, Cursor, and Copilot.
 - [gotalab/cc-sdd](https://github.com/gotalab/cc-sdd) ![★](https://img.shields.io/github/stars/gotalab/cc-sdd?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Spec-driven development harness for Claude Code turning approved specs into long-running autonomous implementation.
+- [ateymoori/oh-my-android](https://github.com/ateymoori/oh-my-android) ![★](https://img.shields.io/github/stars/ateymoori/oh-my-android?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Native macOS control panel for the Android Emulator with a built-in MCP server (18 tools) so Claude Code can see and drive the emulator.
 
 ---
 
