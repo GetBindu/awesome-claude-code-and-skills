@@ -259,6 +259,8 @@ Orchestrate multiple Claude agents to work together on complex tasks.
 - [stravu/crystal](https://github.com/stravu/crystal) ![★](https://img.shields.io/github/stars/stravu/crystal?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Desktop app running multiple Claude Code and Codex sessions in parallel git worktrees to compare competing approaches.
 - [Crapule421/tiger-team](https://github.com/Crapule421/tiger-team) ![★](https://img.shields.io/github/stars/Crapule421/tiger-team?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Nine senior expert subagents for integration projects (VTOM, Control-M, DBA, ERP, IBM i, DevSecOps) with mission orchestrator.
 
+- [alookai/alook](https://github.com/alookai/alook) ![★](https://img.shields.io/github/stars/alookai/alook?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Local-first group chat for people and coding agents, including Claude Code, working together in shared rooms.
+
 ### Parallel Processing
 
 - [Dicklesworthstone/claude_code_agent_farm](https://github.com/Dicklesworthstone/claude_code_agent_farm) ![★](https://img.shields.io/github/stars/Dicklesworthstone/claude_code_agent_farm?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Runs 20-50 Claude agents in parallel with lock-based coordination and a tmux monitoring dashboard.
