@@ -386,6 +386,7 @@ Utilities and tools to enhance your Claude workflow.
 - [Orkas-AI/Orkas](https://github.com/Orkas-AI/Orkas) ![★](https://img.shields.io/github/stars/Orkas-AI/Orkas?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Open-source, local-first desktop AI workforce coordinated by a Commander with built-in and local coding agents.
 - [MarlBurroW/sillage](https://github.com/MarlBurroW/sillage) ![★](https://img.shields.io/github/stars/MarlBurroW/sillage?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Self-hosted, mobile-first web UI driving native Claude Code and Codex CLIs with sessions, full-text search, and an IDE panel.
 - [scgopi/GraphCode](https://github.com/scgopi/GraphCode) ![★](https://img.shields.io/github/stars/scgopi/GraphCode?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Native macOS app wiring agent sessions into a graph where every node is a live terminal with hand-off edges.
+- [lcestou/dsh-oh-my-claude](https://github.com/lcestou/dsh-oh-my-claude) ![★](https://img.shields.io/github/stars/lcestou/dsh-oh-my-claude?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Plugin for dsh (DeepSeek Harness) that runs the logged-in Claude Code CLI as a model provider in dsh's web UI. Sessions resume after restarts, permission prompts and plan reviews show up in the browser, workspaces can run on remote machines over SSH, and the UI works from a phone.
 
 ### Agent Harnesses & Meta-Tools
 
