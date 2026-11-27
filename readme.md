@@ -343,6 +343,7 @@ Skills for marketing professionals, content creators, and growth teams.
 - [zhuyansen/backlink-guard](https://github.com/zhuyansen/backlink-guard) ![★](https://img.shields.io/github/stars/zhuyansen/backlink-guard?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Checks link sources before submission against Google's link spam policies and audits your own backlink profile.
 - [zhuyansen/new-term-radar](https://github.com/zhuyansen/new-term-radar) ![★](https://img.shields.io/github/stars/zhuyansen/new-term-radar?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Finds names of new AI models, products, and repos on X, Hugging Face, GitHub, and sitemaps with search-volume prioritization.
 - [emotixco/claude-skills-founder](https://github.com/emotixco/claude-skills-founder) ![★](https://img.shields.io/github/stars/emotixco/claude-skills-founder?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - 13 founder-side skills for idea validation, competitor research, pricing, MVP scope, GTM, and fundraising with source-linked data.
+- [小红书图文与实况图·红鸦 AI](https://github.com/rnthking/redya-skills) ![★](https://img.shields.io/github/stars/rnthking/redya-skills?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Draft illustrated Xiaohongshu posts and create Live Photos from topics, product photos, or reference posts with the RedYA API.
 
 ---
 
