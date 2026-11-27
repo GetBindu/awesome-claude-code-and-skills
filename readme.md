@@ -511,6 +511,8 @@ Utilities and tools to enhance your Claude workflow.
 - [nikolai-vysotskyi/trace-mcp](https://github.com/nikolai-vysotskyi/trace-mcp) ![★](https://img.shields.io/github/stars/nikolai-vysotskyi/trace-mcp?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Indexes a repo once and answers with symbols, call graphs, and change impact, cutting input tokens ~90% on PR reviews.
 - [AtlasCloudAI/mcp-server](https://github.com/AtlasCloudAI/mcp-server) ![★](https://img.shields.io/github/stars/AtlasCloudAI/mcp-server?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - MCP server for Atlas Cloud's image, video, 3D, audio, and LLM models, with media upload, usage tracking, and a hosted OAuth endpoint or local `npx atlascloud-mcp`.
 
+- [SamurAIGPT/muapi-mcp-server](https://github.com/SamurAIGPT/muapi-mcp-server) ![★](https://img.shields.io/github/stars/SamurAIGPT/muapi-mcp-server?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - MuAPI MCP server with hosted Streamable HTTP and self-hosted options for model discovery, image/video/audio generation, media editing, and enhancement.
+
 ### API & Integration Tools
 
 - [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) ![★](https://img.shields.io/github/stars/router-for-me/CLIProxyAPI?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Go-based wrapper exposing Gemini CLI, Claude Code, Codex, and Qwen Code as an OpenAI-compatible API.
