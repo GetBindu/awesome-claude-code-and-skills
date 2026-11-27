@@ -561,6 +561,8 @@ Resources for mastering Claude skills and understanding best practices.
 
 ## Skill Development
 
+
+- [ggrigo/align](https://github.com/ggrigo/align) ![★](https://img.shields.io/github/stars/ggrigo/align?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Dummy entry for testing the star-gate automation.
 Tools and frameworks for creating your own Claude skills.
 
 - [alirezarezvani/claude-code-skill-factory](https://github.com/alirezarezvani/claude-code-skill-factory) ![★](https://img.shields.io/github/stars/alirezarezvani/claude-code-skill-factory?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Complete toolkit for building production-ready skills with deployment automation, templates, and prototype-to-production scaling.
