@@ -258,6 +258,7 @@ Orchestrate multiple Claude agents to work together on complex tasks.
 - [humanlayer/humanlayer](https://github.com/humanlayer/humanlayer) ![★](https://img.shields.io/github/stars/humanlayer/humanlayer?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Framework for steering coding agents through complex codebases with human-in-the-loop approvals.
 - [stravu/crystal](https://github.com/stravu/crystal) ![★](https://img.shields.io/github/stars/stravu/crystal?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Desktop app running multiple Claude Code and Codex sessions in parallel git worktrees to compare competing approaches.
 - [Crapule421/tiger-team](https://github.com/Crapule421/tiger-team) ![★](https://img.shields.io/github/stars/Crapule421/tiger-team?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Nine senior expert subagents for integration projects (VTOM, Control-M, DBA, ERP, IBM i, DevSecOps) with mission orchestrator.
+- [itsfutsy/OmegaStar](https://github.com/itsfutsy/OmegaStar) ![★](https://img.shields.io/github/stars/itsfutsy/OmegaStar?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Turns your own Claude Code into a team of AI employees with scoped objectives. Each keeps your logins, tools and browser, and what you teach it by talking sticks as skills.
 
 ### Parallel Processing
 
