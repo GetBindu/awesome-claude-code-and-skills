@@ -260,6 +260,8 @@ Orchestrate multiple Claude agents to work together on complex tasks.
 - [Crapule421/tiger-team](https://github.com/Crapule421/tiger-team) ![★](https://img.shields.io/github/stars/Crapule421/tiger-team?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Nine senior expert subagents for integration projects (VTOM, Control-M, DBA, ERP, IBM i, DevSecOps) with mission orchestrator.
 - [itsfutsy/OmegaStar](https://github.com/itsfutsy/OmegaStar) ![★](https://img.shields.io/github/stars/itsfutsy/OmegaStar?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Turns your own Claude Code into a team of AI employees with scoped objectives. Each keeps your logins, tools and browser, and what you teach it by talking sticks as skills.
 
+- [alookai/alook](https://github.com/alookai/alook) ![★](https://img.shields.io/github/stars/alookai/alook?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Local-first group chat for people and coding agents, including Claude Code, working together in shared rooms.
+
 ### Parallel Processing
 
 - [Dicklesworthstone/claude_code_agent_farm](https://github.com/Dicklesworthstone/claude_code_agent_farm) ![★](https://img.shields.io/github/stars/Dicklesworthstone/claude_code_agent_farm?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Runs 20-50 Claude agents in parallel with lock-based coordination and a tmux monitoring dashboard.
