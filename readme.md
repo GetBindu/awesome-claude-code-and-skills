@@ -434,6 +434,7 @@ Utilities and tools to enhance your Claude workflow.
 - [KernelLord/pickysteve](https://github.com/KernelLord/pickysteve) ![★](https://img.shields.io/github/stars/KernelLord/pickysteve?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Local-first skill router using cheap local model + BM25/embedding retrieval with an ONNX prompt-injection gate.
 - [yylo-dev/yylo](https://github.com/yylo-dev/yylo) ![★](https://img.shields.io/github/stars/yylo-dev/yylo?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Command-line orchestrator for coding agents with typed task boundaries, per-task worktrees, and a risk-based merge queue.
 - [UiPath/coder_eval](https://github.com/UiPath/coder_eval) ![★](https://img.shields.io/github/stars/UiPath/coder_eval?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Measures whether a skill actually triggers via precision, recall, and F1 over labelled prompt datasets across 4 agents.
+- [shannonbay/Quarterdeck](https://github.com/shannonbay/Quarterdeck) ![★](https://img.shields.io/github/stars/shannonbay/Quarterdeck?style=flat-square&label=%E2%98%85&color=yellow&labelColor=24292e) - Persistent goals for Claude Code: standing objectives that run on a schedule or on watches, with memory, and actions you approve from a Goals pane.
 
 ### Memory & Context Management
 
