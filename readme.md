@@ -117,6 +117,11 @@ Extensive collections of skills spanning multiple domains — good starting poin
   - Works with Claude Code, Cursor, Codex, Gemini CLI, and any SKILL.md agent
   - One short skill call per output; MIT-licensed; also runs in-browser at surgepix.ai
 
+- [tushaarmehtaa/tushar-skills](https://github.com/tushaarmehtaa/tushar-skills) ![Stars](https://img.shields.io/github/stars/tushaarmehtaa/tushar-skills?style=flat-square)
+  - MIT-licensed Agent Skills for software design, implementation, release checks, and documentation
+  - Per-runtime installation guidance for Claude Code, Codex, and Cursor
+  - Explicit tool requirements and bundled Markdown references
+
 ## Development & Engineering
 
 Skills focused on software development, code quality, and engineering workflows.
